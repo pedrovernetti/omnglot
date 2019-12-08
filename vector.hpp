@@ -2,7 +2,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Copyright 2019 Pedro Vernetti G.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this
  * software and associated documentation files (the "Software"), to deal in the Software
  * without restriction, including without limitation the rights to use, copy, modify, merge,
  * publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons
@@ -27,26 +27,26 @@
 #include "globalUtilities.hpp"
 #include <vector>
 
-namespace std 
+namespace std
 {
-	template <typename valueType>
-	ostream & operator << ( ostream & os, const vector<valueType> & v )
-	{
-		os << "[";
-		if (!v.empty())
-		{
-			for (size_t i = 0, size = v.size() - 1; i < size; i++) os << v[i] << ", ";
-			os << v.back();
-		}
-		os << "]";
-		return os;
-	}
+    template <typename valueType>
+    ostream & operator << ( ostream & os, const vector<valueType> & v )
+    {
+        os << "[";
+        if (!v.empty())
+        {
+            for (size_t i = 0, size = v.size() - 1; i < size; i++) os << v[i] << ", ";
+            os << v.back();
+        }
+        os << "]";
+        return os;
+    }
 }
 
 namespace omn
 {
-	template <typename valueType>
-	using vector = std::vector<valueType>;
+    template <typename valueType>
+    using vector = std::vector<valueType>;
 }
 
 #endif // _OMN_VECTOR_INCLUDED

@@ -2,7 +2,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Copyright 2019 Pedro Vernetti G.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this
  * software and associated documentation files (the "Software"), to deal in the Software
  * without restriction, including without limitation the rights to use, copy, modify, merge,
  * publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons
@@ -34,36 +34,36 @@
 
 namespace omn
 {
-	namespace languageIdentification
-	{
-		class NGramsBased : public identification
-		{
-			protected:
-			
-			static unorderedMap<letterNGrams::letterNGram<3>, set<ISO6392LanguageCode>> NGramsIndex;
-			static const set<ISO6392LanguageCode> NoLanguage;
-			
-			static void initializeNGramsIndex();
-			
-			static const set<ISO6392LanguageCode> & languagesOf( const unicode::UTF32String & string, 
-																 const size_t position );
-			
-			static scores actuallyIdentify( const tokenization::tokenizedString & tokens,
-										    const bool includeNonLinguisticScore );
-			
-			public:
-			
-			NGramsBased() = delete;
-			
-			static inline scores identify ( const tokenization::tokenizedString & topWords,
-											const bool includeNonLinguisticScore = true )
-			{
-				if (topWords.empty()) return scores{};
-				if (NGramsBased::NGramsIndex.size() <= 1) NGramsBased::initializeNGramsIndex();
-				return NGramsBased::actuallyIdentify(topWords, includeNonLinguisticScore);
-			}  
-		};
-	}
+    namespace languageIdentification
+    {
+        class NGramsBased : public identification
+        {
+            protected:
+
+            static unorderedMap<letterNGrams::letterNGram<3>, set<ISO6392LanguageCode>> NGramsIndex;
+            static const set<ISO6392LanguageCode> NoLanguage;
+
+            static void initializeNGramsIndex();
+
+            static const set<ISO6392LanguageCode> & languagesOf( const unicode::UTF32String & string,
+                                                                 const size_t position );
+
+            static scores actuallyIdentify( const tokenization::tokenizedString & tokens,
+                                            const bool includeNonLinguisticScore );
+
+            public:
+
+            NGramsBased() = delete;
+
+            static inline scores identify ( const tokenization::tokenizedString & topWords,
+                                            const bool includeNonLinguisticScore = true )
+            {
+                if (topWords.empty()) return scores{};
+                if (NGramsBased::NGramsIndex.size() <= 1) NGramsBased::initializeNGramsIndex();
+                return NGramsBased::actuallyIdentify(topWords, includeNonLinguisticScore);
+            }
+        };
+    }
 }
 
 #endif // _OMN_NGRAMSBASEDLANGUAGEIDENTIFICATION_INCLUDED

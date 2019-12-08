@@ -2,7 +2,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Copyright 2019 Pedro Vernetti G.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this
  * software and associated documentation files (the "Software"), to deal in the Software
  * without restriction, including without limitation the rights to use, copy, modify, merge,
  * publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons
@@ -27,23 +27,23 @@
 #include "globalUtilities.hpp"
 #include <set>
 
-namespace std 
+namespace std
 {
-	template <typename valueType>
-	ostream & operator << ( ostream & os, const set<valueType> & s )
-	{
-		os << "{";
-		for (const auto & item : s) os << item << ", ";
-		if (!s.empty()) os << "\b\b";
-		os << "}";
-		return os;
-	}
+    template <typename valueType>
+    ostream & operator << ( ostream & os, const set<valueType> & s )
+    {
+        os << "{";
+        for (const auto & item : s) os << item << ", ";
+        if (!s.empty()) os << "\b\b";
+        os << "}";
+        return os;
+    }
 }
 
 namespace omn
 {
-	template <typename valueType>
-	using set = std::set<valueType>;
+    template <typename valueType>
+    using set = std::set<valueType>;
 }
 
 #endif // _OMN_SET_INCLUDED

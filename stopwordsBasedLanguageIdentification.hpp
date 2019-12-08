@@ -2,7 +2,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Copyright 2019 Pedro Vernetti G.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this
  * software and associated documentation files (the "Software"), to deal in the Software
  * without restriction, including without limitation the rights to use, copy, modify, merge,
  * publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons
@@ -32,40 +32,40 @@
 
 namespace omn
 {
-	namespace languageIdentification
-	{
-		class stopwordsBased : public identification
-		{
-			protected:
-			
-			static stopwords::index StopwordsIndex;
-			
-			static scores actuallyIdentify( const tokenization::tokenizedString & tokens,
-											const stopwords::index & stopwordsIndex,
-										    const bool includeNonLinguisticScore );
-			
-			public:
-			
-			stopwordsBased() = delete;
-			
-			static inline scores identify ( const tokenization::tokenizedString & tokens,
-											const bool includeNonLinguisticScore = true )
-			{
-				if (tokens.empty()) return scores{};
-				if (stopwordsBased::StopwordsIndex.size() <= 1) 
-					stopwordsBased::StopwordsIndex.load(ISO6392LanguageCode::mul);
-				return stopwordsBased::actuallyIdentify(tokens, StopwordsIndex, includeNonLinguisticScore);
-			}  
-			
-			static inline scores identify ( const tokenization::tokenizedString & tokens,
-											const stopwords::index & stopwordsIndex,
-											const bool includeNonLinguisticScore = true )
-			{
-				if (tokens.empty()) return scores{};
-				return stopwordsBased::actuallyIdentify(tokens, stopwordsIndex, includeNonLinguisticScore);
-			}  
-		};
-	}
+    namespace languageIdentification
+    {
+        class stopwordsBased : public identification
+        {
+            protected:
+
+            static stopwords::index StopwordsIndex;
+
+            static scores actuallyIdentify( const tokenization::tokenizedString & tokens,
+                                            const stopwords::index & stopwordsIndex,
+                                            const bool includeNonLinguisticScore );
+
+            public:
+
+            stopwordsBased() = delete;
+
+            static inline scores identify ( const tokenization::tokenizedString & tokens,
+                                            const bool includeNonLinguisticScore = true )
+            {
+                if (tokens.empty()) return scores{};
+                if (stopwordsBased::StopwordsIndex.size() <= 1)
+                    stopwordsBased::StopwordsIndex.load(ISO6392LanguageCode::mul);
+                return stopwordsBased::actuallyIdentify(tokens, StopwordsIndex, includeNonLinguisticScore);
+            }
+
+            static inline scores identify ( const tokenization::tokenizedString & tokens,
+                                            const stopwords::index & stopwordsIndex,
+                                            const bool includeNonLinguisticScore = true )
+            {
+                if (tokens.empty()) return scores{};
+                return stopwordsBased::actuallyIdentify(tokens, stopwordsIndex, includeNonLinguisticScore);
+            }
+        };
+    }
 }
 
 #endif // _OMN_STOPWORDSBASEDLANGUAGEIDENTIFICATION_INCLUDED

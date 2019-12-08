@@ -2,7 +2,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Copyright 2019 Pedro Vernetti G.
  *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this
  * software and associated documentation files (the "Software"), to deal in the Software
  * without restriction, including without limitation the rights to use, copy, modify, merge,
  * publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons
@@ -28,7 +28,7 @@
 
 namespace omn
 {
-	enum ISO6391LanguageCode : byte
+    enum ISO6391LanguageCode : byte
     {
         aa = 1, // Afar
         ab,     // Abkhazian
@@ -94,7 +94,7 @@ namespace omn
         hz,     // Herero
         hi,     // Hindi
         ho,     // Hiri Motu
-        hr,     // Croatian 
+        hr,     // Croatian
         hu,     // Hungarian
         ig,     // Igbo
         is,     // Icelandic
@@ -213,11 +213,11 @@ namespace omn
         za,     // Zhuang
         zu      // Zulu
     };
-    
+
     enum ISO6392LanguageCode : uint16_t
     {
-        und = ((uint16_t)(-1)),			// undefined
-        zxx = 0, 						// no linguistic content
+        und = ((uint16_t)(-1)),            // undefined
+        zxx = 0,                         // no linguistic content
         aar = ISO6391LanguageCode::aa,  // Afar
         abk = ISO6391LanguageCode::ab,  // Abkhazian
         afr = ISO6391LanguageCode::af,  // Afrikaans
@@ -235,15 +235,15 @@ namespace omn
         bak = ISO6391LanguageCode::ba,  // Bashkir
         bam = ISO6391LanguageCode::bm,  // Bambara
         baq = ISO6391LanguageCode::eu,  // Basque [B-code]
-        bel = ISO6391LanguageCode::be,	// Belarusian
+        bel = ISO6391LanguageCode::be,    // Belarusian
         ben = ISO6391LanguageCode::bn,  // Bengali
-        bih = ISO6391LanguageCode::bh,	// Bihari languages
+        bih = ISO6391LanguageCode::bh,    // Bihari languages
         bis = ISO6391LanguageCode::bi,  // Bislama
         bos = ISO6391LanguageCode::bs,  // Bosnian
         bre = ISO6391LanguageCode::br,  // Breton
         bul = ISO6391LanguageCode::bg,  // Bulgarian
-        bur = ISO6391LanguageCode::my,	// Burmese [B-code]
-        cat = ISO6391LanguageCode::ca,	// Catalan / Valencian
+        bur = ISO6391LanguageCode::my,    // Burmese [B-code]
+        cat = ISO6391LanguageCode::ca,    // Catalan / Valencian
         cha = ISO6391LanguageCode::ch,  // Chamorro
         che = ISO6391LanguageCode::ce,  // Chechen
         chi = ISO6391LanguageCode::zh,  // Chinese [B-code]
@@ -256,18 +256,18 @@ namespace omn
         dan = ISO6391LanguageCode::da,  // Danish
         div = ISO6391LanguageCode::dv,  // Divehi
         dut = ISO6391LanguageCode::nl,  // Dutch [B-code]
-        dzo = ISO6391LanguageCode::dz,	// Dzongkha
+        dzo = ISO6391LanguageCode::dz,    // Dzongkha
         eng = ISO6391LanguageCode::en,  // English
-        epo = ISO6391LanguageCode::eo,	// Esperanto
+        epo = ISO6391LanguageCode::eo,    // Esperanto
         est = ISO6391LanguageCode::et,  // Estonian
         ewe = ISO6391LanguageCode::ee,  // Ewe
         fao = ISO6391LanguageCode::fo,  // Faroese
         fij = ISO6391LanguageCode::fj,  // Fijian
         fin = ISO6391LanguageCode::fi,  // Finnish
         fre = ISO6391LanguageCode::fr,  // French [B-code]
-        fry = ISO6391LanguageCode::fy,	// Western Frisian
-        ful = ISO6391LanguageCode::ff,	// Fulah
-        geo = ISO6391LanguageCode::ka,	// Georgian [B-code]
+        fry = ISO6391LanguageCode::fy,    // Western Frisian
+        ful = ISO6391LanguageCode::ff,    // Fulah
+        geo = ISO6391LanguageCode::ka,    // Georgian [B-code]
         ger = ISO6391LanguageCode::de,  // German [B-code]
         gla = ISO6391LanguageCode::gd,  // Scottish Gaelic
         gle = ISO6391LanguageCode::ga,  // Irish
@@ -276,17 +276,17 @@ namespace omn
         gre = ISO6391LanguageCode::el,  // Greek [B-code]
         grn = ISO6391LanguageCode::gn,  // Guarani
         guj = ISO6391LanguageCode::gu,  // Gujarati
-        hat = ISO6391LanguageCode::ht,	// Haitian Creole
+        hat = ISO6391LanguageCode::ht,    // Haitian Creole
         hau = ISO6391LanguageCode::ha,  // Hausa
         heb = ISO6391LanguageCode::he,  // Hebrew
-        her = ISO6391LanguageCode::hz,	// Herero
+        her = ISO6391LanguageCode::hz,    // Herero
         hin = ISO6391LanguageCode::hi,  // Hindi
-        hmo = ISO6391LanguageCode::ho,	// Hiri Motu
-        hrv = ISO6391LanguageCode::hr,  // Croatian 
+        hmo = ISO6391LanguageCode::ho,    // Hiri Motu
+        hrv = ISO6391LanguageCode::hr,  // Croatian
         hun = ISO6391LanguageCode::hu,  // Hungarian
-        ibo = ISO6391LanguageCode::ig,	// Igbo
+        ibo = ISO6391LanguageCode::ig,    // Igbo
         ice = ISO6391LanguageCode::is,  // Icelandic [B-code]
-        ido = ISO6391LanguageCode::io,	// Ido
+        ido = ISO6391LanguageCode::io,    // Ido
         iii = ISO6391LanguageCode::ii,  // Sichuan Yi / Nuosu
         iku = ISO6391LanguageCode::iu,  // Inuktitut
         ile = ISO6391LanguageCode::ie,  // Interlingue
@@ -294,112 +294,112 @@ namespace omn
         ind = ISO6391LanguageCode::id,  // Indonesian
         ipk = ISO6391LanguageCode::ik,  // Inupiaq
         ita = ISO6391LanguageCode::it,  // Italian
-        jav = ISO6391LanguageCode::jv,	// Javanese
+        jav = ISO6391LanguageCode::jv,    // Javanese
         jpn = ISO6391LanguageCode::ja,  // Japanese
-        kal = ISO6391LanguageCode::kl,	// Greenlandic
+        kal = ISO6391LanguageCode::kl,    // Greenlandic
         kan = ISO6391LanguageCode::kn,  // Kannada
-        kas = ISO6391LanguageCode::ks,	// Kashmiri
+        kas = ISO6391LanguageCode::ks,    // Kashmiri
         kau = ISO6391LanguageCode::kr,  // Kanuri
         kaz = ISO6391LanguageCode::kk,  // Kazakh
-        khm = ISO6391LanguageCode::km,	// Khmer
-        kik = ISO6391LanguageCode::ki,	// Kikuyu
-        kin = ISO6391LanguageCode::rw,	// Kinyarwanda
-        kir = ISO6391LanguageCode::ky,	// Kyrgyz
-        kom = ISO6391LanguageCode::kv,	// Komi
-        kon = ISO6391LanguageCode::kg,	// Kongo
+        khm = ISO6391LanguageCode::km,    // Khmer
+        kik = ISO6391LanguageCode::ki,    // Kikuyu
+        kin = ISO6391LanguageCode::rw,    // Kinyarwanda
+        kir = ISO6391LanguageCode::ky,    // Kyrgyz
+        kom = ISO6391LanguageCode::kv,    // Komi
+        kon = ISO6391LanguageCode::kg,    // Kongo
         kor = ISO6391LanguageCode::ko,  // Korean
-        kua = ISO6391LanguageCode::kj,	// Kwanyama
-        kur = ISO6391LanguageCode::ku,	// Kurdish
-        lao = ISO6391LanguageCode::lo,	// Lao
+        kua = ISO6391LanguageCode::kj,    // Kwanyama
+        kur = ISO6391LanguageCode::ku,    // Kurdish
+        lao = ISO6391LanguageCode::lo,    // Lao
         lat = ISO6391LanguageCode::la,  // Latin
-        lav = ISO6391LanguageCode::lv,	// Latvian
-        lim = ISO6391LanguageCode::li,	// Limburgish
-        lin = ISO6391LanguageCode::ln,	// Lingala
-        lit = ISO6391LanguageCode::lt,	// Lithuanian
-        ltz = ISO6391LanguageCode::lb,	// Luxembourgish
+        lav = ISO6391LanguageCode::lv,    // Latvian
+        lim = ISO6391LanguageCode::li,    // Limburgish
+        lin = ISO6391LanguageCode::ln,    // Lingala
+        lit = ISO6391LanguageCode::lt,    // Lithuanian
+        ltz = ISO6391LanguageCode::lb,    // Luxembourgish
         lub = ISO6391LanguageCode::lu,  // Luba-Katanga
-        lug = ISO6391LanguageCode::lg,	// Ganda
+        lug = ISO6391LanguageCode::lg,    // Ganda
         mac = ISO6391LanguageCode::mk,  // Macedonian [B-code]
-        mah = ISO6391LanguageCode::mh,	// Marshallese
-        mal = ISO6391LanguageCode::ml,	// Malayalam
-        mao = ISO6391LanguageCode::mi,	// Maori [B-code]
-        mar = ISO6391LanguageCode::mr,	// Marathi
-        may = ISO6391LanguageCode::ms,	// Malay [B-code]
-        mlg = ISO6391LanguageCode::mg,	// Malagasy
-        mlt = ISO6391LanguageCode::mt,	// Maltese
-        mon = ISO6391LanguageCode::mn,	// Mongolian
-        nau = ISO6391LanguageCode::na,	// Nauru
-        nav = ISO6391LanguageCode::nv,	// Navajo
-        nbl = ISO6391LanguageCode::nr,	// Southern Ndebele
-        nde = ISO6391LanguageCode::nd,	// Northern Ndebele
-        ndo = ISO6391LanguageCode::ng,	// Ndonga
-        nep = ISO6391LanguageCode::ne,	// Nepali
+        mah = ISO6391LanguageCode::mh,    // Marshallese
+        mal = ISO6391LanguageCode::ml,    // Malayalam
+        mao = ISO6391LanguageCode::mi,    // Maori [B-code]
+        mar = ISO6391LanguageCode::mr,    // Marathi
+        may = ISO6391LanguageCode::ms,    // Malay [B-code]
+        mlg = ISO6391LanguageCode::mg,    // Malagasy
+        mlt = ISO6391LanguageCode::mt,    // Maltese
+        mon = ISO6391LanguageCode::mn,    // Mongolian
+        nau = ISO6391LanguageCode::na,    // Nauru
+        nav = ISO6391LanguageCode::nv,    // Navajo
+        nbl = ISO6391LanguageCode::nr,    // Southern Ndebele
+        nde = ISO6391LanguageCode::nd,    // Northern Ndebele
+        ndo = ISO6391LanguageCode::ng,    // Ndonga
+        nep = ISO6391LanguageCode::ne,    // Nepali
         nor = ISO6391LanguageCode::no,  // Norwegian
-        nya = ISO6391LanguageCode::ny,	// Chichewa
-        oci = ISO6391LanguageCode::oc,	// Occitan
-        oji = ISO6391LanguageCode::oj,	// Ojibwa
-        ori = ISO6391LanguageCode::or_,	// Oriya
-        orm = ISO6391LanguageCode::om,	// Oromo
-        oss = ISO6391LanguageCode::os,	// Ossetian
-        pan = ISO6391LanguageCode::pa,	// Punjabi
+        nya = ISO6391LanguageCode::ny,    // Chichewa
+        oci = ISO6391LanguageCode::oc,    // Occitan
+        oji = ISO6391LanguageCode::oj,    // Ojibwa
+        ori = ISO6391LanguageCode::or_,    // Oriya
+        orm = ISO6391LanguageCode::om,    // Oromo
+        oss = ISO6391LanguageCode::os,    // Ossetian
+        pan = ISO6391LanguageCode::pa,    // Punjabi
         per = ISO6391LanguageCode::fa,  // Persian [B-code]
-        pli = ISO6391LanguageCode::pi,	// Pali
+        pli = ISO6391LanguageCode::pi,    // Pali
         pol = ISO6391LanguageCode::pl,  // Polish
         por = ISO6391LanguageCode::pt,  // Portuguese
-        pus = ISO6391LanguageCode::ps,	// Pashto
+        pus = ISO6391LanguageCode::ps,    // Pashto
         que = ISO6391LanguageCode::qu,  // Quechua
-        roh = ISO6391LanguageCode::rm,	// Romansh
+        roh = ISO6391LanguageCode::rm,    // Romansh
         rum = ISO6391LanguageCode::ro,  // Romanian [B-code]
-        run = ISO6391LanguageCode::rn,	// Rundi
+        run = ISO6391LanguageCode::rn,    // Rundi
         rus = ISO6391LanguageCode::ru,  // Russian
-        sag = ISO6391LanguageCode::sg,	// Sango
+        sag = ISO6391LanguageCode::sg,    // Sango
         san = ISO6391LanguageCode::sa,  // Sanskrit
-        sin = ISO6391LanguageCode::si,	// Sinhalese
-        slo = ISO6391LanguageCode::sk,	// Slovak [B-code]
-        slv = ISO6391LanguageCode::sl,	// Slovenian
-        sme = ISO6391LanguageCode::se,	// Northern Sami
-        smo = ISO6391LanguageCode::sm,	// Samoan
-        sna = ISO6391LanguageCode::sn,	// Shona
-        snd = ISO6391LanguageCode::sd,	// Sindhi
-        som = ISO6391LanguageCode::so,	// Somali
-        sot = ISO6391LanguageCode::st,	// Sotho
-        spa = ISO6391LanguageCode::es, 	// Spanish
-        srd = ISO6391LanguageCode::sc,	// Sardinian
-        srp = ISO6391LanguageCode::sr, 	// Serbian
-        ssw = ISO6391LanguageCode::ss,	// Swati
-        sun = ISO6391LanguageCode::su,	// Sundanese
+        sin = ISO6391LanguageCode::si,    // Sinhalese
+        slo = ISO6391LanguageCode::sk,    // Slovak [B-code]
+        slv = ISO6391LanguageCode::sl,    // Slovenian
+        sme = ISO6391LanguageCode::se,    // Northern Sami
+        smo = ISO6391LanguageCode::sm,    // Samoan
+        sna = ISO6391LanguageCode::sn,    // Shona
+        snd = ISO6391LanguageCode::sd,    // Sindhi
+        som = ISO6391LanguageCode::so,    // Somali
+        sot = ISO6391LanguageCode::st,    // Sotho
+        spa = ISO6391LanguageCode::es,     // Spanish
+        srd = ISO6391LanguageCode::sc,    // Sardinian
+        srp = ISO6391LanguageCode::sr,     // Serbian
+        ssw = ISO6391LanguageCode::ss,    // Swati
+        sun = ISO6391LanguageCode::su,    // Sundanese
         swa = ISO6391LanguageCode::sw,  // Swahili
         swe = ISO6391LanguageCode::sv,  // Swedish
-        tah = ISO6391LanguageCode::ty,	// Tahitian
+        tah = ISO6391LanguageCode::ty,    // Tahitian
         tam = ISO6391LanguageCode::ta,  // Tamil
-        tat = ISO6391LanguageCode::tt,	// Tatar
+        tat = ISO6391LanguageCode::tt,    // Tatar
         tel = ISO6391LanguageCode::te,  // Telugu
-        tgk = ISO6391LanguageCode::tg,	// Tajik
-        tgl = ISO6391LanguageCode::tl,	// Tagalog
-        tha = ISO6391LanguageCode::th, 	// Thai
-        tib = ISO6391LanguageCode::bo,	// Tibetan [B-code]
-        tir = ISO6391LanguageCode::ti,	// Tigrinya
-        ton = ISO6391LanguageCode::to,	// Tonga
-        tsn = ISO6391LanguageCode::tn,	// Tswana
-        tso = ISO6391LanguageCode::ts,	// Tsonga
-        tuk = ISO6391LanguageCode::tk,	// Turkmen
+        tgk = ISO6391LanguageCode::tg,    // Tajik
+        tgl = ISO6391LanguageCode::tl,    // Tagalog
+        tha = ISO6391LanguageCode::th,     // Thai
+        tib = ISO6391LanguageCode::bo,    // Tibetan [B-code]
+        tir = ISO6391LanguageCode::ti,    // Tigrinya
+        ton = ISO6391LanguageCode::to,    // Tonga
+        tsn = ISO6391LanguageCode::tn,    // Tswana
+        tso = ISO6391LanguageCode::ts,    // Tsonga
+        tuk = ISO6391LanguageCode::tk,    // Turkmen
         tur = ISO6391LanguageCode::tr,  // Turkish
-        twi = ISO6391LanguageCode::tw,	// Twi
-        uig = ISO6391LanguageCode::ug,	// Uighur
-        ukr = ISO6391LanguageCode::uk,	// Ukrainian
+        twi = ISO6391LanguageCode::tw,    // Twi
+        uig = ISO6391LanguageCode::ug,    // Uighur
+        ukr = ISO6391LanguageCode::uk,    // Ukrainian
         urd = ISO6391LanguageCode::ur,  // Urdu
-        uzb = ISO6391LanguageCode::uz,	// Uzbek
-        ven = ISO6391LanguageCode::ve,	// Venda
+        uzb = ISO6391LanguageCode::uz,    // Uzbek
+        ven = ISO6391LanguageCode::ve,    // Venda
         vie = ISO6391LanguageCode::vi,  // Vietnamese
-        vol = ISO6391LanguageCode::vo,	// Volapuk
-        wel = ISO6391LanguageCode::cy,	// Welsh [B-code]
-        wln = ISO6391LanguageCode::wa,	// Walloon
-        wol = ISO6391LanguageCode::wo,	// Wolof
-        xho = ISO6391LanguageCode::xh,	// Xhosa
-        yid = ISO6391LanguageCode::yi,	// Yiddish
+        vol = ISO6391LanguageCode::vo,    // Volapuk
+        wel = ISO6391LanguageCode::cy,    // Welsh [B-code]
+        wln = ISO6391LanguageCode::wa,    // Walloon
+        wol = ISO6391LanguageCode::wo,    // Wolof
+        xho = ISO6391LanguageCode::xh,    // Xhosa
+        yid = ISO6391LanguageCode::yi,    // Yiddish
         yor = ISO6391LanguageCode::yo,  // Yoruba
-        zha = ISO6391LanguageCode::za,	// Zhuang
-        zul = ISO6391LanguageCode::zu,	// Zulu
+        zha = ISO6391LanguageCode::za,    // Zhuang
+        zul = ISO6391LanguageCode::zu,    // Zulu
         ace,  // Achinese
         ach,  // Acoli
         ada,  // Adangme
@@ -676,42 +676,42 @@ namespace omn
         znd,  // Zande languages
         zun,  // Zuni
         zza,  // Zaza / Dimili / Kirdki / Zazaki
-        
+
         // Alternative terminological codes (T-codes)
-        bod = tib,	// Tibetan
-        ces = cze,	// Czech
-        cym = wel,	// Welsh
-        deu = ger,	// German
-        ell = gre,	// Greek
-        eus = baq,	// Basque
-        fas = per,	// Persian
-        fra = fre,	// French
-        hye = arm,	// Armenian
-        isl = ice,	// Icelandic
-        kat = geo,	// Georgian
-        mkd = mac,	// Macedonian
-        mri = mao,	// Maori
-        msa = may,	// Malay
-        mya = bur,	// Burmese
-        nld = dut,	// Dutch
-        ron = rum,	// Romanian
-        slk = slo,	// Slovak
-        sqi = alb,	// Albanian
-        zho = chi,	// Chinese
-        
+        bod = tib,    // Tibetan
+        ces = cze,    // Czech
+        cym = wel,    // Welsh
+        deu = ger,    // German
+        ell = gre,    // Greek
+        eus = baq,    // Basque
+        fas = per,    // Persian
+        fra = fre,    // French
+        hye = arm,    // Armenian
+        isl = ice,    // Icelandic
+        kat = geo,    // Georgian
+        mkd = mac,    // Macedonian
+        mri = mao,    // Maori
+        msa = may,    // Malay
+        mya = bur,    // Burmese
+        nld = dut,    // Dutch
+        ron = rum,    // Romanian
+        slk = slo,    // Slovak
+        sqi = alb,    // Albanian
+        zho = chi,    // Chinese
+
         // Languages treated here as being the same
         fil = tgl   // Filipino / Tagalog
     };
 
-	using language = ISO6392LanguageCode;
+    using language = ISO6392LanguageCode;
 }
 
 namespace // internal parts
 {
-	constexpr const uint16_t ISO6391CodesCount = omn::ISO6391LanguageCode::zu + 1;
-	
-	constexpr const omn::unicode::UTF8Character * ISO6391CodeStrings[ISO6391CodesCount] =
-	{
+    constexpr const uint16_t ISO6391CodesCount = omn::ISO6391LanguageCode::zu + 1;
+
+    constexpr const omn::unicode::UTF8Character * ISO6391CodeStrings[ISO6391CodesCount] =
+    {
         u8"aa",
         u8"ab",
         u8"af",
@@ -894,14 +894,14 @@ namespace // internal parts
         u8"yo",
         u8"za",
         u8"zu"
-	};
-	
-	constexpr const uint16_t ISO6392CodesCount = omn::ISO6392LanguageCode::zza + 2;
-	
-	constexpr const omn::unicode::UTF8Character * ISO6392CodeStrings[ISO6392CodesCount] =
-	{
-		u8"zxx",
-		u8"aar",
+    };
+
+    constexpr const uint16_t ISO6392CodesCount = omn::ISO6392LanguageCode::zza + 2;
+
+    constexpr const omn::unicode::UTF8Character * ISO6392CodeStrings[ISO6392CodesCount] =
+    {
+        u8"zxx",
+        u8"aar",
         u8"abk",
         u8"afr",
         u8"aka",
@@ -1360,20 +1360,20 @@ namespace // internal parts
         u8"zun",
         u8"zza",
         u8"und"
-	};
+    };
 }
 
 namespace omn
 {
-	constexpr const unicode::UTF8Character * ISO6391CodeString( ISO6391LanguageCode code )
-	{
-		return ISO6391CodeStrings[(code % ISO6391CodesCount)];
-	}
-	
-	constexpr const unicode::UTF8Character * ISO6392CodeString( ISO6392LanguageCode code )
-	{
-		return ISO6392CodeStrings[((code >= ISO6392CodesCount) ? (ISO6392CodesCount - 1) : code)];
-	}
+    constexpr const unicode::UTF8Character * ISO6391CodeString( ISO6391LanguageCode code )
+    {
+        return ISO6391CodeStrings[(code % ISO6391CodesCount)];
+    }
+
+    constexpr const unicode::UTF8Character * ISO6392CodeString( ISO6392LanguageCode code )
+    {
+        return ISO6392CodeStrings[((code >= ISO6392CodesCount) ? (ISO6392CodesCount - 1) : code)];
+    }
 }
 
 namespace std
@@ -1381,24 +1381,24 @@ namespace std
     inline string to_string( const omn::ISO6391LanguageCode code )
     {
         return omn::ISO6391CodeString(code);
-    }    
-    
-	inline ostream & operator << ( ostream & os, const omn::ISO6391LanguageCode code )
-	{
-		os << omn::ISO6391CodeString(code);
-		return os;
-	}
-	
+    }
+
+    inline ostream & operator << ( ostream & os, const omn::ISO6391LanguageCode code )
+    {
+        os << omn::ISO6391CodeString(code);
+        return os;
+    }
+
     inline string to_string( const omn::ISO6392LanguageCode code )
     {
         return omn::ISO6392CodeString(code);
-    }    
-    
-	inline ostream & operator << ( ostream & os, const omn::ISO6392LanguageCode code )
-	{
-		os << omn::ISO6392CodeString(code);
-		return os;
-	}
+    }
+
+    inline ostream & operator << ( ostream & os, const omn::ISO6392LanguageCode code )
+    {
+        os << omn::ISO6392CodeString(code);
+        return os;
+    }
 }
 
 #endif // _OMN_ISO639_INCLUDED
