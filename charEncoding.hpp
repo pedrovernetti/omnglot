@@ -26,44 +26,6 @@
 
 #include "globalUtilities.hpp"
 
-namespace omn
-{
-    enum characterEncoding : byte
-    {
-        USASCII = 1,
-        UTF8,
-        UTF16,
-        ISO8859_1,
-        ISO8859_2,
-        ISO8859_3,
-        ISO8859_4,
-        ISO8859_5,
-        ISO8859_6,
-        ISO8859_7,
-        ISO8859_8,
-        ISO8859_9,
-        ISO8859_10,
-        ISO8859_11,
-        ISO8859_12,
-        ISO8859_13,
-        ISO8859_14,
-        ISO8859_15,
-        ISO8859_16,
-        CP1250,
-        CP1251,
-        CP1252,
-        CP1253,
-        CP1254,
-        CP1255,
-        CP1256,
-        CP1257,
-        CP1258,
-        CP932,
-        ShiftJIS,
-        EBCDIC
-    };
-}
-
 namespace // internal parts
 {
     constexpr byte isASCIIPunctuation[16] =
@@ -188,20 +150,20 @@ namespace // internal parts
 
     constexpr uint32_t codepointFrom2UTF8Bytes( const byte * bytes, const size_t position )
     {
-        return (((bytes[position] & 0x1F) << 6) |
+        return (((bytes[position] & 0x1F) << 6)      |
                 ((bytes[position + 1]) & 0x3F));
     }
 
     constexpr uint32_t codepointFrom3UTF8Bytes( const byte * bytes, const size_t position )
     {
-        return (((bytes[position] & 0xF) << 12) |
+        return (((bytes[position] & 0xF) << 12)      |
                 ((bytes[position + 1] & 0x3F) <<  6) |
                 (bytes[position + 2] & 0x3F));
     }
 
     constexpr uint32_t codepointFrom4UTF8Bytes( const byte * bytes, const size_t position )
     {
-        return (((bytes[position] & 0x7) << 18) |
+        return (((bytes[position] & 0x7) << 18)      |
                 ((bytes[position + 1] & 0x3F) << 12) |
                 ((bytes[position + 2] & 0x3F) <<  6) |
                 (bytes[position + 3] & 0x3F));
@@ -211,27 +173,27 @@ namespace // internal parts
                                           byte * string,
                                           size_t position )
     {
-        string[position++] = (((codepoint >> 6) & 0x1F) | 0xC0);
-        string[position] = ((codepoint & 0x3F) | 0x80);
+        string[position++] = (((codepoint >> 6) & 0x1F)  | 0xC0);
+        string[position] =   ((codepoint & 0x3F)         | 0x80);
     }
 
     constexpr void codepointTo3UTF8Bytes( const uint32_t codepoint,
                                           byte * string,
                                           size_t position )
     {
-        string[position++] = (((codepoint >> 12) & 0xF) | 0xE0);
-        string[position++] = (((codepoint >> 6) & 0x3F) | 0x80);
-        string[position] = ((codepoint & 0x3F) | 0x80);
+        string[position++] = (((codepoint >> 12) & 0xF)  | 0xE0);
+        string[position++] = (((codepoint >> 6) & 0x3F)  | 0x80);
+        string[position] =   ((codepoint & 0x3F)         | 0x80);
     }
 
     constexpr void codepointTo4UTF8Bytes( const uint32_t codepoint,
                                           byte * string,
                                           size_t position )
     {
-        string[position++] = (((codepoint >> 18) & 0x7) | 0xF0);
+        string[position++] = (((codepoint >> 18) & 0x7)  | 0xF0);
         string[position++] = (((codepoint >> 12) & 0x3F) | 0x80);
-        string[position++] = (((codepoint >> 6) & 0x3F) | 0x80);
-        string[position] = ((codepoint & 0x3F) | 0x80);
+        string[position++] = (((codepoint >> 6) & 0x3F)  | 0x80);
+        string[position] =   ((codepoint & 0x3F)         | 0x80);
     }
 
     constexpr bool isNonCharacter( const omn::unicode::UTF32Character codepoint )
@@ -242,42 +204,6 @@ namespace // internal parts
 
 namespace omn
 {
-    enum lineBreakType : byte
-    {
-        LFLineBreak                = 0b00000001,
-        CRLineBreak             = 0b00000010,
-        RSLineBreak                = 0b00000100,
-        CRLFLineBreak            = 0b00001011,
-        LFCRLineBreak            = 0b00010011,
-        FFLineBreak                = 0b00100000,
-        NELLineBreak            = 0b01000000,
-        LSLineBreak                = 0b10000000,
-
-        UnixLineBreak            = 0b00000001,
-        WindowsLineBreak        = 0b00001011,
-
-        #ifdef _COMPILING_FOR_UNIX
-        DefaultLineBreak        = 0b00000001
-        #else
-        DefaultLineBreak        = 0b00001011
-        #endif
-    };
-
-    inline void pushProperLineBreak( lineBreakType lineBreak,
-                                     byte * UTF8String,
-                                     size_t & position )
-    {
-        if (lineBreak == lineBreakType::RSLineBreak)
-            UTF8String[position] = 30;
-        if (lineBreak == lineBreakType::CRLFLineBreak)
-            UTF8String[position++] = 13;
-        if (lineBreak | lineBreakType::LFLineBreak)
-            UTF8String[position++] = 10;
-        if ((lineBreak | lineBreakType::CRLineBreak) &&
-            (lineBreak != lineBreakType::CRLFLineBreak))
-            UTF8String[position] = 13;
-    }
-
     namespace unicode
     {
         constexpr UTF32Character nullCharacter = 0;
@@ -408,44 +334,71 @@ namespace omn
             return EBCDICToUnicodeConversionTable[character];
         }
 
-        constexpr uint16_t planeOf( const UTF32Character codepoint )
+        namespace planes
         {
-            return (codepoint >> 16);
-        }
+            enum plane : byte
+            {
+                BMP    = 0,
+                SMP    = 1,
+                SIP    = 2,
+                TIP    = 3,
+                // Unassigned Planes (4 to 13)
+                SSP    = 14,
+                SPUA_A = 15,
+                SPUA_B = 16,
+                
+                // Aliases
+                BasicMultilingualPlane = BMP,
+                SupplementaryMultilingualPlane = SMP,
+                SupplementaryIdeographicPlane = SIP,
+                TertiaryIdeographicPlane = TIP,
+                SupplementaryPrivateUseAreaA = SPUA_A,
+                SupplementaryPrivateUseAreaB = SPUA_B
+            };
+            
+            constexpr uint16_t planeOf( const UTF32Character codepoint )
+            {
+                return (codepoint >> 16);
+            }
 
-        constexpr bool belongsToBasicMultilingualPlane( const UTF32Character codepoint )
-        {
-            return (codepoint < 0x10000);
-        }
+            constexpr bool belongsToBMP( const UTF32Character codepoint )
+            {
+                return (codepoint < 0x10000);
+            }
 
-        constexpr bool belongsToSupplementaryMultilingualPlane( const UTF32Character codepoint )
-        {
-            return ((codepoint >> 16) == 1);
-        }
+            constexpr bool belongsToSMP( const UTF32Character codepoint )
+            {
+                return ((codepoint >> 16) == 1);
+            }
 
-        constexpr bool belongsToSupplementaryIdeographicPlane( const UTF32Character codepoint )
-        {
-            return ((codepoint >> 16) == 2);
-        }
+            constexpr bool belongsToSIP( const UTF32Character codepoint )
+            {
+                return ((codepoint >> 16) == 2);
+            }
 
-        constexpr bool belongsToUnassignedPlanes( const UTF32Character codepoint )
-        {
-            return ((codepoint >= 0x30000) && (codepoint <= 0xDFFFF));
-        }
+            constexpr bool belongsToUnassignedPlanes( const UTF32Character codepoint )
+            {
+                return ((codepoint >= 0x30000) && (codepoint <= 0xDFFFF));
+            }
 
-        constexpr bool belongsToSupplementarySpecialPurposePlane( const UTF32Character codepoint )
-        {
-            return ((codepoint >> 16) == 14);
-        }
+            constexpr bool belongsToSSP( const UTF32Character codepoint )
+            {
+                return ((codepoint >> 16) == 14);
+            }
 
-        constexpr bool belongsToPrivateUsePlanes( const UTF32Character codepoint )
-        {
-            return ((codepoint >= 0xF0000) && (codepoint <= 0x10FFFF));
-        }
+            constexpr bool belongsToPrivateUsePlanes( const UTF32Character codepoint )
+            {
+                return ((codepoint >= 0xF0000) && (codepoint <= 0x10FFFF));
+            }
 
-        constexpr bool belongsToNoValidPlane( const UTF32Character codepoint )
+            constexpr bool belongsToNoValidPlane( const UTF32Character codepoint )
+            {
+                return (codepoint > 0x10FFFF);
+            }
+        }
+        
+        namespace UTF16
         {
-            return (codepoint > 0x10FFFF);
         }
 
         namespace UTF8

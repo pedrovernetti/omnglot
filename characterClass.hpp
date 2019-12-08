@@ -30,38 +30,38 @@ namespace omn
 {
     enum characterClass : uint32_t
     {
-        Unassigned                = 0b00000000000000000000,
-        Control                    = 0b00000000000000000001,
-          HorizontalTab            = 0b00000000000000001101,
-          ControlAndNewline        = 0b00000000000000010101,
-          ControlAndFormat        = 0b00000000000000000011,
-        Format                    = 0b00000000000000000010,
-        Whitespace                = 0b00000000000000000100,
-          HorizontalSpace        = 0b00000000000000001100,
-          Newline                = 0b00000000000000010100,
-        Punctuation                = 0b00000000000000100000, // Po~ | Pc | Pd | Pe | Pf | Pi | Ps
-        PartOfWord                = 0b10000000000000000000,
+        Unassigned              = 0b00000000000000000000,
+        Control                 = 0b00000000000000000001,
+          HorizontalTab         = 0b00000000000000001101,
+          ControlAndNewline     = 0b00000000000000010101,
+          ControlAndFormat      = 0b00000000000000000011,
+        Format                  = 0b00000000000000000010,
+        Whitespace              = 0b00000000000000000100,
+          HorizontalSpace       = 0b00000000000000001100,
+          Newline               = 0b00000000000000010100,
+        Punctuation             = 0b00000000000000100000,
+        PartOfWord              = 0b10000000000000000000,
           PartOfWordPunctuation = 0b10000000000000100000,
-          Number                = 0b10000000000001000000, // No | Nd | Nl
-            Digit                = 0b10000000000011000000,
-            LetterNumber        = 0b10000000000101000000, // Nl
-              LowercaseNumber    = 0b10000000001101000000, // Nl~
-              UppercaseNumber    = 0b10000000110101000000, // Nl~
-          Letter                = 0b10000000000100000000, // Lo | Ll | Lt | Lu | Nl
-            LowercaseLetter        = 0b10000000001100000000, // Ll
-            TitlecaseLetter        = 0b10000000010100000000, // Lt
-              UppercaseLetter     = 0b10000000110100000000, // Lu
-          Modifier                = 0b10000001000000000000, // Mc | Me | Mn | Lm | Sk
-            NonSpacingModifier    = 0b10000011000000000000, // Me | Mn
-            SpacingModifier        = 0b10000101000000000000, // Mc | Lm | Sk~
-              ModifierLetter      = 0b10000101000100000000, // Lm
-        Symbol                    = 0b00001000000000000000, // So | Sc | Sm | Po~ | Sk~
-          MathSymbol            = 0b00011000000000000000, // Sm
-          LetterAsSymbol        = 0b00001000000100000000, // Lo~ | Ll~ | Lu~ | So~
-            LowercaseSymbol     = 0b00001000001100000000, // Lo~ | Ll~ | So~
-            UppercaseSymbol     = 0b00001000110100000000, // Lo~ | Lu~ | So~
-        Private                    = 0b00100000000000000000,
-        Surrogate                = 0b01000000000000000000
+          Number                = 0b10000000000001000000,
+            Digit               = 0b10000000000011000000,
+            LetterNumber        = 0b10000000000101000000,
+              LowercaseNumber   = 0b10000000001101000000,
+              UppercaseNumber   = 0b10000000110101000000,
+          Letter                = 0b10000000000100000000,
+            LowercaseLetter     = 0b10000000001100000000,
+            TitlecaseLetter     = 0b10000000010100000000,
+              UppercaseLetter   = 0b10000000110100000000,
+          Modifier              = 0b10000001000000000000,
+            NonSpacingModifier  = 0b10000011000000000000,
+            SpacingModifier     = 0b10000101000000000000,
+              ModifierLetter    = 0b10000101000100000000,
+        Symbol                  = 0b00001000000000000000,
+          MathSymbol            = 0b00011000000000000000,
+          LetterAsSymbol        = 0b00001000000100000000,
+            LowercaseSymbol     = 0b00001000001100000000,
+            UppercaseSymbol     = 0b00001000110100000000,
+        Private                 = 0b00100000000000000000,
+        Surrogate               = 0b01000000000000000000
     };
 
     namespace unicode

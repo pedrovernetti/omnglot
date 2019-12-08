@@ -18,14 +18,8 @@
  * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  * DEALINGS IN THE SOFTWARE.
  *
- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-#pragma once
-#ifndef _OMN_GLOBALUTILITIES_INCLUDED
-#define _OMN_GLOBALUTILITIES_INCLUDED
-
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 
  * * Default-Included Headers:
  *
  * <cstdint>
@@ -37,14 +31,15 @@
  * <type_traits>
  * <utility>
  *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
  * * Macros (either defined as positive integer literals or undefined):
  *
  * * * on the target OS:
  *
- * _COMPILING_FOR_DOS                     target OS is any version of DOS
- * _COMPILING_FOR_MSDOS                     target OS is MS-DOS
- * _COMPILING_FOR_WIN16                     target OS is Windows 3.1 or older versions
+ * _COMPILING_FOR_DOS                    target OS is any version of DOS
+ * _COMPILING_FOR_MSDOS                  target OS is MS-DOS
+ * _COMPILING_FOR_WIN16                  target OS is Windows 3.1 or older versions
  * _COMPILING_FOR_WINDOWS                target OS is Windows (95 and newer)
  * _COMPILING_FOR_MACH                   target OS is any one based on Mach kernel
  * _COMPILING_FOR_APPLE                  target OS is any of those belonging to Apple
@@ -57,15 +52,15 @@
  * _COMPILING_FOR_QNX                    target OS is QNX
  * _COMPILING_FOR_QNXNEUTRINO            target OS is QNX Neutrino
  * _COMPILING_FOR_QNX4                   target OS is QNX 4
- * _COMPILING_FOR_IBMOS400                 target OS is IBM OS/400
- * _COMPILING_FOR_DRAGONFLYBSD             target OS is DragonFly BSD
- * _COMPILING_FOR_BSDOS                     target OS is BSD/OS
+ * _COMPILING_FOR_IBMOS400               target OS is IBM OS/400
+ * _COMPILING_FOR_DRAGONFLYBSD           target OS is DragonFly BSD
+ * _COMPILING_FOR_BSDOS                  target OS is BSD/OS
  * _COMPILING_FOR_NETBSD                 target OS is NetBSD
- * _COMPILING_FOR_OPENBSD                 target OS is OpenBSD
- * _COMPILINF_FOR_FREEBSD                 target OS is FreeBSD
- * _COMPILING_FOR_SYLLABLE                 target OS is Syllable
- * _COMPILING_FOR_ECOS                     target OS is eCos
- * _COMPILING_FOR_GNUHURD                 target OS is GNU (GNU/Hurd)
+ * _COMPILING_FOR_OPENBSD                target OS is OpenBSD
+ * _COMPILINF_FOR_FREEBSD                target OS is FreeBSD
+ * _COMPILING_FOR_SYLLABLE               target OS is Syllable
+ * _COMPILING_FOR_ECOS                   target OS is eCos
+ * _COMPILING_FOR_GNUHURD                target OS is GNU (GNU/Hurd)
  * _COMPILING_FOR_LINUX                  target OS is any one based on Linux kernel
  * _COMPILING_FOR_GNULINUX               target OS is GNU/Linux
  * _COMPILING_FOR_OTHER_UNIX_SYSTEMS     target OS is any BSD system not covered by other macros
@@ -79,18 +74,20 @@
  *
  * ...
  *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
  * * Type Aliases:
  *
  * byte                                  'unsigned char'
  *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
  * * Macro Strings (std::string("...") if _NONCPP is undefined, string literal otherwise):
  *
  * compilationDate                       date when the compilation occurred
  * compilationTime                       time when the compilation occurred
  * compilationDateAndTime                date/time when the compilation occurred (C++ code only)
- * compilerName                             name of the compiler being used
+ * compilerName                          name of the compiler being used
  * compilerNameAndVersion                name and version of the compiler being used
  * targetOSName                          name of the OS which is being targeted
  * thisFileName                          name/path (what the compiler takes) of the file it's within
@@ -98,24 +95,26 @@
  * thisFunctionName                      name of the function it is in
  * thisFunctionSignature                 signature of the function it is in
  *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
  * * Macro Unsigned Integers (size_t):
  *
  * thisCodeLine                          number of the line it's placed at
  * previousCodeLine                      number of the line before the one it's placed at
  *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
  * * Namespaced aliases, constexpr utility values and base classes
  *
  * * * Type Aliases:
  *
- * omn::pair                            'std::pair'
- * omn::unicode::UTF8Character            'char8_t' if supported, 'char' otherwise
- * omn::unicode::UTF16Character            'char16_t'
- * omn::unicode::UTF32Character            'char32_t'
- * omn::unicode::UTF8String                'std::u8string' if supported, 'std::string' otherwise
- * omn::unicode::UTF16String            'std::u16string'
- * omn::unicode::UTF32String            'std::u32string'
+ * omn::pair                             'std::pair'
+ * omn::unicode::UTF8Character           'char8_t' if supported, 'char' otherwise
+ * omn::unicode::UTF16Character          'char16_t'
+ * omn::unicode::UTF32Character          'char32_t'
+ * omn::unicode::UTF8String              'std::u8string' if supported, 'std::string' otherwise
+ * omn::unicode::UTF16String             'std::u16string'
+ * omn::unicode::UTF32String             'std::u32string'
  *
  * * * Base Classes:
  *
@@ -124,26 +123,29 @@
  * * * Value Aliases:
  *
  * omn::math::maximumSize                '(size_t)(-1)'
- * omn::math::maximumSignedInteger        'std::numeric_limits<int>::max()'
- * omn::math::maximumShortSignedInteger    'std::numeric_limits<short int>::max()'
- * omn::math::maximumLongSignedInteger    'std::numeric_limits<long int>::max()'
- * omn::math::absoluteMaximumSignedInteger    'std::numeric_limits<intmax_t>::max()'
- * omn::math::minimumSignedInteger        'std::numeric_limits<int>::lowest()'
- * omn::math::minimumShortSignedInteger    'std::numeric_limits<short int>::lowest()'
- * omn::math::minimumLongSignedInteger    'std::numeric_limits<long int>::lowest()'
- * omn::math::absoluteMinimumSignedInteger    'std::numeric_limits<intmax_t>::lowest()'
- * omn::math::infinity                    'std::numeric_limits<double>::infinity()'
- * omn::math::floatInfinity                'std::numeric_limits<float>::infinity()'
- * omn::math::longInfinity                'std::numeric_limits<long double>::infinity()'
+ * omn::math::maximumSignedInteger       'std::numeric_limits<int>::max()'
+ * omn::math::maximumShortSignedInteger  'std::numeric_limits<short int>::max()'
+ * omn::math::maximumLongSignedInteger   'std::numeric_limits<long int>::max()'
+ * omn::math::absoluteMaximumSignedInteger  'std::numeric_limits<intmax_t>::max()'
+ * omn::math::minimumSignedInteger       'std::numeric_limits<int>::lowest()'
+ * omn::math::minimumShortSignedInteger  'std::numeric_limits<short int>::lowest()'
+ * omn::math::minimumLongSignedInteger   'std::numeric_limits<long int>::lowest()'
+ * omn::math::absoluteMinimumSignedInteger  'std::numeric_limits<intmax_t>::lowest()'
+ * omn::math::infinity                   'std::numeric_limits<double>::infinity()'
+ * omn::math::floatInfinity              'std::numeric_limits<float>::infinity()'
+ * omn::math::longInfinity               'std::numeric_limits<long double>::infinity()'
  * omn::math::NaN                        'std::numeric_limits<double>::quiet_NaN()'
- * omn::math::floatNaN                    'std::numeric_limits<float>::quiet_NaN()'
+ * omn::math::floatNaN                   'std::numeric_limits<float>::quiet_NaN()'
  * omn::math::longNaN                    'std::numeric_limits<long double>::quiet_NaN()'
  * omn::math::epsilon                    'std::numeric_limits<double>::epsilon()'
- * omn::math::floatEpsilon                'std::numeric_limits<float>::epsilon()'
+ * omn::math::floatEpsilon               'std::numeric_limits<float>::epsilon()'
  * omn::math::longEpsilon                'std::numeric_limits<long double>::epsilon()'
  *
- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- */
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#pragma once
+#ifndef _OMN_GLOBALUTILITIES_INCLUDED
+#define _OMN_GLOBALUTILITIES_INCLUDED
 
 #if defined(__cplusplus)
     #include <cstring>

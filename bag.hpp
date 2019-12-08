@@ -45,7 +45,7 @@ namespace omn
         size_t TotalItemCount;
 
         static inline bool descendingCount( const std::pair<generic, size_t> first,
-                                               const std::pair<generic, size_t> last )
+                                            const std::pair<generic, size_t> last )
         {
             return (first.second > last.second);
         }

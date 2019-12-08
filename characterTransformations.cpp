@@ -2594,46 +2594,17 @@ namespace // internal parts
         66760, 66761, 66762, 66763, 66764, 66765, 66766, 66767, 66768, 66769, 66770, 66771, 66812, 66813, 66814, 66815
     };
 
-    const uint16_t undiacriticized_0To8527[8528] =
-    {
-        // Basic Latin (ASCII)
-        0,    1,    2,    3,    4,    5,    6,    7,    8,    9,    10,   11,   12,   13,   14,   15,
-        16,   17,   18,   19,   20,   21,   22,   23,   24,   25,   26,   27,   28,   29,   30,   31,
-        32,   33,   34,   35,   36,   37,   38,   39,   40,   41,   42,   43,   44,   45,   46,   47,
-        48,   49,   50,   51,   52,   53,   54,   55,   56,   57,   58,   59,   60,   61,   62,   63,
-        64,   65,   66,   67,   68,   69,   70,   71,   72,   73,   74,   75,   76,   77,   78,   79,
-        80,   81,   82,   83,   84,   85,   86,   87,   88,   89,   90,   91,   92,   93,   94,   95,
-        96,   65,   66,   67,   68,   69,   70,   71,   72,   73,   74,   75,   76,   77,   78,   79,
-        80,   81,   82,   83,   84,   85,   86,   87,   88,   89,   90,   123,  124,  125,  126,  127,
-        // Latin-1 Supplement
-        128,  129,  130,  131,  132,  133,  134,  135,  136,  137,  138,  139,  140,  141,  142,  143,
-        144,  145,  146,  147,  148,  149,  150,  151,  152,  153,  154,  155,  156,  157,  158,  159,
-        160,  161,  162,  163,  164,  165,  166,  167,  168,  169,  170,  171,  172,  173,  174,  175,
-        176,  177,  178,  179,  180,  181,  182,  183,  184,  185,  186,  187,  188,  189,  190,  191,
-        65,   65,   65,   65,   65,   65,   198,  67,   69,   69,   69,   69,   73,   73,   73,   73,
-        208,  78,   79,   79,   79,   79,   79,   215,  79,   85,   85,   85,   85,   89,   222,  223,
-        97,   97,   97,   97,   97,   97,   198,  99,   101,  101,  101,  101,  105,  105,  105,  105,
-        240,  110,  111,  111,  111,  111,  111,  247,  111,  117,  117,  117,  117,  121,  254,  121,
-        // Latin Extended-A
-        65,   97,   65,   97,   65,   97,   67,   99,   67,   99,   67,   99,   67,   99,   68,   100,
-        68,   100,  69,   101,  69,   101,  69,   101,  69,   101,  69,   101,  71,   103,  71,   103,
-        71,   103,  71,   103,  72,   104,  72,   104,  73,   105,  73,   105,  73,   105,  73,   105,
-        73,   105,
-    };
-
-    //const uint16_t undiacriticized_11264To12448[]
-
     const omn::unicode::UTF32Character * casefoldSpecialResults[104] =
     {
-        U"ss",    U"i̇",    U"ʼn",    U"ǰ",    U"ΐ",    U"ΰ",    U"եւ",    U"ẖ",    U"ẗ",    U"ẘ",    U"ẙ",    U"aʾ",
-        U"ss",    U"ὐ",    U"ὒ",     U"ὔ",     U"ὖ",     U"ἀι",     U"ἁι",     U"ἂι",     U"ἃι",     U"ἄι",     U"ἅι",     U"ἆι",
-        U"ἇι",    U"ἀι",    U"ἁι",    U"ἂι",    U"ἃι",    U"ἄι",    U"ἅι",    U"ἆι",    U"ἇι",     U"ἠι",    U"ἡι",    U"ἢι",
-        U"ἣι",    U"ἤι",  U"ἥι",  U"ἦι",  U"ἧι",  U"ἠι",  U"ἡι",  U"ἢι",  U"ἣι",  U"ἤι",  U"ἥι",  U"ἦι",
-        U"ἧι",    U"ὠι",  U"ὡι",  U"ὢι",  U"ὣι",  U"ὤι",  U"ὥι",  U"ὦι",  U"ὧι",  U"ὠι",  U"ὡι",  U"ὢι",
+        U"ss",  U"i̇",   U"ʼn",  U"ǰ",   U"ΐ",   U"ΰ",   U"եւ",  U"ẖ",   U"ẗ",   U"ẘ",   U"ẙ",   U"aʾ",
+        U"ss",  U"ὐ",   U"ὒ",   U"ὔ",   U"ὖ",   U"ἀι",  U"ἁι",  U"ἂι",  U"ἃι",  U"ἄι",  U"ἅι",  U"ἆι",
+        U"ἇι",  U"ἀι",  U"ἁι",  U"ἂι",  U"ἃι",  U"ἄι",  U"ἅι",  U"ἆι",  U"ἇι",  U"ἠι",  U"ἡι",  U"ἢι",
+        U"ἣι",  U"ἤι",  U"ἥι",  U"ἦι",  U"ἧι",  U"ἠι",  U"ἡι",  U"ἢι",  U"ἣι",  U"ἤι",  U"ἥι",  U"ἦι",
+        U"ἧι",  U"ὠι",  U"ὡι",  U"ὢι",  U"ὣι",  U"ὤι",  U"ὥι",  U"ὦι",  U"ὧι",  U"ὠι",  U"ὡι",  U"ὢι",
         U"ὣι",  U"ὤι",  U"ὥι",  U"ὦι",  U"ὧι",  U"ὰι",  U"αι",  U"άι",  U"ᾶ",   U"ᾶι",  U"αι",  U"ὴι",
-        U"ηι",    U"ήι",  U"ῆ",   U"ῆι",  U"ηι",  U"ῒ",   U"ΐ",   U"ῖ",   U"ῗ",   U"ῢ",   U"ΰ",   U"ῤ",
-        U"ῦ",    U"ῧ",    U"ὼι",  U"ωι",  U"ώι",  U"ῶ",   U"ῶι",  U"ωι",  U"ff",  U"fi",  U"fl",  U"ffi",
-        U"ffl", U"st",    U"st",  U"մն",  U"մե",  U"մի",  U"վն",  U"մխ"
+        U"ηι",  U"ήι",  U"ῆ",   U"ῆι",  U"ηι",  U"ῒ",   U"ΐ",   U"ῖ",   U"ῗ",   U"ῢ",   U"ΰ",   U"ῤ",
+        U"ῦ",   U"ῧ",   U"ὼι",  U"ωι",  U"ώι",  U"ῶ",   U"ῶι",  U"ωι",  U"ff",  U"fi",  U"fl",  U"ffi",
+        U"ffl", U"st",  U"st",  U"մն",  U"մե",  U"մի",  U"վն",  U"մխ"
     };
 
     const omn::unicode::UTF32Character casefoldSpecialCases[105] =
@@ -2646,35 +2617,35 @@ namespace // internal parts
         8095,   8096,   8097,   8098,   8099,   8100,   8101,   8102,   8103,   8104,   8105,   8106,
         8107,   8108,   8109,   8110,   8111,   8114,   8115,   8116,   8118,   8119,   8124,   8130,
         8131,   8132,   8134,   8135,   8140,   8146,   8147,   8150,   8151,   8162,   8163,   8164,
-        8166,   8167,   8178,   8179,   8180,   8182,    8183,   8188,   64256,  64257,  64258,  64259,
+        8166,   8167,   8178,   8179,   8180,   8182,   8183,   8188,   64256,  64257,  64258,  64259,
         64260,  64261,  64262,  64275,  64276,  64277,  64278,  64279
     };
 
     const omn::unicode::UTF32Character * uppercaseSpecialResults[102]
     {
-        U"SS",    U"ʼN",    U"J̌",    U"Ϊ́",    U"Ϋ́",    U"ԵՒ",    U"H̱",    U"T̈",    U"W̊",    U"Y̊",    U"Aʾ",    U"Υ̓",
-        U"Υ̓̀",    U"Υ̓́",    U"Υ̓͂",    U"ἈΙ",    U"ἉΙ",    U"ἊΙ",    U"ἋΙ",    U"ἌΙ",    U"ἍΙ",    U"ἎΙ",    U"ἏΙ",    U"ἈΙ",
-        U"ἉΙ",    U"ἊΙ",    U"ἋΙ",    U"ἌΙ",    U"ἍΙ",    U"ἎΙ",    U"ἏΙ",    U"ἨΙ",    U"ἩΙ",    U"ἪΙ",    U"ἫΙ",    U"ἬΙ",
-        U"ἭΙ",    U"ἮΙ",    U"ἯΙ",    U"ἨΙ",    U"ἩΙ",    U"ἪΙ",    U"ἫΙ",    U"ἬΙ",    U"ἭΙ",    U"ἮΙ",    U"ἯΙ",    U"ὨΙ",
-        U"ὩΙ",    U"ὪΙ",    U"ὫΙ",    U"ὬΙ",    U"ὭΙ",    U"ὮΙ",    U"ὯΙ",    U"ὨΙ",    U"ὩΙ",    U"ὪΙ",    U"ὫΙ",    U"ὬΙ",
-        U"ὭΙ",    U"ὮΙ",    U"ὯΙ",    U"ᾺΙ",    U"ΑΙ",    U"ΆΙ",    U"Α͂",    U"Α͂Ι",    U"ΑΙ",    U"ῊΙ",    U"ΗΙ",    U"ΉΙ",
-        U"Η͂",    U"Η͂Ι",    U"ΗΙ",    U"Ϊ̀",    U"Ϊ́",    U"Ι͂",    U"Ϊ͂",    U"Ϋ̀",    U"Ϋ́",    U"Ρ̓",    U"Υ͂",    U"Ϋ͂",
-        U"ῺΙ",    U"ΩΙ",    U"ΏΙ",    U"Ω͂",    U"Ω͂Ι",    U"ΩΙ",    U"FF",    U"FI",    U"FL",    U"FFI",    U"FFL",    U"ST",
-        U"ST",    U"ՄՆ",    U"ՄԵ",    U"ՄԻ",    U"ՎՆ",    U"ՄԽ"
+        U"SS",   U"ʼN",   U"J̌",    U"Ϊ́",    U"Ϋ́",    U"ԵՒ",   U"H̱",    U"T̈",    U"W̊",    U"Y̊",    U"Aʾ",   U"Υ̓",
+        U"Υ̓̀",    U"Υ̓́",    U"Υ̓͂",    U"ἈΙ",   U"ἉΙ",   U"ἊΙ",   U"ἋΙ",   U"ἌΙ",   U"ἍΙ",   U"ἎΙ",   U"ἏΙ",   U"ἈΙ",
+        U"ἉΙ",   U"ἊΙ",   U"ἋΙ",   U"ἌΙ",   U"ἍΙ",   U"ἎΙ",   U"ἏΙ",   U"ἨΙ",   U"ἩΙ",   U"ἪΙ",   U"ἫΙ",   U"ἬΙ",
+        U"ἭΙ",   U"ἮΙ",   U"ἯΙ",   U"ἨΙ",   U"ἩΙ",   U"ἪΙ",   U"ἫΙ",   U"ἬΙ",   U"ἭΙ",   U"ἮΙ",   U"ἯΙ",   U"ὨΙ",
+        U"ὩΙ",   U"ὪΙ",   U"ὫΙ",   U"ὬΙ",   U"ὭΙ",   U"ὮΙ",   U"ὯΙ",   U"ὨΙ",   U"ὩΙ",   U"ὪΙ",   U"ὫΙ",   U"ὬΙ",
+        U"ὭΙ",   U"ὮΙ",   U"ὯΙ",   U"ᾺΙ",   U"ΑΙ",   U"ΆΙ",   U"Α͂",    U"Α͂Ι",   U"ΑΙ",   U"ῊΙ",   U"ΗΙ",   U"ΉΙ",
+        U"Η͂",    U"Η͂Ι",   U"ΗΙ",   U"Ϊ̀",    U"Ϊ́",    U"Ι͂",    U"Ϊ͂",    U"Ϋ̀",    U"Ϋ́",    U"Ρ̓",    U"Υ͂",    U"Ϋ͂",
+        U"ῺΙ",   U"ΩΙ",   U"ΏΙ",   U"Ω͂",    U"Ω͂Ι",   U"ΩΙ",   U"FF",   U"FI",   U"FL",   U"FFI",  U"FFL",  U"ST",
+        U"ST",   U"ՄՆ",   U"ՄԵ",   U"ՄԻ",   U"ՎՆ",   U"ՄԽ"
     };
 
     const omn::unicode::UTF32Character uppercaseSpecialCases[103]
     {
         103, /* size */
-        223,    329,    496,    912,    944,    1415,    7830,    7831,    7832,    7833,    7834,    8016,
+        223,     329,     496,     912,     944,     1415,    7830,    7831,    7832,    7833,    7834,    8016,
         8018,    8020,    8022,    8064,    8065,    8066,    8067,    8068,    8069,    8070,    8071,    8072,
         8073,    8074,    8075,    8076,    8077,    8078,    8079,    8080,    8081,    8082,    8083,    8084,
         8085,    8086,    8087,    8088,    8089,    8090,    8091,    8092,    8093,    8094,    8095,    8096,
         8097,    8098,    8099,    8100,    8101,    8102,    8103,    8104,    8105,    8106,    8107,    8108,
         8109,    8110,    8111,    8114,    8115,    8116,    8118,    8119,    8124,    8130,    8131,    8132,
         8134,    8135,    8140,    8146,    8147,    8150,    8151,    8162,    8163,    8164,    8166,    8167,
-        8178,    8179,    8180,    8182,    8183,    8188,    64256,    64257,    64258,    64259,    64260,    64261,
-        64262,    64275,    64276,    64277,    64278,    64279
+        8178,    8179,    8180,    8182,    8183,    8188,    64256,   64257,   64258,   64259,   64260,   64261,
+        64262,   64275,   64276,   64277,   64278,   64279
     };
 
     void specialCase( omn::unicode::UTF32String & result,
@@ -2789,46 +2760,6 @@ namespace omn
         return codepoint;
     }
 
-    omn::unicode::UTF32Character titlecaseCharacter( const omn::unicode::UTF32Character codepoint,
-                                                     const omn::characterClass classOf )
-    {
-        if (classOf & 0b00000000101000000000)
-        {
-                if (codepoint < 8592)
-                    return uppercase_0To8591[codepoint];
-            if (codepoint < 9398)
-                return ((codepoint > 9371) ? (codepoint + 117876) : codepoint);
-            if (codepoint < 11568)
-                return ((codepoint > 11263) ? uppercase_11264To11567[codepoint - 11264] : codepoint);
-                if (codepoint < 43968)
-                    return ((codepoint > 42559) ? uppercase_42560To43967[codepoint - 42560] : codepoint);
-                if (codepoint < 65520)
-                    return ((codepoint > 64255) ? uppercase_64256To65519[codepoint - 64256] : codepoint);
-            if (codepoint < 66816)
-                return ((codepoint > 66559) ? uppercase_66560To66815[codepoint - 66560] : codepoint);
-            if (codepoint < 68851)
-                return ((codepoint > 68799) ? (codepoint - 64) : codepoint);
-            if (codepoint < 71904)
-                return ((codepoint > 71871) ? (codepoint - 32) : codepoint);
-            if (codepoint < 93824)
-                return ((codepoint > 93791) ? (codepoint - 32) : codepoint);
-            if (codepoint < 125252)
-                return ((codepoint > 125217) ? (codepoint - 34) : codepoint);
-        }
-        return codepoint;
-    }
-
-    unicode::UTF32Character undiacriticizedCharacter( const unicode::UTF32Character codepoint,
-                                                      const characterClass classOf )
-    {
-        if (classOf & 0b00000000000100000000)
-        {
-            //
-        }
-        if (classOf & 0b00000001000000000000) return 65279;
-        return codepoint;
-    }
-
     unicode::UTF32String casefold( const unicode::UTF32String & string )
     {
         unicode::UTF32String result;
@@ -2869,29 +2800,6 @@ namespace omn
         return result;
     }
 
-    unicode::UTF32String titlecase( const unicode::UTF32String & string )
-    {
-        if (string.empty()) return string;
-        characterClass previousClass = unicode::classOf(string[0]), currentClass;
-        unicode::UTF32String result;
-        result.reserve(string.size() * 2);
-        if (isLetter(previousClass)) result += titlecaseCharacter(string[0]);
-        else result += lowercaseCharacter(string[0]);
-        if (result[0] == 26)
-            specialCase(result, uppercaseSpecialCases, uppercaseSpecialResults, string[0]);
-        for (size_t i = 1, size = string.size(); i < size; i++)
-        {
-            currentClass = unicode::classOf(string[i]);
-            if (isLetter(previousClass)) result += lowercaseCharacter(string[i], currentClass);
-            else result += titlecaseCharacter(string[i], currentClass);
-            if (result.back() == 26)
-                specialCase(result, uppercaseSpecialCases, uppercaseSpecialResults, string[0]);
-            previousClass = currentClass;
-        }
-        result.shrink_to_fit();
-        return result;
-    }
-
     unicode::UTF32String altercase( const unicode::UTF32String & string,
                                     const bool startWithUppercase )
     {
@@ -2906,19 +2814,6 @@ namespace omn
                     specialCase(result, uppercaseSpecialCases, uppercaseSpecialResults, string[0]);
             }
             else result += lowercaseCharacter(string[i]);
-        }
-        result.shrink_to_fit();
-        return result;
-    }
-
-    unicode::UTF32String undiacriticized( const unicode::UTF32String & string )
-    {
-        unicode::UTF32String result;
-        result.reserve(string.size());
-        for (size_t i = 0, size = string.size(); i < size; i++)
-        {
-            if (isDiacritic(unicode::classOf(string[i]))) continue;
-            result += undiacriticizedCharacter(string[i]);
         }
         result.shrink_to_fit();
         return result;

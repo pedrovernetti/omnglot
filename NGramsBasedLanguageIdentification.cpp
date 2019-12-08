@@ -2493,13 +2493,6 @@ namespace omn
                     NGramsBased::NGramsIndex[current[j]].insert((ISO6392LanguageCode)(i));
                 }
             }
-            /*set<letterNGrams::letterNGram<3>> multilanguageNGrams;
-            for (const auto & NGram : NGramsBased::NGramsIndex)
-            {
-                if (NGram.second.size() > 1) multilanguageNGrams.insert(NGram.first);
-            }
-            for (const auto & NGram : multilanguageNGrams)
-                NGramsBased::NGramsIndex.erase(NGram);*/
         }
 
         const set<ISO6392LanguageCode> & NGramsBased::languagesOf( const unicode::UTF32String & string,

@@ -44,8 +44,6 @@
 #include "globalUtilities.hpp"
 #if defined(_COMPILING_FOR_POSIX_COMPLIANTS) || defined(_COMPILING_FOR_UNIX)
 #include <sys/stat.h>
-#elif defined(_COMPILING_FOR_WINDOWS)
-#include <windows.h>
 #endif
 
 #include "charEncoding.hpp"

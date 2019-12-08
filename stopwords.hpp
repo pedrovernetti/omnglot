@@ -57,7 +57,7 @@ namespace // internal parts
         /*ndo*/ 0,   /*nep*/ 0,   /*nor*/ 176, /*nya*/ 0,   /*oci*/ 0,   /*oji*/ 0,
         /*ori*/ 0,   /*orm*/ 0,   /*oss*/ 0,   /*pan*/ 0,   /*per*/ 0,   /*pli*/ 0,
         /*pol*/ 0,   /*por*/ 203, /*pus*/ 0,   /*que*/ 0,   /*roh*/ 0,   /*rum*/ 355,
-        /*run*/ 0,   /*rus*/ 0,   /*sag*/ 0,   /*san*/ 0,   /*sin*/ 0,   /*slo*/ 0,
+        /*run*/ 0,   /*rus*/ 150, /*sag*/ 0,   /*san*/ 0,   /*sin*/ 0,   /*slo*/ 0,
         /*slv*/ 0,   /*sme*/ 0,   /*smo*/ 0,   /*sna*/ 0,   /*snd*/ 0,   /*som*/ 0,
         /*sot*/ 0,   /*spa*/ 315, /*srd*/ 0,   /*srp*/ 0,   /*ssw*/ 0,   /*sun*/ 0,
         /*swa*/ 0,   /*swe*/ 114, /*tah*/ 0,   /*tam*/ 0,   /*tat*/ 0,   /*tel*/ 0,

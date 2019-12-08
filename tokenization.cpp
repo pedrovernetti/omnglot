@@ -57,8 +57,6 @@ namespace omn
 {
     namespace tokenization
     {
-        //unicode::UTF32String * split( const uint32_t * UTF32Text, size_t textSize, )
-
         tokenizedString tokenize( unicode::UTF32String UTF32Text )
         {
             if (UTF32Text.empty()) return tokenizedString{};

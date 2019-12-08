@@ -163,7 +163,6 @@ namespace omn
             return result;
         }
     }
-    // list, bag ;; string, text, bag
 }
 
 namespace std

@@ -26,26 +26,6 @@ namespace omn
 {
     namespace unicode
     {
-        /*UTF32Character fromISO88592( const byte character ) //TODO
-        {
-            if (character < 160) return character;
-        }
-
-        UTF32Character fromISO88593( const byte character ) //TODO
-        {
-            if (character < 160) return character;
-        }
-
-        UTF32Character fromISO88594( const byte character ) //TODO
-        {
-            if (character < 160) return character;
-        }
-
-        UTF32Character fromISO88595( const byte character ) //TODO
-        {
-            if (character < 160) return character;
-        }*/
-
         UTF32Character fromISO88596( const byte character )
         {
             if (character < 161) return character;
@@ -95,70 +75,6 @@ namespace omn
             }
             return character;
         }
-
-        /*UTF32Character fromISO885910( const byte character ) //TODO
-        {
-            if (character < 160) return character;
-        }
-
-        UTF32Character fromISO885911( const byte character ) //TODO
-        {
-            if (character < 160) return character;
-        }
-
-        UTF32Character fromISO885913( const byte character ) //TODO
-        {
-            if (character < 160) return character;
-        }
-
-        UTF32Character fromISO885914( const byte character ) //TODO
-        {
-            if (character < 160) return character;
-        }
-
-        UTF32Character fromISO885915( const byte character ) //TODO
-        {
-            if (character < 160) return character;
-        }
-
-        UTF32Character fromISO885916( const byte character ) //TODO
-        {
-            if (character < 160) return character;
-        }
-
-        UTF32Character fromWindows1254( const byte character )
-        {
-            if (character > 127)
-            {
-                if ((character == 142) || (character == 158)) return 26;
-                if (character < 160) return CP1252ToUnicodeConversionTable[character - 128];
-                if (character > 239)
-                {
-                    if (character == 222) return 304;
-                    if (character == 223) return 350;
-                    if (character == 240) return 287;
-                }
-                else if ((character & 240) == 208)
-                {
-                    if (character == 190) return 305;
-                    if (character == 191) return 351;
-                    if (character == 208) return 288;
-                }
-            }
-            return character;
-        }
-
-        UTF32Character fromWindows1255( const byte character )
-        {
-            if (character < 128) return character;
-            if (character < 192) return CP1255ToUnicodeConversionTable[character - 128];
-            if (character < 212) return (character + 1264);
-            if (character < 217) return (character + 1308);
-            if (character < 224) return 26;
-            if (character < 251) return (character + 1264);
-            if ((character == 253) || (character == 254)) return (character + 7953);
-            return 26;
-        }*/
 
         namespace UTF8
         {

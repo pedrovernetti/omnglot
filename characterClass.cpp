@@ -27,59 +27,59 @@ namespace // internal parts
     enum internalCharacterClass : byte
     {
         // Class    // External Class
-        XXX    = 0,    // Unassigned
-        CTR,          // Control
+        XXX    = 0, // Unassigned
+        CTR,        // Control
         TAB,        //   HorizontalTab
-        CNL,          //   ControlAndNewline
+        CNL,        //   ControlAndNewline
         CFM,        //   ControlAndFormat
-        FMT,          // Format
-        SPC,          // Whitespace
-        HSP,          //   HorizontalSpace
+        FMT,        // Format
+        SPC,        // Whitespace
+        HSP,        //   HorizontalSpace
         NWL,        //   Newline
-        PUN,          // Punctuation
+        PUN,        // Punctuation
         POW,        // PartOfWord
         PWP,        //   PartOfWordPunctuation
-        NUM,          //   Number
-        DIG,         //     Digit
+        NUM,        //   Number
+        DIG,        //     Digit
         LTN,        //     LetterNumber
         LON,        //       LowercaseNumber
         UPN,        //       UppercaseNumber
-        LTR,         //   Letter
-        LOW,         //     LowercaseLetter
-        TIT,         //     TitlecaseLetter
-        UPP,         //       UppercaseLetter
-        MOD,         //   Modifier
-        NMO,         //     NonSpacingModifier
-        SMO,         //     SpacingModifier
+        LTR,        //   Letter
+        LOW,        //     LowercaseLetter
+        TIT,        //     TitlecaseLetter
+        UPP,        //       UppercaseLetter
+        MOD,        //   Modifier
+        NMO,        //     NonSpacingModifier
+        SMO,        //     SpacingModifier
         LMO,        //       ModifierLetter
-        SYM,         // Symbol
-        MAT,         //   MathSymbol
+        SYM,        // Symbol
+        MAT,        //   MathSymbol
         SYL,        //   LetterAsSymbol
         SYW,        //     LowercaseSymbol
         SYU,        //     UppercaseSymbol
-        PRI,         // Private
-        SUR,         // Surrogate
+        PRI,        // Private
+        SUR,        // Surrogate
         BOM         // ByteOrderMark
     };
 
     const omn::characterClass externalClassTable[33] =
     {
-        omn::characterClass::Unassigned,          omn::characterClass::Control,
-        omn::characterClass::HorizontalTab,         omn::characterClass::ControlAndNewline,
-        omn::characterClass::ControlAndFormat,     omn::characterClass::Format,
+        omn::characterClass::Unassigned,         omn::characterClass::Control,
+        omn::characterClass::HorizontalTab,      omn::characterClass::ControlAndNewline,
+        omn::characterClass::ControlAndFormat,   omn::characterClass::Format,
         omn::characterClass::Whitespace,         omn::characterClass::HorizontalSpace,
-        omn::characterClass::Newline,             omn::characterClass::Punctuation,
+        omn::characterClass::Newline,            omn::characterClass::Punctuation,
         omn::characterClass::PartOfWord,         omn::characterClass::PartOfWordPunctuation,
         omn::characterClass::Number,             omn::characterClass::Digit,
-        omn::characterClass::LetterNumber,          omn::characterClass::LowercaseNumber,
-        omn::characterClass::UppercaseNumber,     omn::characterClass::Letter,
-        omn::characterClass::LowercaseLetter,     omn::characterClass::TitlecaseLetter,
-        omn::characterClass::UppercaseLetter,     omn::characterClass::Modifier,
+        omn::characterClass::LetterNumber,       omn::characterClass::LowercaseNumber,
+        omn::characterClass::UppercaseNumber,    omn::characterClass::Letter,
+        omn::characterClass::LowercaseLetter,    omn::characterClass::TitlecaseLetter,
+        omn::characterClass::UppercaseLetter,    omn::characterClass::Modifier,
         omn::characterClass::NonSpacingModifier, omn::characterClass::SpacingModifier,
         omn::characterClass::ModifierLetter,     omn::characterClass::Symbol,
         omn::characterClass::MathSymbol,         omn::characterClass::LetterAsSymbol,
-        omn::characterClass::LowercaseSymbol,     omn::characterClass::UppercaseSymbol,
-        omn::characterClass::Private,             omn::characterClass::Surrogate,
+        omn::characterClass::LowercaseSymbol,    omn::characterClass::UppercaseSymbol,
+        omn::characterClass::Private,            omn::characterClass::Surrogate,
         omn::characterClass::ControlAndFormat
     };
 
@@ -1546,15 +1546,15 @@ namespace std
     {
         switch (classOf)
         {
-            case 0b00000000000000000001: os << characterClassNamesTable[1]; break;
-            case 0b00000000000000001101: os << characterClassNamesTable[2]; break;
-            case 0b00000000000000010101: os << characterClassNamesTable[3]; break;
-            case 0b00000000000000000011: os << characterClassNamesTable[4]; break;
-            case 0b00000000000000000010: os << characterClassNamesTable[5]; break;
-            case 0b00000000000000000100: os << characterClassNamesTable[6]; break;
-            case 0b00000000000000001100: os << characterClassNamesTable[7]; break;
-            case 0b00000000000000010100: os << characterClassNamesTable[8]; break;
-            case 0b00000000000000100000: os << characterClassNamesTable[9]; break;
+            case 0b00000000000000000001: os << characterClassNamesTable[1];  break;
+            case 0b00000000000000001101: os << characterClassNamesTable[2];  break;
+            case 0b00000000000000010101: os << characterClassNamesTable[3];  break;
+            case 0b00000000000000000011: os << characterClassNamesTable[4];  break;
+            case 0b00000000000000000010: os << characterClassNamesTable[5];  break;
+            case 0b00000000000000000100: os << characterClassNamesTable[6];  break;
+            case 0b00000000000000001100: os << characterClassNamesTable[7];  break;
+            case 0b00000000000000010100: os << characterClassNamesTable[8];  break;
+            case 0b00000000000000100000: os << characterClassNamesTable[9];  break;
             case 0b10000000000000000000: os << characterClassNamesTable[10]; break;
             case 0b10000000000000100000: os << characterClassNamesTable[11]; break;
             case 0b10000000000001000000: os << characterClassNamesTable[12]; break;
