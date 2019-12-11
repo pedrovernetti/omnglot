@@ -1,0 +1,200 @@
+
+## Differentiel rotation
+
+Differentiel rotation (eller superrotation) betegner det forhold, at vinkelhastigheden af et roterende legeme eller system er forskellig, alt efter hvor langt et betragtet punkt er fjernet fra rotationsaksen, dvs. at legemet eller systemet ikke overalt drejer sig med samme fart. Det følger heraf, at et legeme med differentiel rotation ikke udelukkende kan bestå af fast stof. For himmellegemer med differentiel rotation vil vinkelhastigheden variere med breddegraden eller med radius. 
+En differentiel rotation er altid forbundet med en forskydningsspænding.
+
+# Astronomisk differentiel rotation 
+
+# Alment 
+
+Overfladen af Solen, Jupiter og Saturn har differentiel rotation, idet regionerne nær ækvator drejer mærkbart hurtigere end områderne omkring polerne. Derudover udviser også galakser, akkretionsskiver og protostjerner differentiel rotation.
+
+# Jorden 
+
+Der er differentiel rotation mellem Jordens kerne og dens kappe. Den menes at være en følge af strømninger, som geodynamoen forårsager, idet den opbygger og vedligeholder Jordens magnetfelt. Superrotationen er derfor sandsynligvis en følge af – men ikke årsagen til – geodynamoen.
+
+# Solsystemet 
+
+Solsystemet er et eksempel på et system med differentiel rotation: Næsten hele systemets masse er samlet i det centrale himmellegeme, Solen, hvorom planeterne kredser i næsten cirkelformede baner (helt nøjagtigt i Kepler-ellipser). Bevægelsen følger Keplers love: Jo nærmere et himmellegeme er ved den centrale masse, desto hurtigere (forstået både som banehastighed og som vinkelhastighed) må det bevæge sig, når det skal forblive i en konstant/stabil bane. For disse baner gælder:
+
+ 
+ 
+ 
+ v
+ (
+ r
+ )
+ 
+
+ 
+ 
+ 
+ 
+ G
+ M
+ 
+ r
+ 
+ 
+ 
+ 
+
+ 
+ 
+ konstant
+ 
+ r
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle v(r)={\sqrt {\frac {GM}{r}}}={\frac {\text{konstant}}{\sqrt {r}}}}
+ 
+v: Banehastighed
+
+ 
+ 
+ 
+ ω
+ 
+ 
+ {\displaystyle \omega }
+ : vinkelhastighed
+G: Gravitationskonstanten
+r: Store halvakse/Radius
+M: Solmasse (Planetmassen som en lille del af M)af 
+ 
+ 
+ 
+ v
+ 
+
+ ω
+ r
+ 
+ 
+ {\displaystyle v=\omega r}
+ følger:
+
+ 
+ 
+ 
+ ω
+ (
+ r
+ )
+ 
+
+ 
+ 
+ 
+ v
+ (
+ r
+ )
+ 
+ r
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ G
+ M
+ 
+ 
+ r
+ 
+ 3
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ konstant
+ 
+ 
+ r
+ 
+ 3
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \omega (r)={\frac {v(r)}{r}}={\sqrt {\frac {GM}{r^{3}}}}={\frac {\text{konstant}}{\sqrt {r^{3}}}}}
+ 
+Der fås altså:
+
+ 
+ 
+ 
+ v
+ (
+ r
+ )
+ ∼
+ 
+ 
+ 1
+ 
+ r
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle v(r)\sim {\frac {1}{\sqrt {r}}}}
+ 
+
+ 
+ 
+ 
+ ω
+ (
+ r
+ )
+ ∼
+ 
+ 
+ 1
+ 
+ 
+ r
+ 
+ 3
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \omega (r)\sim {\frac {1}{\sqrt {r^{3}}}}}
+ 
+
+# Solens og gasplaneternes egenrotation 
+
+For Solen og gasplaneterne udviser de ækvatoriale områder en kortere rotationstid end polerne.
+Udover, at der er tale om himmellegemer af en vis stivhed, menes årsagen at være, at drejningsmomentet på grund af termiske processer presses mod områderne med størst radius samtidig med, at centrifugalkraften får alt materiale, som ved termisk bevægelse er kommet i særlig stærk bevægelse i omløbsretningen, til at bevæge sig udad.
+
+# Mælkevejen og andre galakser 
+
+I 1927 viste den hollandske astronom Jan Hendrik Oort, at Mælkevejen befinder sig i differentiel rotation. Stjerner nær Mælkevejens centrum har større vinkelhastighed end stjernerne i de ydre regioner. 
+Fra banehastigheder kan der ud fra Newtons tyngdelov drages slutninger om en galakses massefordeling. Det viser sig derved, at banehastighederne ikke aftager med afstanden fra centrum, hvilket ellers skulle formodes ud fra fordelingen af det synlige stof. I nogle galakser stiger hastigheden endog lidt. Forskellen mellem de betragtede banehastigheder og de, der kunne beregnes ud fra den synlige massefordeling førte til den slutning, at der ved siden af den synlige materie måtte findes en anden og usynlig slags, nemlig det såkaldte mørke stof. Et andet forklaringsforsøg er blevet gjort med den såkaldte modificerede newtonske dynamik.
+
+# Litteratur 
+
+Günther Rüdiger: Differential rotation and stellar convection – sun and solar-type stars. (dansk: Differentiel rotation og stjerners konvektion – solen og sollignende stjerner), Gordon and Breach, New York 1989, ISBN 2-88124-066-6.
+Hans C. Zebedin: Neue Versuche zur Bestimmung der differentiellen Rotation von Filamenten. (dansk: Nye forsøg til bestemmelse af den differentielle rotation af filamenter), Diss., Univ. Graz 1993.

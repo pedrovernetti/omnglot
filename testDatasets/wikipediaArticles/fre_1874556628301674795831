@@ -1,0 +1,8 @@
+
+## Principe de Wardrop
+
+En mathématiques, le principe de Wardrop s'énonce ainsi : pour chaque couple d'origine–destination, les chemins utilisés ont le même coût généralisé et celui-ci est inférieur aux coûts des chemins non utilisés. Si, pour un couple origine destination, plusieurs itinéraires sont utilisés, leurs coûts généralisés sont égaux.
+Le coût généralisé est une formule mathématique prenant en compte tous les critères de calcul du chemin (temps, distance, énergie utilisée, usure, etc.). Il est principalement utilisé pour l'étude des réseaux de transport connaissant un niveau de congestion élevé.
+Ce principe doit son nom à l'analyste anglais John Glen Wardrop (en).
+
+ Portail des mathématiques

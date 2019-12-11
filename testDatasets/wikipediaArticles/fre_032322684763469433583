@@ -1,0 +1,42 @@
+
+## FFT-hash
+
+FFT-hash est une fonction de hachage cryptographique conçue par Claus-Peter Schnorr (en) en 1991 et présentée la même année à la conférence Crypto. La fonction produit une empreinte de 128 bits grâce à deux tours. Chacun des stages est une combinaison d'une transformée rapide de Fourier sur le groupe de Galois 
+ 
+ 
+ 
+ G
+ F
+ (
+ 
+ 2
+ 
+ 16
+ 
+ 
+ +
+ 1
+ )
+ 
+ 
+ {\displaystyle GF(2^{16}+1)}
+ d'où le préfixe FFT (fast fourier transform). Un tour fait également appel à une récursion. 
+À la suite de la découverte de failles, Schnorr propose une version améliorée à la conférence Eurocrypt en 1992.
+
+# Cryptanalyse 
+
+En 1991, Joan Daemen et al. découvrent une attaque probabiliste qui permet de trouver des collisions quelconques, les messages distincts ainsi produits ont une longueur de 384 bits. 
+À l'Eurocrypt 92, Henri Gilbert et son équipe annoncent que la fonction a des faiblesses et qu'il est possible de trouver des collisions en une complexité moindre que le paradoxe des anniversaires. Schnorr y apporte des modifications le jour même : FFT-hash-II.
+En 1992, Serge Vaudenay démontre que la deuxième version de la fonction n'est pas plus robuste qu'un hachage sur 48 bits et propose des solutions pour l'améliorer. 
+
+# Voir aussi 
+
+# Article connexe 
+
+Protocole d'authentification de Schnorr
+
+# Liens externes 
+
+(en) Collisions for Schnorr's Hash Function FFT-Hash Presented at Crypto '91, J. Daemen et al., (1991)
+(en) FFT-Hash-II is not yet Collision-free, S. Vaudenay, (1992)
+ Portail de la cryptologie

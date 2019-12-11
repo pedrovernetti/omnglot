@@ -1,0 +1,16 @@
+
+## NAMUR-Sensor
+
+Der NAMUR-Sensor (nach NAMUR – Normenarbeitsgemeinschaft für Mess- und Regeltechnik in der Chemischen Industrie) wurde zuerst im NAMUR-Arbeitsblatt NA01 definiert, welches 2000 in die DIN EN 60947-5-6 (VDE 0660-212:2000-12) überführt wurde. Seit 2002 ist das NAMUR-Arbeitsblatt NA01 zurückgezogen.
+Sensoren nach NAMUR stellen eine binäre Information dar und werden meist als Näherungsinitiator ausgeführt, d. h. der Sensor zeigt an, ob ein Referenzobjekt (z. B. ein Anschlag bei einem beweglichen Maschinenteil) sich in der Nähe befindet oder nicht und funktionieren oft berührungslos. Oft werden induktive Verfahren verwendet, man spricht dann von einem bedämpften Sensor (Sensor erkennt das Referenzobjekt bzw. ist „am Anschlag“), bzw. von einem unbedämpften Sensor (Referenzobjekt wird nicht erkannt, Sensor ist nicht „am Anschlag“).
+NAMUR Sensoren werden mit einem eingeprägten Strom betrieben und haben vier Zustände, so dass auch die Fehlerfälle der Sensoren durch eine analoge Auswerteeinheit erkannt werden können.
+
+Man spricht in diesem Zusammenhang auch vom Ruhestromprinzip.
+Die Betriebsspannung des Feldloops sollte bei 8±1 Volt liegen, die Bürde bei Kurzschluss zwischen 100 und 360 Ohm.
+Eine weitverbreitete Anwendung für NAMUR-Sensoren bzw. NAMUR-Initiatoren sind Endschalter von automatisierten Regel- oder Stellventilen.
+Um, zum Beispiel für Testzwecke, NAMUR-Sensoren zu simulieren, kann folgende Schaltung helfen.
+
+Dabei kann der dargestellte Kontakt ein beliebiger Schalter oder Taster sein. Ebenfalls können handelsübliche Widerstände verwendet werden.
+
+# Einzelnachweise 
+

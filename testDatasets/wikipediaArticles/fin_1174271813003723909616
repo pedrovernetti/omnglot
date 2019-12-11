@@ -1,0 +1,58 @@
+
+## Sähkökentän voimakkuus
+
+Sähkökentän voimakkuus (tunnus E) on sähkökenttää kuvaava suure, joka määritellään kentässä olevaan sähköisesti varattuun hiukkaseen kohdistuvan voiman ja hiukkasen varauksen osamääränä: 
+
+ 
+ 
+ 
+ 
+ E
+ 
+ 
+
+ 
+ 
+ 
+ F
+ 
+ q
+ 
+ 
+ 
+ 
+ {\displaystyle \mathbf {E} ={\frac {\mathbf {F} }{q}}}
+ ,missä F on sähkökentän kohdistama voima hiukkaseen, jonka varaus on q. Sähkökentän suunnaksi määritellään se suunta, johon vapaa, positiivinen testivaraus sähkökentässä liikkuu. Sähkökentän suuntaa ja voimakkuutta kuvataan yleensä kenttäviivoilla, jolloin kenttäviivojen tiheys kuvaa kentän voimakkuutta ja pienet nuolet kertovat kentän suunnan.
+Koska voiman yksikkö SI-järjestelmässä on newton (N) ja varauksen coulombi (C), saadaan sähkökentän voimakkuuden yksiköksi määritelmän perusteella 1 N/C. Koska kuitenkin energian yksikkö joule (J) on newton · metri ja toisaalta jännitteen yksikkö voltti (V) on yksi joule coulombia kohti, on
+1 N/C = 1 J/mC = 1 V/m,
+joten sähkökentän voimakkuus voidaan ilmaista myös voltteina metriä kohti. Tässä muodossa yksikkö tavallisesti ilmaistaankin, koska mittausteknisistä syistä jännitteet ja välimatkat ovat mitattavissa tarkemmin kuin sähkövaraukset ja niihin kohdistuvat voimat. Homogeenisen sähkökentän voimakkuus voidaankin määrittää valitsemalla sieltä kaksi pistettä, joiden välinen yhdysjana on kenttäviivojen suuntainen, mittaamalla niiden välinen jännite ja jakamalla se niiden välisellä etäisyydellä.
+Sähkökentän voimakkuutta E ja sähkövuon tiheyttä D yhdistää seuraava yhtälö, jossa on mukana myös väliaineen permittiivisyys ε:
+
+ 
+ 
+ 
+ 
+ D
+ 
+ 
+
+ ε
+ 
+ E
+ 
+ 
+ 
+ {\displaystyle \mathbf {D} =\varepsilon \mathbf {E} }
+ .Tällaisenaan yhtälö pätee tarkasti vain isotrooppisessa, homogeenisessa aineessa.
+Jonkin sähkökentän aiheuttavan pienikokoisen lähteen ympärillä sähkökenttä pienenee etäisyyden kasvaessa suhteessa etäisyyden neliöön. Kaksinkertaisella etäisyydellä kohteesta kenttä on siis pienentynyt neljäsosaan.
+
+# Katso myös 
+
+Sähköisten suureiden analogiat
+Maxwellin yhtälöt
+Magneettikentän voimakkuus
+
+# Kirjallisuutta 
+
+Lindell, Ismo; Sihvola, Ari: Sähkömagneettinen kenttäteoria 1. Staattiset kentät. Helsinki: Otatieto, 2013. ISBN 978-951-672-354-2. 
+Voipio, Erkki: Sähkö- ja magneettikentät. Moniste 381. Espoo: Otakustantamo, 1987. ISBN 951-672-038-2.

@@ -1,0 +1,15 @@
+
+## Linux Documentation Project
+
+Linux Documentation Project (LDP) udgiver linux-relateret dokumentation i mange formater. Materialet udgives under GFDL. Der er en kendt vedligeholder eller forfatter for hvert dokument, men alle kan lave rettelser ifølge licensen. Rettelser sendes normalt til den aktuelle vedligeholder af dokumentet, så flest mulige får glæde af rettelsen.
+Der er følgende slags dokumenter:
+
+HOWTOs – Trinvis beskrivelser af hvordan en opgave udføres. Det kunne for eksempel være opsætning af en bestemt type hardware.
+Guider – Lange detaljerede beskrivelser af et sammenhængende emne. Der findes eksemopelvis en om linux på bærbare computere.
+FAQ – Svar til ofte stillede linuxspørgsmål.
+man pages – Dokumentation af de enkelte linuxprogrammer og funktioner.
+Tidsskrifterne Linux Gazette og LinuxFocus.
+
+# Eksterne henvisninger 
+
+Linux Documentation Project – hjemmeside

@@ -1,0 +1,117 @@
+
+## Lineares Komplementaritätsproblem
+
+Das lineare Komplementaritätsproblem (LKP, engl. linear complementarity problem) ist ein mathematisches Problem aus der Linearen Algebra.
+Gegeben sei eine reelle Matrix 
+ 
+ 
+ 
+ M
+ ∈
+ 
+ 
+ R
+ 
+ 
+ n
+ ×
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle M\in \mathbb {R} ^{n\times n}}
+ und ein reeller Vektor 
+ 
+ 
+ 
+ q
+ ∈
+ 
+ 
+ R
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle q\in \mathbb {R} ^{n}}
+ , dann finde Vektoren 
+ 
+ 
+ 
+ x
+ ,
+ y
+ ∈
+ 
+ 
+ R
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle x,y\in \mathbb {R} ^{n}}
+ so, dass die drei Bedingungen gelten:
+
+ 
+ 
+ 
+ y
+ 
+
+ M
+ x
+ +
+ q
+ 
+ ,
+ 
+ 
+ x
+ ,
+ y
+ ≥
+ 0
+ 
+ ,
+ 
+ 
+ 
+ x
+ 
+ i
+ 
+ 
+ 
+ y
+ 
+ i
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle y=Mx+q~,~~x,y\geq 0~,~~x_{i}y_{i}=0}
+ für alle 
+ 
+ 
+ 
+ i
+ 
+ 
+ {\displaystyle i}
+ Eine eindeutige Lösung für dieses Problem existiert genau dann, wenn M eine P-Matrix ist, das heißt, dass alle prinzipalen Minoren der Matrix M strikt positiv sind. Verschiedene Algorithmen (u. a. Lemkes Algorithmus, oder mittels Unique Sink Orientations) zur Lösung von linearen Komplementaritätsproblemen sind bekannt.
+Lineare Komplementaritätsprobleme tauchen in der Praxis z. B. in der Spieltheorie oder als Optimalitätsbedingungen (KKT) eines quadratischen Programms auf.
+Das Problem wurde 1968 von Richard Warren Cottle und George Dantzig eingeführt.
+
+# Literatur 
+
+Richard W. Cottle, Jong-Shi Pang, Richard E. Stone: The linear complementarity problem, Academic Press 1992, SIAM 2009

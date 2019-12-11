@@ -1,0 +1,566 @@
+
+## Binomiális eloszlás
+
+Az X valószínűségi változó n és p paraméterű binomiális eloszlást követ – vagy rövidebben binomiális eloszlású – pontosan akkor, ha
+
+ 
+ 
+ 
+ 
+ P
+ 
+ (
+ X
+ 
+
+ k
+ )
+ 
+
+ 
+ 
+ 
+ (
+ 
+ 
+ n
+ k
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ p
+ 
+ k
+ 
+ 
+ (
+ 1
+ −
+ p
+ 
+ )
+ 
+ n
+ −
+ k
+ 
+ 
+ ,
+ 
+ (
+ k
+ 
+
+ 0
+ ,
+ 1
+ ,
+ 2
+ ,
+ …
+ ,
+ n
+ )
+ ,
+ 
+ 
+ {\displaystyle \mathbf {P} (X=k)={\binom {n}{k}}p^{k}(1-p)^{n-k},\quad (k=0,1,2,\ldots ,n),}
+ 
+ahol 
+ 
+ 
+ 
+ 0
+ ≤
+ p
+ ≤
+ 1
+ 
+ 
+ {\displaystyle 0\leq p\leq 1}
+ .
+Azt, hogy az X valószínűségi változó n és p paraméterű binomiális eloszlást követ, a következő módon szoktuk jelölni: X ∼ B(n,p).
+Speciálisan, ha X ∼ B(1,p), akkor X-et Bernoulli-eloszlásúnak nevezzük.
+
+# A képlet szemléletes jelentése 
+
+A binomiális eloszlású valószínűségi változóval a visszatevéses mintavétel ragadható meg, vagyis olyan helyzeteket lehet vele modellezni, ahol egy véletlen kísérletet tetszőlegesen sokszor lehet megismételni ugyanolyan körülmények között, miközben azt figyeljük meg, hogy az n ismétlés során hányszor következett be egy adott esemény. A képletben az esemény bekövetkezésének gyakoriságát jelöli k – ez magyarázza a k = 0, 1, 2, …, n feltételt –, a figyelemmel követett esemény valószínűségét pedig p – ami pedig a 0 < p < 1-et.
+Húzzunk például egy pakli magyar kártyából egy lapot, nézzük meg, hogy makk-e a húzott lap színe, majd tegyük vissza, keverjük meg a paklit, és húzzunk újra. Ha a húzást mondjuk ötször ismételjük ezzel az eljárással, akkor a binomiális eloszlás adja meg annak a valószínűségét, hogy k = 0, 1, 2, 3, 4 vagy 5 esetben húztunk makkot.
+Gondoljuk át, hogy mi is a valószínűsége annak, hogy az öt húzott lap közül mondjuk háromnak lesz a színe makk. Tetszőleges húzás esetén a makk színű lap húzásának valószínűsége 1/4, hiszen a lapok 1/4-e makk színű, így az egyéb színek húzásának valószínűsége 3/4. Emiatt annak a valószínűsége, hogy például az első három húzás lesz makk, és a második kettő nem, az pontosan ¼·¼·¼·¾·¾ = (1/4)3·(3/4)2 lesz. De természetesen nem csak így állhat elő az a helyzet, hogy az öt húzott kártyából pontosan háromnak makk a színe. Lehet, hogy az utolsó három lap makk színű, lehet, hogy az első, a harmadik, az ötödik stb. Ezeknek a lehetőségeknek egyenként mindig (1/4)3·(3/4)2 a valószínűsége, így csak az a dolgunk, hogy összeszámoljuk hányféle sorrendben húzható három makk és két nem makk színű lap. Ez megegyezik azzal, ahányféleképpen egy ötelemű halmazból három elem kiválasztható, vagyis kombinatorikából tudjuk, hogy 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 5
+ 3
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {5 \choose 3}}
+ -mal. Így az eredeti kérdésre a válaszunk: annak a valószínűsége, hogy a magyar kártyából visszatevéssel öt lapot húzva pontosan háromszor húzunk makk színű lapot,
+
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 5
+ 3
+ 
+ 
+ )
+ 
+ 
+ 
+ (
+ 1
+ 
+ /
+ 
+ 4
+ 
+ )
+ 
+ 3
+ 
+ 
+ (
+ 3
+ 
+ /
+ 
+ 4
+ 
+ )
+ 
+ 2
+ 
+ 
+ .
+ 
+ 
+ {\displaystyle {5 \choose 3}(1/4)^{3}(3/4)^{2}.}
+ 
+Ugyanezzel a gondolatmenettel kapjuk annak a valószínűségét, hogy pontosan 2, 4 vagy általában k darab makk színű lapot húzunk az öt húzás alatt. Ez k-ra (k = 0, 1, …, 5)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 5
+ k
+ 
+ 
+ )
+ 
+ 
+ 
+ (
+ 1
+ 
+ /
+ 
+ 4
+ 
+ )
+ 
+ k
+ 
+ 
+ (
+ 3
+ 
+ /
+ 
+ 4
+ 
+ )
+ 
+ 5
+ −
+ k
+ 
+ 
+ .
+ 
+ 
+ {\displaystyle {5 \choose k}(1/4)^{k}(3/4)^{5-k}.}
+ 
+Látható, hogy az 5 és 1/4 paraméterű binomiális eloszlás képletét kaptuk meg.
+Itt most a véletlen kísérletünk a lap húzása és annak megfigyelése volt, hogy a húzott lap makk színű-e vagy nem. Azt hogy ezt a kísérletet többször ugyanolyan körülmények között lehetett megismételni, éppen a húzott lap visszatevése tette lehetővé. Gondoljuk meg, hogy amennyiben nem tesszük vissza a lapot, és elsőre makkot húzunk, akkor a második makk húzásának valószínűsége már nem 1/4, hiszen már nem a lapok 1/4-e makk színű, hanem csak 7/31-e. (Ezt a fajta mintavételt, a visszatevés nélküli mintavételt a hipergeometrikus eloszlással tudjuk leírni.) Az adott esemény, amit az 5 ismétlés során megfigyeltünk, az volt, hogy hányszor következik be makk színű lap húzása.
+Hasonlóan, ha egy erdőben ücsörögve egy erdei iramszarvas populáció tagjait figyeljük meg egy lesről, és tudjuk, hogy ebben a populációban az erdei iramszarvasok 10%-a zöldhátú, akkor annak a valószínűségét, hogy 11 megfigyelt erdei iramszarvasból pontosan k lesz zöldhátú, a 11 és 1/10 paraméterű binomiális eloszlás írja le.
+
+# A binomiális eloszlást jellemző függvények 
+
+Karakterisztikus függvénye
+
+ 
+ 
+ 
+ φ
+ (
+ t
+ )
+ 
+
+ (
+ 1
+ −
+ p
+ +
+ p
+ 
+ e
+ 
+ i
+ t
+ 
+ 
+ 
+ )
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \varphi (t)=(1-p+pe^{it})^{n}}
+ Generátorfüggvénye
+
+ 
+ 
+ 
+ G
+ (
+ z
+ )
+ 
+
+ (
+ 1
+ −
+ p
+ +
+ p
+ z
+ 
+ )
+ 
+ n
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle G(z)=(1-p+pz)^{n}\,}
+ 
+
+# A binomiális eloszlást jellemző számok 
+
+Várható értéke
+
+ 
+ 
+ 
+ 
+ E
+ 
+ (
+ X
+ )
+ 
+
+ n
+ p
+ 
+ 
+ {\displaystyle \mathbf {E} (X)=np}
+ Szórása
+
+ 
+ 
+ 
+ 
+ D
+ 
+ (
+ X
+ )
+ 
+
+ 
+ 
+ n
+ p
+ (
+ 1
+ −
+ p
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle \mathbf {D} (X)={\sqrt {np(1-p)}}}
+ Momentumai
+
+Harmad és negyedrendű centrált momentumai
+ 
+ 
+ 
+ 
+ E
+ 
+ (
+ X
+ −
+ 
+ E
+ 
+ (
+ X
+ )
+ 
+ )
+ 
+ 3
+ 
+ 
+ 
+
+ n
+ p
+ (
+ 1
+ −
+ p
+ )
+ (
+ 1
+ −
+ 2
+ p
+ )
+ 
+ 
+ {\displaystyle \mathbf {E} (X-\mathbf {E} (X))^{3}=np(1-p)(1-2p)}
+ 
+ 
+ 
+ 
+ 
+ E
+ 
+ (
+ X
+ −
+ 
+ E
+ 
+ (
+ X
+ )
+ 
+ )
+ 
+ 4
+ 
+ 
+ 
+
+ 3
+ (
+ n
+ p
+ (
+ 1
+ −
+ p
+ )
+ 
+ )
+ 
+ 2
+ 
+ 
+ +
+ n
+ p
+ (
+ 1
+ −
+ p
+ )
+ (
+ 1
+ −
+ 6
+ p
+ (
+ 1
+ −
+ p
+ )
+ )
+ 
+ 
+ {\displaystyle \mathbf {E} (X-\mathbf {E} (X))^{4}=3(np(1-p))^{2}+np(1-p)(1-6p(1-p))}
+ Ferdesége
+
+ 
+ 
+ 
+ 
+ β
+ 
+ 1
+ 
+ 
+ (
+ X
+ )
+ 
+
+ (
+ 1
+ −
+ 2
+ p
+ )
+ 
+ 
+ n
+ p
+ (
+ 1
+ −
+ p
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle \beta _{1}(X)=(1-2p){\sqrt {np(1-p)}}}
+ Lapultsága
+
+ 
+ 
+ 
+ 
+ β
+ 
+ 2
+ 
+ 
+ (
+ X
+ )
+ 
+
+ 
+ 
+ 
+ (
+ 1
+ −
+ 6
+ p
+ (
+ 1
+ −
+ p
+ )
+ )
+ 
+ 
+ (
+ n
+ p
+ (
+ 1
+ −
+ p
+ )
+ )
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \beta _{2}(X)={\frac {(1-6p(1-p))}{(np(1-p))}}}
+ 
+
+# Binomiális eloszlású valószínűségi változó néhány fontosabb tulajdonsága 
+
+Binomiális eloszlású független valószínűségi változók összege is binomiális eloszlású – ha azonos a p paraméterük. Pontosabban ha X1 ∼ B(n1,p) és X2 ∼ B(n2,p) független valószínűségi változók, akkor X1 + X2 ∼ B(n1 + n2, p). Ugyanekkor X1 feltételes eloszlása X1 + X2 = n -re vonatkozóan hipergeometrikus.A binomiális eloszlás standardizáltja aszimptotikusan normális eloszlású. Vagyis X ∼ B(n,p) esetén
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+ −
+ n
+ p
+ 
+ 
+ n
+ p
+ (
+ 1
+ −
+ p
+ )
+ 
+ 
+ 
+ ⇒
+ N
+ (
+ 0
+ ,
+ 1
+ )
+ ,
+ 
+ n
+ →
+ ∞
+ 
+ 
+ {\displaystyle {\frac {X-np}{\sqrt {np(1-p)}}}\Rightarrow N(0,1),\quad n\rightarrow \infty }
+ Ha viszont az n úgy tart a végtelenbe, hogy hogy közben np konstans marad (p így nyilván a 0-hoz tart), akkor határeloszlásként Poisson-eloszlást kapunk.
+
+# További információk 
+
+Interaktív Java szimuláció a binomiális eloszlásról érmedobással modellezve. Szerzők: Kyle Siegrist & Dawn Duehring
+Magyarított Flash szimuláció a Galton-deszkáról. Szerző: Duncan Keith
+
+# Források 
+
+Bognár J.-né – Mogyoródi J. – Prékopa A. – Rényi A. – Szász D. (2001): Valószínűségszámítási feladatgyűjtemény. Typotex Kiadó, Budapest.
+Fazekas I. (szerk.) (2000): Bevezetés a matematikai statisztikába. Kossuth Egyetemi Kiadó, Debrecen.

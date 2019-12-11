@@ -1,0 +1,247 @@
+
+## Argumentationsteori
+
+Argumentationsteori er en af de underdiscipliner man finder inden for filosofi.
+Sammen med logik, der er en anden af filosofiens underdiscipliner, så undervises man i argumentationsteori i at argumentere for sine synspunkter.
+Dette indbefatter at man lærer at identificere grundelementerne i argumenter, for dermed at kunne gennemskue eller redegøre for styrken af andres måde at argumentere på
+samt forme logisk konsistente, gyldige, fejlslutningsfrie og/eller induktionsstærke argumenter selv.
+
+# Grundlæggende ting 
+
+# Argumenter 
+
+Et argument består altid af mindst to elementer: Påstand og begrundelse.
+Per argument er der dog som regel kun én overordnet påstand, som indehaveren forsøger at overbevise andre om, og en eller flere tilhørende begrundelser.
+Man kalder også disse for præmisser (begrundelserne) og konklusion (påstanden).
+
+# Forklaringer 
+
+Hvor et argument forsøger at overbevise om at noget ér på en bestemt måde, så forsøger en forklaring at påpege hvorfor dette er sådan.
+Man kan også sige at et argument har tryk på præmisserne, hvor en forklaring har tryk på konklusionen.
+
+# Information 
+
+Information er hverken et argument eller en forklaring, da det hverken arbejder med præmisser eller konklusioner.
+Det indeholder med andre ord ikke nogen grund til at tro det og har derfor ingen personlig mening tilknyttet det, i modsætning til påstande.
+
+# Påstande 
+
+En påstand er et forsøg på at overbevise om noget, men til forskel fra et argument, så har en påstand i sig selv ingen begrundelse.
+Påstande indeholder derfor også mindre styrke end argumenter, da begrundelse spiller en vigtig rolle i vores afklaring af, hvad der er sandt og falsk.
+For begrundelse giver os muligheden for personligt at anskue hvad der ligger bag dannelsen af en given påstand.
+Yderligere kan man sige, at påstande af natur altid må indeholde et grundled og et udsagnsled, og at de altid må kunne være enten sande eller falske.
+
+# Begrundelser 
+
+En begrundelse er en uddybelse af en påstand.
+En uddybelse selv er brugen af andre ord. Ikke en gentagelse af påstanden.
+Endvidere er det kun begrundelserne i et argument, der har en begrundende funktion (begrundende for påstanden). Påstanden selv er aldrig begrundende.
+Begrundelser må, ligesom påstande, desuden altid indeholde et grundled og et udsagnsled, og må også altid kunne være enten sande eller falske.
+
+# Barmhjertighedsprincippet 
+
+Af og til kan et udsagn være formuleret på en måde, hvor det bliver uklart for en om det er et argument eller en forklaring.
+Her må man se på hvad afsenderens intention med udsagnet var for at afgøre dets natur.
+Kan man dog ikke udpege intentionen, fx pga. at udsagnet udtrykkes i en tekst man læser, så må man se på hvordan udsagnet fremtræder stærkest,
+hvis man skal forme så stærkt et modargument som muligt selv:
+Dette er hvad barmhjertighedsprincippet går ud på: At vælge den stærkeste fortolkning over den svageste.
+Man lader tvivlen komme indehaveren af udsagnet til gode.
+
+# Standardisering 
+
+At standardisere vil sige at man skærer udsagn op i deres bestanddele for dermed at gennemskue om de er argumenter eller forklaringer og/eller om de er stærke eller svage af natur.
+Der er flere måder man kan gøre dette på.
+Med udgangspunkt i følgende tekstuddrag fra René Descartes’ værk Meditationer over den første filosofi, så gives her et eksempel på hvordan man kan standardisere via to måder:
+
+# Numerisk og/eller alfabetisk opdeling 
+
+1: The only alternative is that the idea (of God) is innate in me, just as the idea of myself is innate in me.
+1.a: I have not received this idea through the senses.
+1.a.a: The idea is never presented to me unexpectedly.
+1.a.b: It is usual with the ideas of sensible things to present themselves unexpectedly.
+2.a: Nor is the idea likewise a fiction of my mind.
+2.a.a: It is not in my power to take from or add anything to the idea.
+
+"1" repræsenterer her konklusionen. Alle efterfølgende opdelinger er præmisserne til denne.
+"1.a" er dermed en præmis til "1", på samme måde som "1.a.a" og "1.a.b" er underpræmisserne til præmis "1.a".
+Præmisser kan potentielt set have uendelige underpræmisser, men her nøjes vi med noget begrænset.
+"2.a" er en anden præmis til for at begrunde konklusionen. Denne begrundes af underpræmissen "2.a.a".Til denne form for standardisering kan man også udelukkende bruge tal (fx 1.1 i stedet for 1.a), bogstaver (fx A.a i stedet for 1.a),
+eller man kan bytte rundt på tallene og bogstaverne (fx A.1 i stedet for 1.a),
+så længe man blot er konsistent med ens opdelingsmetode igennem ens standardisering.
+
+# Diagram 
+
+Billede kunne ikke uploades.
+
+# Nødvendige og tilstrækkelige betingelser 
+
+Kortfattet kan man sige at nødvendige betingelser indikerer, at noget nødvendigvis må være tilfældet, hvor tilstrækkelige betingelser indikerer, at noget kan være tilfældet.
+Visuelt kan man se det på denne måde:
+Forestil dig en stor cirkel med en mindre cirkel inden i.
+Den store cirkel repræsenterer en nødvendig betingelse, og den mindre cirkel en tilstrækkelig betingelse.
+For at give mere mening til dette billede, så erstat den store cirkel med "Hund" og den lille cirkel inden i med “Chiuaua”.
+Dette er nu tilsvarende til erklæringen i, at alle Chiuauaer er hunde.
+Folk kan af og til bytte rundt på nødvendige og tilstrækkelige betingelser, hvormed at ende i fejlslutninger.
+Fx er det ikke tilfældet at alle hunde er Chiuauaer, da nogle hunde er af andre racer.
+Af denne grund kan betingelserne være hensigtsmæssige at kende til.
+
+# Deduktivitet og induktivitet 
+
+# Deduktivitet 
+
+Når man er deduktiv, så betyder det at man udfolder de elementer af viden man allerede har.
+Hvad menes der med det?
+Se på følgende eksempel:
+Præmis 1: Alle mennesker er dødelige.
+Præmis 2: Sokrates er et menneske.
+Konklusion: Derfor er Sokrates dødelig.
+Konklusionen findes i præmisserne.
+Herudover bevæger man sig typisk fra en observation om noget generelt (alle mennesker)
+til en erklæring om noget specifikt (Sokrates).
+
+# Induktivitet 
+
+Når man er induktiv, så forsøger man at udtale sig om det man ikke har observeret endnu.
+For eksempel:
+Præmis 1: Denne, første svane er hvid.
+Præmis 2: Denne, næste svane er hvid.
+Konklusion: Derfor er alle svaner hvide.
+Man forsøger at lave en generalisering, der enten gælder for det næste eksemplar man støder på,
+eller for alle fremtidige eksemplarer af det man udtaler sig om.
+Bemærk at man her, til forskel fra den deduktive fremgang, typisk går fra en observation om noget specifikt (individuelle svaner) til en erklæring om noget generelt (alle svaner).
+En yderligere forskel i mellem deduktiv og induktiv fremfærd er, at man i det induktive kun arbejder med sandsynlighed, bl.a. pga. Induktionsproblemet.
+I deduktiv fremfærd arbejder man derimod med nødvendighed, da konklusionen nødvendigvis må være sådan, ud fra et logisk perspektiv.
+
+# Konvergent og divergent tænkning 
+
+# Konvergent tænkning 
+
+I konvergent tænkning gennemgår man enkelte dele af viden for at sammensætte en konklusion.
+Det kan også evt. betyde at man gennemgår delene for at udpege den del eller de dele, som i en given sammenhæng enten er blevet fastsat som rigtig/rigtige,
+eller som fremstår for en som det mest sandsynlige svar iblandt de dele man har.
+
+# Divergent tænkning 
+
+Ved divergent tænkning starter man omvendt fra en given mængde af information, fx en konklusion,
+og overvejer herudfra hvilke mulige svar, der kan være til at informationsmængden/konklusionen er som den er (fx via fortolkning), eller om man kan finde undtagelser.
+Man delegerer ikke kun opmærksomhed til at finde de muligheder, der fx virker åbenlyse eller er blevet påpeget af andre,
+men til alle de muligheder, der ér i forhold til den givne information man har.
+Begge former for tænkning er relevante at kende til,
+
+da man kan risikere at ende med kun at anvende én af dem, hvis ikke man er opmærksom på sig selv i forhold til begge.
+da stærke argumenter formes af sind, der er i stand til, bevidst, at ransage sine egne argumenter via begge måder.
+
+# Fejlslutninger 
+
+Fejlslutninger er inkonsistente og/eller tvetydige og/eller ikke-følgende og/eller usande måder at tænke på, logisk og/eller empirisk set.
+Der er flere typer af dem:
+
+Formelle: Hvor konklusionen ikke følger logisk af præmisserne (og hvor argumentet dermed er ugyldigt).
+Uformelle: Hvor præmissen og/eller konklusionen ikke er sand (og hvor argumentet, eller dele af det, dermed er usandt).
+Sproglige: Hvor der er tvetydighed og/eller semantisk inkonsistens i argumentet, som påvirker dets gyldighed, sandhed og/eller egentlige status som argument.Fælles for alle typer af fejlslutninger er, at de på ingen måde gør argumenter mere sande og/eller gyldige. Tvært imod.
+Hvorfor lære om fejlslutninger?
+1. Fordi at evnen til at arbejde med styrken af argumenter har en lige så stor rolle at spille i diskussioner som evnen til at genkende samt forme argumenterne selv har.
+2. Fordi det at blive bevidst om fejlslutninger, i forlængelse af de grundlæggende ting, kan være med til at opøve vores evne til at arbejde med argumenters styrke.
+
+# Eksempler på fejlslutninger 
+
+Personligt angreb: Man angriber personen frem for bolden/argumentet.
+Stråmand: Man misrepræsenterer/forvrænger andres argumenter på en eller flere måder når man gengiver dem i sine modargumenter (ligesom en stråmand er en misrepræsentation af en levende person).
+Personlig skepsis: Man afviser et argument fordi man ikke forstår det, fordi det er svært at forstå generelt eller fordi det ikke er i overensstemmelse med ens egne, selektive rammer for hvordan sandheder erkendes.
+Intimidering: Man fremsætter meget kompleks viden og antager at folk, der ikke kan forholde sig til det tager fejl.
+Naivitet: Man antager at folk har ret fordi de kan fremsætte kompleks viden.
+Trussel: Man truer modparten for at få vedkommende til at opgive sit argument.
+Misledning: Man afleder samtalen fra hovedpunkterne i ens argument for fx at lede folk væk fra erkendelsen af hvor utilstrækkeligt det er.
+Afbrydelse: Man afbryder sin modpart, evt. på gentagende vis, for fx at holde folk fra at indse hvor utilstrækkelig ens argument er.
+Frustrationskneb: Man frustrerer modparten for fx at udstille vedkommende i et dårligt lys for dem man søger at overbevise.
+Udeblivende begrundelse: Man påstår at noget er sandt/falsk, fx på grundlag af “at sådan har man det bare”.
+Falsk dilemma: Man opstiller et ultimatum, som ikke indbefatter alle mulighederne.
+Falsk dikotomi: Man stiller muligheder op imod hinanden som om de er gensidigt udelukkende, selvom de ikke er.
+Utilstrækkelig begrundelseFlertallet: Man hævder noget er sandt/falsk fordi flertallet mener det.
+Autoritet: Man hævder noget er sandt/falsk fordi en eller flere autoriteter mener det/fordi man selv er en autoritet, eller også henviser man til en autoritet, der ikke er offentlig anerkendt som autoritet.
+Tradition: Man hævder noget er sandt/falsk fordi det er en del af en tradition/fordi man altid har gjort det/har gjort det i lang tid.
+Innovation: Man hævder at noget er sandt/falsk fordi det er en del af en innovation/fordi man aldrig har gjort det/har gjort det i kort tid.Selvom påstandene i disse fejlslutninger evt. er sande, så er begrundelserne utilstrækkelige, da begrundelseskilden i sig selv ikke altid har ret eller forudsætter korrekthed.
+
+Appel til følelser: Man kører på folks følelser, frem for logiske og empiriske omstændigheder.Eksempel: Advokaten, der kører på hvor synd det er, at ofret har mistet sit barn (sympati).
+Dette har intet at gøre med hvorvidt den mistænkte udførte forbrydelsen, eller ej.
+Andre følelser, der kan køres på inkluderer vrede, glæde, sorg, håb, lettelse, frygt, afsky, skam, flovhed, jalousi, hengivenhed, ømhed, tillid, forventning, overraskelse, bekymringsløshed, forvirring.
+
+Ubegrundet antagelse: Man antager, evt. på implicit vis, at ens konklusion er ubetvivleligt sand, selvom den er tvivlsom.
+Cirkulært ræsonnement: Man fremsætter en præmis, som begrundes af konklusionen, som begrundes af præmissen etc..En konklusion har, så længe det ér en konklusion, aldrig en begrundende funktion.
+Dette er præmissernes formål.
+
+Selektiv mentalitet: Man udvælger kun de eksempler som støtter ens argument, selvom der også tydeligvis er eksempler, der underminerer det.
+Generalisering: Man laver en fejlagtig/utilstrækkeligt begrundet generalisering.
+Appel til ignorance:Man hævder at noget er sandt fordi det ikke er blevet bevist som falsk.
+Man hævder at noget er falsk fordi det ikke er blevet bevist som sandt.Fordi man endnu ikke har bevist/modbevist eller kán bevise/modbevise en påstand, så betyder det ikke at denne dermed er sand/falsk.
+Blot at den endnu ikke er bevist/modbevist eller kan bevises/modbevises.
+
+Dom ved ønskning:Man afviser et argument som falsk fordi det taler imod noget man ønsker skal være tilfældet.
+Man anerkender et argument som sandt fordi det bakker op om noget man ønsker skal være tilfældet.Hvad der ér sandt/falsk afgøres ikke nødvendigvis af hvad man gerne vil have skal være det.
+
+Øjeblikkelig alvidenhedskrav: Man hævder at andre tager fejl fordi de ikke kan redegøre for alle implikationerne af deres argument her og nu.Et argument bliver ikke mindre sandt/gyldigt af at indehaveren fx ikke husker visse dele af argumentet.
+Endvidere kan redegørelsen af visse ting også kræve eftertanke.
+
+Spørgsmålsbombardering: Man stiller en overvældende række spørgsmål og antyder at den udspurgte tager fejl pga. manglende besvarelse af dem alle.
+Naturalistisk fejlslutning: Man hævder at fordi noget ér tilfældet, så bør det også være det (hvad end “bør’et” så henviser til at der vil blive opnået).
+Appel til naturen: Man hævder at fordi noget er naturligt, så må det også være godt (hvad end “godt” så betyder).
+Ingen sand skotte: Man omformulerer kontinuerligt sin påstand i forlængelse af, at et underminerende modeksempel kontinuerligt fremsættes af andre.Fejlslutningen her er at man søger at vinde argumentet i højere grad end man søger at påvise noget om verden.
+
+Glidebane: Man antager fejlagtigt at en hændelse vil lede til bestemte, absurde konsekvenser.Konsekvenserne bliver absurde af natur pga. manglende redegørelse for leddene af ens konsekvensudregning.
+
+Falsk anekdote: Man afskriver en generel tendens eller statistik på grundlag af en personlig erfaring eller et andet, isoleret eksempel.At man selv oplever noget afvigende betyder ikke at tendensen ikke gælder for andre.
+
+Falsk kompromis: Man antager fejlagtigt at sandheden/gyldigheden må ligge i midten af to, modstridende argumenter.
+Appel til hykleri: Man hævder at man fx kan begå en lovovertrædelse uden konsekvenser fordi at andre også gør det.
+Ladet spørgsmål: Man stiller et forudindtaget spørgsmål så den udspurgte ikke kan andet end at fremstå fx skyldig/utroværdig el. lign. i besvarelsen af det.
+Komposition: Man hævder fejlagtigt at fordi noget gælder for en ting, så må dette også gælde for alle tingens bestanddele.
+Division: Man hævder fejlagtigt at fordi noget gælder for en tings bestanddele, så må dette også gælde for tingen som helhed.
+Forhastet konklusion: Man danner en fejlagtig konklusion ud fra at drage antagelser, som ikke eksplicit er blevet be- eller afkræftet af den/dem man diskuterer med.
+Førfølge/samtidighed/efterfølge og årsag: Man hævder at en ting har forårsaget eller påvirket en anden ting, fordi de er sket samtidigt/fordi den ene skete før den anden/fordi den anden skete efter den første.At ting sker tidsmæssigt i forlængelse af hinanden/samtidigt betyder ikke nødvendigvis at de sker pga. hinanden. De kan også ske pga. egne, uafhængige årsager.
+
+Utilstrækkelig analogi: Man sammenligner ting som om de er mere ens end hvad de ér, eller antyder at de nødvendigvis leder til samme, bestemte ting, når de ikke nødvendigvis gør.
+Semantisk inkonsistens: Man bruger begreber på en måde, så de får forskellig betydning i ens argument.
+Tvetydighed: Man formulerer sit argument så det kan forstås på flere måder og at ens pointe dermed bliver uklar.For at kunne be- eller afkræfte et argument, så må det være klart hvad argumentet antyder.
+
+Konsistensløs tale: Man siger noget så generelt, at ingen kan være hverken enig eller uenig.I forhold til argumenter, så bøjer man her kravet om at påstande samt begrundelser må kunne være sande/falske i en grad, der svarer til helt at ignorere kravet.
+
+Fejlslutningsfejlslutning: Man hævder at fordi modparten har begået en fejlslutning, så tager vedkommende fejl.En konklusion og/eller præmis kan stadig være sand, selvom argumentet er ugyldigt.
+
+Ugyldighed: Man konkluderer noget, som ikke følger af præmisserne.
+Usandhed: Man konkluderer noget, som logisk og empirisk set ikke kan være andet end falsk.
+Inkonsistens: Man modsiger sig selv.
+
+# Tankelovene 
+
+For både at kunne være konsistent i egne argumenter samt være i stand til at bemærke uoverensstemmelser i andres argumentation, så må man kende til de grundlæggende principper inden for logik. Disse inkluderer hhv. kontradiktionsprincippet, den udelukkede midte og identitetsloven.
+
+# Se også 
+
+Retorisk argumentationInduktion (matematik)
+
+# Referencer 
+
+Indholdet af emnerne i denne artikels indholdsfortegnelse refererer til følgende litteratur:Grundlæggende ting:
+
+LeBlanc, Jill. "Thinking Clearly".
+P. Lee, Stephen. "What is the Argument".
+Fisher, Alec. "The logic of real arguments".Standardisering:
+
+Govier, Trudy. 'Govier 2005'.Nødvendige og tilstrækkelige betingelser:
+
+Betz, Frederick (2011). Managing Science: Methodology and Organization of Research. New York: Springer.
+Manktelow, K.I. (1999). Reasoning and Thinking. East Sussex, UK: Psychology Press.
+Asnina, Erika; Osis, Janis & Jansone, Asnate (2013). "Formal Specification of Topological Relations". Databases and Information Systems VII".Deduktivitet og induktivitet:
+
+Carveth Read, Logic: Deductive and Inductive (Illustrated Edition). Dodo Press.Konvergent og divergent tænkning:
+
+S. Kuhn, Thomas. "The Essential Tension".
+Cropley, Arthur (2006). "In Praise of Convergent Thinking".
+Guilford, J.P.. "Guilford 1977".Fejlslutninger:
+
+Bentham, Jeremy. "Book of Fallacies".
+Bennet, Bo. "Logically Fallacious: The Ultimate Collection of Over 300 Logical Fallacies (Academic Edition)".
+
+# Ekstern henvisning 
+
+Filosoffen - Fejlslutninger

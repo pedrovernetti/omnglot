@@ -1,0 +1,167 @@
+
+## Sternbildungsrate
+
+Die Sternbildungsrate (auch: Sternentstehungsrate, englisch Star Formation Rate – abgekürzt SFR) beschreibt den zeitlichen Verlauf der Sternentstehung in einer Galaxie. Es handelt sich um einen wichtigen Parameter zum Verständnis der Galaxienentwicklung. Üblicherweise wird die Sternentstehungsrate angegeben in Sonnenmassen pro Jahr.
+Eine verwandte Größe ist die Flächendichte 
+ 
+ 
+ 
+ 
+ Σ
+ 
+ SFR
+ 
+ 
+ 
+ 
+ {\displaystyle \Sigma _{\text{SFR}}}
+ der Sternentstehungsrate. Sie gibt an, wie viele Sterne pro Jahr und pro Flächeneinheit einer Scheibengalaxie entstehen:
+
+ 
+ 
+ 
+ 
+ Σ
+ 
+ SFR
+ 
+ 
+ 
+
+ 
+ 
+ 
+ S
+ F
+ R
+ 
+ A
+ 
+ 
+ 
+ 
+ {\displaystyle \Sigma _{\text{SFR}}={\frac {SFR}{A}}}
+ und wird daher angegeben in Sonnenmassen pro Jahr und Quadratparsec.
+
+# Zusammenhänge mit der Dichte des interstellaren Mediums 
+
+Der empirische Zusammenhang zwischen der Sternentstehungsrate und der Dichte 
+ 
+ 
+ 
+ ρ
+ 
+ 
+ {\displaystyle \rho }
+ des interstellaren Mediums wird in Simulationen der Galaxienentwicklung verwendet.
+
+# Schmidt-Gesetz 
+
+Der niederländische Astronom Maarten Schmidt fand 1959 für die Sonnenumgebung in der Milchstraße den empirischen Zusammenhang:
+
+ 
+ 
+ 
+ S
+ F
+ R
+ ∝
+ 
+ ρ
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle SFR\propto \rho ^{n}}
+ Mit einem Exponenten 
+ 
+ 
+ 
+ n
+ ≈
+ 1
+ 
+ ,
+ 
+ 3
+ 
+ 
+ {\displaystyle n\approx 1{,}3}
+ werden die beobachteten Sternentstehungsrate bei hohen Gasdichten sehr gut beschrieben. Bei niedrigen Gasdichten ist jedoch zu berücksichtigen, dass für die Sternentstehung eine Mindestdichte erforderlich ist.
+
+# Schmidt-Kennicutt-Gesetz 
+
+Das Schmidt-Gesetz wurde von Robert Kennicutt in Form des Schmidt-Kennicutt-Gesetzes auf andere Galaxien übertragen. Es beschreibt den Zusammenhang zwischen der Flächendichte der Sternbildungsrate sowie der in der Sichtlinie kumulierten Gasdichte 
+ 
+ 
+ 
+ 
+ Σ
+ 
+ gas
+ 
+ 
+ 
+ 
+ {\displaystyle \Sigma _{\text{gas}}}
+ (in Gramm pro Quadratparsec):
+
+ 
+ 
+ 
+ 
+ Σ
+ 
+ SFR
+ 
+ 
+ ∝
+ (
+ 
+ Σ
+ 
+ gas
+ 
+ 
+ 
+ )
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \Sigma _{\text{SFR}}\propto (\Sigma _{\text{gas}})^{n}}
+ Der Exponent 
+ 
+ 
+ 
+ n
+ 
+
+ 1
+ 
+ ,
+ 
+ 45
+ ±
+ 0
+ 
+ ,
+ 
+ 2
+ 
+ 
+ {\displaystyle n=1{,}45\pm 0{,}2}
+ ist unabhängig von der Sternentstehungshistorie, der Metallizität oder der Populationszusammensetzung der Galaxien.Das Schmidt-Kennicutt-Gesetz gilt wenigstens fünf Milliarden Jahre in die Vergangenheit, eine Ausdehnung zu noch höheren Rotverschiebungen (d. h. Altersklassen) wird vermutet. Eine starke Abweichung vom Schmidt-Kennicutt-Gesetz zeigen Starburstgalaxien, die aufgrund einer Wechselwirkung mit anderen Galaxien eine temporär höhere Sternbildungsrate zeigen.
+
+# Weblinks 
+
+Astronomen entdecken Ursache für hohe Geburtenrate im jungen Universum
+The Rate of Star Formation, von Maarten Schmidt
+astronews.com: Radiodaten verraten Sternentstehungsrate 22. Februar 2017
+
+# Einzelnachweise 
+

@@ -1,0 +1,108 @@
+
+## Dolibarr
+
+Dolibarr is een open source ERP- en CRM-systeem voor het midden- en kleinbedrijf (kmo), stichtingen, verenigingen of zelfstandigen (freelancers). Het bevat verschillende mogelijkheden voor Enterprise Resource Planning (ERP) en Customer Relationship Management (CRM / klantenrelatiebeheer) maar bevat ook andere eigenschappen voor verschillende toepassingen en activiteiten.
+
+# Kenmerken 
+
+Er zijn een aantal modules die u kunt in- of uitschakelen, al naargelang de gewenste functies, hetgeen mogelijk maakt alleen te gebruiken wat u nodig hebt.
+Deze software is vrije software beschikbaar onder de GNU General Public License 2.0 Licentie en omdat het een web-applicatie is, kan deze gebruikt worden vanaf elke plek met een internetaansluiting.
+Dolibarr tracht een ERP / CRM te zijn die de S3S-regels volgt:
+
+De Software moet Simple te ontwikkelen zijn
+De Software moet Simple te installeren zijn
+De Software moet Simple te gebruiken zijnDolibarr bevat de belangrijkste kenmerken/features van een ERP/CRM, met uitzondering van de boekhouding. Het is zeer modulair en wordt gekenmerkt door het gemak van installatie en gebruik, ondanks het grote aantal functies die apart geactiveerd kunnen worden door middel van de modules.
+Dit is een samenvatting van de belangrijkste Dolibarr kenmerken
+
+# Hoofdmodules 
+
+Producten en diensten catalogus
+Voorraadbeheer
+Bankrekeningen beheren
+Klanten, leveranciers of Prospects directory
+Contacten
+Commerciële acties beheren
+Orderbeheer
+Offertes met PDF-export
+Contracten beheren
+Facturen beheren met PDF-export
+Betalingen beheren
+Doorlopende opdrachten beheren
+Verzend Management
+Ondersteuning NPR BTW (voor de Franse DOM-TOM)
+Stichtingen Donateur beheren
+Bookmarks beheren
+E-mailen
+Kan Dolibarr gebeurtenissen binnen webcalendar beheren
+Rapportage
+Data export tools
+LDAP-connectiviteit
+Giften beheren
+
+# Diverse 
+
+Multi-user, met verschillende machtigingen niveaus voor elke functie en/of rol.
+Verschillende menu managers (kan gebruikt worden door interne gebruikers, als back-office, met een bijzonder menu, of door externe gebruikers, als een front-office, met een ander menu en machtigingen).
+Zeer gebruiksvriendelijk en makkelijk te gebruiken.
+Diverse skins / opmaakprofielen.
+Code is in hoge mate aanpasbaar (veel gebruik van modules).
+Werkt met Mysql 3.1 of hoger, experimentele ondersteuning voor PostgreSQL.
+Werkt met PHP 4.3 of hoger.
+
+# Ontbrekende functies 
+
+Deze functies zijn niet beschikbaar, zelfs niet in de laatste versie van Dolibarr.
+
+Geen boekhouding (enkel bank management).
+Dolibarr bevat slecht een (1) munt soort (mono-valuta).
+Dolibarr werkt voor een enkel bedrijf / stichting (mono-company)
+Er is geen ondersteuning voor dubbele BTW (federaal / provinciaal) zoals in Canada.
+Dolibarr bevat geen HRM / personeelsrelatiebeheer.
+Dolibarr bevat geen project management modules.
+Dolibarr bevat standaard geen webmail. Er is wel een betaalde plug-in.
+
+# Architectuur 
+
+Dolibarr is geschreven in PHP. Het maakt gebruik van MySQL databases.
+Het werkt met een ruime keuze van hosting diensten of servers. Dolibarr werkt met alle PHP-configuraties (zoals hierboven beschreven) en vereist geen extra PHP-module.
+Merk op dat Dolibarr ook beschikbaar is met een auto-installer voor Windows-gebruikers zonder technische kennis om Dolibarr installeren en al haar benodigdheden (Apache, MySQL, PHP) met slechts een auto-exe bestand. Deze versie heet 'DoliWamp'.
+
+# Geschiedenis 
+
+Dolibarr is gestart door Rodolphe Quiedeville, vanuit het niets, en opgeslagen onder CVS, gehost door Savannah, in april 2002.
+Jean-Louis Bergamo, een ander lid vanaf april, startte de stichting beheer module.
+Versie 1.0 werd uitgebracht in september 2003.
+In juli 2008, Rodolphe laat de grootste bijdrager Laurent Destailleur (ook auteur van de andere populaire OpenSource project AWStats) het project leiden.
+
+# Vertalingen 
+
+ca_ES /
+da_DA /
+de_DE /
+nl_NL /
+en_US /
+es_ES /
+fi_FI /
+fr_BE /
+fr_FR /
+it_IT /
+nl_BE /
+nl_NL /
+no_NO /
+pl_PL /
+pt_PT /
+ro_RO /
+ru_RU /
+
+# Prijzen 
+
+2003
+1ste in de categorie "Management Company" in de wedstrijd Les Trophees du Libre.
+
+# Zie ook 
+
+Andere ERP/CRM software: OpenERP, Compiere
+
+# Externe links 
+
+Officiële website

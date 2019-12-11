@@ -1,0 +1,28 @@
+
+## Graafitietokanta
+
+Graafitietokanta on tietokanta, jossa tietoa varastoidaan solmuihin (engl. nodes) ja niiden välisiin suhteisiin (engl. relationships). Muodollisesti graafi on kokoelma verteksejä (engl. vertices) ja kaaria (engl. edges).Näin ollen rakenne muodostaa graafin, josta myös nimi. Oleellinen osa graafitietokantoja on myös kyselykieli jolla tietoa haetaan tietokannasta. Toisin kuin relaatiomalliin perustuvissa tietokannoissa kyselykieleksi vakiintunut SQL, ei graafitietokannoilla ole vastaavaa standardisoitua kyselykieltä.
+
+# Perusidea 
+
+Graafitietokannoissa entiteetit esitetään solmukohtina, eli nodeina. Solmut ovat yhteydessä toisiin solmuihin. Yhteydet voivat kuvata eri asioita, kuten "A on töissä kohteessa B". 
+Kukin yhteys (eli kaari) voi lisäksi pitää sisällään muuta relevanttia tietoa (properties) liittyen solmujen yhteyteen.
+
+# Edut 
+
+Koska graafitietokannat varastoivat yhteydet muihin solmuihin suoraan solmu-tietueeseen, on kyselyiden toteuttaminen usein nopeampaa kuin esimerkiksi relaatiomalliin perustuvissa tietokannoissa (eli relaatiotietokannoissa), joissa liittyvä tieto täytyy hakea erikseen käymällä läpi jokainen tallennettu tietue.
+Käytännön esimerkki relaatiotietokannan hausta voisi olla tilanne, jossa haettaisiin käyttäjän (ID 99) kaikki seuraajat. Relaatiotietokannassa tämä tehtäisiin hakemalla tiedot seuraajat-relaatiosta (taulusta) hakemalla kaikki käyttäjät, jotka seuraavat haluttua käyttäjä-ID 99:iä. 
+Vastaavasti graafitietokannassa vastaava haku saataisiin suoritettua "seuraamalla" käyttäjä-solmuun tallennettuja yhteyksiä (joiden tyyppi on "seuraaja"), nopeuttaen kyselyä huomattavasti suurilla tietomäärillä.
+Graafitietokannat soveltuvat myös erittäin hyvinlähde? monimuotoisten, eli polymorfisten suhteiden tallentamiseen.
+
+# Graafitietokantaohjelmistoja 
+
+AgensGraph
+AllegroGraph
+ArangoDB
+Neo4j
+Oracle Spatial and Graph (osana Oracle Database:a)
+TigerGraph
+
+# Lähteet 
+

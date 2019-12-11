@@ -1,0 +1,27 @@
+
+## Locally regular space
+
+In mathematics, particularly topology, a topological space X is locally regular if intuitively it looks locally like a regular space. More precisely, a locally regular space satisfies the property that each point of the space belongs to an open subset of the space that is regular under the subspace topology. 
+
+# Formal definition 
+
+A topological space X is said to be locally regular if and only if each point, x, of X has a neighbourhood that is regular under the subspace topology. Equivalently, a space X is locally regular if and only if the collection of all open sets that are regular under the subspace topology forms a base for the topology on X.
+
+# Examples and properties 
+
+Every locally regular T0 space is locally Hausdorff.
+A regular space is always locally regular.
+A locally compact Hausdorff space is regular, hence locally regular.
+A T1 space need not be locally regular as the set of all real numbers endowed with the cofinite topology shows.
+
+# See also 
+
+Locally Hausdorff space
+Locally compact space
+Locally metrizable space
+Normal space
+Homeomorphism
+Locally normal space
+
+# References 
+

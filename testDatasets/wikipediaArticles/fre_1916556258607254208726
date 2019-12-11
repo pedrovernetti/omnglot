@@ -1,0 +1,134 @@
+
+## Angle dièdre
+
+En géométrie, l'angle entre deux plans est appelé angle dièdre, ou angle diédral (anglicisme).
+L'angle dièdre d'un tétraèdre régulier, correspond à l'angle observé au sol, dans un plan perpendiculaire à l'une des arêtes au sol, que font la base du tétraèdre et une face. Face dont la base est, au sol, « vue de bout » (soit un point pour une arête).
+L'angle dièdre de deux plans peut être mesuré sur les « bords » des plans, c'est-à-dire, suivant leur ligne d'intersection.
+L'angle dièdre 
+ 
+ 
+ 
+ 
+ ϕ
+ 
+ A
+ B
+ 
+ 
+ 
+ 
+ {\displaystyle \phi _{AB}}
+ entre deux plans dénotés A et B est l'angle entre leurs deux vecteurs normaux 
+ 
+ 
+ 
+ 
+ 
+ n
+ 
+ 
+ A
+ 
+ 
+ 
+ 
+ {\displaystyle \mathbf {n} _{A}}
+ et 
+ 
+ 
+ 
+ 
+ 
+ n
+ 
+ 
+ B
+ 
+ 
+ 
+ 
+ {\displaystyle \mathbf {n} _{B}}
+ 
+
+ 
+ 
+ 
+ cos
+ 
+ 
+ ϕ
+ 
+ A
+ B
+ 
+ 
+ 
+
+ 
+ 
+ n
+ 
+ 
+ A
+ 
+ 
+ ⋅
+ 
+ 
+ n
+ 
+ 
+ B
+ 
+ 
+ 
+ 
+ {\displaystyle \cos \phi _{AB}=\mathbf {n} _{A}\cdot \mathbf {n} _{B}}
+ Un angle dièdre peut être signé ; par exemple, l'angle dièdre 
+ 
+ 
+ 
+ 
+ ϕ
+ 
+ A
+ B
+ 
+ 
+ 
+ 
+ {\displaystyle \phi _{AB}}
+ peut être défini comme l'angle de rotation (suivant leur ligne d'intersection) qui permettrait au plan A pour se superposer au plan B.
+Donc, 
+ 
+ 
+ 
+ 
+ ϕ
+ 
+ A
+ B
+ 
+ 
+ 
+
+ −
+ 
+ ϕ
+ 
+ B
+ A
+ 
+ 
+ 
+ 
+ {\displaystyle \phi _{AB}=-\phi _{BA}}
+ . En particulier, il suffit de spécifier cet angle ou son angle supplémentaire.
+
+ 
+ 
+ 
+
+# Référence 
+
+ Portail de la géométrie

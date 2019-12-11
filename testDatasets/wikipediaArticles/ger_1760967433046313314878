@@ -1,0 +1,24 @@
+
+## Reaktor (Software)
+
+Reaktor ist eine grafische Integrierte Entwicklungsumgebung zur Erstellung und Verwendung von Software-Synthesizern, Sequenzern, Samplern und Effektgeräten der Berliner Firma Native Instruments.
+
+# Programmstruktur 
+
+Zentraler Bestandteil von Reaktor ist eine umfangreiche Sammlung von DSP-Modulen zur Erzeugung und Verarbeitung von Audio- und Event-Datenströmen. Mit Hilfe dieser Module und einer grafischen Oberfläche, auf der die Bauelemente mit virtuellen „Kabeln“ verbunden werden können, lassen sich virtuelle Musikinstrumente, Effektgeräte, Sequenzer, Sampler und Ähnliches erstellen, sogenannte Ensembles. Die Benutzeroberfläche dieser Ensembles lässt sich in großem Umfang frei gestalten, was neben grafischen Spielereien auch die Umsetzung alternativer Interface-Konzepte ermöglicht.
+Aus technischer Sicht gibt es drei Ebenen. Die ursprünglichen Komponenten sind auf der mittleren angesiedelt. Einzelne Oszillatoren, Hüllkurvengeneratoren, Filter, Knöpfe und Anzeigetafeln lassen sich zu Makros kombinieren, die wiederum Bausteine von Instrumenten sind, welche zu Ensembles zusammengefasst sind. Das Prinzip erinnert an modulare Synthesizer aus den 1960er und 1970er Jahren. Im Vergleich dazu ist Reaktor flexibler, aber auch komplexer. Mit Version 5 kam eine sogenannte CORE-Ebene hinzu. Sie umfasst Komponenten, die sehr nah an einzelne C++-Befehle angelehnt sind und eine wesentlich effektivere Programmierung erlauben. Diese werden gleichermaßen zu CORE-Macros verbunden, die sich wie normale Macros weiter einsetzen lassen. Das erlaubt Projekte, die vorher wegen zu großer Prozessorlast gescheitert wären. Version 6 führte „Blocks“ ein, die Teilinstrumente darstellen, ähnlich Eurorack-Modulen. Ihre Wertebereiche sind normiert, und sie unterscheiden nicht zwischen Steuer- und Audio-Signalen. Technisch nicht vorgebildeten Personen ermöglichen diese Blocks einen leichteren Einstieg sowie die Steuerung externer Hardware. Dadurch lassen sich Modularsysteme mit wenigen Klicks um neue Funktionen erweitern.
+Um Anfängern den Einstieg zu erleichtern, wird Reaktor mit einer Vielzahl an fertigen Ensembles ausgeliefert. Außerdem unterhält Native Instruments auf seiner Webseite ein Archiv, in das Nutzer ihre Ensembles hochladen und so anderen zugänglich machen können. Dort finden sich über 4000 Ensembles, von simplen Nachempfindungen subtraktiver Synthesizer bis hin zu komplexen generativen Ensembles, die auf Basis unterschiedlicher Algorithmen selbsttätig sich ständig verändernde Klänge erzeugen.
+
+# Benutzung 
+
+Reaktor lässt sich als Plug-In in entsprechende Sequenzer-Programme einbinden, läuft aber auch „standalone“. Für Nutzer, die nicht daran interessiert sind, selbst Ensembles zu erstellen, sondern nur die vorhandenen verwenden möchten, gab es mit „Reaktor Session“ eine abgespeckte Version des Programms. Mit dem Erscheinen der Version 5 von Reaktor wurde „Reaktor Session“ allerdings von Native Instruments aus dem Programm genommen; mit Reaktor 5 erstellte Ensembles lassen sich mit „Reaktor Session“ nicht nutzen. Als Äquivalent erschien im Jahr 2010 der kostenlose „Reaktor Player“, mit dem Ensembles der Version 5.5 gespielt, aber nicht verändert werden können.
+Mit der Veröffentlichung der Version 6 werden sogenannte Blocks Module angeboten, die den Umgang mit Reaktor vereinfachen können.
+Daneben ist Native Instruments dazu übergegangen, einzelne Ensembles als separate Programme zu veröffentlichen, die man verwenden kann, ohne Reaktor zu besitzen. Für die Anwender von Reaktor gibt es keine Möglichkeit, solche selbstständig lauffähigen Ensembles zu erstellen.
+Zu den Hauptkonkurrenten von Reaktor gehören die Software Max/MSP und das ähnliche, quelloffene Pure Data.
+
+# Weblinks 
+
+Produkt-Webseite
+
+# Einzelnachweise 
+

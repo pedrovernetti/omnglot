@@ -1,0 +1,209 @@
+
+## Dlí Amagat
+
+Cuireann Dlí Amagat nó Dlí na bPáirttoirteanna, de chuid na bliana 1880, síos ar iompar agus airíonna mheascáin de ghás idéalach (chomh maith le roinnt cásanna de ‘neamh-idéalach’). Baintear feidhm as an dlí seo sa cheimic agus sa theirmidinimic. Deir Dlí Amagat, go mbíonn an toirt fhairsing V = N·v an gháis mheascaithe, cothrom le suim na dtoirteanna Vi de chomhpháirteach K na ngás, má fhanann an teocht T agus an brú p mar an gcéanna: 
+
+ 
+ 
+ 
+ N
+ ⋅
+ v
+ (
+ T
+ ,
+ p
+ )
+ 
+
+ 
+ ∑
+ 
+ i
+ 
+
+ 1
+ 
+ 
+ K
+ 
+ 
+ 
+ N
+ 
+ i
+ 
+ 
+ ⋅
+ 
+ v
+ 
+ i
+ 
+ 
+ (
+ T
+ ,
+ p
+ )
+ .
+ 
+ 
+ 
+ {\displaystyle N\cdot v(T,p)=\sum _{i=1}^{K}N_{i}\cdot v_{i}(T,p).\ }
+ Is é seo an slonn turgnamhach de toirt mar cainníocht fhairsing. Tá sé ainmnithe ina onóir Emile Amagat.
+De réir Dlí na bPáirttoirteanna de chuid Amagat, ba chóir go mbeadh an méid iomlán de mheascán neamh-imoibrithe gás, ag teocht agus brú tairiseach, cothrom le suim na bpáirttoirteanna aonair de na gáis comhábhartha. Mar sin, má mheastar 
+ 
+ 
+ 
+ 
+ V
+ 
+ 1
+ 
+ 
+ ,
+ 
+ V
+ 
+ 2
+ 
+ 
+ ,
+ …
+ ,
+ 
+ V
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle V_{1},V_{2},\dots ,V_{n}}
+ a bheith ina Pháirttoirteanna de líon na gcomhdhúil sa ghás meascaithe , beidh méid iomlán na toirte 
+
+Tuarann Dlí Amagat agus Dlí Dalton araon airíonna na ngás meascaithe. Tá a gcuid fáisnéisí mar an gcéanna do na gásánna idéalacha. Mar sin féin, le haghaidh na bhfíor-ghás (neamh-idéalach), tá difríochtaí sna torthaí <ref> Teimpléad:Cite leabhar </ ref> Glacann [Dlí Dalton] faoi Bhrúnna Codánacha go bhfuil na gáis sa mheascán neamh-idirghníomhaíocht (le chéile) agus cuireann gach gás, go neamhspleách, a bhrú féin i bhfeidhm, agus suimithe le chéile faightear an brú iomlán. Glacann Dlí Amagat go bhfuil toirteanna na ngás comhpháirteach (arís ag an teocht agus an brú céanna) breiseánach; Bíonn idirghníomhaíochtaí na ngás éagsúil mar na gcéanna le meán idirghníomhaíochtaí na gcomhpháirteanna.
+Is féidir na hidirghníomhaíochtaí a léirmhíniú i dtéarmaí dhara comhéifeacht viriúil, B(T), dom mheascán. I gcomhair dhá chomhpháirt, is féidir leis an dara comhéifeacht viriúil a léiriú mar:
+
+ 
+ 
+ 
+ B
+ (
+ T
+ )
+ 
+
+ 
+ X
+ 
+ 1
+ 
+ 
+ 
+ B
+ 
+ 1
+ 
+ 
+ +
+ 
+ X
+ 
+ 2
+ 
+ 
+ 
+ B
+ 
+ 2
+ 
+ 
+ +
+ 
+ X
+ 
+ 1
+ 
+ 
+ 
+ X
+ 
+ 2
+ 
+ 
+ 
+ B
+ 
+ 1
+ ,
+ 2
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle B(T)=X_{1}B_{1}+X_{2}B_{2}+X_{1}X_{2}B_{1,2}\ }
+ i gcás ina a thagraíonn na foscripteanna do chomhpháirteanna 1 agus 2, bíonn na X'anna ina mhólchodáin, agus is iad na B'anna na dara comhéifeachtaí viriúla. Ríomhtar an tras-téarma, B <fo> 1,2 </ fo>, sa mheascáin mar:
+
+ 
+ 
+ 
+ 
+ B
+ 
+ 1
+ ,
+ 2
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ 
+ {\displaystyle B_{1,2}=0\ }
+ (Dlí Dalton)agus 
+
+ 
+ 
+ 
+ 
+ B
+ 
+ 1
+ ,
+ 2
+ 
+ 
+ 
+
+ (
+ 
+ B
+ 
+ 1
+ 
+ 
+ +
+ 
+ B
+ 
+ 2
+ 
+ 
+ )
+ 
+ /
+ 
+ 2
+ 
+ 
+ 
+ {\displaystyle B_{1,2}=(B_{1}+B_{2})/2\ }
+ (Dlí Amagat).Nuair a bhíonn toirteanna gach aon comhábhar sa ghás (teocht agus brú céanna) cosúil lena chéile, ansin ó thaobh na matamaitice de bíonn dlí Amagat agus dlí Vegard cothrom i gcás meascán soladach.
+
+# Tagairtí 
+

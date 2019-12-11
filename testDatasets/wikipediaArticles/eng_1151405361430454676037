@@ -1,0 +1,11 @@
+
+## Digicon
+
+A digicon detector is a spatially resolved light detector using the photoelectric effect directly. It uses magnetic and electric fields operating in a vacuum to focus the electrons released from a photocathode by incoming light onto a collection of silicon diodes. It is a photon-counting instrument, so most useful for weak sources. One of digicon's advantages is its very large dynamic range and it results from the short response and decay times of silicon diodes.
+
+# Development 
+
+In 1971, E.A. Beaver and Carl McIlwain successfully demonstrated a way in which silicon diodes can be used in digital tube by placing a silicon diode array that contained 38 elements in the same chamber as a photocathode. The design and manufacture of the Digicon tube is attributed to John Choisser of the Electronic Vision Corporation.Digicon detectors were used on the original instruments for the Hubble Space Telescope, but are very rarely used in new designs, where CMOS active-pixel detectors can achieve the same performance without the need for large electric fields or complicated vacuum assemblies. For instance, there are two pulse-counting Digicon detectors in the High Resolution Spectrograph for the Hubble Space Telescope and are used to record ultraviolet spectra. Digicon is also used in digital imaging such as the case of a scanning gage using Digicon imaging tube, which generates a two-dimensional view with high spatial resolution when an object is scanned past the Digicon.
+
+# References 
+

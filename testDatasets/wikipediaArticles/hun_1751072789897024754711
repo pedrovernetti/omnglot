@@ -1,0 +1,23 @@
+
+## Bennett-féle komplex mutató
+
+A speciális komplex mutatók egyik fajtája a Bennett-féle komplex mutató, amely az olyan, egyetlen jelzőszámmal nehezen megragadható összetett fogalmak mérhetővé tételét hivatott elősegíteni, mint például egy település, térség elérhetősége, fejlettsége, versenyképessége, urbanizáltsága stb. 
+Ezen komplex jellemzők számszerűsítése meglehetősen nehézkes, általában csak a hozzákapcsolódó indikátorok együttes figyelembe vétele adhat reprezentatív képet annak tényleges állapotáról. A regionális tudomány módszertana a legkülönbözőbb összetett jelenségek vizsgálatára már jól kidolgozott eszközkészlettel rendelkezik. Ennek egyik fontos, ám az újabb és pontosabb eredményekre vezető módszerek mellett idővel egyre inkább háttérbe került eleme a Bennett-féle komplex mutató. Egyszerűsége, könnyen számíthatósága tette mégis a területi elemzések közkedvelt matematikai-statisztikai eljárásává.
+
+# Számítási metódus 
+
+A Bennett-féle komplex mutató számításának alapja az adatsor kitüntetett értékéhez (általában maximum) történő viszonyítás. A viszonyítás után kapott százalékos értékek biztosítják a több, különböző mértékegységből álló alapadataink összevonhatóságát.
+Számítási lépések:
+
+a területi adattáblából minden egyes jelzőszám esetében meg kell keresni az adatsor maximum értékét
+az eredeti adatokat a maximum százalékában kell kifejezni
+a jelzőszámokból kialakított százalékos értékeket megfigyelési egységenként átlagolják
+Keresztmetszeti vizsgálatok esetében a kapott eredményekből meghatározhatók, illetve a többi térséggel összehasonlíthatók egy-egy megfigyelési egység jellemzői a vizsgált jelenség szempontjából. Időbeli összehasonlítás során az adott terület eltérő időpontokból származó jellemzőinek összevetésével következtetünk a vizsgált jelenség időbeli változására.
+
+# Kritikák 
+
+A Bennett-féle komplex mutatót érintő legkomolyabb kritika a súlyozatlan átlag számításához kötődik. A súlyozás hiányával ugyanis a módszer képtelen annak kifejezésére, hogy a számítás során alkalmazott egyes mutatószámok egymáshoz képest milyen mértékben járulnak hozzá egy-egy jelenség alakításához. Manapság pontosan ezen hátrányoknak köszönhető, hogy a Bennett-féle komplex mutató viszonylag háttérbe szorult az olyan matematikai-statisztikai módszerek megjelenésével, amelyek képesek a komplex jelenségek egyes összetevőinek súlyát felmérni (pl. faktoranalízis). 
+
+# Források 
+
+http://geogr.elte.hu/REF/REF_Kiadvanyok/REF_RTT_11/RTT-11-05-osszetett.pdf

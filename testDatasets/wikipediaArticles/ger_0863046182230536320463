@@ -1,0 +1,73 @@
+
+## Bildaufbau
+
+Ein Kathodenstrahlröhrenbildschirm ist ein Bildschirm, der auf der Kathodenstrahlröhre von Ferdinand Braun (Braunsche Röhre) basiert. Häufig wird er auch als Kathodenstrahl-, Röhren- oder CRT- (Abk. für englisch Cathode Ray Tube) Bildschirm bezeichnet. Er kann in unterschiedlichen Geräten wie Oszilloskopen, Fernsehern und Bildschirmen (z. B. PC-Bildschirmen, Überwachungssysteme usw.) und vielen anderen Bereichen eingesetzt werden. Jedoch wird diese Technik seit den 2000er Jahren in weiten Bereichen durch Flachbildschirme verdrängt.
+Bildschirme werden in verschiedenen Größen hergestellt. Dabei wird die Diagonale des Bildschirms als Maß benutzt. So haben Bildschirme für moderne Registrierkassen eine Diagonale von ca. 23 cm, während größere Computerbildschirme bis zu ca. 56 cm erreichen. Meist werden diese Diagonalen nicht in cm, sondern in Zoll angegeben. Auf größeren Bildschirmen können mehr Pixel und damit mehr Informationseinheiten dargestellt werden als auf kleineren Modellen, da die Bildauflösung nicht beliebig gesteigert werden kann. Im Unterhaltungsbereich (Fernsehgeräte) sind Bildschirmgrößen von bis zu 82 cm erhältlich. Entscheidend ist hier nicht das Auflösungsvermögen (die Anzahl der Pixel ist durch die jeweilige Fernsehnorm festgelegt), sondern der Betrachtungsabstand.
+
+# Funktionsweise 
+
+Mit Ausnahme des Oszilloskops und anderer wissenschaftlicher Geräte wird der Bildschirm zur Darstellung von Rastergrafiken benutzt. Dabei wird die Bildinformation in einer Abfolge von nacheinander übertragenen Informationen pro Pixel übertragen (Fernsehsignal). Diese wird dann von der Elektronik innerhalb des Gerätes aufbereitet und zur Darstellung des ursprünglichen Bildes auf der Leuchtschicht benutzt. Das Fernsehsignal ist dabei nur eine Möglichkeit, wie die Informationen zum Bildschirm gelangen können. In der Computertechnik werden die Informationen für die Primärfarben auf getrennten Signalwegen übertragen, ebenso die Informationen für die Synchronisation der Position des Elektronenstrahles auf der Leuchtschicht.
+Hintergrund der Trennung und gemeinsamen Übertragung der Signale ist, dass von der Signalerzeugung auf der Grafikkarte zum Bildschirm nur kleine kabelgebundene Strecken überwunden werden müssen. Daher ist der stets mit Verlusten verbundene Aufwand der Mischung und Entmischung der komplexen analogen Signale hier nicht notwendig. Vom Fernsehstudio zum Fernsehzuschauer zuhause steht üblicherweise nur ein Übertragungskanal zu Verfügung, welcher die Übertragung über große Strecken sicherstellen muss. Hier lohnt sich der Aufwand dann.
+
+# Aufbau und Wirkungsweise 
+
+In Farbmonitoren bzw. Farbfernsehgeräten befindet sich als wichtigstes Bauteil die Kathodenstrahlröhre. Durch Glühemission aus geheizten Glühkathoden mit anschließender elektrostatischer Fokussierung werden drei Elektronenstrahlen erzeugt, die auf der Leuchtschicht durch Fluoreszenz einen mehr oder minder hellen Leuchtfleck erzeugen.
+Auf dem Weg vom Strahlerzeugungssystem zur Leuchtschicht werden diese Elektronenstrahlen gemeinsam durch Magnetfelder abgelenkt, so dass ein Raster entsteht.
+Die Helligkeit eines Pixels abhängig von seiner Position auf dem Leuchtschirm ergibt den Bildinhalt.
+Das eingangs erwähnte Fernsehsignal wird im Bildschirm zur Steuerung dieser Helligkeitsinformationen in Abhängigkeit zur Position des Elektronenstrahles benutzt.
+
+# Horizontale und vertikale Ablenkfrequenzen 
+
+Die jeweiligen Frequenzen, mit der die beiden Magnetfelder die Ablenkung des Strahles in waagerechter (horizontaler) und senkrechter (vertikaler) Richtung durchführen (=Zeilenfrequenz und Bildwiederholfrequenz), sowie der Pixeltakt (auch Videobandbreite genannt und bei PC-Monitoren als RAMDAC-Frequenz) bestimmen die Eigenschaften des Rasters: Anzahl der Zeilen bzw. Pixel, Seitenverhältnis der Pixel und wie oft pro Zeit ein Pixel von neuem zum Leuchten angeregt wird.
+Die europäische Fernsehnorm sieht eine Horizontalfrequenz von 15 625 Hz vor sowie eine vertikale Frequenz von 50 Hz. Der Bildaufbau erfolgt im Zeilensprungverfahren. Die 50 Hz sind bekannt für das sogenannte "Flimmern" bei Röhrenfernsehern.
+Die meisten Computerbildschirme (fast alle ab ca. 1990 gebauten) können diese beiden Frequenzen in gewissen Grenzen dem Eingangssignal anpassen. Diese liegen in horizontaler Richtung zwischen ca. 30 und 130 kHz, vertikal zwischen 60 und 200 Hz.
+In der Computertechnik ist man bestrebt, die Vertikalfrequenz auf mehr als ca. 80 Hz einzustellen. Nur so kann eine augenschonende, flimmerfreie Darstellung gewährleistet werden. Die Grenze der Flimmerfreiheit hängt von mehreren Faktoren ab:
+
+Nachleuchtdauer der Leuchtschicht. Neuere Bildröhren besitzen Leuchtschichten mit sehr kurzen Nachleuchtzeiten (wenige dutzend µs). Schwarzweißbildschirme besitzen demgegenüber lange Nachleuchtzeiten im eher dreistelligen µs-Bereich.
+Vom Betrachter. Einige wenige Menschen empfinden schon Bildschirme mit einer Vertikalfrequenz von 60 Hz als flimmerfrei, andere erkennen auch bei 85 Hz noch ein leichtes Flimmern.Die Steigerung der Zeilenfrequenz steigert mithin auch die Rate, mit der die Helligkeitsinformationen übertragen und verarbeitet werden müssen (Pixeltakt, s. o.). Im Computerbereich zeigt sich diese Wirkung z. B. recht deutlich, wenn zur Signalübertragung minderwertige Kabel verwendet werden. So wirkt ein entsprechendes Bild mit deutlichen Kontrasten immer unschärfer, je höher die Wiedergabefrequenzen bei gleichbleibender Auflösung eingestellt werden.
+
+# Bildaufbau 
+
+Man unterscheidet zwei Techniken des Bildaufbaus:
+
+Beim Zeilensprungverfahren (engl. Interlace) wird zunächst nur jede zweite Zeile des Bildes, also nur die ungerade nummerierten Zeilen, dargestellt, im folgenden vertikalen Durchlauf dann die gerade nummerierten Zeilen. So wird die Bildwiederholfrequenz quasi verdoppelt, was ein weniger flimmerndes Bild erzeugt. Eine ähnliche Methode wird bei Kino-Projektoren eingesetzt, wo jedes Bild (24 Bilder pro Sekunde) durch eine Blende zweimal auf die Leinwand projiziert wird. Bei Stummfilmen wurde mit 18 Bildern pro Sekunde gefilmt und jedes Bild wurde dreimal gezeigt. Das Zeilensprungverfahren wird z. B. im analogen TV angewendet.
+Die Alternative ist das Vollbildverfahren (engl. Progressive Scan, schrittweise Abtastung). Dabei wird das Bild in voller Auflösung zeilenweise erzeugt. Progressive Scan liefert dank der doppelten Zeilenzahl bessere Bilder, erfordert allerdings auch teurere Technik, da die Horizontalablenkeinheit die doppelte Frequenz liefern muss. Die Technik wird z. B. bei Computermonitoren angewendet, teilweise auch bei HDTV.
+
+# Vor- und Nachteile 
+
+VorteileGuter Schwarzwert
+Vom Betrachtungswinkel fast vollständig unabhängige Farbdarstellung, auch bei dunklen Bildpartien
+Keine vorgegebene Idealauflösung
+Schnelle Reaktionszeit
+Lange HaltbarkeitNachteileGroß und schwer
+benötigt viel Abstellfläche
+Mögliche Beeinflussung durch externe Magnetfelder, wie etwa durch Motoren, Einsatzort in der Nähe von Oberleitungen wie z. B. der Deutschen Bahn (Farbverfälschung, Flackern, eventuell auch Zusammenbruch des Bildes etc.)
+„Flimmern“ und „Fiepen“ gerade bei älteren Geräten
+Nachleuchten des Leuchtschirms, was jedoch normalerweise nur bei direkten Wechseln auf Schwarz und in abgedunkelten Räumen auffällt, unter diesen Umständen aber dazu führen kann, dass man das letzte Bild noch ca. 1–2 Sekunden auf dem Bildschirm erkennen kann. Die Zeit, bis sich das Auge an die neuen Helligkeitsverhältnisse angepasst hat, liegt aber deutlich darüber.
+Schwache Röntgenstrahlung tritt aus dem Gerät aus. Allerdings sind neuere Geräte (Monitore ab TCO 99) praktisch vollständig gegen Strahlungsaustritt abgeschirmt.
+Evtl. geometrische Verzerrungen durch Nichtlinearitäten im zeitlichen Verlauf der Ablenkfelder. Diese lassen sich durch entsprechende (aufwendige) Formung der zugehörigen Spannungsverläufe allerdings größtenteils kompensieren. Bei modernen Geräten können diese Einstellungen auch vom Benutzer feinjustiert werden.
+Farbsäume durch ungenau justierte Kompensationsmaßnahmen zur Deckung der drei Elektronenstrahlen.
+Entsorgung der Bildröhre ist problematisch: Hier sind viele verschiedene Werkstoffe verbunden, was das Recycling aufwendig gestaltet.
+Verschleiß der Bildröhre (Einbrennen, Nachlassen der Emissionsfähigkeit der Kathoden), ein Austausch lohnt sich wirtschaftlich meist nicht.
+Hohe Leistungsaufnahme; ein 17"-Röhrenmonitor nimmt typischerweise etwa 60 Watt auf.
+Aufwändiges Netzteil, welches die zahlreichen unterschiedlichen Betriebsspannungen bereitstellen muss, zB. für Heizfaden, Bildsignal, horizontale und vertikale Ablenkspulen, Austastung (bei Zeilenrücklauf), Fokussierung und Hochspannungsanode.
+
+# Native Bildschirmauflösung 
+
+Computerbildschirme mit Kathodenstrahlröhre können bauartbedingt unterschiedliche Bildschirmauflösungen ohne nennenswerte Skalierungsverluste darstellen, wie sie z. B. von LC-Bildschirmen bekannt sind. Bei geringen Bildschirmauflösungen streift der Elektronenstrahl mehrere Bildschirmpixel gleichzeitig und erledigt so die Skalierung. Kathodenstrahlbildschirme eignen sich daher besonders für barrierefreie Computerarbeitsplätze, bei denen aufgrund der besseren Lesbarkeit eine geringe Bildschirmauflösung mit großen Schriften gefordert ist. Bei besonders kleinen Auflösungen macht sich allerdings der Zwischenraum zwischen den geschriebenen Zeilen als waagerechtes Muster aus schwarzen Linien bemerkbar, da die Schärfe des Strahles auch bei geringerer Auflösung konstant bleibt.
+
+# Gerätespezifisches 
+
+# Fernsehgeräte 
+
+Die ersten Geräte waren mit Schwarz-Weiß-Bildröhren im 4:3-Format ausgestattet, deren Größe bis Mitte der 1970er Jahre auf 63 cm gesteigert werden konnte. Größere Bildschirme bedingen einen stabileren Aufbau der Röhre durch dickere Glaskonstruktionen, was sich im Gewicht niederschlägt.
+Prinzipbedingt weist eine Kathodenstrahlröhre eine gewisse Einbautiefe auf. Diese wurde mit steigendem Ablenkwinkel immer wieder verringert, wird aber nie die geringe Einbautiefe von modernen Flachbildschirmtechnologien erreichen können.
+In den späten 1960er Jahren war die Entwicklung des Farbfernsehens soweit abgeschlossen, dass kommerzielle Geräte erschwinglich wurden. Anfang der 1990er versuchte man, das Bildformat 16:9 einzuführen, was jedoch scheiterte. Ab 2000 wurde es wieder versucht, mit dem Erfolg, dass ungefähr 20 % aller Bildröhrenfernseher im 16:9-Format verkauft wurden. Einige Bildröhren waren für das besonders in Japan und Nordamerika seit den 1990er Jahren beliebte HDTV ausgelegt.
+
+# Computermonitore 
+
+Computermonitore gab es ab den 1960er Jahren mit den monochromen Leuchtfarben Weiß, Grün und Bernstein. Besonders Bernsteinmonitore wiesen durch eine hohe Nachleuchtdauer eine sehr ruhige Bilddarstellung auf.
+
+# Siehe auch 
+
+Bilderzeugung in einer Farbbildröhre

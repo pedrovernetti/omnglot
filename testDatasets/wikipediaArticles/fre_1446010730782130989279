@@ -1,0 +1,48 @@
+
+## Moteur de production
+
+Un moteur de production est un logiciel dont la fonction principale consiste à automatiser (ordonnancer et piloter) l'ensemble des actions (préprocessing, compilation, éditions des liens, etc.) contribuant, à partir de données sources, à la production d'un ensemble logiciel opérationnel. 
+Un moteur de production se distingue d'un simple script dans la mesure où il a pour objet :
+
+de favoriser une production optimale (réduite aux seules actions nécessaires)
+de permettre une flexibilité de production (production partielle sans avoir besoin de modifier le descriptif de production) tout en assurant la complétude.Make est historiquement le premier moteur de production à avoir été généralisé sur les systèmes d'exploitation de la famille Unix.
+Les moteurs tendent désormais à être directement intégrés aux ateliers de génie logiciel (Eclipse, Visual Studio, etc.)
+
+# La gestion de dépendances 
+
+La construction d'un logiciel est un processus complexe permettant à partir d'un ensemble de fichiers source d'obtenir un code compréhensible par la machine. Cette construction implique des étapes de compilation, d'édition de lien. D'autres étapes peuvent intervenir, génération automatique de code, génération de documentation, ... Chacune de ces étapes correspond à l'application d'une commande sur un ou plusieurs fichiers sources. Au cours du processus de construction plusieurs fichiers intermédiaires sont créés, entraînant des dépendances dans l'ordre d'exécution des commandes.
+La première manière de procéder consiste à placer l'ensemble des commandes à exécuter dans un script, l'intégralité des opérations est alors exécutée à chaque reconstruction du logiciel.
+Dans un cycle de développement, il est fréquent de ne modifier qu'un petit nombre de fichiers sources avant de reconstruire le logiciel. Une reconstruction partielle est alors possible, en ne refabriquant que les fichiers dépendant de ceux qui ont été modifiés.
+Une première catégorie de logiciels permet de gérer ces reconstructions partielles à partir d'un ensemble de règles de construction et dépendances entre fichiers. Make est le plus ancien logiciel de cette catégorie et reste très largement utilisé, ce logiciel a donné naissance à plusieurs dérivés, GNU Make, NMake, ... D'autres logiciels sont apparus plus récemment tel que Ninja.
+La plupart de ces logiciels utilisent la date de modification des fichiers afin de ne reconstruire que les fichiers plus anciens que leurs dépendances.
+
+# La détection des dépendances 
+
+La maintenance des dépendances est une opération longue et fastidieuse qui doit être exhaustive. Or ces dépendances sont souvent déjà décrites dans le code source (directive #include en C/C++, import en Java, ...), et l'écriture de ces dépendances peut être partiellement automatisée. Apparu dans les années 1990, Automake est une couche au dessus de Make permettant d'automatiser la création de Makefile. Le projet est décrit en termes de binaires à produire et de fichiers sources à compiler. Apparu dans les années 2000, CMake est un autre générateur de Makefile.
+Ces deux logiciels ne construisent pas le projet, mais établissent les règles de construction et les dépendances, laissant la construction à un logiciel spécialisé. Cela permet à CMake d'être multiplateforme, en produisant soit des Makefile pour l'environnement Linux, soit des projets Visual Studio pour l'environnement Windows.
+D'autres logiciels proposent une logique plus intégrée, Ant (orienté Java), Bazel (orienté C++).
+
+# L'adaptation à la plateforme 
+
+Une autre difficulté lors de la construction d'un logiciel est son adaptation à la plateforme. Les nombreuses variantes d'UNIX présentes dans les années 1980-1990 nécessitent d'adapter les commandes de compilation en fonction de l'environnement. Les premiers outils sont Metaconfig (Larry Wall, Harlan Stenn, et Raphael Manfredi), différents scripts configure, notamment proposés par Cygnus ou gcc et Imake proposé par X Window system et Autoconf, proposé par le projet GNU. Contrairement à beaucoup d'outil de la même époque, Autoconf procède en testant les fonctionnalités de la plateforme. Cette souplesse d'adaptation à de nouvelles plateforme lui a valu une large adoption dans la communauté informatique. 
+A sa création, CMake reprend le principe de configuration en fonction de la plateforme, et étend cette fonctionnalité à Windows.
+Bien que très critiqué, autoconf/automake, reste largement utilisé aujourd'hui, mais tend à être remplacé par Meson dans certains projets (GLib, GStreamer, GTK+, ...).
+D'autres outils sont également apparues en proposant une chaîne de construction complète, SCons, Waf, ..., ou en s'appuyant sur des gestionnaires de dépendances, premake, ...
+
+# Autres logiciels 
+
+Apache Ant
+Apache Maven
+Gradle
+Jam
+qmake
+rake
+
+# Bibliographie 
+
+(en) « GNU Autoconf, Automake, and Libtool » (Gary V. Vaughan - (ISBN 978-1578701902)) Lire en ligne
+
+# Liens externes 
+
+« Un petit tour des systèmes de build » (Julien Jorge)
+ Portail de la programmation informatique

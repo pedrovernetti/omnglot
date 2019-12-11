@@ -1,0 +1,18 @@
+
+## CNC-fræsning
+
+Computer numerical control (CNC) er automatiserede værktøjsmaskiner, der ved hjælp af en computerstyret CNC-maskine udfører forprogrammerede sekvenser af maskinstyringskommandoer. Selve udskæringsprocessen kaldes en CNC-fræsning. Dette er i modsætning til maskiner, som manuelt styres af håndhjul, løftestang eller mekaniske foranstaltninger. 
+Forkortelsen CNC betyder Computer(ized) Numerical(ly) Control(led) (Computerstyret Numerisk Kontrolleret), og refererer til produktionsmaskiner, der ved hjælp af en computer kan fremstille mange ensartede komplekse dele i hårde materialer såsom træ, plastic, glas, skum, metal m.fl. Den programmeres i et sprog, der overholder EIA-274-D standarden (også kaldet ISO-programmering eller G-kode). En CNC-maskine kan udføre mange håndværktøjers arbejde med stor nøjagtighed.
+Proces:
+Typisk uploades en fil eller et billede i et tegnebaseret software (CAD), hvorefter det konverteres til vektor. Det er også muligt at skabe sin egen tegning eller fil i et tegnebaseret software program såsom Rhino3D software. Når filen er på plads vælges hastighed og dybde samt type af værktøj og en arbejdslinje, som enten kan være på selve vektorlinjen eller med bleed. Herefter konverteres vektorerne til g-kode. I g-koden fremkommer X, Y, Z koordinaterne - hvor X er horisontal i forhold til skærebordet, Y er vertikal i forhold til skærebordet og Z udgør afstanden til X+Y. Elementet fikseres nu fast til skærebordet ud fra et markeret centerpunkt - det er vigtigt, at det sidder godt fast, så det ikke rykker sig i skæreprocessen. Maskinen placeres nu direkte over centerpunktet, og dette markeres med tallet 0. Maskinen vil starte ved dette nulpunkt. 
+Eksterne links:
+https://svfk.dk/artikel/cnc-fraes-paa-statens-vaerksteder
+Kilder:
+Mike Lynch, "Key CNC Concept #1—The Fundamentals Of CNC", Modern Machine Shop, 4 January 1997. Accessed 11 February 2015
+Grace-flood, Liam (2017-11-10). "Goliath Represents a New Breed of CNC Machine". Wevolver. Retrieved 2018-01-20.
+"Multi Spindle Machines - An In Depth Overview". Davenport Machine. Retrieved 2017-08-25.
+"Machining Types - Parts Badger". Parts Badger. Retrieved 2017-07-07.
+"How it Works – Wire EDM | Today's Machining World". todaysmachiningworld.com. Retrieved 2017-08-25.
+"Sinker EDM - Electrical Discharge Machining". www.qualityedm.com. Retrieved 2017-08-25.
+
+Zelinski, Peter (2014-03-14), "New users are adopting simulation software", Modern Machine Shop.

@@ -1,0 +1,57 @@
+
+## AMD Am5x86
+
+Der AMD Am5x86 oder Am486DX5 ist ein Mikroprozessor der Firma Advanced Micro Devices. Er wird AMD-intern auch als X5 bezeichnet, vermutlich aufgrund des höheren Multiplikators im Vergleich zu den DX4-Modellen.
+
+# Geschichte 
+
+Der Am5x86 wurde im November 1995 vorgestellt. Er basiert weitestgehend auf dem Enhanced Am486DX4, allerdings wurde er in einem kleineren Prozess hergestellt und bekam einen mit 16 KB doppelt so großen L1-Cache. Taktfrequenz und der Multiplikator konnten dadurch weiter angehoben werden. Der Am5x86 besitzt also, anders als sein Namensvetter Cyrix 5x86, keinerlei weitergehende Modifikationen oder Merkmale der 5. Generation.
+
+# Namensgebung 
+
+Wegen seines internen Multiplikators von „4“ ist der Am5x86 eigentlich der einzige echte 80486DX4 (diese haben nur einen internen Multiplikator von „3“), wurde aber wegen seiner hohen Geschwindigkeit im Vergleich zu den anderen 80486-CPUs und der starken Konkurrenz durch Intels Pentium mit einem neuen Namen und einem P-Rating genannten Modell-Rating ausgestattet: Der Am5x86-P75 taktet mit 133 MHz (33 MHz × 4). Varianten mit 150 MHz (50 MHz × 3, Am5x86-P75+) und 160 MHz (40 MHz × 4, Am5x86-P90) wurden angekündigt. Die Version mit 150 MHz ist extrem selten, die 160 MHz-Version erschien jedoch nie. Modelle unterhalb von 133 MHz wurden als Enhanced Am486 mit 16 KB L1-Cache verkauft.
+Zusammen mit dem Cyrix 5x86 und dem NexGen Nx586 ist er der erste Prozessor, der ein P-Rating verwendete.
+
+# Besonderheiten 
+
+Für den Am5x86-P75 kamen spezielle Mainboards auf den Markt, auf denen ein Multiplikator von „4×“ eingestellt werden kann. Fehlt diese Möglichkeit, kann die CPU mit einem Multiplikator von „3×“ betrieben werden und wird dann als Am486DX4 erkannt. Beim Betrieb mit 100 MHz (33 MHz × 3) ist bei Verwendung eines sehr großen Kühlkörpers ein Betrieb ohne Prozessorlüfter möglich. Ein Betrieb mit 120 MHz (40 MHz × 3) ist mit Prozessorlüfter ebenfalls möglich.
+Im Gegensatz zum Cyrix 5x86 100/120GP interpretiert der Am5x86-P75 eine Multiplikatoreinstellung von 2× als 4×, wodurch der Am5x86-P75 theoretisch auf jedem 486-Mainboard mit einem Standard Sockel 3 voll lauffähig ist, welcher eine Prozessor-Versorgungsspannung von 3,45 bzw. 3,3 Volt unterstützt. Liegt nur eine 5-Volt-CPU-Versorgungsspannung vor, kann man einen üblichen Spannungswandler-Zwischensockel von 5 V auf 3,3/3,45 V hierfür nehmen, wobei auch hier für den Am5x86-P75 ein Multiplikator von 2× auf dem Zwischensockel einzustellen ist, damit der Prozessor mit 133 MHz (33 MHz × 4) läuft.
+Den Am5x86-P75 gibt es in drei Versionen, die sich hinsichtlich ihrer maximal zulässigen Prozessorgehäuseoberflächentemperatur unterscheiden:
+
+AMD-X5-133ADW = +55 °C
+AMD-X5-133ADY = +75 °C
+AMD-X5-133ADZ = +85 °CObwohl der Am5x86-P90 160 MHz nie auf den Markt kam, kursierten seiner Zeit dennoch inoffiziell Systeme mit einem Am5x86 mit 160 MHz. Dabei handelt es sich um einen übertakteten Am5x86-P75 133 MHz (meist die ADZ-Version), der statt mit 33 MHz mit 40 MHz FSB betrieben und mit entsprechend leistungsfähiger Kühlung ausgestattet wird.
+
+# Herstellung 
+
+Hergestellt wurde der Am5x86 bis 1999 für gewöhnliche PCs, wird aber für den Einsatz in Embedded Systemen immer noch hergestellt.
+
+# Modelldaten 
+
+# Am5x86 (X5) 
+
+Alternative Bezeichnung: Am486DX5
+
+L1-Cache: 16 KB (unified)
+L2-Cache: abhängig vom verwendeten Mainboard bzw. Chipsatz
+Sockel 3 mit einem FSB von 33, 40 oder 50 MHz
+Betriebsspannung (VCore): 3,45 und 3,3 V
+Erscheinungsdatum: September 1995
+Fertigungstechnik: 0,35 µm
+Die-Größe: 43 mm² bei 1,6 Millionen Transistoren
+Taktraten: 133 MHz
+Am5x86-P75: 133 MHz (33 MHz × 4)
+Am5x86-P75+: 150 MHz (50 MHz × 3) – sehr selten
+Am5x86-P90: 160 MHz (40 MHz × 4) – nicht auf den Markt gekommen
+
+# Siehe auch 
+
+Liste von Mikroprozessoren
+
+# Weblinks 
+
+Am5x86 Infoseite
+AMD Am5x86 Informationsseite (Memento vom 25. Februar 2008 im Internet Archive)
+AMD Am5x86 TechDocu (Memento vom 31. März 2007 im Internet Archive) (PDF-Datei; 1,6 MB)Datenblätter
+
+Am5x86 Microprocessor Family (PDF-Datei; 1,55 MB)

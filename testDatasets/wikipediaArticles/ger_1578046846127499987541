@@ -1,0 +1,199 @@
+
+## R-17 (Rakete)
+
+Die R-17 ist eine ballistische Boden-Boden-Rakete aus der Sowjetunion. Der NATO-Codename lautet SS-1c Scud-B und im GRAU-Index wird die Rakete 8K14 bezeichnet. Die Bezeichnung für den Gesamtkomplex lautet 9K72 Elbrus und die Exportversion wird R-300 und R-17E bezeichnet. Sie gehörte zur Klasse der Kurzstreckenraketen (SRBM). Die R-17-Raketen und ihre Abarten sind bis heute im Einsatz und zählen zu den weltweit am weitesten verbreiteten Kurzstreckenraketen.
+
+# Entwicklung 
+
+Ab 1952 entwickelte man in der Sowjetunion die Kurzstreckenrakete R-11. Diese basierte auf der während des Zweiten Weltkriegs im Deutschen Reich entwickelten Wasserfall-Flugabwehrrakete. Entworfen und entwickelt wurde die R-11-Rakete im OKB-1. Urheber dieser Rakete waren die Konstrukteure Sergei Pawlowitsch Koroljow, Wiktor Petrowitsch Makejew und Aleksei Michailowitsch Isajew, welcher das Flüssigkeitsraketentriebwerk entwickelte. Von dem Modell R-11 war die Sowjetarmee aber nur wenig begeistert, so dass schließlich 1958 die Regierung die Entwicklung einer verbesserten Ausführung beschloss. Noch im selben Jahr begann die Entwicklung unter der Bezeichnung R-11MU (8K12). Die Entwicklung erfolgte im SKB-385 (Makejew) mit der Unterstützung von Koroljow. Das Triebwerk wurde wiederum von Isajew entwickelt. Bereits im Februar 1959 hatte Makejew das erste Vorführmodell fertiggestellt, welches aber mit dem Ursprungsentwurf der R-11 wenig gemein hatte. Die neue Rakete hatte u. A. eine abgeänderte Rumpfgeometrie, verwendete ein neues Steuersystem und verfügte über ein verbessertes Raketentriebwerk. Der erste Teststart der nun R-17 bezeichneten Rakete erfolgte am 12. Dezember 1959 auf dem Testgelände Kapustin Jar. 1960 wurde die weitere Entwicklung in die Maschinenbaufabrik Wotkinsk transferiert. Dort erfolgte die Produktion der R-17-Raketen. Die ersten Raketensysteme wurden 1962 an die Sowjetarmee ausgeliefert. Dort wurde das Gesamtsystem 9K72 Elbrus bezeichnet und im GRAU-Index bekam die Rakete die Bezeichnung 8K14. Im Jahr 1964 war das R-17-System operationell. In der Maschinenbaufabrik Wotkinsk (SKB-385) wurden R-17-Raketen und deren Weiterentwicklungen bis zum Jahr 1987 produziert. Von der NATO bekam die R-17-Rakete die Bezeichnung SS-1c Scud-B.
+
+# Technik 
+
+Die R-17 ist eine einstufige Rakete. Die Rakete ohne Gefechtskopf wird 8K14 bezeichnet. Die Rakete kann grob in fünf Sektionen aufgeteilt werden: Am Heck befindet sich das Raketentriebwerk, die vier Steuerflächen und vier Druckgasflaschen mit 15 kg Druckluft zur Druckgasförderung für den Brennstoff- und Oxidatortank. Über dem Triebwerk sitzt der Tank für den Oxidator und nach einer Zwischenstruktur der Tank für den Brennstoff. Dann folgt die 0,85 m hohe Instrumentensektion und darüber der Adapter-Kranz für den Gefechtskopf.
+
+# Rumpf 
+
+Der Raketenrumpf besteht aus Stahl-Spanten und Aluminium-Stringern. Diese Tragkonstruktion hat eine Beplankung aus 0,5–1 mm starken Stahlblechen. Der Rumpf hat einen Außendurchmesser von 880 mm und ein Leergewicht von 1087 kg (ohne Sprengkopf). Außen verlaufen zwei Schächte für die Kabel und die Druckgasleitungen.
+
+# Treibstofftanks 
+
+Treibstoff und Oxidator befinden sich in getrennten Tanks, welche in Integralbauweise ausgeführt sind. Die Tanks bestehen aus rostfreien Stahlblechen mit einer Wanddicke von 2 mm. In den Tanks befinden sich drei bzw. vier Spanten aber keine Stringer. Als Oxidator wird inhibierte, rot rauchende Salpetersäure (russische Bezeichnung AK-27i) verwendet. Als Brennstoff kommt Kerosin (russische Bezeichnung TM-185) zur Anwendung. Insgesamt befinden sich in den beiden Tanks 2919 kg Oxidator sowie 822 kg Brennstoff. Der Tankdruck beträgt 0,5 MPa. Weiter gibt es einen kleinen Tank für den Startkraftstoff. Dieser ist mit 30 kg "TG-02 (Tonka-250)" befüllt, einer Mischung aus Xylidine und Triethylamin. Die Brennstoffleitung aus dem obenliegenden Brennstofftank führt durch den Oxidator-Tank zum Triebwerk.
+
+# Raketentriebwerk 
+
+Die R-17 verwendet ein Flüssigkeitsraketentriebwerk vom Typ 9D21 (S5.2). Dieses ist ein Nebenstromtriebwerk und basiert auf einer Turbopumpe mit Gasgeneratorantrieb. Weiter gibt es einen nachgeschalteten Wärmetauscher für das Aufheizen des Druckgases für die Tankbeaufschlagung. Die Brennkammer wird regenerativ durch den Treibstoff gekühlt. Der Brennkammerdruck liegt im Betrieb bei knapp 7 MPa. Das Triebwerk entwickelt am Boden einen Startschub von 130,53 kN. Die Schubkraft im Vakuum beträgt 144,22 kN. Im Schnitt werden pro Sekunde knapp 58 kg Brennstoff und Oxidator verbrannt. Weiter sind an der Düse vier Strahlruder angebracht, welche mit den vier trapezförmigen Steuerflächen verbunden sind. Die maximale Brenndauer des Raketentriebwerkes beträgt bei der R-17-Standardrakete 62–65 Sekunden.
+
+# Lenkeinheit 
+
+Über dem Brennstofftank befindet sich eine 0,85 m hohe Instrumentensektion. Dort sind die Energieversorgung, die Lenkeinheit und der Analogrechner untergebracht. Diese Geräte sind mit einem Holzkreuz am Raketenrumpf fixiert und über Öffnungen im Raketenrumpf zugänglich. Das Gewicht dieser Geräte beträgt rund 240 kg. Die Lenkeinheit besteht aus einem Trägheitsnavigationssystem welches mit einem Analogrechner gekoppelt ist. Die Lenkeinheit funktioniert ähnlich wie die der A4-Rakete und besteht aus einem 1SB9-Kreiselhorizont sowie einem 1SB10-Kreiselvertikant mit Kreiselintegrator für die Querbeschleunigung. Hinzu kommt ein Piga-Geschwindigkeitsmesser (Pendulum Integrating Gyro Assembly). Für die Auswertung und die Datenverarbeitung kommt der 1SB13-Analogrechner zum Einsatz. Die errechneten Lenkimpulse werden an die 1B14-Rudermaschinen übermittelt, welche die Strahlruder für die erforderlichen Kurskorrekturen steuern. Die maximale Betriebsdauer der Lenkeinheit beträgt rund 100 Sekunden.
+
+# Gefechtsköpfe 
+
+Die R-17 kann wahlweise mit einem Nukleargefechtskopf, einem Gefechtskopf für chemische Kampfstoffe, einem konventionellen Splittergefechtskopf oder einem Gefechtskopf für Streumunition bestückt werden. In der Sowjetarmee war der Standardgefechtskopf nuklear. Die konventionellen Gefechtsköpfe waren primär für den Export vorgesehen. So standen in den 1970er-Jahren für die Sowjetarmee 1125 R-17-Raketen bereit. Von diesen waren 1080 mit einem Nukleargefechtskopf bestückt und die restlichen 45 waren für den Einsatz von chemischen Kampfstoffen vorgesehen. Es existieren zwei unterschiedliche Ausführungen der R-17-Raketen: Die Standardversion 8K14B mit der 8F14-Raketenspitze für Nukleargefechtsköpfe und die Ausführung 8K14F mit der 8F44-Raketenspitze für konventionelle Gefechtsköpfe. Die beiden Ausführungen unterscheiden sich in der Größe sowie darin, dass die nukleare Standardversion 8K14B über zwei Anschlüsse (AK-1 und AK-2) für eine externe Thermalkontrolle sowie über ein zusätzliches Sicherungssystem für den Nukleargefechtskopf verfügt.
+
+# Nukleargefechtsköpfe 
+
+Der erste Nukleargefechtskopf der für die R-17 ab 1964 zur Verfügung stand war das Produkt 269A. Dieser Sprengkopf wurde im KB-11 (VNIIEF) in Sarow entwickelt und hatte eine Sprengkraft von 10 kT. Anfangs der 1970er-Jahre folgte der Nukleargefechtskopf 9N33 mit der RA17 Nuklearladung. Diese Nuklearladung war eine Wasserstoffbombe und hatte eine Sprengkraft von 300 kT. Weiter folgte der verbesserte 9N33-1-Nukleargefechtskopf. Dieser Gefechtskopf konnte mit verschiedenen Nuklearladungen (RA104, RA104-01, RA104-02) bestückt werden und hatte daher eine selektierbare Sprengkraft von 20 kT, 200 kT oder 300 kT. Seit Ende der 1970er-Jahre steht der 9N72-Nukleargefechtskopf mit einer selektierbaren Sprengkraft von 200 kT, 300 kT oder 500 kT zur Verfügung. Die Nukleargefechtsköpfe sind in der kegelförmigen 8F14-Raketenspitze untergebracht. Diese hat an der Basis einen Durchmesser von 884 mm und ist 2,87 m lang. Sie hat ein Gewicht von 989 kg wovon 710 kg auf den Nukleargefechtskopf entfallen. Die restlichen 279 kg entfallen auf die Hülle, die Thermalkontrolle sowie das Sicherungs- und Zündsystem.
+
+# Gefechtsköpfe für chemische Kampfstoffe 
+
+Der erste Gefechtskopf für chemische Kampfstoffe, der für die R-17 ab 1967 zur Verfügung stand war der 3H8. Dieser Sprengkopf enthielt eine unbekannte Menge der Kampfstoffmischung HL (russische Bezeichnung RK-7), welche aus Lost und Lewisit bestand. Da dieser Sprengkopf ein erhöhtes Gewicht von 1016 kg hatte, kam er nur mit der modifizierten 8K14-1-Rakete zum Einsatz. Der nächste Gefechtskopf für chemische Kampfstoffe war der Typ 8F44G Tuman-3. Dieser wiegt 985 kg und enthält 555 kg verdicktes Soman (russische Bezeichnung VR-55). Weiter folgte der Sprengkopf 8F44G1 Fog-3, welcher 555 kg verdicktes VX (russische Bezeichnung VR-33) fasst. Die 8F44G-Gefechtsköpfe werden in einer vorselektierten Höhe über dem Zielgebiet durch eine Zerlegeladung aktiviert. Durch die Detonation und den Luftstrom wird aus dem flüssigen Kampfstoff ein Aerosol gebildet, welches sich in Abhängigkeit zur Windgeschwindigkeit über eine Fläche von bis zu 0,6 × 4,0 km verteilt und diese vergiftet.
+
+# Konventionelle Gefechtsköpfe 
+
+Die Exportraketen sind standardmäßig mit einem konventionellen Splittergefechtskopf bestückt. Dieser ist in der kegelförmigen 8F44F-Raketenspitze untergebracht. Diese hat an der Basis einen Durchmesser von 884 mm und ist 2,65 m lang. Diese Raketenspitze hat ein Gewicht von 987 kg, wovon 799 kg auf den Splittergefechtskopf und davon 545 kg auf den Sprengstoff entfallen. Der Gefechtskopf verfügt über einen Kopfzünder, einen Bodenzünder und einen Havariezünder. Bei der Detonation auf sandigem Boden erzeugt dieser Gefechtskopf ein Krater mit einer Tiefe von 1,5–4 m und einem Durchmesser von rund 12 m. Später kam auch ein Näherungszünder für diesen Gefechtskopf hinzu. Dieser zündet den Splittergefechtskopf in einer vorselektierten Höhe über dem Zielgebiet und entfaltet so eine optimale Splitterwirkung.In den späten 1970er-Jahren wurde der 8F44K-Gefechtskopf für Streumunition (Submunition) eingeführt. Dieser kann mit unterschiedlicher Streumunition beladen werden. Es existiert eine Ausführung mit 42 Penetrations-Bomblets zur Bekämpfung von Start- und Landebahnen. Diese Bomblets haben einen Durchmesser 122 mm und wiegen je 12 kg, wovon 3 kg auf den Sprengstoff entfallen. Weiter kann der 8F44K-Gefechtskopf auch mit 100 Splitter-Bomblets beladen werden. Diese Bomblets wiegen je 5 kg und haben einen Sprengstoffanteil von 1,2 kg. Der 8F44K-Gefechtskopf wird in einer vorselektierten Höhe über dem Zielgebiet durch eine Zerlegeladung aktiviert und verteilt die Streumunition in einem Radius 160–250 m.Weiter wird auch von einer Aerosolbombe (engl. Fuel-Air Explosive (FAE)) als Gefechtskopf für die R-17-Rakete berichtet. Ob ein solcher Gefechtskopf entwickelt wurde ist aber nicht bestätigt.
+
+# Start- und Transportfahrzeuge 
+
+Die ersten Ausführungen der R-17 wurden auf dem 2P19-Kettenfahrzeug transportiert. Dieses basierte auf der ISU-152K. Das Gesamtsystem wurde 9K62 genannt. Ab 1965 wird die R-17 von einem vierachsigen Lastkraftwagen (8×8) MAZ-543 transportiert. Dieses Start- und Transportfahrzeug wird 9P117 (alte Bezeichnung 2P20) genannt. Das Gesamtsystem wird 9K72 Elbrus bezeichnet. Später folgten die verbesserten Ausführungen 9P117M und 9P117M1 wobei letztere auf einem MAZ-7911 basiert. Das 9P117M-Start- und Transportfahrzeug hat eine Besatzung von vier Mann und wiegt unbeladen 30,6 Tonnen. Angetrieben wird es von einem 12-Zylinder-Dieselmotor D12A-525 mit einer Leistung von 386 kW (525 PS). Das Fahrzeug ist 3,02 m breit und hat eine Länge von 13,36 m. Auf der Straße wird eine maximale Fahrgeschwindigkeit von 60 km/h erreicht.
+
+# Nutzung 
+
+# Einsatzkonzeption 
+
+Die unbetankten Raketen wurden in der Sowjetarmee in Depots gelagert. Mit entsprechender Überprüfung können die Raketen 20–24 Jahre gelagert werden. Mit zusätzlicher Wartung und intensiverer Überprüfung kann die Lagerzeit um weitere 15 Jahre verlängert werden. Für den Einsatz werden die Raketen im Depot oder im Bereitstellungsraum betankt und der entsprechende Gefechtskopf wird aufgesetzt. Betankt können die Raketen bis zu einem Jahr gelagert werden. Die betankten Raketen werden von dem 9P117-Fahrzeug in die Feuerstellung transportiert. Dies bedeutet einen operativer Vorteil gegenüber dem Vorgängermodell R-11, da die R-17 im betankten Zustand transportiert und auch gelagert werden kann. Durch den Einsatz mit einem Start- und Transportfahrzeug sind die R-17-Raketen mobil und schnell verlegbar. In der Feuerstellung wird die Rakete über das Fahrzeugheck, in einem vertikalen Winkel von 90° auf den 9N117-Drehtisch angestellt. Weiter wird dort die Druckluft eingebracht. Danach folgt die Überprüfung der Lenkeinheit. Nun wird die Rakete auf dem Drehtisch in die Flugrichtung ausgerichtet und die Rakete wird mit dem Startkraftstoff TG-02 befüllt. Nach dem die Energieversorgung aktiviert und die Lenkeinheit hochgefahren wurde ist die Rakete startbereit. Diese Startvorbereitungen dauern in einer unvorbereiteten Feuerstellung rund 30 Minuten und in einer vorbereiteten Stellung rund 15 Minuten. Nach dem Abschuss werden für das nachladen und ein weiterer Raketenstart rund 45 Minuten benötigt. Der Raketenstart kann bei Windgeschwindigkeiten von maximal 50 km/h sowie in einem Temperaturbereich von −40 bis +50 °C erfolgen. Die Rakete hat beim Start ein Gewicht von 5852–5860 kg (je nach Gefechtskopf). Der Raketenstart erfolgt mittels einer kabelgebundenen Bedienkonsole aus sicherer Entfernung. Das Triebwerk wird durch das einspritzen von hypergolem TG-02- Startkraftstoff in die Treibstoffleitungen gestartet. Die maximale Brenndauer des Raketentriebwerkes beträgt bei der R-17-Standardrakete 62–65 Sekunden. Während dieser Beschleunigungsphase (engl. boost phase) ermittelt die Lenkeinheit allfällige Kurskorrekturen und übermittelt diese an die Strahlruder welche entsprechend ihren Anstellwinkel verändern. Nachdem der Treibstoff aufgebraucht ist wird das Triebwerk und die Lenkeinheit abgeschaltet. Die Rakete hat nun ein Gewicht von 2074–2076 kg. Der Weiterflug der Rakete erfolgt steuer- und Antriebslos auf der Flugbahn einer Wurfparabel. In Abhängigkeit zur Schussdistanz beträgt dabei das Apogäum 24–86 km. Die maximale Schussdistanz von 300 km wird in rund 313 Sekunden zurückgelegt. Die minimale Schussdistanz von 50 km wird in einer Flugzeit von 165 Sekunden zurückgelegt. Die maximale Fluggeschwindigkeit liegt bei 1500 m/s. Beim Einschlag im Zielgebiet hat die R-17-Rakete eine Geschwindigkeit von rund 1400 m/s. In Abhängigkeit zu den durchgeführten Startvorbereitungen trifft die R-17-Standardrakete das Ziel mit einer minimalen Treffergenauigkeit (CEP) von 0,9 km Längs- und 0,5 km Querabweichung. Die maximale Abweichung liegt bei 2,7–3 km. Im Vergleich zu modernen ballistischen Boden-Boden-Raketen gilt die R-17 als wenig treffsicher. Ohne einen Gefechtskopf mit CBRN-Waffen eignet sich die R-17 nur zum Einsatz als Terrorwaffe.
+
+# Gefechtsgliederung 
+
+Eine sowjetische R-17-Brigade bestand aus verschiedenen Batterien mit sechs 9P117-Start- und Transportfahrzeugen, die in Kriegszeiten auf 18 erhöht werden konnten. In der Brigade waren rund 300 weitere Fahrzeuge für verschiedene Zwecke eingegliedert. Die R-17-Brigade hatte regulär einen Personalbestand von 1000–1500 Mann. In Kriegszeiten konnte die Brigade bis zu 700 Fahrzeuge verwenden und wurde auf bis zu 3500 Mann vergrößert.
+
+# Varianten 
+
+# R-17 Elbrus (SS-1c Scud-B) 
+
+Die Grundversion R-17, wie oben beschrieben, wird im GRAU-Index 8K14 bezeichnet. Die Bezeichnung für den Gesamtkomplex lautet 9K72 Elbrus und die Exportbezeichnung lautet R-300 und anfänglich R-17E. Diese Ausführung war ab 1964 bei der Sowjetarmee im Einsatz. Die R-17 hat mit einem Sprengkopf von knapp 1000 kg eine Reichweite von 275–300 km. Ab den 1980er Jahren wurde die R-17 in der Sowjetarmee durch die OTR-23 Oka (NATO-Codename: SS-23 Spider) ersetzt.
+
+# R-17M Rekord (SS-1d Scud-C) 
+
+Kurz nach der Einführung der R-17 startete man in der Sowjetunion ein Programm zur Verbesserung dieser Rakete. Ziel war die Entwicklung einer R-17-Rakete mit einer Reichweite von 500 km. Dabei sollte das generelle R-17-Konzept, wie Waffenwirkung, Geometrie und die technischen Kernelemente beibehalten werden. Im Jahr 1963 begann man im Staatlichen Raketenzentrum Makejew (SKB-385) mit der Entwicklung der R-17M bezeichneten Rakete. Das Gesamtsystem wird 9K72M Rekord bezeichnet und die Rakete (ohne Gefechtskopf) heißt 8K14M. Weiter gibt es auch die Bezeichnung 9K77 für das Gesamtsystem. Die abgeänderte Rakete besitzt eine ähnliche Startmasse bei einer niedrigeren Leermasse von rund 1900 kg. Der vergrößerte Oxidatortank hat einen gemeinsamen Boden zum obenliegenden Brennstofftank. Weiter wurde die Materialstärke der Tankwände verringert und die Lenksektion wurde unter dem Gefechtskopf platziert. Statt Druckgasflaschen wird ein Torustank im Heck verwendet. Die R-17M ist äußerlich kaum von der R-17 zu unterscheiden, da die Dimensionen und die Geometrie übereinstimmen. Von 1965 bis 1967 wurden erste Teststarts auf dem Raketentestgelände Kapustin Jar durchgeführt. Vom Westen wurde die R-17M erstmals anfangs der 1970er Jahre beobachtet und sie bekam den NATO-Codnamen SS-1d Scud-C. Technische Schwierigkeiten verzögerten das Programm bis Ende der 1960er Jahre. Da ab 1967 die Mittelstreckenrakete 9K76 Temp-S bereitstand, zeigte die Sowjetarmee kein Interesse an der R-17M und das Projekt wurde anfangs der 1970er Jahre abgebrochen. Neuere Quellen gehen davon aus, dass ab Mitte der 1980er-Jahre, infolge der großen Nachfrage nach Raketen dieser Reichweiteklasse, die R-17M-Produktion in der Sowjetunion wieder aufgenommen wurde. Einem Export stand aber der INF-Vertrag im Weg, so dass daraufhin die Sowjetunion die R-17M über Nordkorea als Zwischenhändler exportierte. Jedenfalls erschien rund zwei Jahrzehnte nach dem offiziellen Projektabbruch in der Sowjetunion die Scud-C in Nordkorea, Syrien und im Iran. Ältere Quellen stellen diese Raketen als eine nordkoreanische Eigenproduktion aus den späten 1980er-Jahren dar, die nach lediglich 1–2 Testflügen in die Serienproduktion ging. Da Nordkorea zu diesem Zeitpunkt über keine Produktionskapazität für die R-17M-Kernelemente (Triebwerk, Treibstofftanks, Lenkeinheit) verfügte, scheint dies sehr unwahrscheinlich. Ebenso hatte Nordkorea auch keine Kapazität für ein Reverse Engineering der Rakete. Es ist davon auszugehen, dass die Sowjetunion R-17M-Raketen via Nordkorea unter der Bezeichnung Hwasong-6 in den Iran, nach Syrien und in andere Staaten exportierte. Die R-17M hat dieselben Dimensionen wie die R-17 und hat mit einem Gefechtskopf von 750 kg eine Reichweite von 450–500 km. Die durchschnittliche Treffergenauigkeit (CEP) liegt bei 700–900 m.
+
+# R-17MU (SS-1e Scud-D) 
+
+Anfangs der 1990er-Jahre erschienen Berichte, dass in Ägypten, Nordkorea und in Syrien R-17-Ausführungen mit einem verlängerten Raketenrumpf vermutet werden. Im Jahr 1999 stellten indische Behörden auf nordkoreanischem Frachtschiff Kuwolsan Skizzen einer solchen Rakete sicher. Schließlich erfolgte im Jahr 2000 in Syrien ein erster Testflug dieser Rakete welcher mit einer Havarie endete. Ein weiterer Testflug im Jahr 2005 war erfolgreich. Weitere Testflüge folgten 2006 und 2009 in Nordkorea sowie 2010 im Iran. Auch bei dieser Scud-D bezeichneten Rakete gehen ältere Quellen von einer Eigenproduktion aus Nordkorea sowie dem Iran aus. Obwohl die lokalen Bezeichnungen Hwasong-7/9, Shahab-2 und Qiam eine Eigenproduktion suggerieren sollen, ist auch bei dieser R-17-Ausführung eine Eigenproduktion der Kernelemente auszuschließen, da in keinem der Länder konkrete Entwicklungsaktivitäten beobachtet wurden. Neuere Quellen gehen von einem alten sowjetischen Entwurf aus dem OKB Makejew aus. So wird in einem CIA-Bericht aus dem Jahr 1974 eine R-17M-Ausführung mit einem verlängerten Rumpf und einer nochmals vergrößerten Reichweite erwähnt. Allerdings bleibt die Herkunft der Scud-D-Raketen im Iran, Nordkorea und in Syrien weiterhin unklar, da keines der Länder Ende der 1990er-Jahre über eine Produktionskapazität für die Kernelemente (Triebwerk, Treibstofftanks, Lenkeinheit) solcher Raketen verfügte. UN-Waffeninspekteure gehen davon aus, dass die Raketenkomponenten aus Russland stammen und über die Volksrepublik China an Nordkorea geliefert wurden.Über die Scud-D gibt es nicht viele gesicherte Daten und diese sind sich zum Teil widersprüchlich. So wird z. B. die Rakete R-17WTO in manchen Quellen auch als Scud-D bezeichnet, was aber falsch ist. Auch existieren von dieser Rakete keine öffentlich zugänglichen Fotos. Die im Westen Scud-D bezeichnete Rakete trägt vermutlich die russischen Bezeichnungen R-17MU und 9K72MU. Dabei handelt es sich um eine Ausführung der R-17 mit einem auf 12,41 m verlängerten Raketenrumpf. Somit verwendet sie dasselbe Konzept wie die irakischen Scud-Abarten Al Hussein und Al-Abbas aus den 1980er-Jahren. In der R-17MU befindet sich der Oxidatortank im Raketenheck und der vergrößerte Brennstofftank schließt mit einem gemeinsamen Boden oben an diesen Tank an. Weiter wurde die Lenksektion unter dem Gefechtskopf verkleinert. Möglicherweise wird anstelle von TM-185 als Brennstoff UDMH verwendet. Weiter ist auch die Verwendung von Hydrazine als Oxidator denkbar. Die R-17MU hat beim Wiedereintritt einen ungünstigen Massenmittelpunkt und tendiert beim Eintritt in die dichteren Luftschichten zum Auseinanderbrechen. Daher wird der Gefechtskopf nach der Beschleunigungsphase vom Raketenrumpf abgetrennt. Die R-17MU hat mit einem Gefechtskopf von 500 kg eine Reichweite von über 700 km. Über die verwendete Lenkeinheit und die Treffergenauigkeit gibt es keine gesicherten Angaben.
+
+# R-17WTO Aerofon 
+
+In der Sowjetunion entwickelte man eine R-17-Ausführung mit einem Endphasenlenksystem. Die Rakete wird R-17WTO und der Gesamtkomplex wird 9K72-1 Aerofon oder 9K72-O bezeichnet. In älteren Quellen wird die R-17WTO zum Teil fälschlicherweise auch als Scud-D bezeichnet. Die Entwicklung der R-17WTO begann 1967. Nach verschiedenen Schwierigkeiten erfolgte am 29. September 1979 ein erster erfolgreicher Testflug, bei dem der Gefechtskopf wenige Meter neben dem Ziel einschlug. Nachdem es weiterhin anhaltende Schwierigkeiten mit dem Endphasenlenksystem gab, wurden die ersten Raketen 1989 für Truppenversuche an die Sowjetarmee ausgeliefert. Unmittelbar danach wurde das Projekt gestoppt und abgebrochen. Ab 1990 wurde kurzzeitig der Gefechtskopf mit dem Endphasenlenksystem als Option für die R-17-Rakete auf dem Exportmarkt angeboten. Weiter arbeitete man in den 1980er-Jahren an der Ausführung R-17WTO2, welche mit einem Radar-Endphasenlenksystem ausgerüstet werden sollte.
+Bei der R-17WTO kommt infolge des erhöhten Gefechtskopfgewichtes die Rakete 8K14-1F zur Anwendung. Die abtrennbare Gefechtskopfsektion hat einen Durchmesser von 650 mm, ist 3,92 m lang und wird mit einem Adapter-Konus auf den Raketenrumpf montiert. Die 9H78-Gefechtskopfsektion wiegt 1017 kg wovon rund 500 kg auf den Sprengkopf entfallen. Die Gefechtskopfsektion besteht aus dem 9E423-Suchkopf, der Lenkeinheit, dem 9N78-Splittersprengkopf sowie vier wabenförmige Gitterflossen. Nach dem Raketenstart, nach dem Abschluss der Beschleunigungsphase (engl. boost phase) wird die Gefechtskopfsektion vom Raketenrumpf abgetrennt und fliegt alleine auf einer Flugbahn von einer Wurfparabel in Richtung Zielgebiet. Für den Zielanflug kommt ein optischer DSMAC-Suchkopf (Gelände-Kontur-Abgleich) zum Einsatz. Dieser Suchkopf sucht im Zielgebiet, anhand einer zuvor eingespeicherten digitalen Bilddatei nach bekannten Kontrastpunkten deren Position im Verhältnis zum Zielpunkt bekannt sind. Durch eine Vergleichsrechnung zwischen Soll- und vermessener Position wird dann eine Kurskorrektur errechnet. Mit dem Anstellen der Gitterflossen werden die nötigen Kurskorrekturen ausgeführt. Bei Tests auf dem Testgelände Kapustin Jar wurde eine durchschnittliche Treffergenauigkeit (CEP) von 5–50 m erreicht. Die R-17WTO hat eine Reichweite von 235–250 km.
+
+# R-17W 
+
+Die Ausführung R-17W war eine kurzlebige Ausführung der R-17 für den Lufttransport. Zu diesem Zweck war die R-17-Rakete auf einem leichten Sattelauflieger installiert, welcher zum Transport und Start der Rakete diente. Transportiert wurde dieser durch einen Hubschrauber vom Typ Mil Mi-6 Hook. Das R-17W-Programm wurde nach einigen Tests nicht weiter verfolgt und eingestellt.
+
+# Übersicht Raketenmodelle 
+
+Technische Daten aus
+
+# Kriegseinsätze 
+
+Die R-17-Raketen und ihre Abarten sind die bis heute bei Kriegseinsätzen am meisten verwendeten ballistischen Boden-Boden-Raketen. Die Einsatzzahlen übertreffen die der A4-Rakete während des Zweiten Weltkriegs.
+
+# Jom-Kippur-Krieg 
+
+Der erste Kriegseinsatz der R-17 erfolgte in der Schlussphase vom Jom-Kippur-Krieg. Am 22. Oktober 1973 starteten die Streitkräfte Ägyptens drei R-17-Raketen gegen israelische Stellungen auf der Sinai-Halbinsel. Der Angriff forderten sieben Todesopfer unter den Israelis.
+
+# Erster Golfkrieg 
+
+Während des Ersten Golfkriegs (auch Iran-Irak-Krieg) setzten sowohl der Iran wie auch der Irak eine große Anzahl R-17-Raketen ein. Im November 1980 startete der Irak erstmals 53 R-17-Raketen gegen Ziele im Iran. Unmittelbar nachdem der Iran 1985 aus Libyen ein erstes Los von 54 R-17-Raketen beschafft hatte, starteten die Streitkräfte des Iran mindestens 14 R-17-Raketen gegen Bagdad und Kirkuk. Im Jahr 1986 startete der Iran 8, 1987 18 und 1988 77 R-17-Raketen gegen Bagdad (66), Mosul (9), Kirkuk (5), Takrit (1) und Kuwait (1). Um die iranische Hauptstadt Teheran beschießen zu können, startete der Irak 1986 ein Programm zur Reichweitensteigerung seiner R-17-Raketen. Zuvor hatte sich die Sowjetunion geweigert, Mittelstreckenraketen vom Typ 9K76 Temp-S in den Irak zu liefern. Im Rahmen dieses Programms begann der Irak die Scud-Derivate Al-Hussein, Al-Abbas und Al-Hijarra zu entwickeln, wobei die erstgenannte Rakete anfangs 1988 bereitstand. Vom 29. Februar bis zum 20. April 1988 starteten die Irakischen Streitkräfte im Rahmen des sogenannten Städtekriegs 189 R-17 und Al-Hussein-Raketen gegen Teheran, Ghom und Isfahan. Der Irak startete insgesamt 516 R-17 und Al-Hussein-Raketen in diesem Konflikt. Bei den irakischen Raketenangriffen während des Krieges wurden über 2200 Menschen getötet und mehr als 10.000 verletzt. Rund ein Viertel der Bevölkerung Teherans floh aus der Stadt. Der Iran startete während des gesamten Krieges 194 R-17-Raketen, welche er aus Libyen und aus der Sowjetunion (z. T. via Nordkorea als Zwischenhändler) bezogen hatte.
+
+# Libyen 1986 
+
+Als Reaktion auf die Operation El Dorado Canyon der Streitkräfte der Vereinigten Staaten, starteten die Streitkräfte Libyens R-17-Raketen gegen Italien. Ziel war die LORAN-Funknavigationsstation der U.S.-Küstenwache auf der Insel Lampedusa. Die drei am 15. April 1986 gestarteten R-17-Raketen verfehlten ihr Ziel um mehrere Kilometer und fielen ins Meer, ohne Schaden anzurichten.
+
+# Sowjetische Intervention in Afghanistan 
+
+Während der Sowjetischen Intervention in Afghanistan setzten die sowjetischen Streitkräfte rund 200 R-17-Raketen gegen Stellungen und Dörfer der Widerstandskämpfer ein. Weiter kam vermutlich auch die reichweitengesteigerte Ausführung R-17M testweise zum Einsatz.
+
+# Afghanischer Bürgerkrieg 
+
+Noch vor ihrem Abzug aus Afghanistan begannen die Sowjets mit einer massiven Aufrüstung der afghanischen Regierungsarmee. Darunter wurde auch eine große Anzahl R-17-Raketen und die dazugehörigen Fahrzeuge aus sowjetischen Beständen geliefert. Im folgenden Afghanischen Bürgerkrieg setzte die Regierungsarmee in den Jahren 1989–1991, je nach Quelle 1228 bis über 2000 R-17-Raketen ein. Weiter gibt es Berichte, dass bei diesen Einsätzen auch die reichweitegesteigerte Ausführung R-17M zum Einsatz kam. Ziele waren Dörfer, Städte und Stützpunkte der Opposition. Vereinzelt wurden auch die Rückzugsgebiete der Oppositionskräfte innerhalb von Pakistan mit R-17-Raketen beschossen.
+
+# Zweiter Golfkrieg 
+
+Während des Zweiten Golfkriegs startete der Irak je nach Quelle 86–93 R-17 und Al-Hussein-Raketen. Von diesen wurden 39–40 Raketen in Richtung Israel gestartet. Dort forderten diese 1 Todesopfer sowie 11 Schwer- und 220 Leichtverletzte. Weitere 40–42 Raketen wurden in Richtung Saudi-Arabien gestartet. Dort forderten die Angriffe 30 Todesopfer und verletzten weitere 175. Zur Abwehr der R-17- und Al-Hussein-Raketen setzten die Koalitionsstreitkräfte erstmalig das Flug- und Raketenabwehrsystem MIM-104 Patriot ein. Die dabei von der MIM-104 Patriot erzielten Abschusszahlen werden bis heute kontrovers diskutiert.
+
+# Bürgerkrieg in Jemen 
+
+Während des Bürgerkriegs in Jemen starteten 1994 die Separatisten aus Südjemen eine unbekannte Anzahl R-17-Raketen gegen Ziele in Nordjemen. Die Raketen wurden aus Russland via Nordkorea als Zwischenhändler geliefert.
+
+# Erster Tschetschenienkrieg 
+
+Während des Ersten Tschetschenienkriegs setzten die Russischen Streitkräfte eine unbekannte Anzahl R-17-Raketen gegen Ziele in Tschetschenien ein.
+
+# Bürgerkrieg in Libyen 
+
+Während des Bürgerkriegs in Libyen 2011 starteten die regierungstreuen Streitkräfte Libyens eine unbekannte Anzahl R-17-Raketen gegen die Städte Brega und Misrata.
+
+# Bürgerkrieg in Syrien 
+
+Während des Bürgerkriegs in Syrien setzen regierungstreue Truppen der Streitkräfte Syriens seit 2013 wiederholt R-17-Raketen gegen Stützpunkte, Städte und Dörfer der Oppositionskräfte ein. Zu Beginn der Feindseligkeiten verfügten die Streitkräfte Syriens über 26 Start- und Transportfahrzeuge sowie über 100 R-17- und R-17M-Raketen. Diese wurden in den 1990er-Jahren aus Russland (z. T. via Nordkorea als Zwischenhändler) bezogen.
+
+# Huthi-Konflikt 
+
+Als Reaktion auf die saudische Beteiligung an der Militärintervention im Jemen begannen die Huthi-Rebellen ab Oktober 2016 mit Starts ballistischer Raketen gegen Saudi-Arabien. Bis Mitte 2018 wurden aus Jemen rund 40 ballistischen Kurz- und Mittelstreckenraketen gegen Ziele in Saudi-Arabien gestartet. Unter anderen verwendeten die Huthi-Rebellen dabei die Raketentypen R-17, R-17M und Burkan. Die Burkan-Raketen basieren mit großer Wahrscheinlichkeit auf der iranischen Rakete Qiam. Diese ist eine R-17M-Rakete mit einem verlängerten Raketenrumpf sowie einem neuen, schlanken Gefechtskopf. Während die Burkan-1-Rakete eine vermutete Reichweite von 600 km hat, nimmt man für die Burkan-2-Rakete eine Reichweite von über 800 km an. Die Burkan-Raketen stammen mit großer Wahrscheinlichkeit aus dem Iran und werden vermutlich über Oman nach Jemen geschmuggelt. Zur Abwehr dieser Raketen setzen die Streitkräfte Saudi-Arabiens das Flug- und Raketenabwehrsystem MIM-104 Patriot ein. Obwohl das Patriot-System auch bei diesem Konflikt Erfolge erzielt, sorgt es aber keinesfalls für eine ausreichende Sicherheit. Da die R-17, R-17M und Burkan-Raketen wenig treffsicher sind, halten sich die durch den Raketenbeschuss entstanden Schäden bislang in Grenzen.Am 17. August 2016 wurde in der saudischen Stadt Nadschran die Aramco-Ölraffinerie von einer jemenitischen R-17-Rakete getroffen.Am 2. September 2016 wurde das Umspannwerk und die Wasserentsalzungsanlage in Shuqaiq, von welcher die saudische Stadt Dschāzān und die gesamte Provinz Dschāzān mit Wasser versorgt wird, von einer jemenitischen R-17-Rakete aus rund 170 km Entfernung getroffen.Am 4. November 2017 wurde auf den Flughafen von Riad eine jemenitische Burkan 2-H der Huthi Milizen abgefeuert. Zunächst wurde ein erfolgreiches Abfangen der Rakete gemeldet. Spätere Analysen berichten darüber, dass der Gefechtskopf der Rakete das Terminal des Flughafens um ca. einen Kilometer verfehlt habe.Am 25. März 2018 starteten Huthi-Rebellen sieben R-17 und Burkan-Raketen gegen Ziele in Riad, Dschāzān, Chamis Muschait und Nadschran in Saudi-Arabien. Nach Angaben der Streitkräfte Saudi-Arabiens konnten alle Raketen mit Patriot-Flugabwehrraketen bekämpft werden. Spätere Analysen bezweifeln aber diese Angaben und man nimmt an, dass nicht alle Raketen bekämpft werden konnten.
+
+# Verbreitung 
+
+Die R-17-Raketen und ihre Abarten erfuhren nach ihrer Einführung bei den sowjetischen Streitkräften eine ausgesprochene Proliferation. Ab 1966 wurde die R-17 in die Warschauer Pakt-Staaten exportiert. In den 1980er-Jahren waren in diesen Staaten rund 15 R-17-Brigaden mit 140 9P117-Start- und Transportfahrzeugen stationiert. Diese Brigaden hatten rund 1000 R-17-Raketen im Bestand. Mit dem Ende der Sowjetunion hatten die sowjetischen Streitkräfte noch rund 35 R-17-Brigaden mit 450 9P117-Fahrzeugen im Bestand. Nach dem Export in die Warschauer Pakt-Staaten wurden mehrere tausend R-17-Raketen nach Afrika, Asien und in die Arabische Welt exportiert. In den Maschinenbaufabriken Wotkinsk (SKB-385) und in Zlatoust wurden die R-17-Raketen und deren Weiterentwicklungen bis zum Jahr 1987 produziert. Die Anzahl der produzierten R-17-Raketen wurde von Russland nicht veröffentlicht. Westliche Schätzungen gehen von 6000–10000 Raketen aus.Seit den 1990er-Jahren unterliegen die Ausführungen R-17M und R-17MU (und deren und Kernkomponenten) den Exportkontrollen des Missile Technology Control Regime. Diese verbieten den Export von ballistischen Raketen mit einer Reichweite von mehr als 300 km bei einer Nutzlast von über 500 kg. In Russland ist die Produktion der reichweitegesteigerten Ausführungen R-17M und R-17MU gemäß dem 1989 ratifizierten INF-Vertrag verboten.
+In den Ländern Iran, Irak und in Nordkorea wird ein Nachbau bzw. ein Reverse Engineering von R-17-Raketen vermutet. Abgesehen von den Bemühungen im Irak, ist über die Situation im Iran und in Nordkorea nur wenig bekannt.
+
+# Irak 
+
+Während des Ersten Golfkriegs versuchte der Irak die Reichweite der vorhandenen R-17-Raketen zu vergrößern. Durch die Verlängerung des Treibstofftankes und die Reduktion der Nutzlast entstand die Ausführung Al Hussein mit einer Reichweite von rund 650 km. Für die Herstellung einer Al Hussein-Rakete benötigte der Irak die Komponenten von drei R-17-Raketen. Später gelang eine Eigenproduktion von einem vergrößerten Treibstofftank. Weitere R-17-Kernelemente wie das Triebwerk und die Lenkeinheit konnte der Irak nicht selbst herstellen. Eine weitere Reichweitensteigerung wollte der Irak mit der Al-Hijarra-Rakete erreichen. Dies war eine nochmals verlängerte Al Hussein-Rakete mit einer angestrebten Reichweite von rund 900 km. Das Programm wurde nach rund 10 erfolglosen Testflügen abgebrochen. Weiter wollte der Irak mit der Al-Hijarra-Rakete das israelische Kernforschungszentrum Negev erreichen. Zu diesem Zweck war diese Rakete mit einem Penetrationsgefechtskopf ausgestattet. Das Al-Hijarra-Projekt verblieb nach einem Testflug im Entwurfsstadium. Mit dem Ende vom Zweiten Golfkrieg stellte der Irak sein Raketenprogramm ein. Die verbleibenden Raketen wurden im Rahmen der Resolution 687 des UN-Sicherheitsrates und der darauf folgenden UNSCOM-Mission zerstört. Zu keinem Zeitpunkt fand ein Export der irakischen Raketen statt.
+
+# Iran 
+
+Ab 1985 bezog der Iran R-17-Raketen aus der Sowjetunion (z. T. via Nordkorea als Zwischenhändler sowie aus Libyen). Ob daraufhin eine Eigenproduktion und Weiterentwicklung dieser Raketen erfolgte ist fraglich. Viele Quellen aus den Vereinigten Staaten sprechen dem Iran diese Fähigkeit zu. Quellen aus Europa berichten aber von keinen solchen Anstrengungen. Demnach sollen die lokalen R-17-Bezeichnungen Shahab-1 Shahab-2 und Qiam lediglich eine Eigenproduktion suggerieren. Vielmehr konzentriert sich der Iran auf die Entwicklung von Mittelstreckenraketen wie die Shahab-3, Ghadr und Sejjil. Anders sieht es mit dem Export von R-17-Raketen aus. Die 2015 in Jemen aufgetauchten Burkan-Raketen basieren auf der R-17M und haben mit großer Wahrscheinlichkeit ihren Ursprung im Iran.
+
+# Nordkorea 
+
+Auch über die Situation in Nordkorea gibt es zum Teil auffallend widersprüchliche Quellen. Quellen aus den Vereinigten Staaten nehmen an, dass seit den späten 1980er-Jahren die Raketen R-17, R-17M und R-17MU mittels Reverse Engineering nachgebaut und exportiert werden. Neuere Quellen aus Europa sprechen Nordkorea diese Kapazität nicht zu. Vielmehr wird vermutet, dass es sich bei den aus Nordkorea stammenden R-17-Raketen um Restbestände aus Russland handelt. So sind z. B. viele der aus Nordkorea stammenden R-17-Abarten mit kyrillischen Schriftzeichen versehen. Die Hwasong-5, Hwasong-6 und Hwasong-7 sind demnach keine in Nordkorea entwickelten Raketen, sondern lediglich lokale Bezeichnungen für die russischen R-17-Raketen.
+
+# Nutzerstaaten 
+
+Afghanistan Afghanistan – R-17, R-17M? (außer Dienst gestellt)
+Agypten Ägypten – R-17, R-17M, R-17MU?
+Algerien Algerien – R-17, R-17M
+Armenien Armenien – R-17
+Aserbaidschan Aserbaidschan – R-17, R-17M
+Bulgarien Bulgarien – R-17 (außer Dienst gestellt)
+Deutschland Demokratische Republik 1949 Deutsche Demokratische Republik – R-17 (im März 1990 mobile Trägersysteme 9P117M aus Demen und Tautenhain an die Gruppe der sowjetischen Streitkräfte in Deutschland übergeben)
+Irak Irak – R-17 (außer Dienst gestellt)
+Iran Iran – R-17, R-17M, R-17MU (lokale Bezeichnung Shahab-1 und Shahab-2)
+Jemen Jemen – R-17, R-17M
+Jugoslawien Sozialistische Föderative Republik Jugoslawien – R-17 (außer Dienst gestellt)
+Kasachstan Kasachstan – R-17
+Kuba Kuba – R-17 (außer Dienst gestellt)
+Kuwait Kuwait – R-17 (außer Dienst gestellt)
+Kongo Demokratische Republik Demokratische Republik Kongo – R-17
+Libyen Libyen – R-17, R-17M
+Korea Nord Nordkorea – R-17, R-17M, R-17MU (lokale Bezeichnung Hwasong-5, Hwasong-6 und Hwasong-7)
+Oman Oman – R-17
+Peru Peru – R-17 (außer Dienst gestellt)
+Polen Polen – R-17 (außer Dienst gestellt)
+Rumänien Rumänien – R-17 (außer Dienst gestellt)
+Russland Russland –R-17, R-17M, R-17MU (außer Dienst gestellt und z. T. eingelagert)
+Slowakei Slowakei – R-17 (außer Dienst gestellt)
+Syrien Syrien – R-17, R-17M, R-17MU
+Tadschikistan Tadschikistan – R-17
+Tschechien Tschechien – R-17 (außer Dienst gestellt)
+Ukraine Ukraine – R-17
+Ungarn Ungarn – R-17 (außer Dienst gestellt)
+Vereinigte Arabische Emirate Vereinigte Arabische Emirate – R-17
+Vereinigte Staaten Vereinigte Staaten – R-17 (für Testzwecke beschafft)
+Vietnam Vietnam – R-17
+Weissrussland Weißrussland – R-17, R-17M (außer Dienst gestellt)Quelle aus
+
+# Literatur 
+
+Lennox Duncan: Jane’s Strategic Weapon Systems. Edition 2001, 34th edition Edition, Jane’s Information Group, 2001, ISBN 0-7106-0880-2.
+Podvig Pavel: Russian Strategic Nuclear Forces. MIT Press, 2004, ISBN 0-262-16202-4.
+Schmucker Robert & Schiller Markus: Raketenbedrohung 2.0: Technische und politische Grundlagen. Mittler Verlag, 2015, ISBN 3-8132-0956-3.
+Zaloga Steven, Laurier Jim & Ray Lee: Scud Ballistic Missile Launch Systems 1955–2005. Osprey Publishing, 2006, ISBN 1-84176-947-9
+
+# Weblinks 
+
+Teststart einer R-17-Rakete– Film bei youtube.com
+
+# Einzelnachweise 
+

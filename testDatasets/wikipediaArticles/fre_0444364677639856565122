@@ -1,0 +1,157 @@
+
+## Molaire
+
+La masse molaire est la masse d'une mole d'une substance (un corps simple, un composé chimique). Elle s'exprime en principe en kilogrammes par mole (kg/mol), mais plus couramment en grammes par mole (g/mol).
+Si on note :
+
+ 
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle m}
+ : la masse de la substance en grammes (symbole : « g », selon le SI) ;
+
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ : la quantité de la substance en moles (symbole : « mol », selon le SI) ;
+
+ 
+ 
+ 
+ M
+ 
+ 
+ {\displaystyle M}
+ : la masse molaire de la substance en grammes par mole (symbole : « g/mol » ou « g·mol−1 », selon le SI) ;on obtient les relations équivalentes :
+
+ 
+ 
+ 
+ M
+ 
+
+ 
+ 
+ m
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle M={\frac {m}{n}}}
+ et
+
+ 
+ 
+ 
+ n
+ 
+
+ 
+ 
+ m
+ M
+ 
+ 
+ 
+ 
+ {\displaystyle n={\frac {m}{M}}}
+ et 
+
+ 
+ 
+ 
+ n
+ M
+ 
+
+ m
+ 
+ 
+ {\displaystyle nM=m}
+ 
+
+# Détermination 
+
+# Cas des corps simples 
+
+Pour chaque élément chimique, la masse d'une mole d'atomes se trouve dans le tableau périodique des éléments. Il s'agit en fait de la masse molaire moyenne pour tous les isotopes d'un élément donné, selon la proportion de chaque isotope.
+La valeur de la masse molaire correspond également au nombre moyen de nucléons par atome de l'élément, à laquelle il faut soustraire l'énergie de liaison des nucléons à l'intérieur du noyau.
+Exemple : une mole d'atomes de chlore 35Cl a une masse de 35 g et une mole d'atomes de chlore 37Cl a une masse de 37 g. Or, l'élément chlore existe à l'état naturel avec les proportions 75,77 %/24,23 % en 35Cl/37Cl. Sa masse molaire vaut donc 35,5 g·mol-1 :
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 75
+ ,
+ 77
+ ×
+ 35
+ +
+ 24
+ ,
+ 23
+ ×
+ 37
+ 
+ 100
+ 
+ 
+ 
+
+ 35
+ ,
+ 48
+ 
+ 
+ {\displaystyle {\frac {75,77\times 35+24,23\times 37}{100}}=35,48}
+ à laquelle il faut encore soustraire une masse de 0,032 g correspondant à l'énergie de liaison pour retrouver la masse (35,453) donnée dans le tableau de l'élément.
+La masse molaire d'un corps simple est simplement le produit du nombre d'atomes dans les molécules de ce corps par la masse molaire élémentaire. Exemple : le dioxygène O2 a une masse molaire de 31,9988 g·mol-1, ce qui est la masse de l'oxygène multipliée par deux.
+
+# Cas des corps composés 
+
+# Composés moléculaires 
+
+La masse molaire d'un composé moléculaire se calcule en additionnant les masses molaires de tous les éléments qui constituent ses molécules en les multipliant par les coefficients de la formule brute du composé.
+
+Exemples :
+On lit dans le tableau périodique des éléments :
+MH = 1,0 g·mol-1 ;
+MC = 12,0 g·mol-1 ;
+MO = 16,0 g·mol-1.
+L'eau a pour formule brute H2O, soit :
+Meau = 2MH + MO = 2×1 + 16 = 18 g·mol-1.
+Le glucose a pour formule brute C6H12O6, soit :
+Mglucose = 6MC + 12MH + 6MO = 6×12,0 + 12×1,0 + 6×16,0 = 180,0 g·mol-1.La masse molaire est numériquement identique à la valeur moyenne[Quoi ?] de la masse moléculaire qui est la masse d'une seule molécule exprimée en unités atomiques (u).
+
+# Solides ioniques 
+
+Comme pour les composés moléculaires, il faut d'abord connaître la formule brute du solide ionique. À nouveau, on additionne toutes les masses molaires pour tous les éléments du solide en tenant compte des proportions de chaque élément, et en ajoutant les molécules d'eau dans le cas des solides hydratés.
+
+Exemple :
+Sulfate de cuivre(II) pentahydraté CuSO4•5H2O :
+M = M(Cu) + M(S) + 4M(O) + 5[2M(H) + M(O)] = 63,5 + 32,1 + 4×16 + 5(2 + 16) = 249,6 g·mol-1.
+
+# Notes et références 
+
+# Notes 
+
+# Voir aussi 
+
+# Articles connexes 
+
+Mole
+Masse atomique
+Masse moléculaire
+Poids équivalent
+Volume molaire Portail de la chimie

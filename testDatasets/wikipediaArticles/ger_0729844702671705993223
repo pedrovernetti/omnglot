@@ -1,0 +1,23 @@
+
+## Bündelblockausgleichung
+
+Der Begriff Bündelblockausgleichung bzw. Bündelausgleich (engl.: bundle adjustment) stammt aus der Photogrammetrie und bezieht sich auf das Optimieren der "Sehstrahlenbündel" einer 3D-Szene, die von mehreren Kameras bzw. von einer Kamera aus mehreren Perspektiven aufgenommen wird. Bei der Bündelblockausgleichung können gleichzeitig die Positionen der Punkte im 3D-Raum, die Positionen und Orientierungen der beobachtenden Kameras sowie deren interne Kalibrierparameter derart an die Messbilder angepasst werden, dass verbleibende Fehler (z. B. Bildverzerrungen, Messfehler der Auswertung) möglichst optimal auf alle Beobachtungen verteilt werden.
+
+ 
+Speziell wird der Begriff verwendet, um nicht nur einzelne Bildpaare (je 2 überdeckende Messbilder) photogrammetrisch auszuwerten, sondern eine beliebige Anzahl von zusammenhängenden Bildern (Block) miteinander zu verknüpfen.
+Dabei spielt es keine Rolle, ob ein solcher Bildblock ein zusammenhängendes Gebiet der Erdoberfläche (Luftbildphotogrammetrie) oder ein beliebiges, von mehreren terrestrischen Standpunkten aus aufgenommenes Objekt der Nahbereichsphotogrammetrie darstellt.
+Man spricht von einem Bündel, da jeder Bildpunkt eines Messbildes einen Strahl durch das Projektionszentrum (Kameraobjektiv) definiert und alle in einem Bild gemessenen Bildpunkte daher im Projektionszentrum zu einem Bündel geschnürt werden (Zentralprojektion).
+Die Verknüpfung der Bilder erreicht man mit Hilfe von korrespondierenden Punkten, die in mehreren, sich überlappenden Bildern erkennbar sind und jeweils exakt lokalisiert werden können. Dieses Verfahren nennt man Aerotriangulation (auch: Bildtriangulation), mit deren Hilfe sich ein Gebiet ohne Passpunkte überbrücken lässt. Die Auswahl dieser Punkte kann dabei auch von automatischen Algorithmen zur Mustererkennung vorgenommen bzw. unterstützt werden.
+Zur Berechnung verwendet man ein Gleichungssystem, welches den oben dargestellten Strahlengang mathematisch abbildet. Da deutlich mehr Beobachtungen (Messungen) vorliegen als Unbekannte, werden die Fehler der gemessenen Bildkoordinaten mit Hilfe der Ausgleichungsrechnung minimiert.
+Als Ergebnis der Ausgleichungsberechnung erhält man gleichzeitig die unbekannten Orientierungselemente (äußere und innere Orientierung) sämtlicher Bilder und zusätzlich die bisher unbekannten Objektkoordinaten aller Verknüpfungspunkte.
+Je mehr dieser Punkte in möglichst vielen unterschiedlichen Bildern in die Bündelblockausgleichung eingehen, desto genauer wird die anschließende Ausgleichungsberechnung.
+Im Anschluss an eine erfolgreiche Bündelblockausgleichung kann man mit den herkömmlichen photogrammetrischen Auswertungen fortfahren und beliebige weitere Objekte dreidimensional erfassen.
+
+# Siehe auch 
+
+Analytische Photogrammetrie, Blocktriangulation, Orthofoto
+Sebastian Finsterwalder, Armin Grün, Gottfried Otepka, Hellmut Schmid
+
+# Literatur 
+
+Karl Kraus: Fotogrammetrie (7. Auflage) Band 1 und 2, de Gruyter, Berlin 2004.

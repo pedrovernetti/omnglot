@@ -1,0 +1,757 @@
+
+## Perhoslause
+
+Perhoslause on klassinen euklidisen geometrian tulos, joka voidaan määritellä seuraavasti:
+Piirretään ympyrälle mielivaltainen jänne PQ ja merkitään sen keskipistettä M. Piirretään sitten ympyrälle jänteet AB ja CD siten, että ne kulkevat pisteen M kautta. Muodostetaan janat AD ja BC. Merkitään janojen AD ja PQ leikkauspistettä X ja janojen BC ja PQ leikkauspistettä Y. Nyt M on myös janan XY keskipiste, eli XM=MY
+
+Todistus:
+Piirretään pisteestä 
+ 
+ 
+ 
+ X
+ 
+ 
+ 
+ {\displaystyle X\,}
+ normaalit 
+ 
+ 
+ 
+ X
+ 
+ X
+ ′
+ 
+ 
+ 
+ 
+ {\displaystyle XX'\,}
+ ja 
+ 
+ 
+ 
+ X
+ 
+ X
+ ″
+ 
+ 
+ 
+ 
+ {\displaystyle XX''\,}
+ janoille 
+ 
+ 
+ 
+ A
+ M
+ 
+ 
+ 
+ {\displaystyle AM\,}
+ ja 
+ 
+ 
+ 
+ D
+ M
+ 
+ 
+ 
+ {\displaystyle DM\,}
+ . Vastaavasti piirretään pisteestä 
+ 
+ 
+ 
+ Y
+ 
+ 
+ 
+ {\displaystyle Y\,}
+ normaalit 
+ 
+ 
+ 
+ Y
+ 
+ Y
+ ′
+ 
+ 
+ 
+ 
+ {\displaystyle YY'\,}
+ ja 
+ 
+ 
+ 
+ Y
+ 
+ Y
+ ″
+ 
+ 
+ 
+ 
+ {\displaystyle YY''\,}
+ janoille 
+ 
+ 
+ 
+ B
+ M
+ 
+ 
+ 
+ {\displaystyle BM\,}
+ ja 
+ 
+ 
+ 
+ C
+ M
+ .
+ 
+ 
+ 
+ {\displaystyle CM.\,}
+ 
+
+Saamme 
+
+ 
+ 
+ 
+ △
+ M
+ X
+ 
+ X
+ ′
+ 
+ ∼
+ △
+ M
+ Y
+ 
+ Y
+ ′
+ 
+ ,
+ 
+ 
+ 
+ {\displaystyle \triangle MXX'\sim \triangle MYY',\,}
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ M
+ X
+ 
+ 
+ M
+ Y
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ X
+ 
+ X
+ ′
+ 
+ 
+ 
+ Y
+ 
+ Y
+ ′
+ 
+ 
+ 
+ 
+ ,
+ 
+ 
+ {\displaystyle {MX \over MY}={XX' \over YY'},}
+ 
+ 
+ 
+ 
+ △
+ M
+ X
+ 
+ X
+ ″
+ 
+ ∼
+ △
+ M
+ Y
+ 
+ Y
+ ″
+ 
+ ,
+ 
+ 
+ 
+ {\displaystyle \triangle MXX''\sim \triangle MYY'',\,}
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ M
+ X
+ 
+ 
+ M
+ Y
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ X
+ 
+ X
+ ″
+ 
+ 
+ 
+ Y
+ 
+ Y
+ ″
+ 
+ 
+ 
+ 
+ ,
+ 
+ 
+ {\displaystyle {MX \over MY}={XX'' \over YY''},}
+ 
+ 
+ 
+ 
+ △
+ A
+ X
+ 
+ X
+ ′
+ 
+ ∼
+ △
+ C
+ Y
+ 
+ Y
+ ″
+ 
+ ,
+ 
+ 
+ 
+ {\displaystyle \triangle AXX'\sim \triangle CYY'',\,}
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+ 
+ X
+ ′
+ 
+ 
+ 
+ Y
+ 
+ Y
+ ″
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ A
+ X
+ 
+ 
+ C
+ Y
+ 
+ 
+ 
+ ,
+ 
+ 
+ {\displaystyle {XX' \over YY''}={AX \over CY},}
+ 
+ 
+ 
+ 
+ △
+ D
+ X
+ 
+ X
+ ″
+ 
+ ∼
+ △
+ B
+ Y
+ 
+ Y
+ ′
+ 
+ ,
+ 
+ 
+ 
+ {\displaystyle \triangle DXX''\sim \triangle BYY',\,}
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+ 
+ X
+ ″
+ 
+ 
+ 
+ Y
+ 
+ Y
+ ′
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ D
+ X
+ 
+ 
+ B
+ Y
+ 
+ 
+ 
+ ,
+ 
+ 
+ {\displaystyle {XX'' \over YY'}={DX \over BY},}
+ 
+Edellisistä yhtälöistä nähdään, että
+
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ M
+ X
+ 
+ 
+ M
+ Y
+ 
+ 
+ 
+ )
+ 
+ 
+ 2
+ 
+ 
+ 
+
+ 
+ 
+ 
+ X
+ 
+ X
+ ′
+ 
+ 
+ 
+ Y
+ 
+ Y
+ ′
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+ 
+ X
+ ″
+ 
+ 
+ 
+ Y
+ 
+ Y
+ ″
+ 
+ 
+ 
+ 
+ ,
+ 
+ 
+ {\displaystyle \left({MX \over MY}\right)^{2}={XX' \over YY'}{XX'' \over YY''},}
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ A
+ X
+ .
+ D
+ X
+ 
+ 
+ C
+ Y
+ .
+ B
+ Y
+ 
+ 
+ 
+ ,
+ 
+ 
+ {\displaystyle {}={AX.DX \over CY.BY},}
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ P
+ X
+ .
+ Q
+ X
+ 
+ 
+ P
+ Y
+ .
+ Q
+ Y
+ 
+ 
+ 
+ ,
+ 
+ 
+ {\displaystyle {}={PX.QX \over PY.QY},}
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ (
+ P
+ M
+ −
+ X
+ M
+ )
+ .
+ (
+ M
+ Q
+ +
+ X
+ M
+ )
+ 
+ 
+ (
+ P
+ M
+ +
+ M
+ Y
+ )
+ .
+ (
+ Q
+ M
+ −
+ M
+ Y
+ )
+ 
+ 
+ 
+ ,
+ 
+ 
+ {\displaystyle {}={(PM-XM).(MQ+XM) \over (PM+MY).(QM-MY)},}
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ (
+ P
+ M
+ 
+ )
+ 
+ 2
+ 
+ 
+ −
+ (
+ M
+ X
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+ 
+ (
+ P
+ M
+ 
+ )
+ 
+ 2
+ 
+ 
+ −
+ (
+ M
+ Y
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ ,
+ 
+ 
+ {\displaystyle {}={(PM)^{2}-(MX)^{2} \over (PM)^{2}-(MY)^{2}},}
+ 
+Koska 
+ 
+ 
+ 
+ P
+ M
+ 
+ 
+ 
+ {\displaystyle PM\,}
+ 
+
+ 
+ 
+ 
+ M
+ Q
+ 
+ 
+ 
+ {\displaystyle MQ\,}
+ ,
+
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ M
+ X
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+ 
+ (
+ M
+ Y
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ (
+ P
+ M
+ 
+ )
+ 
+ 2
+ 
+ 
+ −
+ (
+ M
+ X
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+ 
+ (
+ P
+ M
+ 
+ )
+ 
+ 2
+ 
+ 
+ −
+ (
+ M
+ Y
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ .
+ 
+ 
+ {\displaystyle {(MX)^{2} \over (MY)^{2}}={(PM)^{2}-(MX)^{2} \over (PM)^{2}-(MY)^{2}}.}
+ 
+Josta saadaan, että
+
+ 
+ 
+ 
+ M
+ X
+ 
+
+ M
+ Y
+ .
+ 
+ 
+ 
+ {\displaystyle MX=MY.\,}
+ 
+
+# Lähteet 
+
+H. S. M. Coxeter, S. L. Greitzer, Geometry Revisited, MAA, 1967.
+
+# Aiheesta muualla 
+
+The Butterfly Theorem
+A Better Butterfly Theorem
+Proof of Butterfly Theorem
+The Butterfly Theorem
+Butterfly Theorem

@@ -1,0 +1,57 @@
+
+## Alapállapot
+
+Egy kvantummechanikai rendszer alapállapota a legkisebb energiájú sajátállapot. Az alapállapot energiáját a rendszer nullponti energiájának is nevezik. A gerjesztett állapot bármely olyan állapot, amelynek energiája nagyobb, mint az alapállapoté. A kvantumtérelméletben az alapállapotot többnyire vákuumállapotnak vagy vákuumnak nevezik.
+Ha egynél több alapállapot létezik, akkor azt degeneráltnak (elfajult) nevezik. Számos rendszer alapállapota degenerált. Degeneráltság akkor jelentkezik, amikor létezik olyan unitér operátor (wd), amely nem triviálisan hat az alapállapotra és kommutál a rendszer Hamilton-operátorával.
+A termodinamika harmadik főtétele szerint egy rendszer az abszolút nulla fokon alapállapotban van, azaz entrópiáját az alapállapot degeneráltsága határozza meg. Számos rendszernek, például a tökéletes kristályrácsnak egyedi alapállapota van, így abszolút nulla fokon zérus az entrópiája. Negatív hőmérsékletű rendszereknél a legmagasabb gerjesztett energiájú állapotnak is lehet abszolút nulla a hőmérséklete.
+
+# Példák 
+
+Egy egydimenziós dobozba zárt részecske hullámfüggvénye alapállapotban félperiódusú szinuszhullám, mely a két végpontnál nulla értéket vesz fel. A részecske energiája 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ h
+ 
+ 2
+ 
+ 
+ 
+ n
+ 
+ 2
+ 
+ 
+ 
+ 
+ 8
+ m
+ 
+ L
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\frac {h^{2}n^{2}}{8mL^{2}}}}
+ , ahol h a Planck-állandó, m a részecske tömege, n az energiaszint (n = 1 felel meg az alapállapotnak), és L a doboz mérete.
+A hidrogénatom alapállapotának hullámfüggvénye gömbszimmetrikus eloszlást mutat, melynek középpontja az atommagban helyezkedik el, az értéke itt a legnagyobb, ettől távolodva pedig exponenciálisan csökken. Az elektron legnagyobb valószínűséggel az atommagtól a Bohr-sugárral megegyező távolságra található meg. Ezt a függvényt 1s atompályának nevezzük. A hidrogénben az elektron alapállapotának energiája az ionizációs határhoz képest −13,6 eV. Más szóval 13,6 eV energia szükséges ahhoz, hogy az elektron már ne legyen az atomhoz kötve.
+A másodperc pontos definíciója 1997 óta az alapállapotú – 0 K hőmérsékletű, nyugvó – cézium-133 atom két hiperfinom energiaszintje közötti átmenetnek megfelelő sugárzás 9 192 631 770 periódusának időtartama.
+
+# Jegyzetek 
+
+# Fordítás 
+
+Ez a szócikk részben vagy egészben a Ground state című angol Wikipédia-szócikk ezen változatának fordításán alapul. Az eredeti cikk szerkesztőit annak laptörténete sorolja fel.
+
+# Irodalom 
+
+ Az energiaszintek leírása a 2–5. fejezetekben szerepel, a hidrogénatomot a 19. fejezet tárgyalja, The Feynman Lectures on Physics (angol nyelven) (1965)

@@ -1,0 +1,196 @@
+
+## Drakes ligning
+
+Drakes ligning blev fremsat i 1961 af den amerikanske astronom og kosmolog Frank D. Drake (f. 1930). Ligningen beregner ud fra en række nøglefaktorer, hvor mange observérbare civilisationer, der findes i en galakse.
+
+# Parametre 
+
+Drakes ligning ser således ud:
+
+ 
+ 
+ 
+ N
+ 
+
+ R
+ ⋅
+ 
+ f
+ 
+ p
+ 
+ 
+ ⋅
+ 
+ n
+ 
+ e
+ 
+ 
+ ⋅
+ 
+ f
+ 
+ l
+ 
+ 
+ ⋅
+ 
+ f
+ 
+ i
+ 
+ 
+ ⋅
+ 
+ f
+ 
+ c
+ 
+ 
+ ⋅
+ L
+ 
+ 
+ {\displaystyle N=R\cdot f_{p}\cdot n_{e}\cdot f_{l}\cdot f_{i}\cdot f_{c}\cdot L}
+ ,hvor:
+
+ 
+ 
+ 
+ N
+ 
+ 
+ {\displaystyle N}
+ er antallet af observérbare (se note) civilisationer.
+
+ 
+ 
+ 
+ R
+ 
+ 
+ {\displaystyle R}
+ er den hastighed, hvormed nye stjerner dannes i galaksen.
+
+ 
+ 
+ 
+ 
+ f
+ 
+ p
+ 
+ 
+ 
+ 
+ {\displaystyle f_{p}}
+ er den andel af de dannede stjerner, der har et planetsystem omkring sig.
+
+ 
+ 
+ 
+ 
+ n
+ 
+ e
+ 
+ 
+ 
+ 
+ {\displaystyle n_{e}}
+ er det gennemsnitlige antal af planeter der kan huse liv, per solsystem
+
+ 
+ 
+ 
+ 
+ f
+ 
+ l
+ 
+ 
+ 
+ 
+ {\displaystyle f_{l}}
+ er den andel af egnede planeter, hvorpå der rent faktisk udvikles livsformer.
+
+ 
+ 
+ 
+ 
+ f
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle f_{i}}
+ er den andel af planeter med liv, hvor det levende kan opfattes som intelligent.
+
+ 
+ 
+ 
+ 
+ f
+ 
+ c
+ 
+ 
+ 
+ 
+ {\displaystyle f_{c}}
+ er den andel af planeter med intelligent liv, der har evnen til at kommunikere interstellart (dvs fra et solsystem til et andet).
+
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ er det tidsrum en given civilisation forventes at kunne opretholde en sådan evne.
+
+# Note 
+
+At en civilisation er "observérbar" betyder i dette tilfælde, at den kan opdages med en eller flere af de teknikker, mennesket har udviklet til at studere universet. En observation behøver ikke være visuel (den vil med al sandsynlighed IKKE være visuel) men kan lige så godt være modtagelsen af et radiosignal eller anden elektromagnetisk stråling stammende fra et fremmed solsystem.
+
+# Kommentar 
+
+Det tal for observérbare civilisationer, der beregnes, afhænger af nogle faktorer, som er ukendte eller forbundet med stor usikkerhed. Der er derfor en række forbehold knyttet til brugen af ligningen og dét tal, der beregnes, varierer voldsomt afhængigt af de valgte forudsætninger. Eksempelvis véd man ikke ret meget om, hvor hurtigt nye stjerner dannes i vores galakse, Mælkevejen, ligesom man ikke har håndfast viden om, hvor mange nydannede stjerner, der – som vores Sol – er udstyret med et system af planeter. Hvor vores viden om netop disse faktorer bliver bedre i takt med at vore observationer af universet bliver bedre, kan man til gengæld nok antage, at eksempelvis en konkret viden om hvor mange planeter (om nogen), der udvikler intelligent liv, ligger et godt stykke ude i fremtiden. I praksis går opgaven derfor ud på at anvende Drakes ligning til at nærme sig en størrelsesorden for 
+ 
+ 
+ 
+ N
+ 
+ 
+ {\displaystyle N}
+ , frem for et konkret tal.Til trods for dette, er Drakes ligning almindelig anerkendt, som en gyldig formulering af selve problemet. Det er kendetegnende, at de forskellige faktorer, der indgår i ligningen, udforskes indenfor forskellige videnskaber. Ligningen er således ikke kun en astronomisk eller fysisk model, men bredere, og inddrager områder som exobiologi (læren om liv uden for Jorden), antropologi og sociologi. Efterhånden som vores viden bliver mere præcis, vil den praktiske nytte af ligningen vokse. Men Drakes ligning har, siden den blev fremsat, haft stor betydning som en del af fundamentet for det voksende videnskabsområde, der omhandler søgen efter liv udenfor vort eget solsystem. Den forskning finder blandt andet sted i SETI, som Frank Drake var medvirkende til at stifte i netop 1961.
+En udmærket beskrivelse af dette arbejde, og af Drakes ligning, findes i bogen Is Anyone Out There, Frank Drake & Dava Sobel.
+
+# Problemer med Drakes ligning 
+
+1. Fermis paradoks. I 1950 spurgte Enrico Fermi med henvisning til intelligent liv andre steder i vor galakse: Hvor er de?.2. 
+ 
+ 
+ 
+ R
+ 
+ 
+ {\displaystyle R}
+ – den hastighed, hvormed nye stjerner dannes i galaksen, er næppe relevant for vurdering af eksistensen af intelligent liv i vor galakse i dag.2.1 Ganske vist indikerer undersøgelser som Persic og Rephaelis "Galactic star-formation rates gauged by stellar end-products" en konstant frekvens for dannelse af stjerner indenfor de seneste ca. 1 milliard år, men til gengæld tyder Beacoms "The Cosmic Stellar Birth and Death Rates", Hardin & al.s "Type Ia supernova rate at z ~ 0.1" og Blanc & al.s "Type Ia supernova rate at a redshift of ~ 0.1" m.fl. analyser stærkt på, at frekvensen for stjernedannelse i dag ligger på ca. 1/4 af, hvad den var for 5-8 milliarder år siden.For ca. 7,5 milliarder år siden indledtes et brat fald i dannelsen af massive stjerner og for 5 milliarder år siden indledtes et lignende fald i dannelsen af den gruppe hovedseriestjerner (herunder soltyper), som ender som hvide dværge.Det ser altså ud til at Solen er en "efternøler", idet de fleste stjerner i vores galakse ser ud til at være dannet for 6-9 mia. år siden, mens Solen kun er ca. 4,6 mia. år gammel.2.2 Ud fra de for tiden bedste stjernemodeller vil Solen, når den når en alder på ca. 6,5 milliarder år være så varm, at havene vil være fordampede og liv, som vi kender det, vil være uddødt.
+Hvis det tager intelligent liv omkring 4-5 milliarder år at udvikles siden en planets tilblivelse, er det kun interessant at overveje, hvor mange stjerner, som blev dannet for mellem (mindst) 4 og højst 7 milliarder år siden, og ikke hvor mange, som dannes i dag.2.3 Hvis vi antager, at en eller flere såkaldte ekstraterrestriske civilisationer (ET), dvs. intelligent udenjordisk liv på exoplaneter, nåede til Jorden for en eller flere milliarder år siden, og selv hvis de opførte observationsstationer på Jorden, kan pladetektonik meget vel have fjernet ethvert spor heraf. 
+2.4 Konklusionen heraf er, at vi muligvis er alene i vor galakse i dag, simpelthen fordi evt. tidlige ekstraterrestriske civilisationer kan være uddøde for millioner eller endda milliarder af år siden og at eventuelle ET-stationer kan være pulveriserede og deres rester forsvundne under kontinenterne.
+
+# Se også 
+
+SETI (Search for Extra Terrestial Intelligence)
+
+# Eksterne henvisninger 
+
+Er vi alene i universet? Videnskab.dk
+
+# Referencer 
+

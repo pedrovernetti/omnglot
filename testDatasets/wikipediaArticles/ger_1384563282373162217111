@@ -1,0 +1,16 @@
+
+## GMRP
+
+GARP Multicast Registration Protocol (GMRP) ist ein Teilprotokoll des Generic Attribute Registration Protocol (GARP), das sich mit dem Management von Multicast-Verbindungen befasst. GMRP ist in IEEE 802.1p genormt und erlaubt es Ethernet-Hosts und -Switches, die Weiterleitung von Multicast-Nachrichten auf dem OSI-Layer 2 zu steuern.
+GMRP ist ein Layer-2-Netzwerk-Protokoll, womit es MAC-Multicasts behandelt. Ein Host meldet sich für eine Multicast-Adresse an oder ab. Dementsprechend leitet der verwaltende Switch entsprechende Multicasts an ihn weiter oder nicht. Dadurch wird die Ausbreitung von Multicasts eingedämmt, was die Netzlast reduziert.
+
+# Siehe auch 
+
+IGMP (konkurrierendes, erfolgreicheres Protokoll, welches auf dem OSI-Layer 3 arbeitet)
+IEEE 802.1D (dort ist GARP und GMRP genormt); auch: IEEE 802.1p
+IEEE 802.1ak (dort ist das neuere MMRP genormt, welches GMRP ablösen soll)
+
+# Weblinks 
+
+Vorlesungsskript "Bussysteme" (PDF; 967 kB)
+Freies Testtool "MultiCastor"

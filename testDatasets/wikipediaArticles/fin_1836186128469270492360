@@ -1,0 +1,61 @@
+
+## AmigaOS
+
+AmigaOS on Amiga-tietokoneiden oletuskäyttöjärjestelmä. AmigaOS:n kehityksen aloitti Amiga Corporation, joka myöhemmin päätyi Commodore Internationalin omistukseen.
+Käyttöjärjestelmän ensimmäinen versio julkaistiin vuonna 1985 Amiga 1000 -tietokoneen käyttöjärjestelmänä. Myöhemmin oikeudet päätyivät Amiga Inc. yhtiölle.
+Vuonna 2017 Hyperion Entertainment ilmoitti omistavansa yksinoikeudella oikeudet AmigaOS:ään seurauksena lakikiistasta Cloanton kanssa.
+
+# Historia 
+
+Käyttöjärjestelmän kehitykseen palkattu Carl Sassenrath oli kehittänyt ideaa mikroytimeen perustuvasta käyttöjärjestelmästä ennen termin yleistymistä. Käyttöjärjestelmään tuli moniajo. RJ Mical kehitti Intuition ikkunointijärjestelmän ja rajapinnan, jolla sovellukset voivat tehdä muun muassa ikkunoita ja valikoita.Ytimen päälle tehtävän DOS-järjestelmän (CAOS) kehitys jäi jälkeen aikataulusta.
+CAOS:in kehittäjäksi palkattu kolmas osapuoli vaati myös suurempaa palkkiota Commodoren tultua mukaan kehitykseen.CAOS:in korvaajaksi valittiin TRIPOS, joka tuli AmigaOS-käyttöjärjestelmän AmigaDOS-moduuliksi heinäkuussa 1985. AmigaDOS sisältää komentorivityökalun ja Amigan tiedostojärjestelmän. Toteutus oli teoreettisesti hyvä, mutta teknisesti huono eikä sisältänyt resurssien seuraamista, ja aiheutti ongelmia vielä huomattavasti myöhemmin.
+
+# Ominaisuudet 
+
+Amiga OS sisälsi useita ominaisuuksia, joita mikrotietokoneissa ei ollut totuttu näkemään:
+
+ennakoiva moniajo
+graafinen käyttöliittymä (GUI) nimeltään Workbench
+
+# Julkaisuversiot 
+
+AmigaOS versiot ovat yleisesti Kickstart-version mukaan seuraavasti:
+
+# Tekniikka 
+
+AmigaOS:n ydin (kernel) on nimeltään Exec (lyhenne sanoista Multitasking Executive).Ydin ei toteuta muistisuojausta, koska käyttöjärjestelmän piti toimia myös suorittimilla ilman muistinhallintayksikköä.Ydin toteuttaa prosessien välisen viestijärjestelmän.Kickstart on Amigan ROM-pohjainen firmware, joka lataa kernelin.
+
+# Laitteistotuki 
+
+Ensimmäiset AmigaOS:n versiot (1.0–3.1) olivat Commodoren tekemiä ja suunniteltu Motorola 68k -sarjan 16- ja 32-bittisille prosessoreille.
+Versiot 3.5-3.9 olivat Haage&Partner tekemiä.Hyperion Entertainment on tehnyt AmigaOS 4 version, joka toimii ainoastaan PowerPC-prosessorilla laajennetuissa Amiga-tietokoneissa.
+
+# Ohjelmisto 
+
+Exec on AmigaOS:n ennakoivaa moniajoa tukeva ydin.Ytimen päällä toimii Amigan oma tiedostojärjestelmä AmigaDOS.
+Ikkunointijärjestelmä on nimeltään Intuition, jolla on toteutettu AmigaOS:n graafinen käyttöliittymä Workbench.Boopsi (engl. Basic Object Oriented Programming System) on oliopohjainen ohjelmointimalli Intuitionille, joka perustuu osin Smalltalk-kielelle.AmigaOS sisältää myös komentorivityökalun (engl. Command Line Interface, CLI) (AmigaShell).
+ARexx on IBM:n REXX-kieleen pohjautuva ohjelmien välistä kommunikointia tukeva tulkattava ohjelmointikieli.
+
+# Tiedostojärjestelmä 
+
+Alkuperäinen tiedostojärjestelmä on nimetty jälkikäteen OFS Old File System.
+Myöhemmin Commodore on julkaissut FFS Fast File System tiedostojärjestelmä (Kickstart 2.0+ ?).
+Tiedostojärjestelmästä on alun perin kuusi versiota:
+DOS\0, OFS
+DOS\1, OFS
+DOS\2, OFS jossa merkistöbugin korjaus
+DOS\3, FFS
+DOS\4, OFS hakemistocachella
+DOS\5, FFS hakemistocachellaKolmansien osapuolien tekemänä on myös julkaistu eri tiedostojärjestelmiä kuten Smart File System (SFS) ja Professional File System (PFS).
+SFS on julkaistu freeware ohjelmistona vuonna 2000 ja myöhemmin LGPL -lisenssillä.PFS on myöhemmin julkaistu Aminetissä BSD-lisenssillä.
+
+# Katso myös 
+
+TRIPOS
+
+# Lähteet 
+
+# Aiheesta muualla 
+
+AmigaOS 4
+Hyperion Entertainment

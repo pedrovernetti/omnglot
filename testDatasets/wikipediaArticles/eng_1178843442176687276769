@@ -1,0 +1,22 @@
+
+## PP3
+
+PP3 is free software that produces sky charts, focussing on high quality graphics and typography. It is distributed a license based on the MIT License, but with this restriction added:
+
+If you copy or distribute a modified version of this Software, the entire resulting derived work must be given a different name and distributed under the terms of a permission notice identical to this one.
+
+Sky charts are produced as LaTeX files, so an installation of LaTeX and Ghostscript is required to obtain results in PostScript or PDF formats. Knowledge of command line syntax for these packages is however not required, as PP3 can run the conversions automatically.
+Initially Wikipedia's own star charts were produced by PP3. PP3 generates maps in the azimuthal equidistant projection.
+
+# See also 
+
+Stellarium
+KStars
+Star chart
+
+# References 
+
+# External links 
+
+Official website
+PP3 on SourceForge.net

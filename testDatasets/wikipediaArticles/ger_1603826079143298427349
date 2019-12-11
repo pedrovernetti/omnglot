@@ -1,0 +1,47 @@
+
+## Wissensbasiertes System
+
+Ein wissensbasiertes System (WBS) ist ein intelligentes Informationssystem, in dem Wissen mit Methoden der Wissensrepräsentation und Wissensmodellierung abgebildet und nutzbar gemacht wird. Der Begriff wird häufig synonym oder als Oberbegriff für Expertensysteme gebraucht, er lässt sich aber auch allgemeiner für alle auf Wissen basierenden Systeme fassen.
+
+# Einordnung 
+
+Wissensbasierte Systeme können als eine besondere Art von Programmiersystemen angesehen werden, mit denen eine neue vorteilhafte Programmiermethodik möglich wird. Sie werden bevorzugt zur Lösung von Problemen eingesetzt, die auf algorithmischem, imperativem Wege nur schwer realisierbar sind. 
+Die Inferenzmaschine ist dabei ein Berechnungsmechanismus für mit der Wissensbasis gegebene Programme. Durch die Eingabe von Wissen wird die Inferenzmaschine programmiert. Das Wissen wird deklarativ repräsentiert. Es besteht aus Faktenwissen (ähnlich den Daten in einer herkömmlichen Datenbank) als auch Regelwissen, zum Beispiel in Form von Produktionsregeln (wenn ..., dann ...), die symbolisch vorliegen.
+Zu den wissensbasierten Systemen gehören:
+
+Regelbasierte Systeme
+Expertensysteme
+Software-AgentenEin wissenbasiertes System ist:
+
+leichter zu verstehen, weil es genügt, die voneinander unabhängigen, überschaubaren Wissenseinheiten zu verstehen,
+leichter korrigierbar, weil es genügt, die Richtigkeit der einzelnen Wissenseinheiten zu überprüfen und diese gegebenenfalls zu ändern,
+leichter entsprechend dem wachsenden Kenntnisstand zu aktualisieren, insbesondere bei sehr diffusen Sachgebieten.In den allermeisten Fällen sind Expertensysteme wissensbasierte Systeme, auch wenn diese rein theoretisch nach anderen Prinzipien entwickelt sein könnten. Es ist jedoch nicht jedes wissensbasierte System schon ein Expertensystem. Hierzu bedarf es einiger zusätzlicher Komponenten, die das Gesamtsystem über die Fähigkeit zum Problemlösen hinaus mit solchen Nutzungseigenschaften ausstatten, dass damit tatsächlich ein Experte ersetzt werden kann.
+
+# Komponenten / Bestandteile 
+
+Die Kernkomponenten eines wissensbasierten Systems sind:
+
+Wissensbasis - Wissen wird hier in deklarativer Form abgelegt, das Wissen umfasst Fakten, Regeln und generisches (Problembereich), sowie fallspezifisches (Problemlösungsfall) Wissen
+Inferenzkomponente - Wissen der Wissensbasis wird hier verarbeitet, dabei werden neue Fakten und Regeln abgeleitet
+Benutzerschnittstelle (User Interface) - Schnittstelle zur Kommunikation mit dem Benutzer oder dem WissensingenieurDazu kommen vor allem bei komplexeren Anwendungen – beispielsweise Expertensystemen – noch:
+
+Wissenserwerbskomponente – Möglichkeit zum Aufbau und zur Erweiterung der Wissensbasis (manuell oder automatisch)
+Erklärungskomponente – Erteilt dem Benutzer Auskunft über die Lösungsfindung, damit dieser sie nachvollziehen kann (Wie und Warum)
+
+# Einsatzmöglichkeiten 
+
+Dateninterpretation
+Überwachung
+Diagnose
+Therapie
+Planung
+Entwurf
+PrognoseBeispielsweise dienen wissensbasierte Systeme in der Medizinischen Informatik dazu, aus den Daten eines Patienten eine Problemlösung (z. B. welche Diagnose, welche Therapie) abzuleiten. Weitere Einsatzmöglichkeiten und Beispiele sind ausführlich unter Expertensystem beschrieben.
+
+# Entwicklungsmethoden 
+
+Für die Planung und Umsetzung eines WBS existieren verschiedene Planungs- und Entwicklungsmethoden.
+Hier sind zu nennen:
+
+KADS - Amsterdam
+Protégé - Stanford

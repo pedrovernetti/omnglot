@@ -1,0 +1,163 @@
+
+## Kontinuumhypotesen
+
+I matematikken er kontinuumhypotesen (ofte forkortet CH fra det engelske Continuum hypothesis) en hypotese fremsat af Georg Cantor om mulige størrelser af uendelige mængder. Cantor introducerede begrebet kardinaltal for at sammenligne størrelser af uendelig mængder, og han gav to beviser for, at kardinaliteten af mængden af hele tal er strengt mindre end kardinaliteten af mængden af reelle tal. Kontinuumshypotesen, der har fået sit navn efter brugen af termen kontinuet om de reelle tal, siger:
+
+Der findes ingen mængde, der har en størrelse, der falder imellem de hele tals og de reelle tals.Idet kardinaliteten af heltallene er 
+ 
+ 
+ 
+ 
+ ℵ
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle \aleph _{0}}
+ (alef nul) og kardinaliteten af de reelle tal er 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ ℵ
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle 2^{\aleph _{0}}}
+ , kan kontinuumhypotesen formuleres: Der findes ingen mængde S, så 
+ 
+ 
+ 
+ 
+ ℵ
+ 
+ 0
+ 
+ 
+ <
+ 
+ |
+ 
+ S
+ 
+ |
+ 
+ <
+ 
+ 2
+ 
+ 
+ ℵ
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \aleph _{0}<|S|<2^{\aleph _{0}}}
+ . Antages udvalgsaksiomet findes et mindste kardinaltal 
+ 
+ 
+ 
+ 
+ ℵ
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \aleph _{1}}
+ større end 
+ 
+ 
+ 
+ 
+ ℵ
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle \aleph _{0}}
+ og kontinuumhypotesen er da ækvivalent med ligheden 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ ℵ
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+
+ 
+ ℵ
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle 2^{\aleph _{0}}=\aleph _{1}}
+ .
+Der eksisterer en generalisering af kontinuumhypotesen, kaldet den generaliserede kontinuumhypotese (GCH), der siger, at for alle ordinaler 
+ 
+ 
+ 
+ α
+ 
+ 
+ {\displaystyle \alpha }
+ gælder 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ ℵ
+ 
+ α
+ 
+ 
+ 
+ 
+ 
+
+ 
+ ℵ
+ 
+ α
+ +
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle 2^{\aleph _{\alpha }}=\aleph _{\alpha +1}}
+ .
+Kontinuumhypotesen var den første af Hilberts problemer. Paul Cohen nåede frem til, at kontinuumhypotesen hverken kan bevises eller modbevises med Zermelo-Fraenkels aksiomer og udvalgsaksiomet. Dette resultat er imidlertid ikke universelt accepteret, og der forskes stadig i hypotesen.
+
+# Fodnoter 
+

@@ -1,0 +1,80 @@
+
+## Automatische Identifikation und Datenerfassung
+
+Unter der Bezeichnung Automatische Identifikation und Datenerfassung oder Automatische Identifizierung (Auto-ID) werden Techniken zur Identifizierung, Datenerfassung, Datenerhebung sowie Datenübertragung zusammengefasst. Darunter fallen Technologien wie Barcode, Smart Label, Biometrie, Mobile Datenerfassung, OCR, RFID, Spracherkennung, diverse Chipkarten-Ausprägungen sowie Informationsträger auf Basis optischer Freiraumdatenübertagung (Optischer Richtfunk).
+
+# Verwendung 
+
+# Identifizierung 
+
+Auto-ID-Techniken werden zur automatischen Identifizierung von Objekten eingesetzt. Für die eindeutige Erkennung werden eindeutige Merkmale zur Identifizierung genutzt, die als Identifikator bezeichnet werden. Das wohl bekannteste Beispiel ist die Scannerkasse im Supermarkt, die als Identifikator einen Barcode ausliest.
+Zur Identifizierung von Objekten können auch die gegebenen Merkmale herangezogen werden, sofern sie in ihrer Kombination eindeutig sind. Biometrische Verfahren können anhand des Stimmmusters, des Fingerabdrucks, der Iris oder der Gesichtsmerkmale relativ sicher Personen identifizieren.
+
+# Datenerfassung 
+
+Barcodes und andere optoelektronisch lesbare Schriften können sowohl für den Transport von Daten und für die Identifizierung von Objekten eingesetzt werden. Es werden codierte Informationen maschinell eingelesen, um EDV-Systeme mit der realen physischen Welt zu verknüpfen.
+Mit OCR-A wurde bereits 1968 eine maschinenlesbare Schrift entwickelt. Mit einem Barcode können beliebige Datentypen und Informationen dargestellt werden. Zum Zweck der Datenübertragung wurde z. B. die Barcode-Schrift PDF417 (Portable Data File) entwickelt, mit deren Symbolen Daten dargestellt werden können.
+Die auf einem Barcode oder in einer Klartextzeile verschlüsselten Daten sind nicht ausschließlich Identifikatoren, sondern können normale Nutzdaten sein.
+Gegenüber manuellen Eingaben durch Datentypisten mit Eingabegeschwindigkeiten um 2 Zeichen/Sekunde bei ca. 1 Fehler auf 300 Zeichen ist die automatische Datenerfassung praktisch fehlerfrei bei wesentlich höherer Übertragungsrate. Dies senkt die Kosten sowohl für die Datenerfassung als auch für notwendige Korrekturen bei Datenfehlern.
+
+# Datenerhebung 
+
+Die im vorangegangenen Abschnitt erörterte Datenerfassung ermöglicht erst die Verarbeitung und Speicherung von Daten. Dabei werden die automatisch zusammengesammelten Datenbestände aggregiert, manipuliert und zu anderen Datenformaten konvertiert. Aus diesen Daten können wiederum Informationen gewonnen werden, die für den Geschäftsablauf oder für die Kontrolle einer Lieferkette von Bedeutung sind.
+
+# Datenübertragung 
+
+Die Daten werden dazu nach vereinbarten Regeln strukturiert gespeichert. Die anschließende Interpretation auf Empfängerseite wird durch die Festlegung auf gemeinsame Datentypen mit definierten Datenfeldern und Größen gewährleistet. Beispiele sind EAN128, Odette und EPC. Damit wird ein Protokoll vereinbart, das auch elektronisch als EDIFACT Subset ausgetauscht werden kann.
+Barcode und Transponder sind, wie Buchstaben und Ziffern auf Papier für Menschen, ein Medium, auf dem Nachrichten maschinengeeignet gespeichert und übermittelt werden können. Damit wird asynchron zwischen dem Sender der Nachricht, der den Datenträger aufbringt, und dem Empfänger, der Lesestation, kommuniziert.
+Für logistische Anwendungsbereiche existieren Auto-ID-Verfahren auf Basis optischer Freiraumdatenübertagung (Optischer Richtfunk). Hierbei werden Daten mit Hilfe sichtbaren Lichts, das von modulierten LEDs ausgestrahlt wird, auf Informationsträger übertragen. Die übertragenen Daten können vom Informationsträger mittels einer Photodiode empfangen und auf einem Display dargestellt werden. Die dargestellten Daten können anschließend auch mit anderen Auto-ID Technologien, z. B. Barcode- oder Matrixcode-Lesegeräten, erfasst werden. Beispiele: Electronic Shelf Label (ESL), IdentOverLight.
+
+# Zusammenführung 
+
+Die Grenzen sind fließend und oft werden mehrere Verfahren gleichzeitig eingesetzt (z. B. Autoschlüssel = Schlüsselprofil und RFID). In kooperativen Systemen wie EAN wachsen die Techniken zur Identifizierung mit Barcode EAN-13, der Datenübermittlung mit dem Protokoll EAN128 und dem Geschäftsdatenaustausch mit EANCOM zu einem integrierten System zusammen.
+
+# Anwendungsbereiche 
+
+Bereiche, in denen Auto-ID angewendet wird
+
+Handel
+Produktkennzeichnung durch European Article Number-Barcode; seit 1. Januar 2009 wurde die Bezeichnung weltweit auf GTIN (Global Trade Item Number) geändert.
+automatische und zeitnahe Inventur
+Transport und Logistik
+Kommissionierung von Gütern
+Pick-by-Voice mit Spracherkennung
+Distribution von Gütern
+Sortieren von Warenströmen
+Lagerung, Lagerplatzvergabe und Lagerumschlag
+Paketverfolgung, Rückverfolgbarkeit, Tracking und Tracing
+Sicherheit
+Feststellung der Identität durch Personalausweise und weitere Personenkennzeichen
+Zugangskontrollen von Gebäuden
+Diebstahlabwehr in Form von Warensicherungssystemen
+Wegfahrsperre mit Transpondern
+Geschäftsdaten
+Betriebsdatenerfassung von bei der Produktion anfallenden Daten
+automatisierter Zahlungsverkehr mit Überweisungen und Schecks
+Formularverarbeitung, Parkraumbewirtschaftung
+sonstiges
+Ausleihe von Büchern in Bibliotheken
+Gepäckbehandlung an Flughäfen
+
+# Literatur 
+
+E. Fleisch, F. Mattern: Das Internet der Dinge. Ubiquitous Computing und RFID in der Praxis: Visionen, Technologien, Anwendungen, Handlungsanleitungen. Springer, Berlin 2005, ISBN 978-3-540-24003-7. 
+T. Aha, C. Wölker, M. Wölker (Hrsg.): Ident-Technik: Praktischer Einsatz in Industrie, Dienstleistung und Handel. ident Fachbuch Band 4. Umschau Zeitschriftenverlag, Frankfurt/Main 2000, ISBN 978-3-930007-98-1. 
+K. Krämer, M. Wölker, R. Jünemann (Hrsg.): Basis der Unternehmensprozesse – Identifikationstechnik. Umschau Zeitschriftenverlag, Frankfurt/Main 1999, ISBN 978-3-930007-97-4. 
+R. Jünemann, M. Wölker, K. Krämer: Kommunikation in der Logistikkette: Automatische Identifikation. Umschau Zeitschriftenverlag, Frankfurt/Main 1998, ISBN 978-3-930007-95-0. 
+R. Jünemann, M. Wölker, K. Krämer (Hrsg.): Identifikationstechnologien – Ein Wegweiser durch Praxis und Forschung. Umschau Zeitschriftenverlag, Frankfurt/Main 1997, ISBN 978-3-930007-96-7. 
+R. Jünemann; M. Wölker (Hrsg.): Automatische Identifikation in Praxis und Forschung. Verlag Praxiswissen, Dortmund 1996, ISBN 978-3-929443-63-9. 
+M. Astitouh, S. Lorisch, S. Heißmeyer, L. Overmeyer: Auto-ID mit sichtbarem Licht in der Intralogistik – IdentOverLight – ein neues Funktionsprinzip. Huss-Verlag, 2013, ISSN 0017-9442. 
+
+# Weblinks 
+
+www.autoidlabs.org - Forschungsverbund Auto-ID Labs
+www.aimglobal.org - Weltweiter Industrieverband AIMglobal
+www.aim-d.de - Deutsche Seite des AIM-Industrieverbandes
+Martin Wölker: Vorlesungsskript
+Auto-ID Glossar
+
+# Einzelnachweise 
+

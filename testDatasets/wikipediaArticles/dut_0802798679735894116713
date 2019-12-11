@@ -1,0 +1,122 @@
+
+## Stelling van Grothendieck-Hirzebruch-Riemann-Roch
+
+In de differentiaalmeetkunde, een deelgebied van de wiskunde, is de stelling van Hirzebruch-Riemann-Roch, vernoemd naar Friedrich Hirzebruch, Bernhard Riemann, en Gustav Roch, het resultaat van Hirzebruchs uit 1954, dat heeft bijgedragen aan de stelling van Riemann-Roch voor complexe algebraïsche variëteiten van alle dimensies. Het was de eerste succesvolle veralgemening van de klassieke stelling van Riemann-Roch op Riemann-oppervlaken naar alle hogere dimensies, en baande de weg voor de stelling van Grothendieck-Hirzebruch-Riemann-Roch, die drie jaar later werd bewezen.
+
+# Formulering van de stelling van Hirzebruch-Riemann-Roch 
+
+De stelling van Hirzebruch-Riemann-Roch geldt voor elke holomorfe vectorbundel 
+ 
+ 
+ 
+ E
+ 
+ 
+ {\displaystyle E}
+ op een compacte complexe variëteit 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ , om de holomorfe Euler-karakteristiek van 
+ 
+ 
+ 
+ E
+ 
+ 
+ {\displaystyle E}
+ in de schoofcohomologie te berekenen, te weten de alternerende som
+
+ 
+ 
+ 
+ χ
+ (
+ X
+ ,
+ E
+ )
+ 
+
+ dim
+ 
+ 
+ H
+ 
+ 0
+ 
+ 
+ (
+ X
+ ,
+ E
+ )
+ −
+ dim
+ 
+ 
+ H
+ 
+ 1
+ 
+ 
+ (
+ X
+ ,
+ E
+ )
+ +
+ dim
+ 
+ 
+ H
+ 
+ 2
+ 
+ 
+ (
+ X
+ ,
+ E
+ )
+ −
+ ⋯
+ 
+ 
+ {\displaystyle \chi (X,E)=\dim H^{0}(X,E)-\dim H^{1}(X,E)+\dim H^{2}(X,E)-\cdots }
+ van de dimensies als complexe vectorruimten. (Door fundamentele resultaten op het gebied van coherente cohomologie zijn deze dimensies allen eindig, en zijn zij 0, behalve voor de eerste 
+ 
+ 
+ 
+ 2
+ n
+ +
+ 1
+ 
+ 
+ {\displaystyle 2n+1}
+ gevallen, waar 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ een complexe dimensie 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ heeft, de som is dus eindig.)
+
+# Referenties 
+
+(en) Friedrich Hirzebruch Topological Methods in Algebraic Geometry (Topologische methoden in de algebraïsche meetkunde), ISBN 3-540-58663-6

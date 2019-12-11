@@ -1,0 +1,3279 @@
+
+## Mot sans facteur carré
+
+En combinatoire, et notamment en combinatoire des mots, un carré est un mot composé de deux parties égales consécutives, comme bonbon ou papa. En bio-informatique, un carré est appelé une répétition en tandem.
+Un mot sans facteur carré ou plus simplement un mot sans carré est un mot qui ne contient pas de facteur carré. Par exemple, le mot répétition contient le carré titi ; en revanche, le mot consécutivement est un mot sans carré. L'étude des mots sans carré fait partie, plus généralement, de l'étude des répétitions dans les mots, et de la possibilité de les éviter. On parle alors de répétitions évitables ou inévitables.
+Il existe des mots infinis sans carré sur tout alphabet d'au moins trois lettres, comme l'a prouvé Axel Thue,. Sur un alphabet à deux lettres, un tel mot n'existe pas. Le mot de Prouhet-Thue-Morse contient des carrés, en revanche il est sans cube. 
+Une méthode fréquemment utilisée par construire des mots infinis sans carré, sans cube ou sans puissance plus élevée est par itération d'un morphisme. Si ce morphisme a la propriété de transformer une mot fini sans carré, sans cube ou sans puissance plus élevée en un mot de même nature, on parle d'un morphisme sans carré, sans cube ou sans puissance plus élevée.
+
+# Premiers exemples 
+
+Sur un alphabet à deux lettres 
+ 
+ 
+ 
+ {
+ a
+ ,
+ b
+ }
+ 
+ 
+ {\displaystyle \{a,b\}}
+ , il n'existe que six mots sans carré non vides : ce sont les mots 
+ 
+ 
+ 
+ a
+ ,
+ b
+ ,
+ a
+ b
+ ,
+ b
+ a
+ ,
+ a
+ b
+ a
+ ,
+ b
+ a
+ b
+ 
+ 
+ {\displaystyle a,b,ab,ba,aba,bab}
+ .Sur un alphabet à trois lettres 
+ 
+ 
+ 
+ A
+ 
+
+ {
+ a
+ ,
+ b
+ ,
+ c
+ }
+ 
+ 
+ {\displaystyle A=\{a,b,c\}}
+ , et partant de la lettre 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ , on remplace
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ par 
+ 
+ 
+ 
+ a
+ b
+ c
+ 
+ 
+ {\displaystyle abc}
+ , 
+ 
+ 
+ 
+ b
+ 
+ 
+ {\displaystyle b}
+ par 
+ 
+ 
+ 
+ a
+ c
+ 
+ 
+ {\displaystyle ac}
+ , 
+ 
+ 
+ 
+ c
+ 
+ 
+ {\displaystyle c}
+ par 
+ 
+ 
+ 
+ b
+ 
+ 
+ {\displaystyle b}
+ .
+On alors obtient successivement
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ a
+ b
+ c
+ 
+ 
+ 
+ 
+ a
+ b
+ c
+ a
+ c
+ b
+ 
+ 
+ 
+ 
+ a
+ b
+ c
+ a
+ c
+ b
+ a
+ b
+ c
+ b
+ a
+ c
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{l}a\\abc\\abcacb\\abcacbabcbac\end{array}}}
+ 
+En itérant et en prenant le point fixe de cette opération, on obtient le mot infini qui commence par
+
+ 
+ 
+ 
+ a
+ b
+ c
+ a
+ c
+ b
+ a
+ b
+ c
+ b
+ a
+ c
+ a
+ b
+ c
+ a
+ c
+ b
+ a
+ c
+ a
+ b
+ c
+ b
+ ⋯
+ 
+ 
+ {\displaystyle abcacbabcbacabcacbacabcb\cdots }
+ .
+Ce mot est sans carré. Cette construction est donnée par Marshall Hall Jr.. Dans la terminologie des répétitions, les carrés sont inévitables sur 2 lettres, mais évitables sur plus de 2 lettres.
+
+# Les constructions de Thue 
+
+Les premières constructions de Thue datent de 1906 et 1912. Plusieurs auteurs les ont, de façon indépendante, retrouvées, ou ont trouvé d'autres constructions. Les articles de Thue, même s'ils étaient écrits en allemand qui à l'époque était l'une des langues scientifiques par excellence ont été publiés dans un journal peu connu, et n'ont donc pas été largement reconnus.
+
+# Les constructions de Thue (1906) 
+
+Thue donne, dans son premier article datant de 1906, plusieurs constructions de mots infinis sans carré. 
+Un premier mot sans carré, sur un alphabet à 4 lettres, est obtenu comme suit : on part du mot 
+ 
+ 
+ 
+ a
+ b
+ a
+ c
+ b
+ c
+ 
+ 
+ {\displaystyle abacbc}
+ , et on insère la lettre 
+ 
+ 
+ 
+ d
+ 
+ 
+ {\displaystyle d}
+ entre deux lettres du mot, à 4 places différentes. Ces 4 mots sont pris pour définir un morphisme :
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ a
+ ↦
+ a
+ d
+ b
+ a
+ c
+ b
+ c
+ 
+ 
+ 
+ 
+ b
+ ↦
+ a
+ b
+ d
+ a
+ c
+ b
+ c
+ 
+ 
+ 
+ 
+ c
+ ↦
+ a
+ b
+ a
+ d
+ c
+ b
+ c
+ 
+ 
+ 
+ 
+ d
+ ↦
+ a
+ b
+ a
+ c
+ d
+ b
+ c
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{l}a\mapsto adbacbc\\b\mapsto abdacbc\\c\mapsto abadcbc\\d\mapsto abacdbc\end{array}}}
+ En itérant à partir de la lettre a, on obtient le mot infini (les barres verticales sont censées faciliter la lecture) :
+
+ 
+ 
+ 
+ a
+ d
+ b
+ a
+ c
+ b
+ c
+ 
+ |
+ 
+ a
+ b
+ a
+ c
+ d
+ b
+ c
+ 
+ |
+ 
+ a
+ b
+ d
+ a
+ c
+ b
+ c
+ 
+ |
+ 
+ a
+ d
+ b
+ a
+ c
+ b
+ c
+ 
+ |
+ 
+ a
+ b
+ a
+ d
+ c
+ b
+ c
+ 
+ |
+ 
+ a
+ b
+ d
+ a
+ c
+ b
+ c
+ 
+ |
+ 
+ a
+ b
+ a
+ d
+ c
+ b
+ c
+ ⋯
+ 
+ 
+ {\displaystyle adbacbc|abacdbc|abdacbc|adbacbc|abadcbc|abdacbc|abadcbc\cdots }
+ .Le symbole 
+ 
+ 
+ 
+ d
+ 
+ 
+ {\displaystyle d}
+ sert de « marqueur » qui permet de retrouver la lettre qui a engendrée un bloc donné.
+Thue donne un autre mot sans carré, sur trois lettres cette fois-ci, obtenu comme suit : on remplace, dans un mot sans carré sur 
+ 
+ 
+ 
+ a
+ ,
+ b
+ ,
+ c
+ 
+ 
+ {\displaystyle a,b,c}
+ , les lettres selon les règles suivantes :
+
+ 
+ 
+ 
+ a
+ ↦
+ a
+ b
+ a
+ c
+ 
+ 
+ {\displaystyle a\mapsto abac}
+ 
+
+ 
+ 
+ 
+ b
+ ↦
+ b
+ a
+ b
+ c
+ 
+ 
+ {\displaystyle b\mapsto babc}
+ 
+
+ 
+ 
+ 
+ c
+ ↦
+ b
+ c
+ a
+ c
+ 
+ 
+ {\displaystyle c\mapsto bcac}
+ si la lettre avant 
+ 
+ 
+ 
+ c
+ 
+ 
+ {\displaystyle c}
+ est 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ 
+
+ 
+ 
+ 
+ c
+ ↦
+ a
+ c
+ b
+ c
+ 
+ 
+ {\displaystyle c\mapsto acbc}
+ si la lettre avant 
+ 
+ 
+ 
+ c
+ 
+ 
+ {\displaystyle c}
+ est 
+ 
+ 
+ 
+ b
+ 
+ 
+ {\displaystyle b}
+ En partant de a, on obtient
+
+ 
+ 
+ 
+ a
+ b
+ a
+ c
+ 
+ |
+ 
+ b
+ a
+ b
+ c
+ 
+ |
+ 
+ a
+ b
+ a
+ c
+ 
+ |
+ 
+ b
+ c
+ a
+ c
+ 
+ |
+ 
+ ⋯
+ 
+ 
+ {\displaystyle abac|babc|abac|bcac|\cdots }
+ .
+
+# La construction de Thue (1912) 
+
+Dans son long article, Axel Thue poursuit le but de classer toutes les suites sans carré, sans toutefois y parvenir complètement. Durant cette étude, il construit un mot sans carré à partir de la suite de Prouhet-Thue-Morse :
+
+ 
+ 
+ 
+ 01101001100101101001011001101001
+ ⋯
+ 
+ 
+ {\displaystyle 01101001100101101001011001101001\cdots }
+ .Il observe que, comme il n'y a pas de bloc 
+ 
+ 
+ 
+ 111
+ 
+ 
+ {\displaystyle 111}
+ dans la suite, deux symboles 
+ 
+ 
+ 
+ 0
+ 
+ 
+ {\displaystyle 0}
+ consécutifs sont séparés par 0, 1, ou 2 symboles 
+ 
+ 
+ 
+ 1
+ 
+ 
+ {\displaystyle 1}
+ . Il suffit de reporter la séquence de ces nombres pour obtenir une suite sur trois symboles :
+
+ 
+ 
+ 
+ 210201210120210
+ ⋯
+ 
+ 
+ {\displaystyle 210201210120210\cdots }
+ .En remplaçant 
+ 
+ 
+ 
+ 2
+ 
+ 
+ {\displaystyle 2}
+ par 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ , 
+ 
+ 
+ 
+ 1
+ 
+ 
+ {\displaystyle 1}
+ par 
+ 
+ 
+ 
+ b
+ 
+ 
+ {\displaystyle b}
+ et 
+ 
+ 
+ 
+ 0
+ 
+ 
+ {\displaystyle 0}
+ par 
+ 
+ 
+ 
+ c
+ 
+ 
+ {\displaystyle c}
+ , on retrouve la suite mentionnée plus haut. Cette suite est parfois appelée la suite ternaire de Thue-Morse. La construction a été retrouvée en 1963 par C. H. Braunholtz.
+
+# Autres constructions 
+
+# La suite asymétrique d'Arshon (1937) 
+
+Dans un article en russe mais avec un long résumé en français, le mathématicien russe C. E. Arshon propose une construction générale qui, dans le cas ternaire, donne un mot infini sans carré (qu'il appelle asymétrique). Dans le cas binaire, une version simplifiée redonne la suite de Prouhet-Thue-Morse. Arshon considère les deux morphismes :
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ ↦
+ 123
+ 
+ 
+ 
+ 
+ 2
+ ↦
+ 231
+ 
+ 
+ 
+ 
+ 3
+ ↦
+ 312
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ ↦
+ 321
+ 
+ 
+ 
+ 
+ 2
+ ↦
+ 132
+ 
+ 
+ 
+ 
+ 3
+ ↦
+ 213
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{l}1\mapsto 123\\2\mapsto 231\\3\mapsto 312\end{array}}\qquad {\begin{array}{l}1\mapsto 321\\2\mapsto 132\\3\mapsto 213\end{array}}}
+ Le premier sert pour produire des mots à partir de symboles en position impaire dans un mot, le deuxième pour les symboles en position paire.
+On commence par le mot
+
+ 
+ 
+ 
+ 123
+ 
+ 
+ {\displaystyle 123}
+ Le premier 
+ 
+ 
+ 
+ 1
+ 
+ 
+ {\displaystyle 1}
+ est en position impaire 1, et il produit 
+ 
+ 
+ 
+ 123
+ 
+ 
+ {\displaystyle 123}
+ , le 
+ 
+ 
+ 
+ 2
+ 
+ 
+ {\displaystyle 2}
+ en position 2 produit 
+ 
+ 
+ 
+ 132
+ 
+ 
+ {\displaystyle 132}
+ , et le troisième symbole, en position impaire, produit 
+ 
+ 
+ 
+ 312
+ 
+ 
+ {\displaystyle 312}
+ . On obtient la suite (les barres verticales doivent améliorer la lisibilité) :
+
+ 
+ 
+ 
+ 123
+ 
+ |
+ 
+ 132
+ 
+ |
+ 
+ 312
+ 
+ 
+ {\displaystyle 123|132|312}
+ On continue : le 
+ 
+ 
+ 
+ 1
+ 
+ 
+ {\displaystyle 1}
+ en position 4 produit 
+ 
+ 
+ 
+ 321
+ 
+ 
+ {\displaystyle 321}
+ , le 
+ 
+ 
+ 
+ 3
+ 
+ 
+ {\displaystyle 3}
+ en position 5 produit 
+ 
+ 
+ 
+ 312
+ 
+ 
+ {\displaystyle 312}
+ , le 
+ 
+ 
+ 
+ 2
+ 
+ 
+ {\displaystyle 2}
+ en position 6 produit 
+ 
+ 
+ 
+ 132
+ 
+ 
+ {\displaystyle 132}
+ , etc. On construit ainsi une suite débutant par :
+
+ 
+ 
+ 
+ 123
+ 
+ |
+ 
+ 132
+ 
+ |
+ 
+ 312
+ 
+ |
+ 
+ 321
+ 
+ |
+ 
+ 312
+ 
+ |
+ 
+ 132
+ ⋯
+ 
+ 
+ {\displaystyle 123|132|312|321|312|132\cdots }
+ Arshon prouve que ce mot est sans carré. Cette suite est 3-automatique : on prend le morphisme sur 6 lettres 
+ 
+ 
+ 
+ {
+ 1
+ ,
+ 2
+ ,
+ 3
+ ,
+ 
+ 
+ 
+ 1
+ ¯
+ 
+ 
+ 
+ ,
+ 
+ 
+ 
+ 2
+ ¯
+ 
+ 
+ 
+ ,
+ 
+ 
+ 
+ 3
+ ¯
+ 
+ 
+ 
+ }
+ 
+ 
+ {\displaystyle \{1,2,3,{\bar {1}},{\bar {2}},{\bar {3}}\}}
+ donné par
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ ↦
+ 1
+ 
+ 
+ 
+ 2
+ ¯
+ 
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ 2
+ ↦
+ 2
+ 
+ 
+ 
+ 3
+ ¯
+ 
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ 3
+ ↦
+ 3
+ 
+ 
+ 
+ 1
+ ¯
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ ¯
+ 
+ 
+ 
+ ↦
+ 
+ 
+ 
+ 3
+ ¯
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ 1
+ ¯
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2
+ ¯
+ 
+ 
+ 
+ ↦
+ 
+ 
+ 
+ 1
+ ¯
+ 
+ 
+ 
+ 3
+ 
+ 
+ 
+ 2
+ ¯
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3
+ ¯
+ 
+ 
+ 
+ ↦
+ 
+ 
+ 
+ 2
+ ¯
+ 
+ 
+ 
+ 1
+ 
+ 
+ 
+ 3
+ ¯
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{l}1\mapsto 1{\bar {2}}3\\2\mapsto 2{\bar {3}}1\\3\mapsto 3{\bar {1}}2\end{array}}\qquad {\begin{array}{l}{\bar {1}}\mapsto {\bar {3}}2{\bar {1}}\\{\bar {2}}\mapsto {\bar {1}}3{\bar {2}}\\{\bar {3}}\mapsto {\bar {2}}1{\bar {3}}\end{array}}}
+ .Ce morphisme 3-uniforme engendre le mot infini
+
+ 
+ 
+ 
+ 1
+ 
+ 
+ 
+ 2
+ ¯
+ 
+ 
+ 
+ 3
+ 
+ |
+ 
+ 
+ 
+ 
+ 1
+ ¯
+ 
+ 
+ 
+ 3
+ 
+ 
+ 
+ 2
+ ¯
+ 
+ 
+ 
+ 
+ |
+ 
+ 3
+ 
+ 
+ 
+ 1
+ ¯
+ 
+ 
+ 
+ 2
+ 
+ |
+ 
+ 
+ 
+ 
+ 3
+ ¯
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ 1
+ ¯
+ 
+ 
+ 
+ 
+ |
+ 
+ 3
+ 
+ 
+ 
+ 1
+ ¯
+ 
+ 
+ 
+ 2
+ 
+ |
+ 
+ 
+ 
+ 
+ 1
+ ¯
+ 
+ 
+ 
+ 3
+ 
+ 
+ 
+ 2
+ ¯
+ 
+ 
+ 
+ ⋯
+ 
+ 
+ {\displaystyle 1{\bar {2}}3|{\bar {1}}3{\bar {2}}|3{\bar {1}}2|{\bar {3}}2{\bar {1}}|3{\bar {1}}2|{\bar {1}}3{\bar {2}}\cdots }
+ où les lettres en position paire sont barrées. Dans un deuxième temps, on « efface » les barres sur les lettres par le morphisme lettre-à-lettre qui identifie une lettre et sa copie barrée.
+
+# La construction de Morse et Hedlund (1944) 
+
+Dans leur article, Morse et Hedlund partent, comme Thue, de la suite de Prouhet-Thue-Morse :
+
+ 
+ 
+ 
+ 01101001100101101001011001101001
+ ⋯
+ 
+ 
+ {\displaystyle 01101001100101101001011001101001\cdots }
+ .Contrairement à Thue, ils remplacent deux bits consécutifs par le nombre qu'il représentent en binaire, soit
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 00
+ ↦
+ 0
+ 
+ 
+ 
+ 
+ 01
+ ↦
+ 1
+ 
+ 
+ 
+ 
+ 10
+ ↦
+ 2
+ 
+ 
+ 
+ 
+ 11
+ ↦
+ 3
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{l}00\mapsto 0\\01\mapsto 1\\10\mapsto 2\\11\mapsto 3\end{array}}}
+ puis ils identifient 
+ 
+ 
+ 
+ 0
+ 
+ 
+ {\displaystyle 0}
+ et 
+ 
+ 
+ 
+ 3
+ 
+ 
+ {\displaystyle 3}
+ (en d'autres termes, ils opèrent modulo 3). La suite obtenue est :
+
+ 
+ 
+ 
+ 102120102012102
+ ⋯
+ 
+ 
+ {\displaystyle 102120102012102\cdots }
+ .C'est la suite ternaire de Thue-Morse, au codage près.
+On obtient le même mot différemment, en itérant le morphisme sur 4 lettres donné par :
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0
+ ↦
+ 03
+ 
+ 
+ 
+ 
+ 1
+ ↦
+ 20
+ 
+ 
+ 
+ 
+ 2
+ ↦
+ 21
+ 
+ 
+ 
+ 
+ 3
+ ↦
+ 02
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{l}0\mapsto 03\\1\mapsto 20\\2\mapsto 21\\3\mapsto 02\end{array}}}
+ et en identifiant ensuite 
+ 
+ 
+ 
+ 0
+ 
+ 
+ {\displaystyle 0}
+ et 
+ 
+ 
+ 
+ 3
+ 
+ 
+ {\displaystyle 3}
+ . L'intérêt de cette construction est de montrer que le mot ternaire de Thue-Morse est une suite automatique.
+
+# Le morphisme de Hawkins et Mientka (1956) 
+
+Ces deux auteurs proposent le morphisme suivant :
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ a
+ ↦
+ b
+ a
+ c
+ b
+ c
+ a
+ c
+ b
+ a
+ b
+ c
+ b
+ a
+ c
+ a
+ 
+ 
+ 
+ 
+ b
+ ↦
+ b
+ a
+ c
+ b
+ a
+ b
+ c
+ b
+ a
+ c
+ b
+ c
+ a
+ c
+ b
+ a
+ c
+ a
+ 
+ 
+ 
+ 
+ c
+ ↦
+ b
+ a
+ c
+ b
+ c
+ a
+ b
+ a
+ c
+ a
+ b
+ c
+ b
+ a
+ c
+ a
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{l}a\mapsto bacbcacbabcbaca\\b\mapsto bacbabcbacbcacbaca\\c\mapsto bacbcabacabcbaca\end{array}}}
+ et ils prouvent qu'en itérant à partir de la lettre 
+ 
+ 
+ 
+ b
+ 
+ 
+ {\displaystyle b}
+ , on obtient un mot infini sans carré. 
+
+# Les perles de John Leech (1957) 
+
+Dans une courte note, John Leech propose la construction suivante. On itère le morphisme défini par
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ a
+ ↦
+ a
+ b
+ c
+ b
+ a
+ c
+ b
+ c
+ a
+ b
+ c
+ b
+ a
+ 
+ 
+ 
+ 
+ b
+ ↦
+ b
+ c
+ a
+ c
+ b
+ a
+ c
+ a
+ b
+ c
+ a
+ c
+ b
+ 
+ 
+ 
+ 
+ c
+ ↦
+ c
+ a
+ b
+ a
+ c
+ b
+ a
+ b
+ c
+ a
+ b
+ a
+ c
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{l}a\mapsto abcbacbcabcba\\b\mapsto bcacbacabcacb\\c\mapsto cabacbabcabac\end{array}}}
+ L'image de chaque lettre est le mot transformé par 
+ 
+ 
+ 
+ (
+ a
+ →
+ b
+ ,
+ b
+ →
+ c
+ ,
+ c
+ →
+ a
+ )
+ 
+ 
+ {\displaystyle (a\to b,b\to c,c\to a)}
+ .
+En itérant à partir de 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ , on obtient
+
+ 
+ 
+ 
+ a
+ b
+ c
+ b
+ a
+ c
+ b
+ c
+ a
+ b
+ c
+ b
+ a
+ 
+ b
+ c
+ a
+ c
+ b
+ a
+ c
+ a
+ b
+ c
+ a
+ c
+ b
+ 
+ c
+ a
+ b
+ a
+ c
+ b
+ a
+ b
+ c
+ a
+ b
+ a
+ c
+ 
+ b
+ c
+ a
+ c
+ b
+ a
+ c
+ a
+ b
+ c
+ a
+ c
+ b
+ ⋯
+ 
+ 
+ {\displaystyle abcbacbcabcba\ bcacbacabcacb\ cabacbabcabac\ bcacbacabcacb\cdots }
+ En fait, Leech est intéressé par la construction d'une suite biinfinie sans carré. Pour cela, il recentre chaque mot sur la lettre du milieu. Pour obtenir une convergence, il faut modifier le morphisme de sorte que la lettre centrale de l'image de 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ soit 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ etc. On prend donc
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ a
+ ↦
+ c
+ a
+ b
+ a
+ c
+ b
+ a
+ b
+ c
+ a
+ b
+ a
+ c
+ 
+ 
+ 
+ 
+ b
+ ↦
+ a
+ b
+ c
+ b
+ a
+ c
+ b
+ c
+ a
+ b
+ c
+ b
+ a
+ 
+ 
+ 
+ 
+ c
+ ↦
+ b
+ c
+ a
+ c
+ b
+ a
+ c
+ a
+ b
+ c
+ a
+ c
+ b
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{l}a\mapsto cabacbabcabac\\b\mapsto abcbacbcabcba\\c\mapsto bcacbacabcacb\end{array}}}
+ L'itération donne :
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ c
+ a
+ b
+ a
+ c
+ b
+ 
+ a
+ 
+ b
+ c
+ a
+ b
+ a
+ c
+ 
+ 
+ 
+ 
+ ⋯
+ a
+ b
+ c
+ b
+ a
+ c
+ b
+ c
+ a
+ b
+ c
+ b
+ a
+ 
+ c
+ a
+ b
+ a
+ c
+ b
+ 
+ a
+ 
+ b
+ c
+ a
+ b
+ a
+ c
+ 
+ a
+ b
+ c
+ b
+ a
+ c
+ b
+ c
+ a
+ b
+ c
+ b
+ a
+ ⋯
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{c}a\\cabacb\ a\ bcabac\\\cdots abcbacbcabcba\ cabacb\ a\ bcabac\ abcbacbcabcba\cdots \end{array}}}
+ 
+
+# La construction de Zech (1958) 
+
+Theodor Zech donne le morphisme
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ a
+ ↦
+ a
+ b
+ c
+ a
+ b
+ a
+ c
+ b
+ a
+ b
+ c
+ b
+ 
+ 
+ 
+ 
+ b
+ ↦
+ a
+ c
+ b
+ c
+ a
+ b
+ a
+ c
+ a
+ b
+ c
+ b
+ 
+ 
+ 
+ 
+ c
+ ↦
+ a
+ c
+ a
+ b
+ a
+ c
+ b
+ c
+ a
+ b
+ c
+ b
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{l}a\mapsto abcabacbabcb\\b\mapsto acbcabacabcb\\c\mapsto acabacbcabcb\end{array}}}
+ Le mot infini est obtenu en itérant à partir de 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ par exemple. La preuve est facilitée par le fait que les trois images se terminent toutes par 
+ 
+ 
+ 
+ a
+ b
+ c
+ b
+ 
+ 
+ {\displaystyle abcb}
+ .
+
+# La construction sans simplification de Dean (1963) 
+
+Richard Dean construit une suite sans carré sur quatre symboles avec la propriété supplémentaire que deux symboles appareillés ne peuvent se suivre. De façon plus imagée, si les quatre sont 
+ 
+ 
+ 
+ x
+ ,
+ 
+ x
+ 
+ −
+ 1
+ 
+ 
+ ,
+ y
+ ,
+ 
+ y
+ 
+ −
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle x,x^{-1},y,y^{-1}}
+ , la suite ne contient pas les blocs 
+ 
+ 
+ 
+ x
+ 
+ x
+ 
+ −
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle xx^{-1}}
+ , 
+ 
+ 
+ 
+ 
+ x
+ 
+ −
+ 1
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x^{-1}x}
+ , 
+ 
+ 
+ 
+ y
+ 
+ y
+ 
+ −
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle yy^{-1}}
+ et 
+ 
+ 
+ 
+ 
+ y
+ 
+ −
+ 1
+ 
+ 
+ y
+ 
+ 
+ {\displaystyle y^{-1}y}
+ . Pour simplifier l'exposé, Dean choisit les symboles 
+ 
+ 
+ 
+ 1
+ ,
+ 2
+ ,
+ 3
+ ,
+ 4
+ 
+ 
+ {\displaystyle 1,2,3,4}
+ et construit une suite sans carré sans les facteurs 
+ 
+ 
+ 
+ 13
+ ,
+ 31
+ ,
+ 24
+ ,
+ 42
+ 
+ 
+ {\displaystyle 13,31,24,42}
+ . Il obtient ceci en imposant que les symboles en position paire dans la suite sont des symboles pairs, et les symboles en position impaire sont impairs. La suite est la limite de la suite de mots 
+ 
+ 
+ 
+ (
+ 
+ w
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (w_{n})}
+ obtenue comme suite: On pose 
+ 
+ 
+ 
+ 
+ w
+ 
+ 0
+ 
+ 
+ 
+
+ 1234
+ 
+ 
+ {\displaystyle w_{0}=1234}
+ . Chaque 
+ 
+ 
+ 
+ 
+ w
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle w_{n}}
+ est un mot de longueur 
+ 
+ 
+ 
+ 
+ 2
+ 
+ n
+ +
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle 2^{n+2}}
+ qui est factorisé en quatre mot de longueur 
+ 
+ 
+ 
+ 
+ 2
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle 2^{n}}
+ notés 
+ 
+ 
+ 
+ 
+ A
+ 
+ n
+ 
+ 
+ ,
+ 
+ B
+ 
+ n
+ 
+ 
+ ,
+ 
+ C
+ 
+ n
+ 
+ 
+ ,
+ 
+ D
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle A_{n},B_{n},C_{n},D_{n}}
+ de sorte que 
+
+ 
+ 
+ 
+ 
+ w
+ 
+ n
+ 
+ 
+ 
+
+ 
+ A
+ 
+ n
+ 
+ 
+ 
+ B
+ 
+ n
+ 
+ 
+ 
+ C
+ 
+ n
+ 
+ 
+ 
+ D
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle w_{n}=A_{n}B_{n}C_{n}D_{n}}
+ .Le mot 
+ 
+ 
+ 
+ 
+ w
+ 
+ n
+ +
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle w_{n+1}}
+ est défini par 
+
+ 
+ 
+ 
+ 
+ w
+ 
+ n
+ +
+ 1
+ 
+ 
+ 
+
+ 
+ w
+ 
+ n
+ 
+ 
+ 
+ A
+ 
+ n
+ 
+ 
+ 
+ D
+ 
+ n
+ 
+ 
+ 
+ C
+ 
+ n
+ 
+ 
+ 
+ B
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle w_{n+1}=w_{n}A_{n}D_{n}C_{n}B_{n}}
+ .On obtient
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ w
+ 
+ 0
+ 
+ 
+ 
+
+ 1234
+ 
+ 
+ 
+ 
+ 
+ w
+ 
+ 1
+ 
+ 
+ 
+
+ 12341432
+ 
+ 
+ 
+ 
+ 
+ w
+ 
+ 2
+ 
+ 
+ 
+
+ 1234143212321434
+ 
+ 
+ 
+ 
+ 
+ w
+ 
+ 3
+ 
+ 
+ 
+
+ 12341432123214341234143412321432
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{l}w_{0}=1234\\w_{1}=12341432\\w_{2}=1234143212321434\\w_{3}=12341432123214341234143412321432\end{array}}}
+ En fait, on se convainc très vite que les mots 
+ 
+ 
+ 
+ 
+ w
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle w_{n}}
+ s'obtiennent en itérant, à partir de 
+ 
+ 
+ 
+ 1
+ 
+ 
+ {\displaystyle 1}
+ , le morphisme
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ ↦
+ 
+ 
+ 12
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ ↦
+ 
+ 
+ 34
+ 
+ 
+ 
+ 
+ 3
+ 
+ 
+ ↦
+ 
+ 
+ 14
+ 
+ 
+ 
+ 
+ 4
+ 
+ 
+ ↦
+ 
+ 
+ 32
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{lcl}1&\mapsto &12\\2&\mapsto &34\\3&\mapsto &14\\4&\mapsto &32\end{array}}}
+ D'autres constructions, ou les mêmes, ont été données par Kurosaki, Shyr, Dejean.
+
+# Morphismes sans carré 
+
+Un morphisme 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ qui transforme un mot sans carré en un mot sans carré, donc qui préserve les mots sans carrés, est appelé lui-même un morphisme sans carré. Si 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ est un tel morphisme, on construit une suite de mots sans carré en partant d'une lettre 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ , et appliquant le morphisme indéfiniment :
+
+ 
+ 
+ 
+ a
+ ,
+ f
+ (
+ a
+ )
+ ,
+ f
+ (
+ f
+ (
+ a
+ )
+ )
+ ,
+ …
+ ,
+ 
+ f
+ 
+ n
+ 
+ 
+ (
+ a
+ )
+ …
+ 
+ 
+ {\displaystyle a,f(a),f(f(a)),\dots ,f^{n}(a)\dots }
+ .Si les mots deviennent de plus en plus long, et si de plus le mot 
+ 
+ 
+ 
+ f
+ (
+ a
+ )
+ 
+ 
+ {\displaystyle f(a)}
+ commence par 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ , le mot infini, souvent noté
+
+ 
+ 
+ 
+ 
+ f
+ 
+ ω
+ 
+ 
+ (
+ a
+ )
+ 
+ 
+ {\displaystyle f^{\omega }(a)}
+ dont tous les 
+ 
+ 
+ 
+ 
+ f
+ 
+ n
+ 
+ 
+ (
+ a
+ )
+ 
+ 
+ {\displaystyle f^{n}(a)}
+ sont préfixes, est un mot infini sans carré. Plus généralement, un morphisme sans puissance 
+ 
+ 
+ 
+ k
+ 
+ 
+ {\displaystyle k}
+ -ième est une morphismes qui préserve les mots sans puissances 
+ 
+ 
+ 
+ k
+ 
+ 
+ {\displaystyle k}
+ -ième et à nouveau, le mot infini 
+ 
+ 
+ 
+ 
+ f
+ 
+ ω
+ 
+ 
+ (
+ a
+ )
+ 
+ 
+ {\displaystyle f^{\omega }(a)}
+ est sans puissance 
+ 
+ 
+ 
+ k
+ 
+ 
+ {\displaystyle k}
+ -ième. 
+
+# Un théorème d'Axel Thue et de Maxime Crochemore 
+
+Le théorème suivant, démontré par Axel Thue, permet de démontrer simplement pour de nombreux exemples de morphismes qu'ils engendrent des mots sans carrés. Dans cet énoncé et dans la suite, on ignore systématiquement le mot vide qui ne joue pas de rôle dans ce contexte. Un morphisme 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ est infixe si aucun mot 
+ 
+ 
+ 
+ f
+ (
+ a
+ )
+ 
+ 
+ {\displaystyle f(a)}
+ n'est facteur d'un mot 
+ 
+ 
+ 
+ f
+ (
+ b
+ )
+ 
+ 
+ {\displaystyle f(b)}
+ , pour deux lettres 
+ 
+ 
+ 
+ a
+ ,
+ b
+ ∈
+ A
+ 
+ 
+ {\displaystyle a,b\in A}
+ . Une démonstration est donnée par Bean, Ehrenfeucht et McNulty, et aussi par Lothaire.
+
+La condition d'être infixe est notamment réalisée par les morphismes uniformes, pourvu qu'ils soient injectifs sur l'alphabet. 
+Maxime Crochemore a étendu ce théorème à des morphismes plus généraux. 
+
+Dans le cas des morphismes uniformes, on retrouve la borne de Thue.
+Sur un alphabet à 3 lettres, on peut donner une formulation encore plus précise :
+
+Le morphisme 
+ 
+ 
+ 
+ f
+ :
+ {
+ a
+ ,
+ b
+ ,
+ c
+ 
+ }
+ 
+ +
+ 
+ 
+ →
+ {
+ a
+ ,
+ b
+ ,
+ c
+ ,
+ d
+ ,
+ e
+ 
+ }
+ 
+ +
+ 
+ 
+ 
+ 
+ {\displaystyle f:\{a,b,c\}^{+}\to \{a,b,c,d,e\}^{+}}
+ défini par
+
+ 
+ 
+ 
+ f
+ (
+ a
+ )
+ 
+
+ d
+ e
+ a
+ b
+ c
+ b
+ d
+ a
+ ,
+ 
+ f
+ (
+ b
+ )
+ 
+
+ b
+ ,
+ 
+ f
+ (
+ c
+ )
+ 
+
+ c
+ 
+ 
+ {\displaystyle f(a)=deabcbda,\ f(b)=b,\ f(c)=c}
+ préserve les mots sans carré de longueur au plus 4, mais
+
+ 
+ 
+ 
+ f
+ (
+ a
+ b
+ c
+ b
+ a
+ )
+ 
+
+ d
+ e
+ a
+ b
+ c
+ b
+ d
+ a
+ b
+ c
+ b
+ d
+ e
+ a
+ b
+ c
+ b
+ d
+ a
+ 
+ 
+ {\displaystyle f(abcba)=deabcbdabcbdeabcbda}
+ 
+contient le carré 
+ 
+ 
+ 
+ (
+ a
+ b
+ c
+ b
+ d
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle (abcbd)^{2}}
+ . Ceci montre que l'on ne peut pas remplacer l'entier 5 par 4 dans le théorème précédent.
+Un tel résultat n'existe pas pour des alphabets plus grands. Si l'alphabet A au plus de 3 lettres, il existe pour tout n des morphismes qui préservent des mots sans carrés de longueur n sans être des morphismes sans carré. Il en est ainsi du morphisme 
+ 
+ 
+ 
+ f
+ :
+ {
+ a
+ ,
+ b
+ ,
+ c
+ ,
+ d
+ 
+ }
+ 
+ +
+ 
+ 
+ →
+ {
+ a
+ ,
+ b
+ ,
+ c
+ ,
+ d
+ ,
+ e
+ 
+ }
+ 
+ +
+ 
+ 
+ 
+ 
+ {\displaystyle f:\{a,b,c,d\}^{+}\to \{a,b,c,d,e\}^{+}}
+ défini par
+
+ 
+ 
+ 
+ f
+ (
+ a
+ )
+ 
+
+ e
+ a
+ x
+ a
+ ,
+ f
+ (
+ b
+ )
+ 
+
+ b
+ ,
+ f
+ (
+ c
+ )
+ 
+
+ c
+ ,
+ f
+ (
+ d
+ )
+ 
+
+ d
+ 
+ 
+ {\displaystyle f(a)=eaxa,f(b)=b,f(c)=c,f(d)=d}
+ ,où 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ est un mot sans carré de longueur 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ sur les trois lettres 
+ 
+ 
+ 
+ b
+ ,
+ c
+ ,
+ d
+ 
+ 
+ {\displaystyle b,c,d}
+ . Le mot 
+ 
+ 
+ 
+ a
+ x
+ 
+ 
+ {\displaystyle ax}
+ est un mot sans carré, de longueur 
+ 
+ 
+ 
+ n
+ +
+ 1
+ 
+ 
+ {\displaystyle n+1}
+ , et 
+ 
+ 
+ 
+ f
+ (
+ a
+ x
+ )
+ 
+
+ e
+ a
+ x
+ a
+ x
+ 
+ 
+ {\displaystyle f(ax)=eaxax}
+ contient un carré, donc 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ n’est pas un morphisme sans carré. Mais on peut vérifier que 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ préserve les mots sans carré de longueur 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ .
+
+# Exemples 
+
+Les morphismes 
+ 
+ 
+ 
+ h
+ 
+ 
+ {\displaystyle h}
+ et 
+ 
+ 
+ 
+ g
+ 
+ 
+ {\displaystyle g}
+ donnés par
+
+ 
+ 
+ 
+ h
+ (
+ a
+ )
+ 
+
+ a
+ b
+ c
+ a
+ b
+ ,
+ 
+ h
+ (
+ b
+ )
+ 
+
+ a
+ c
+ a
+ b
+ c
+ b
+ ,
+ 
+ h
+ (
+ c
+ )
+ 
+
+ a
+ c
+ b
+ c
+ a
+ c
+ b
+ 
+ 
+ {\displaystyle h(a)=abcab,\ h(b)=acabcb,\ h(c)=acbcacb}
+ 
+et 
+
+ 
+ 
+ 
+ g
+ (
+ a
+ )
+ 
+
+ a
+ b
+ a
+ c
+ b
+ ,
+ 
+ g
+ (
+ b
+ )
+ 
+
+ a
+ b
+ c
+ b
+ a
+ c
+ 
+ g
+ (
+ c
+ )
+ 
+
+ a
+ b
+ c
+ a
+ c
+ b
+ c
+ 
+ 
+ {\displaystyle g(a)=abacb,\ g(b)=abcbac\ g(c)=abcacbc}
+ 
+sont tous deux sans carré,. La somme des longueurs des images des lettres est dans les deux cas égale à 18 (5+6+7). Il a été prouvé par Arturo Carpi qu'il n existe pas de morphismes sans carré dont la somme des longueurs des images des lettres est plus petite.
+
+# Puissances supérieures 
+
+# Exemples 
+
+Voici quelques exemples de morphismes sans puissance supérieures.
+Le morphisme de Prouhet-Thue-Morse
+
+ 
+ 
+ 
+ t
+ (
+ a
+ )
+ 
+
+ a
+ b
+ ,
+ 
+ t
+ (
+ b
+ )
+ 
+
+ b
+ a
+ 
+ 
+ {\displaystyle t(a)=ab,\ t(b)=ba}
+ est sans puissance 
+ 
+ 
+ 
+ k
+ 
+ 
+ {\displaystyle k}
+ -ième pour tout k>2.
+Le morphisme de Fibonacci
+
+ 
+ 
+ 
+ t
+ −
+ ϕ
+ (
+ a
+ )
+ 
+
+ a
+ b
+ ,
+ 
+ ϕ
+ (
+ b
+ )
+ 
+
+ a
+ 
+ 
+ {\displaystyle t-\phi (a)=ab,\ \phi (b)=a}
+ engendre le mot de Fibonacci 
+ 
+ 
+ 
+ a
+ b
+ a
+ a
+ b
+ a
+ b
+ a
+ a
+ b
+ a
+ a
+ b
+ a
+ b
+ a
+ a
+ b
+ a
+ b
+ a
+ ⋯
+ 
+ 
+ {\displaystyle abaababaabaababaababa\cdots }
+ . Ce mot est sans puissance 
+ 
+ 
+ 
+ k
+ 
+ 
+ {\displaystyle k}
+ -ième, mais le morphisme de Fibonacci lui-même n'est pas un morphisme sans puissance 4e puisque 
+ 
+ 
+ 
+ ϕ
+ (
+ 
+ b
+ 
+ 3
+ 
+ 
+ a
+ )
+ 
+
+ 
+ a
+ 
+ 4
+ 
+ 
+ b
+ 
+ 
+ {\displaystyle \phi (b^{3}a)=a^{4}b}
+ 
+Un exemple de Bean, Ehrenfeucht et McNulty ; le morphisme défini par
+
+ 
+ 
+ 
+ h
+ (
+ a
+ )
+ 
+
+ a
+ b
+ a
+ c
+ b
+ a
+ b
+ ,
+ 
+ h
+ (
+ b
+ )
+ 
+
+ c
+ d
+ a
+ b
+ c
+ a
+ b
+ d
+ ,
+ 
+ h
+ (
+ c
+ )
+ 
+
+ c
+ d
+ a
+ c
+ a
+ b
+ c
+ b
+ d
+ ,
+ 
+ h
+ (
+ d
+ )
+ 
+
+ c
+ d
+ a
+ c
+ b
+ c
+ a
+ c
+ b
+ d
+ 
+ 
+ {\displaystyle h(a)=abacbab,\ h(b)=cdabcabd,\ h(c)=cdacabcbd,\ h(d)=cdacbcacbd}
+ est sans carré mais n'est pas sans cube. 
+L'existence de morphismes sans puissance a été prouvée : pour tout alphabet ternaire, il existe une morphisme sans carré de l'alphabet en lui-même, pour tout alphabet binaire, il existe une morphisme sans cube de l’alphabet en lui-même.
+
+# Morphismes sans cube 
+
+Le cas des morphismes sans cube diffère de celui des autres morphismes sans puissance 
+ 
+ 
+ 
+ k
+ 
+ 
+ {\displaystyle k}
+ -ième ; être sans cube une condition moins restrictive que d'être sans carré. On a le résultat suivant :
+
+L'existence d'un tel morphisme uniforme, sur un alphabet binaire, a été prouvé notamment par Currie et Rampersand
+
+# Extension aux graphes 
+
+Le nombre de Thue (en) d'un graphe G est le plus petit entier k tel que G possède une k-coloration pour laquelle la suite des couleurs sur tout chemin simple (qui ne passe pas deux fois par le même sommet) est sans carré.
+
+# Nombre de mots sans carré 
+
+Le nombre de mots ternaires sans carré de longueur 1, 2, … est la suite A006156 de l'OEIS. Elle commence par :
+ 
+ 
+ 
+ 3
+ ,
+ 6
+ ,
+ 12
+ ,
+ 18
+ ,
+ 30
+ ,
+ 42
+ ,
+ 60
+ ,
+ …
+ 
+ 
+ {\displaystyle 3,6,12,18,30,42,60,\ldots }
+ Le nombre de mots sur quatre lettres sans carré de longueur 1, 2, … est la suite A051041 de l'OEIS. Elle commence par :
+ 
+ 
+ 
+ 4
+ ,
+ 12
+ ,
+ 36
+ ,
+ 96
+ ,
+ 264
+ ,
+ 696
+ ,
+ …
+ 
+ 
+ {\displaystyle 4,12,36,96,264,696,\ldots }
+ Notons 
+ 
+ 
+ 
+ 
+ c
+ 
+ k
+ 
+ 
+ (
+ n
+ )
+ 
+ 
+ {\displaystyle c_{k}(n)}
+ le nombre de mots sans carré de longueur 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ sur un alphabet à 
+ 
+ 
+ 
+ k
+ 
+ 
+ {\displaystyle k}
+ lettres. On sait depuis longtemps que 
+ 
+ 
+ 
+ 
+ c
+ 
+ k
+ 
+ 
+ (
+ n
+ )
+ 
+ 
+ {\displaystyle c_{k}(n)}
+ croît exponentiellement pour 
+ 
+ 
+ 
+ k
+ ≥
+ 3
+ 
+ 
+ {\displaystyle k\geq 3}
+ . On connaît maintenant un très bon encadrement pour ces valeurs. On a par exemple :
+
+ 
+ 
+ 
+ 1
+ ,
+ 
+ 301759
+ 
+ n
+ 
+ 
+ <
+ 
+ c
+ 
+ 3
+ 
+ 
+ (
+ n
+ )
+ <
+ 1
+ ,
+ 
+ 301761
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle 1,301759^{n}<c_{3}(n)<1,301761^{n}}
+ 
+
+# Notes et références 
+
+# Bibliographie 
+
+# Bibliographie 
+
+Thue
+
+[Thue (1906)] Axel Thue, « Über unendliche Zeichenreihen », Norske Vid. Skrifter I Mat.-Nat. Kl., Christiania, no 7, 1906, p. 1-22.
+[Thue (1912)] Axel Thue, « Über die gegenseitige Lage gleicher Teile gewisser Zeichenreihen », Norske Vid. Skrifter I Mat.-Nat. Kl., Christiania, no 1, 1912, p. 1-67.
+Trygve Nagell, Atle Selberg, S. Selberg et K. Thalberg (éditeurs), Selected Mathematical Papers of Axel Thue, Oslo, Universitetsforlaget, 1977Lothaire
+
+M. Lothaire (1983), Combinatorics on words, Addison-Wesley Publishing Co., Reading, Mass., coll. « Encyclopedia of Mathematics and its Applications » (no 17), 1983 (ISBN 978-0-201-13516-9, présentation en ligne)
+[Lothaire (1997)] M. Lothaire, Combinatorics on words, Cambridge University Press, coll. « Cambridge Mathematical Library », 1997, 2e éd., xviii+238 p. (ISBN 978-0-521-59924-5, DOI 10.1017/CBO9780511566097, Math Reviews 1475463, présentation en ligne)Articles
+
+[Bean, Ehrenfeucht, McNulty (1979)] Dwight R. Bean, Andrzej Ehrenfeucht et George F. McNulty, « Avoidable patterns in strings of symbols », Pacific J. Math., vol. 85, no 2, 1979, p. 261-294 (Math Reviews 0574919).
+[Crochemore (1982)] Maxime Crochemore, « Sharp characterizations of squarefree morphisms », Theor. Comput. Sci., vol. 18, no 2, 1982, p. 221-226 (DOI 10.1016/0304-3975(82)90023-8, lire en ligne).
+[Brandenburg (1983)] Franz-Joseph Brandenburg, « Uniformly growing k-th power-free homomorphisms », Theor. Comput. Sci., vol. 23, 1983, p. 69-82.[Wlazinski (2018)] Francis Wlazinski, « A uniform cube-free morphism is k-power-free for all integers k ≥ 4 », RAIRO - Theoretical Informatics and Applications, vol. 51, no 4, 2018, p. 205–216 (ISSN 0988-3754, DOI 10.1051/ita/2017015, HAL hal-01417750)
+
+# Voir aussi 
+
+Perles de Dijkstra
+La suite de Prouhet-Thue-Morse est sans facteur cubique.
+La suite de Fibonacci est sans facteur biquadratique.
+
+# Liens externes 
+
+(en) Eric W. Weisstein, « Squarefree Word », sur MathWorld Portail des mathématiques Portail de l'informatique théorique

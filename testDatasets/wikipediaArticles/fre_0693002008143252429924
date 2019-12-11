@@ -1,0 +1,86 @@
+
+## Darkest Dungeon
+
+Darkest Dungeon est un jeu vidéo de type rogue-like, RPG et dungeon crawler, développé et édité par Red Hook Studios, sorti en 2016 sur Windows, Mac, Linux, PlayStation 4 et PlayStation Vita. Il se caractérise par un univers dark fantasy très noir et une grande difficulté.
+Darkest Dungeon permet au joueur de contrôler une équipe d'aventuriers qui explore des donjons. Le jeu intègre un système original de niveau de stress pour chaque héros, lorsque le niveau de stress est trop haut, le héros gagne une affliction permanente qui peut être négative ou parfois positive. La mort d'un héros est définitive et il n'est pas possible de charger une sauvegarde, ce qui augmente la difficulté du jeu.
+Il a pour suite Darkest Dungeon 2.
+
+# Système de jeu 
+
+Le jeu est divisé en deux phases : une phase orientée sur la gestion d'un hameau et d'une équipe d'aventuriers et une phase orientée sur l'action et l'exploration par cette équipe.
+
+# Phase d'exploration 
+
+Durant cette phase, le joueur contrôle une équipe de quatre personnages (appelés héros) et parcourt un donjon généré aléatoirement dans le but de remplir une quête (explorer la quasi-totalité des lieux, venir à bout des ennemis présents...). Au cours de l'exploration, le joueur doit mener des batailles qui se déroulent en tour par tour. Si au cours d'une de ces batailles, un héros vient à mourir, sa mort est définitive. Les sauvegardes automatiques effectuées régulièrement empêchent le joueur de charger un point de sauvegarde précédent pour retrouver son héros.
+L'une des principales composantes de Darkest Dungeon est le système de stress, qui représente la peur ressentie par le héros alors qu'il parcourt le donjon. Chaque héros a une barre de stress qui se remplit au fur et à mesure d’événements négatifs : attaque d'un ennemi, piège déclenché lors de l'exploration dans l'obscurité, etc. Subir un coup critique augmente davantage le stress et certaines attaques spéciales ennemies augmentent uniquement le stress. Lorsque cette barre de stress est remplie, le héros est frappé d'une « affliction ». Celle-ci va modifier son comportement en tenant moins compte des ordres du joueur (par exemple, un héros va refuser de se soigner, va attaquer l'ennemi sans que le joueur ne lui en ait donné l'ordre, volera certains trésors, etc.). Il existe cependant une petite chance que le héros ne soit pas touché par une affliction et gagne au contraire un bonus.
+Si la barre de stress se remplit une deuxième fois, le héros peut faire une crise cardiaque ce qui le rend extrêmement vulnérable aux attaques ennemies. En cas de seconde crise cardiaque, si le héros n'a pas été soigné des conséquences de la première, il meurt.
+Lors de l'exploration, le niveau de luminosité joue un rôle important, une faible luminosité augmente le stress des héros en marchant et la probabilité d'être surpris par les ennemis, dans ce cas tous les ennemis jouent avant les héros. La faible luminosité a l'avantage d'augmenter les chances de coups critiques et de trouver un meilleur butin, il est possible d'éteindre complètement la torche, la difficulté sera maximum mais les perspectives de butins aussi. Une luminosité élevée augmente la probabilité de surprendre les ennemis et de découvrir à l'avance le contenu des pièces suivantes (compétence de repérage), cette compétence peut découvrir des pièces secrètes. Pour maintenir un niveau de luminosité élevée, le joueur consomme des torches qui doivent être achetées avant l'entrée dans le donjon. Le nombre de torches limite le temps passé à se déplacer dans le donjon, un autre facteur est la nourriture qui doit aussi être achetée avant. Si le joueur n'a plus assez de nourriture, les héros perdent de la vie et subissent du stress. Certains donjons sont plus grands, ils incluent une phase spéciale de bivouac. Pendant cette phase, les héros peuvent utiliser des capacités spéciales, par exemple pour réduire le stress ou gagner des trésors. La nourriture nécessaire au bivouac doit aussi être achetée à l'avance, partir à l'aventure a donc un coût de départ qu'il faudra optimiser selon ses ressources et les perspectives de gains.
+Pendant les combats, les cadavres des ennemis morts continuent d'occuper leur position, en conséquence les ennemis placés à l'arrière pourront rester difficile à atteindre. Les cadavres peuvent être attaqués pour être détruits, certaines compétences des héros peuvent les supprimer en une fois. Les compétences qui déplacent les ennemis, par exemple faire avancer un ennemi de 2 emplacements vers l'avant, suppriment également les cadavres sur le chemin.
+Lors des déplacements, le groupe rencontre des objets spéciaux (curiosités) qui peuvent être fouillés, par exemple une statue ou une carcasse de sanglier. La fouille permet d'obtenir un bonus ou un malus, les chances d'obtenir un bonus peuvent être augmentées en utilisant un objet particulier pour purifier la curiosité.
+Lorsque la quête du donjon est terminée, il est possible de continuer l'exploration pour terminer complètement le donjon. Le joueur peut quitter le donjon à tout moment, sauf en combat où il doit préalablement réussir à fuir, qu'il soit parvenu ou non à terminer sa quête, dans ce cas les héros auront un malus de stress. Certains héros atteints par des afflictions peuvent refuser de fuir, obligeant à réessayer au tour suivant. À la sortie du donjon, le joueur reçoit des récompenses qui dépendent de ce qu'il a trouvé lors de l'exploration et de l'accomplissement ou non de l'objectif de quête. Les héros reçoivent également des points d'expérience, imitant ainsi le système des RPG, ainsi que des manies, positives ou négatives, qui donnent des bonus ou des malus aux héros.
+Il existe 5 types de donjons : Crique (Cove), Ruines (Ruins), Tanières (Warrens), Futaie (Weald) et le Donjon ténébreux.
+
+# Phase du hameau 
+
+Dans cette phase, le joueur peut recruter de nouveaux héros, améliorer leurs capacités et leur équipement. Il peut aussi soigner les affections des héros. Le niveau de stress de chaque héros est conservé à la sortie du dernier donjon, il peut être réduit en immobilisant le héros dans des lieux spécifiques qui coûtent plus ou moins d'or. Pendant sa guérison, le héros ne sera pas disponible pour la phase de donjon suivante. Au départ le joueur ne peut soigner le stress que d'un héros par type de guérison mais il existe plusieurs types, par exemple un héros peut occuper l'espace de prière, un autre l'espace de flagellation et encore un autre aller boire à la taverne. Chaque type de guérison du stress possède un coût différent, il soignera plus ou moins le héros selon sa personnalité et peut avoir d'autres effets, par exemple soigner un héros à la taverne est peu onéreux mais le héros sera indisponible lors de la phase suivante, le temps de cuver l'alcool. Les espaces de guérison du stress peuvent être améliorés pour accepter plusieurs héros simultanément. Il peut arriver qu'un bonus ou un malus s'ajoute en réaction au soin du stress, par exemple un héros qui prie peut avoir une révélation qui déclenche une manie. Certains héros ont des affections qui leur interdisent certains soins du stress, par exemple être interdit de jeu en ville.
+Un bâtiment permet de soigner les manies des héros ainsi que les maladies contractées dans un donjon, mais ces soins sont coûteux. Un autre permet de débloquer et d'améliorer les capacités des héros.
+De nouveaux héros sont disponibles à chaque phase du hameau, ce qui permet de recruter d'autres héros pour compenser les morts et ceux qui sont immobilisés pour se soigner. En pratique le joueur doit constituer plusieurs groupes pour continuer d'explorer des donjons pendant qu'une équipe se repose. Les donjons plus avancés nécessitent des héros avec des niveaux plus élevés, un héros de niveau élevé peut être difficile à remplacer et les héros plus avancés refuseront de faire des petits donjons avec des héros moins expérimentés, ce qui évite les abus de type "carry".
+Tous les bâtiments sont améliorables avec des ressources spéciales gagnés dans les donjons. Le nombre maximum de héros recrutés peut être augmenté de la même manière.
+Il est possible d'équiper des objets magiques appelés breloques sur les héros dans le hameau. Ces objets sont trouvés dans les donjons et en récompense de quête. Chaque héros peut avoir au maximum 2 breloques, certains objets ne peuvent être utilisés que sur une classe particulière. Les breloques inutiles peuvent être revendues pour gagner de l'or.
+
+# Classes des héros 
+
+Les héros dans Darkest Dungeon ont chacun une classe particulière qui détermine leurs capacités. La plupart des capacités ne sont utilisables que lorsque le héros occupe certaines positions dans l'équipe. Ce système donne à chaque héros un positionnement privilégié, par exemple à l'avant au corps à corps ou en soutien à l'arrière. Les cibles possibles des compétences sont dépendantes des positions des ennemis. Certaines capacités des héros peuvent changer leur position, les ennemis peuvent aussi déplacer les héros avec des capacités spéciales.
+Il existe 17 classes différentes de héros : 
+
+Abomination (Abomination),
+Maître chien (Houndmaster),
+Arbalétrière (Arbalest),
+Bouffon (Jester),
+Chasseur de primes (Bounty Hunter),
+Lépreux (Leper),
+Croisé (Crusader),
+Maître d'armes (Man-at-arm),
+Pilleur de tombes (Grave Robber),
+Occultiste (Occultist),
+Furie (Hellion),
+Médecin de peste (Plague Doctor),
+Bandit (Highwayman),
+Vestale (Vestal),
+Antiquaire (Antiquarian, ajoutée dans une mise à jour ultérieure à la sortie du jeu mais aujourd'hui compris dans le "Jeu de base"),
+Flagellant (Flagellant, ajouté par le contenu téléchargeable The Crimson Court),
+Briseuse de boucliers (Shieldbreaker, ajoutée par le contenu téléchargeable The Shield breaker),
+La Mousquetaire ( ajoutée par le contenu téléchargeable "The Musketeer" sorti le 19 juin 2018 ).
+
+# The Crimson Court 
+
+The Crimson Court est le premier contenu téléchargeable pour le jeu. Il est sorti le 19 juin 2017. Il ajoute une nouvelle classe de héros, ainsi qu'une nouvelle région de donjons, et avec elle une nouvelle faction d'adversaires, de nouveaux boss, ainsi que de nouvelles mécaniques de jeu et de nouveaux éléments narratifs. Il a reçu la note de 7,7/10 sur IGN
+
+# The Shield Breaker 
+
+The Shield Breaker est le second contenu téléchargeable pour le jeu. Il est sorti le 26 octobre 2017. Il ajoute une nouvelle classe de héros, de nouvelles mécaniques de jeu, de nouveaux objets et de nouveaux adversaires.
+
+# The Color of Madness 
+
+Une étrange chose venue du ciel a atterri sur le moulin, là où le Meunier et ses ouvriers travaillaient. Sans nouvelles depuis 15 jours, hormis les grognements s'échappant du lieu en ruine, vous décidez d'aller voir de quoi il retourne. Une étrange lumière d'une intensité abrasive et changeante surmonte le lieu...
+The Color of Madness ( La Couleur de la Folie ), est le troisième contenu téléchargeable pour le jeu. Il est sorti le 19 juin 2018 et ajoute une nouvelle région ( la Ferme ), ainsi qu'une toute nouvelle mécanique de gameplay : les vagues d'ennemis.
+
+# Développement 
+
+Grâce à une campagne marketing, en amont, le jeu a atteint sur Kickstarter le seuil visé de 75 000 $ en deux jours et a finalement récolté 313 000 $ de financement de la part de plus 10 000 personnes.
+Le jeu a été vendu à 650 000 exemplaires en 1 semaine d'après Red Hook Studios.
+
+# Réception 
+
+Le jeu a été nommé à l'Independent Games Festival 2016 pour le grand prix Seumas McNally et dans les catégories "Excellence en Arts visuels" et "Excellence en Son".
+Gamekult lui donne une note de 8/10 (Très bon), soulignant l'aspect hardcore, la direction artistique et la mise en scène. Jeuxvideo.com note le jeu 18/20, soulignant le gameplay exigeant mais addictif, une direction artistique et une bande son lugubre ainsi qu'un challenge important, ce qui peut rendre le jeu difficile d'approche pour les joueurs occasionnels.
+
+# Voir aussi 
+
+# Liens externes 
+
+Site officiel
+
+# Notes et références 
+
+ Portail du jeu vidéo Portail de la fantasy et du fantastique

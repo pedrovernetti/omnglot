@@ -1,0 +1,1911 @@
+
+## Dirichlet-Randbedingung
+
+Als Dirichlet-Randbedingung (nach Peter Gustav Lejeune Dirichlet) bezeichnet man im Zusammenhang mit Differentialgleichungen (genauer: Randwertproblemen) Werte, die auf dem jeweiligen Rand des Definitionsbereichs von der Funktion angenommen werden sollen.
+Weitere Randbedingungen sind beispielsweise Neumann-Randbedingungen oder schiefe Randbedingungen.
+
+# Gewöhnliche Differentialgleichung 
+
+# Das Dirichletproblem 
+
+Im Falle einer gewöhnlichen Differentialgleichung ist der Definitionsbereich der Funktion ein abgeschlossenes Intervall. Folglich besteht der Rand des Definitionsbereiches nur aus dem rechten und dem linken Intervall-Ende. Aufgrund der Freiheit in gewöhnlichen Differentialgleichungen sind Dirichlet-Randbedingungen nur für Gleichungen von zweiter oder höherer Ordnung sinnvoll. In diesem Fall sieht ein Dirichletproblem, d. h. eine Differentialgleichung mit Dirichlet-Randbedingung, folgendermaßen aus:
+
+ 
+ 
+ 
+ 
+ 
+ {
+ 
+ 
+ 
+ f
+ (
+ x
+ ,
+ y
+ (
+ x
+ )
+ ,
+ 
+ y
+ ′
+ 
+ (
+ x
+ )
+ ,
+ 
+ y
+ ″
+ 
+ (
+ x
+ )
+ )
+ 
+
+ 0
+ ,
+ 
+ x
+ ∈
+ (
+ a
+ ,
+ b
+ )
+ 
+ 
+ 
+ 
+ y
+ (
+ a
+ )
+ 
+
+ α
+ ,
+ 
+ y
+ (
+ b
+ )
+ 
+
+ β
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}f(x,y(x),y'(x),y''(x))=0,\quad x\in (a,b)\\y(a)=\alpha ,\quad y(b)=\beta \end{cases}}}
+ Hierbei ist 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ eine vorgeschriebene Funktion, 
+ 
+ 
+ 
+ α
+ 
+ 
+ {\displaystyle \alpha }
+ und 
+ 
+ 
+ 
+ β
+ 
+ 
+ {\displaystyle \beta }
+ sind vorgeschriebene reelle Zahlen für die Funktionswerte einer Lösung an den Intervallenden. Schließlich suchen wir eine (klassische) Lösung 
+ 
+ 
+ 
+ y
+ ∈
+ 
+ C
+ 
+ 2
+ 
+ 
+ (
+ a
+ ,
+ b
+ )
+ ∩
+ 
+ C
+ 
+ 0
+ 
+ 
+ [
+ a
+ ,
+ b
+ ]
+ 
+ 
+ {\displaystyle y\in C^{2}(a,b)\cap C^{0}[a,b]}
+ aus der angegebenen Regularitätsklasse.
+
+# Beispiel 
+
+Wir wählen als unser Intervall 
+ 
+ 
+ 
+ [
+ 0
+ ,
+ π
+ ]
+ 
+ 
+ {\displaystyle [0,\pi ]}
+ und betrachten das folgende Dirichletproblem:
+
+ 
+ 
+ 
+ 
+ 
+ {
+ 
+ 
+ 
+ 
+ y
+ ″
+ 
+ 
+
+ −
+ y
+ 
+ 
+ 
+ 
+ y
+ (
+ 0
+ )
+ 
+
+ 0
+ ,
+ 
+ y
+ (
+ π
+ )
+ 
+
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}y''=-y\\y(0)=0,\quad y(\pi )=0\end{cases}}}
+ Mit der Theorie der linearen gewöhnlichen Differentialgleichungen mit konstanten Koeffizienten erhalten wir zunächst als allgemeine (klassische) Lösung der Differentialgleichung:
+
+ 
+ 
+ 
+ y
+ (
+ x
+ )
+ 
+
+ C
+ cos
+ 
+ x
+ +
+ D
+ sin
+ 
+ x
+ 
+ 
+ {\displaystyle y(x)=C\cos x+D\sin x}
+ mit zwei frei wählbaren reellen Konstanten 
+ 
+ 
+ 
+ C
+ 
+ 
+ {\displaystyle C}
+ und 
+ 
+ 
+ 
+ D
+ 
+ 
+ {\displaystyle D}
+ . Wir benutzen die Randbedingungen, um diese Konstanten zu fixieren. Dabei erhalten wir ein lineares Gleichungssystem in den Unbekannten 
+ 
+ 
+ 
+ C
+ 
+ 
+ {\displaystyle C}
+ und 
+ 
+ 
+ 
+ D
+ 
+ 
+ {\displaystyle D}
+ :
+
+ 
+ 
+ 
+ C
+ 
+
+ 0
+ ,
+ 
+ 
+ {\displaystyle C=0,}
+ 
+
+ 
+ 
+ 
+ −
+ C
+ 
+
+ 0.
+ 
+ 
+ {\displaystyle -C=0.}
+ Bemerkenswerterweise ist dieses System nicht eindeutig lösbar, aber es ist für beliebiges reelles 
+ 
+ 
+ 
+ D
+ 
+ 
+ {\displaystyle D}
+ eine Lösung gegeben durch
+
+ 
+ 
+ 
+ y
+ (
+ x
+ )
+ 
+
+ D
+ sin
+ 
+ x
+ .
+ 
+ 
+ {\displaystyle y(x)=D\sin x.}
+ 
+
+# Existenz und Eindeutigkeit 
+
+Der folgende Satz wird für homogene (
+ 
+ 
+ 
+ α
+ 
+
+ β
+ 
+
+ 0
+ 
+ 
+ {\displaystyle \alpha =\beta =0}
+ ) Daten formuliert. Dies ist jedoch keine Einschränkung, denn durch eine Transformation 
+ 
+ 
+ 
+ 
+ 
+ 
+ u
+ ~
+ 
+ 
+ 
+ (
+ x
+ )
+ 
+
+ u
+ (
+ x
+ )
+ −
+ r
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle {\tilde {u}}(x)=u(x)-r(x)}
+ mit 
+
+ 
+ 
+ 
+ r
+ (
+ x
+ )
+ 
+
+ 
+ 
+ 
+ (
+ b
+ −
+ x
+ )
+ α
+ +
+ (
+ x
+ −
+ a
+ )
+ β
+ 
+ 
+ b
+ −
+ a
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle r(x)={\frac {(b-x)\alpha +(x-a)\beta }{b-a}}}
+ kann ein inhomogenes Problem stets in ein homogenes Problem überführt werden.
+Gegeben sei die Aufgabe
+
+ 
+ 
+ 
+ 
+ 
+ {
+ 
+ 
+ 
+ −
+ 
+ u
+ ″
+ 
+ (
+ x
+ )
+ 
+
+ f
+ (
+ x
+ ,
+ u
+ (
+ x
+ )
+ ,
+ 
+ u
+ ′
+ 
+ (
+ x
+ )
+ )
+ ,
+ 
+ x
+ ∈
+ (
+ a
+ ,
+ b
+ )
+ 
+ 
+ 
+ 
+ u
+ (
+ a
+ )
+ 
+
+ u
+ (
+ b
+ )
+ 
+
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}-u''(x)=f(x,u(x),u'(x)),\quad x\in (a,b)\\u(a)=u(b)=0\end{cases}}}
+ Dabei sei 
+ 
+ 
+ 
+ f
+ :
+ [
+ a
+ ,
+ b
+ ]
+ ×
+ 
+ 
+ R
+ 
+ 
+ 2
+ 
+ 
+ →
+ 
+ R
+ 
+ 
+ 
+ {\displaystyle f\colon [a,b]\times \mathbb {R} ^{2}\to \mathbb {R} }
+ eine stetige Funktion. Außerdem erfülle sie eine Lipschitz-Bedingung, das heißt, es gebe Zahlen 
+ 
+ 
+ 
+ L
+ ,
+ K
+ >
+ 0
+ 
+ 
+ {\displaystyle L,K>0}
+ , so dass für alle 
+ 
+ 
+ 
+ x
+ ∈
+ [
+ a
+ ,
+ b
+ ]
+ 
+ 
+ {\displaystyle x\in [a,b]}
+ und für alle 
+ 
+ 
+ 
+ s
+ ,
+ t
+ ,
+ 
+ s
+ ′
+ 
+ ,
+ 
+ t
+ ′
+ 
+ ∈
+ 
+ R
+ 
+ 
+ 
+ {\displaystyle s,t,s',t'\in \mathbb {R} }
+ die Ungleichung
+
+ 
+ 
+ 
+ 
+ |
+ 
+ f
+ (
+ x
+ ,
+ s
+ ,
+ 
+ s
+ ′
+ 
+ )
+ −
+ f
+ (
+ x
+ ,
+ t
+ ,
+ 
+ t
+ ′
+ 
+ )
+ 
+ |
+ 
+ ≤
+ L
+ 
+ |
+ 
+ s
+ −
+ t
+ 
+ |
+ 
+ +
+ K
+ 
+ |
+ 
+ 
+ s
+ ′
+ 
+ −
+ 
+ t
+ ′
+ 
+ 
+ |
+ 
+ 
+ 
+ {\displaystyle |f(x,s,s')-f(x,t,t')|\leq L|s-t|+K|s'-t'|}
+ erfüllt sei. Weiterhin gelte
+
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ (
+ b
+ −
+ a
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+ 8
+ 
+ 
+ +
+ K
+ 
+ 
+ 
+ b
+ −
+ a
+ 
+ 2
+ 
+ 
+ <
+ 1.
+ 
+ 
+ {\displaystyle L{\frac {(b-a)^{2}}{8}}+K{\frac {b-a}{2}}<1.}
+ Sei 
+ 
+ 
+ 
+ w
+ 
+ 
+ {\displaystyle w}
+ eine Lösung von 
+
+ 
+ 
+ 
+ 
+ w
+ ″
+ 
+ (
+ x
+ )
+ +
+ L
+ 
+ w
+ ′
+ 
+ (
+ x
+ )
+ +
+ K
+ w
+ (
+ x
+ )
+ 
+
+ 0
+ ,
+ 
+ x
+ ∈
+ (
+ a
+ ,
+ b
+ )
+ .
+ 
+ 
+ {\displaystyle w''(x)+Lw'(x)+Kw(x)=0,\quad x\in (a,b).}
+ 
+ 
+ 
+ 
+ w
+ 
+ 
+ {\displaystyle w}
+ verschwinde für 
+ 
+ 
+ 
+ x
+ 
+
+ a
+ 
+ 
+ {\displaystyle x=a}
+ und 
+ 
+ 
+ 
+ α
+ (
+ L
+ ,
+ K
+ )
+ 
+ 
+ {\displaystyle \alpha (L,K)}
+ sei die erste eindeutige Zahl, so dass 
+ 
+ 
+ 
+ 
+ w
+ ′
+ 
+ (
+ x
+ )
+ 
+
+ 0
+ 
+ 
+ {\displaystyle w'(x)=0}
+ für 
+ 
+ 
+ 
+ x
+ 
+
+ a
+ +
+ α
+ (
+ L
+ ,
+ K
+ )
+ 
+ 
+ {\displaystyle x=a+\alpha (L,K)}
+ . Dann hat die zugrunde liegende Aufgabe genau eine Lösung, falls
+
+ 
+ 
+ 
+ b
+ −
+ a
+ <
+ 2
+ α
+ (
+ L
+ ,
+ K
+ )
+ .
+ 
+ 
+ {\displaystyle b-a<2\alpha (L,K).}
+ Gilt hingegen 
+ 
+ 
+ 
+ b
+ −
+ a
+ ≥
+ 2
+ α
+ (
+ L
+ ,
+ K
+ )
+ 
+ 
+ {\displaystyle b-a\geq 2\alpha (L,K)}
+ , so muss keine Lösung existieren oder sie muss nicht eindeutig sein. Weiterhin gilt
+
+ 
+ 
+ 
+ α
+ (
+ L
+ ,
+ K
+ )
+ 
+
+ 
+ 
+ {
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 4
+ K
+ −
+ 
+ L
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ arccos
+ 
+ 
+ 
+ L
+ 
+ 2
+ 
+ 
+ K
+ 
+ 
+ 
+ 
+ 
+ ,
+ 
+ 
+ 4
+ K
+ −
+ 
+ L
+ 
+ 2
+ 
+ 
+ >
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ L
+ 
+ 2
+ 
+ 
+ −
+ 4
+ K
+ 
+ 
+ 
+ arcosh
+ 
+ 
+ 
+ L
+ 
+ 2
+ 
+ 
+ K
+ 
+ 
+ 
+ 
+ 
+ ,
+ 
+ 
+ 4
+ K
+ −
+ 
+ L
+ 
+ 2
+ 
+ 
+ <
+ 0
+ ;
+ L
+ ,
+ K
+ >
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 2
+ L
+ 
+ 
+ ,
+ 
+ 
+ 4
+ K
+ −
+ 
+ L
+ 
+ 2
+ 
+ 
+ 
+
+ 0
+ ,
+ L
+ >
+ 0
+ 
+ 
+ 
+ 
+ +
+ ∞
+ ,
+ 
+ 
+ 
+ sonst
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \alpha (L,K)={\begin{cases}{\frac {2}{\sqrt {4K-L^{2}}}}\arccos {\frac {L}{2{\sqrt {K}}}},&4K-L^{2}>0\\{\frac {2}{L^{2}-4K}}\operatorname {arcosh} {\frac {L}{2{\sqrt {K}}}},&4K-L^{2}<0;L,K>0\\{\frac {2}{L}},&4K-L^{2}=0,L>0\\+\infty ,&{\text{sonst}}\end{cases}}}
+ Einen Beweis dieses Satzes findet man in Bailey, Shampine, Waltman. Nonlinear two-point boundary value problems. Academic Press, 1968.
+Ist die rechte Seite 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ der Differentialgleichung jedoch nur stetig und beschränkt, dann garantiert der Satz von Scorza Dragoni die Existenz einer Lösung.
+
+# Partielle Differentialgleichungen 
+
+# Das Dirichletproblem 
+
+Bei einer partiellen Differentialgleichung ist die alleinige Angabe von Dirichlet-Randbedingungen nur für elliptische Gleichungen auf einem beschränkten Gebiet 
+ 
+ 
+ 
+ Ω
+ ⊂
+ 
+ 
+ R
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \Omega \subset \mathbb {R} ^{n}}
+ sinnvoll, da die anderen Typen auch Vorgaben der Anfangswerte benötigen. Dabei werden Dirichlet-Randbedingungen auf dem Rand des Gebietes 
+ 
+ 
+ 
+ ∂
+ Ω
+ 
+ 
+ {\displaystyle \partial \Omega }
+ vorgeschrieben. Wir definieren hier das Dirichletproblem für quasilineare partielle Differentialgleichungen
+
+ 
+ 
+ 
+ u
+ ∈
+ 
+ C
+ 
+ 2
+ 
+ 
+ (
+ Ω
+ )
+ ∩
+ 
+ C
+ 
+ 0
+ 
+ 
+ (
+ 
+ 
+ Ω
+ ¯
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle u\in C^{2}(\Omega )\cap C^{0}({\overline {\Omega }})}
+ 
+
+ 
+ 
+ 
+ 
+ ∑
+ 
+ i
+ ,
+ j
+ 
+
+ 1
+ 
+ 
+ n
+ 
+ 
+ 
+ a
+ 
+ i
+ j
+ 
+ 
+ (
+ x
+ ,
+ u
+ ,
+ ∇
+ u
+ )
+ 
+ 
+ 
+ ∂
+ 
+ 2
+ 
+ 
+ 
+ ∂
+ 
+ x
+ 
+ i
+ 
+ 
+ ∂
+ 
+ x
+ 
+ j
+ 
+ 
+ 
+ 
+ 
+ u
+ 
+
+ f
+ (
+ x
+ ,
+ u
+ ,
+ ∇
+ u
+ )
+ 
+ 
+ {\displaystyle \sum _{i,j=1}^{n}a_{ij}(x,u,\nabla u){\frac {\partial ^{2}}{\partial x_{i}\partial x_{j}}}u=f(x,u,\nabla u)}
+ 
+
+ 
+ 
+ 
+ u
+ (
+ x
+ )
+ 
+
+ g
+ (
+ x
+ )
+ ,
+ 
+ x
+ ∈
+ ∂
+ Ω
+ 
+ 
+ {\displaystyle u(x)=g(x),\qquad x\in \partial \Omega }
+ Hierbei stellt die Funktion 
+ 
+ 
+ 
+ g
+ :
+ ∂
+ Ω
+ →
+ 
+ R
+ 
+ 
+ 
+ {\displaystyle g\colon \partial \Omega \rightarrow \mathbb {R} }
+ die vorgeschriebenen Funktionswerte der Lösung auf dem Rand dar. Allein die Frage nach der Lösbarkeit eines solchen Problems ist schon sehr anspruchsvoll und steht im Mittelpunkt der aktuellen Forschung. Es ist auch sehr schwierig, eine allgemeingültige Lösungsmethode anzugeben.
+
+# Beispiel 
+
+Wir betrachten in diesem Beispiel auf dem Gebiet 
+ 
+ 
+ 
+ Ω
+ 
+
+ (
+ 0
+ ,
+ π
+ 
+ )
+ 
+ n
+ 
+ 
+ 
+
+ {
+ x
+ 
+
+ (
+ 
+ x
+ 
+ 1
+ 
+ 
+ ,
+ …
+ ,
+ 
+ x
+ 
+ n
+ 
+ 
+ )
+ ∈
+ 
+ 
+ R
+ 
+ 
+ n
+ 
+ 
+ 
+ :
+ 
+ 0
+ <
+ 
+ x
+ 
+ i
+ 
+ 
+ <
+ π
+ ,
+ 
+ i
+ 
+
+ 1
+ ,
+ …
+ ,
+ n
+ }
+ ,
+ 
+ 
+ {\displaystyle \Omega =(0,\pi )^{n}=\{x=(x_{1},\dots ,x_{n})\in \mathbb {R} ^{n}\,:\,0<x_{i}<\pi ,\quad i=1,\dots ,n\},}
+ das folgende Randwertproblem:
+
+ 
+ 
+ 
+ u
+ ∈
+ 
+ C
+ 
+ 2
+ 
+ 
+ (
+ Ω
+ )
+ ∩
+ 
+ C
+ 
+ 0
+ 
+ 
+ (
+ 
+ 
+ Ω
+ ¯
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle u\in C^{2}(\Omega )\cap C^{0}({\overline {\Omega }})}
+ 
+
+ 
+ 
+ 
+ Δ
+ u
+ (
+ x
+ )
+ 
+
+ −
+ n
+ u
+ (
+ x
+ )
+ ,
+ 
+ x
+ ∈
+ Ω
+ 
+ 
+ {\displaystyle \Delta u(x)=-nu(x),\qquad x\in \Omega }
+ 
+
+ 
+ 
+ 
+ u
+ (
+ x
+ )
+ 
+
+ 0
+ ,
+ 
+ 
+ 
+ 
+ x
+ ∈
+ ∂
+ Ω
+ .
+ 
+ 
+ {\displaystyle u(x)=0,\qquad \qquad \quad \;x\in \partial \Omega .}
+ Hierbei bezeichnet 
+ 
+ 
+ 
+ Δ
+ 
+ 
+ {\displaystyle \Delta }
+ den Laplace-Operator. Zunächst stellen wir fest, dass 
+ 
+ 
+ 
+ u
+ ≡
+ 0
+ 
+ 
+ {\displaystyle u\equiv 0}
+ eine Lösung des Problems ist. Wir wollen noch weitere Lösungen finden. Wir nehmen nun 
+ 
+ 
+ 
+ u
+ (
+ x
+ )
+ ≠
+ 0
+ 
+ 
+ {\displaystyle u(x)\neq 0}
+ für 
+ 
+ 
+ 
+ x
+ ∈
+ Ω
+ 
+ 
+ {\displaystyle x\in \Omega }
+ an und machen den folgenden Produktansatz
+
+ 
+ 
+ 
+ u
+ (
+ x
+ )
+ 
+
+ 
+ v
+ 
+ 1
+ 
+ 
+ (
+ 
+ x
+ 
+ 1
+ 
+ 
+ )
+ ⋅
+ ⋯
+ ⋅
+ 
+ v
+ 
+ n
+ 
+ 
+ (
+ 
+ x
+ 
+ n
+ 
+ 
+ )
+ 
+
+ 
+ ∏
+ 
+ k
+ 
+
+ 1
+ 
+ 
+ n
+ 
+ 
+ 
+ v
+ 
+ k
+ 
+ 
+ (
+ 
+ x
+ 
+ k
+ 
+ 
+ )
+ .
+ 
+ 
+ {\displaystyle u(x)=v_{1}(x_{1})\cdot \dots \cdot v_{n}(x_{n})=\prod _{k=1}^{n}v_{k}(x_{k}).}
+ Für die Funktionen 
+ 
+ 
+ 
+ 
+ v
+ 
+ k
+ 
+ 
+ 
+ 
+ {\displaystyle v_{k}}
+ leiten wir gewöhnliche Differentialgleichungen mit entsprechenden Dirichlet-Randbedingungen her. Es folgt
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Δ
+ u
+ 
+ 
+ 
+ 
+
+ 
+ (
+ 
+ 
+ 
+ 
+ ∂
+ 
+ 2
+ 
+ 
+ 
+ ∂
+ 
+ x
+ 
+ 1
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ +
+ ⋯
+ +
+ 
+ 
+ 
+ ∂
+ 
+ 2
+ 
+ 
+ 
+ ∂
+ 
+ x
+ 
+ n
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ u
+ (
+ x
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ v
+ 
+ 1
+ 
+ ″
+ 
+ (
+ 
+ x
+ 
+ 1
+ 
+ 
+ )
+ 
+ v
+ 
+ 2
+ 
+ 
+ (
+ 
+ x
+ 
+ 2
+ 
+ 
+ )
+ ⋅
+ ⋯
+ ⋅
+ 
+ v
+ 
+ n
+ 
+ 
+ (
+ 
+ x
+ 
+ n
+ 
+ 
+ )
+ +
+ ⋯
+ +
+ 
+ v
+ 
+ 1
+ 
+ 
+ (
+ 
+ x
+ 
+ 1
+ 
+ 
+ )
+ ⋅
+ ⋯
+ ⋅
+ 
+ v
+ 
+ n
+ −
+ 1
+ 
+ 
+ (
+ 
+ x
+ 
+ n
+ −
+ 1
+ 
+ 
+ )
+ 
+ v
+ 
+ n
+ 
+ ″
+ 
+ (
+ 
+ x
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ u
+ (
+ x
+ )
+ 
+ ∑
+ 
+ k
+ 
+
+ 1
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+ 
+ 
+ v
+ 
+ k
+ 
+ ″
+ 
+ (
+ 
+ x
+ 
+ k
+ 
+ 
+ )
+ 
+ 
+ 
+ v
+ 
+ k
+ 
+ 
+ (
+ 
+ x
+ 
+ k
+ 
+ 
+ )
+ 
+ 
+ 
+ .
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{aligned}\Delta u&=\left({\frac {\partial ^{2}}{\partial x_{1}^{2}}}+\dots +{\frac {\partial ^{2}}{\partial x_{n}^{2}}}\right)u(x)\\&=v_{1}''(x_{1})v_{2}(x_{2})\cdot \dots \cdot v_{n}(x_{n})+\dots +v_{1}(x_{1})\cdot \dots \cdot v_{n-1}(x_{n-1})v_{n}''(x_{n})\\&=u(x)\sum _{k=1}^{n}{\frac {v_{k}''(x_{k})}{v_{k}(x_{k})}}.\end{aligned}}}
+ Wenn nun die 
+ 
+ 
+ 
+ 
+ v
+ 
+ k
+ 
+ 
+ 
+ 
+ {\displaystyle v_{k}}
+ dem Randwertproblem
+
+ 
+ 
+ 
+ 
+ v
+ 
+ k
+ 
+ 
+ ∈
+ 
+ C
+ 
+ 2
+ 
+ 
+ (
+ 0
+ ,
+ π
+ )
+ ∩
+ 
+ C
+ 
+ 0
+ 
+ 
+ [
+ 0
+ ,
+ π
+ ]
+ 
+ 
+ {\displaystyle v_{k}\in C^{2}(0,\pi )\cap C^{0}[0,\pi ]}
+ 
+
+ 
+ 
+ 
+ 
+ v
+ 
+ k
+ 
+ ″
+ 
+ 
+ 
+
+ 
+ −
+ 
+ v
+ 
+ k
+ 
+ 
+ 
+ 
+ {\displaystyle v_{k}''\,=\,-v_{k}}
+ 
+
+ 
+ 
+ 
+ 
+ v
+ 
+ k
+ 
+ 
+ (
+ 0
+ )
+ 
+
+ 0
+ ,
+ 
+ 
+ v
+ 
+ k
+ 
+ 
+ (
+ π
+ )
+ 
+
+ 0
+ 
+ 
+ {\displaystyle v_{k}(0)=0,\quad v_{k}(\pi )=0}
+ genügen, dann ist die oben definierte Funktion 
+ 
+ 
+ 
+ u
+ 
+ 
+ {\displaystyle u}
+ eine Lösung des Dirichlet-Randwertproblems für die partielle Differentialgleichung. Mit dem Beispiel für gewöhnliche Differentialgleichungen erhalten wir
+
+ 
+ 
+ 
+ 
+ v
+ 
+ k
+ 
+ 
+ (
+ x
+ )
+ 
+ 
+
+ 
+ 
+ D
+ 
+ k
+ 
+ 
+ sin
+ 
+ (
+ 
+ x
+ 
+ k
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle v_{k}(x)\,=\,D_{k}\sin(x_{k})}
+ und somit
+
+ 
+ 
+ 
+ u
+ (
+ x
+ )
+ 
+
+ D
+ 
+ ∏
+ 
+ k
+ 
+
+ 1
+ 
+ 
+ n
+ 
+ 
+ sin
+ 
+ (
+ 
+ x
+ 
+ k
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle u(x)=D\prod _{k=1}^{n}\sin(x_{k})}
+ als Lösung unseres Problems partieller Differentialgleichungen zu Dirichlet-Randbedingungen. Offen bleibt die Frage, ob es noch weitere Lösungen gibt.
+
+# Literatur 
+
+D. Gilbarg, N.S. Trudinger: Partial Differential Equations of Second Order, Springer-Verlag, Berlin 1998, ISBN 3-540-41160-7.

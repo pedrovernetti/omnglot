@@ -1,0 +1,22 @@
+
+## Pulldown
+
+Ein Pulldown-Assay ist eine Methode, die in der Biochemie verwendet wird, um in vitro Bindungen zwischen Makromolekülen, meist Protein-Protein-Interaktionen, nachzuweisen. Die Methode kann verwendet werden, um für ein vorhandenes Zielmolekül (engl. bait ‚Köder‘) einen oder mehrere Interaktionspartner (engl. prey ‚Beute‘) zu identifizieren, oder um mit anderen Methoden, wie z. B. dem Yeast Two-Hybrid-System, nachgewiesene Interaktionen zu bestätigen.
+
+# Prinzip 
+
+Pulldown-Assays basieren dabei auf der Affinität des bait-Moleküls zu seinem prey-Molekül, welches an einer Matrix gebunden ist. Hierzu wird das bait-Molekül meist mittels der Generierung eines Fusionsproteins mit einem Protein-Tag (engl. Etikett) versehen und über diesen an eine geeignete Matrix gebunden. Die Matrix besteht meist aus quervernetztem Dextran oder Agarose. Nach der Zugabe möglicher Interaktionspartner, z. B. in Form eines Zelllysats und geeigneten Waschschritten verbleiben die Interaktionspartner an das bait-Molekül und damit an die Matrix gebunden und können anschließend eluiert und analysiert werden. Der Pull-Down-Assay ähnelt damit der Immunpräzipitation, wobei der Protein-Tag die Funktion des Antikörpers übernimmt. Häufig verwendete Protein-Tags sind z. B. Hexa-Histidin-, Streptavidin- und Glutathion-S-Transferase-tags. Eine Variante des Pulldown-Assays ist das Strep-Protein Interaction Experiment.
+Neben dem klassischen Pulldown-Assay zum Nachweis von Protein-Protein-Interaktionen wurden auch gelegentlich ähnliche Methoden verwendet, um DNA-Protein-Wechselwirkungen zu untersuchen, wobei Biotin-markierte DNA-Proben über Streptavidin an die Matrix gebunden und als bait eingesetzt werden.
+
+# Literatur 
+
+Friedrich Lottspeich, Haralabos Zorbas: Bioanalytik. Spektrum Akademischer Verlag, Heidelberg 1998, ISBN 978-3-8274-0041-3.
+Hubert Rehm, Thomas Letzel: Der Experimentator: Proteinbiochemie / Proteomics. 6. Auflage, Spektrum Akademischer Verlag, Heidelberg 2009, ISBN 978-3-8274-2312-2.
+
+# Weblinks 
+
+Pull-down assays (Memento vom 12. Dezember 2007 im Internet Archive) im Promega Protein Interaction Guide (engl.; PDF-Datei; 245 kB)
+Pull-Down Assays – Beschreibung bei Thermo Scientific
+
+# Einzelnachweise 
+

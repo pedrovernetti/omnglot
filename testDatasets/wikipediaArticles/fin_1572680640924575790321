@@ -1,0 +1,27 @@
+
+## Hessin laki
+
+Hessin laki on lämpökemiaan kuuluva tulos, jonka mukaan reaktion entalpia saadaan jakamalla reaktio osareaktioihin ja laskemalla yhteen näiden entalpiat. Hessin lain avulla voidaan laskea sellaisia reaktioentalpioita, joita ei pystytä suoraan mittaamaan.
+Hessin lakia soveltamalla voidaan selvittää esimerkiksi tuntemattomasta reaktioketjusta koostuvan kokonaisreaktion entalpia, jos löydetään toinen reitti lähtöaineiden ja tuotteiden välille. Esimerkiksi kun hiilihydraatit ja rasvat vapauttavat energiaa elimistössä, ne muuttuvat monivaiheisissa reaktioissa vedeksi ja hiilidioksidiksi. Kokonaisreaktio on kuitenkin sama kuin, jos aineet palaisivat puhtaassa hapessa. Tämä palamisentalpia voidaan mitata ja siten pystytään päättelemään ravintoaineiden energiasisältö.
+Hessin laki perustuu siihen, että entalpia on tilan funktio. Tilan funktion muutos riippuu vain alku- ja lopputilasta eikä siitä, miten näiden tilojen välillä kuljetaan. Siten on sama, eteneekö reaktio suoraan vai usean välivaiheen kautta. Entalpian tavoin voidaan laskea yhteen esimerkiksi reaktioiden entropioita ja Gibbsin energioita.
+
+# Käyttö 
+
+Hessin lakia sovellettaessa tavoitteena on saada muodostettua osareaktioista haluttu kokonaisreaktio. Osareaktioiden ketjun ei tarvitse olla käytännössä mahdollinen. Riittää, että osareaktioiden entalpiat tunnetaan ja että yhteen laskemalla saadaan kokonaisreaktio. Reaktioyhtälöitä voidaan kertoa luvuilla ja kääntää, kunhan samalla kerrotaan myös entalpian arvo tai vaihdetaan sen etumerkki.
+Esimerkiksi metaanin palamisentalpia voidaan laskea seuraavien perusmuodostumisentalpioiden avulla:
+
+Kun käännetään ensimmäinen reaktio ja kerrotaan toinen reaktio kahdella, saadaan osareaktiot yhteen laskemalla haluttu kokonaisreaktio:
+
+CH4(g) + 2 O2(g) → CO2(g) + 2 H2O(l).Palamisentalpiaksi tulee ΔH = −(−74,8 kJ/mol) + 2(−285,8 kJ/mol) + (−393,5 kJ/mol) = −889 kJ/mol.
+
+# Historia 
+
+Hessin laki on nimetty Germain Henri Hessin mukaan. Hän teki mittauksia useilla eri aineilla ja julkaisi lakia koskevat tuloksensa vuonna 1840. Siihen aikaan ei vielä tunnettu energian säilymislakia.Hess tutki muun muassa rikkihapon neutralointia. Kun tietty määrä rikkihappoa neutraloitiin ammoniakilla, lämpöä kehittyi aina yhtä paljon, tehtiinpä reaktio suoraan tai välivaiheittain. Jos rikkihappoa neutraloitiin täydellisesti ammoniakilla, syntyvä lämpömäärä oli 595,8 yksikköä. Jos taas rikkihappo ensin laimennettiin vedellä suhteessa 1:1, laimenemislämpö oli 77,8 ja neutraloitumislämpö oli 518,9. Kokonaislämmöksi tuli täten 596,7 eli suunnilleen yhtä paljon kuin suoraan neutraloitaessa. Hess teki kokeensa samassa ilmanpaineessa, joten hän pystyi laskemaan lämpömääriä yhteen. Jos paine tai tilavuus ei pysy vakiona, lämpöjä ei voi laskea yhteen. Tällöinkin pätee kuitenkin lain nykyinen muotoilu, jossa lasketaan yhteen entalpioita.
+
+# Lähteet 
+
+Kaarlo Kalliorinne ym.: Fysikaalinen kemia 2: Termodynamiikka, s. 62–63. Tammi, 2000. ISBN 951-26-3274-8. 
+
+# Aiheesta muualla 
+
+Opetus TV: Hessin laki

@@ -1,0 +1,53 @@
+
+## Internet Explorer
+
+Windows Internet Explorer (aiemmin Microsoft Internet Explorer, lyhenteenä IE) on verkkoselain, joka toimitetaan Microsoftin Windows-käyttöjärjestelmän mukana. IE:stä on julkaistu versioita myös muille alustoille, kuten Macintoshille, HP-UXille ja Solarikselle. Muita kuin Windows-versiota ei enää kehitetä.
+Selain on toteutettu COM-komponentteina, joiden toiminnallisuuden avulla useat ulkopuoliset ohjelmat näyttävät webbisivuja tai lataavat tiedostoja verkosta. Näin ne käyttävät IE:n välimuistia ja välityspalvelinasetuksia.
+Uuden, vielä testivaiheessa olevan, Chromium-pohjaisen Microsoft Edge -selaimen on tarkoitus korvata Internet Explorer. 
+
+# Historia 
+
+Internet Explorerin ensimmäinen versio 1.0 julkaistiin Microsoft Plus! -paketissa Windows 95:lle vuonna 1995. Microsoft osti selainteknologiansa Spyglass Inc. -yhtiöltä, jonka oma selain, Spyglass Mosaic, perustui teknisesti NCSA Mosaiciin.Windows 98 sisälsi Internet Explorer 4.0 -version ja Windows 98 Second Edition Internet Explorer 5.0 -version. Windows Me:ssa tuli mukana Internet Explorer 5.5. Versio 5 oli viimeinen joka tuki 16-bittisiä Windowseja, Macintoshia ja Unixia. Siinä esiteltiin ensi kertaa XMLHttpRequest-objekti, joka loi perustan Ajax-tekniikalle, sekä favicon-ikoni verkkosivuille.
+Internet Explorer 6 esiteltiin muutama kuukausi ennen Windows XP:ta, jonka mukaan se on paketoitu. Internet Explorer 6 on viimeinen versio, joka tukee Windows 2000:ta. Internet Explorer 8 on viimeinen versio, joka tukee Windows XP:ta.
+Windows 10 -käyttöjärjestelmään on sisällytetty Microsoftin uusi selain Microsoft Edge (Modern UI -sovellus), mutta se sisältää myös Internet Explorer 11 -selaimen perinteisenä työpöytäsovelluksena.
+
+# Kritiikki 
+
+Internet Explorerin tietoturva ja yleisiä web-standardeja kunnioittamattomat ratkaisut ovat kohdanneet arvostelua. Macintosh-IE:n myöhemmät versiot tukivat läpinäkyviä PNG-kuvia ja CSS-tyylisivuja paremmin kuin Windows-sisarensa. Internet Explorer 8:ssa jälkimmäiseen on kiinnitetty entistä suurempaa huomiota ja selain läpäisee Acid2-testin mutta ei läpäise Acid3-testiä, vaan saa 20/100 pistettä.
+
+# Markkinaosuus 
+
+Internet Explorerin markkinaosuus oli vielä 2000-luvun alkupuolella yli 80 %. 2010-luvulla kilpailun kovenemisen myötä kuluttajille on tullut uusia selainvaihtoehtoja, joista Google Chrome ja Mozilla Firefox ohittivat IE:n markkinaosuuden vuonna 2011. IE:n markkinaosuus laski ensimmäisen kerran alle 10 % vuonna 2013.OneStat.com tutkimuksen mukaan, vuonna 2002 Internet Explorer jyräsi ylivoimaisesti kaikki muut kilpailijat, globaali markkinaosuus oli ~95%. Toisella sijalla tuolloin oli Netscape Navigator ~3%:lla ja kolmanneksi päätyi avoimeen lähdekoodiin perustuva Mozilla, jonka markkinaosuus ~1,1%.Muun muassa Applen Safari, Firefoxin ja Chromen myötä IE:n markkinaosuus on ollut jatkuvassa laskussa yli kymmenen vuoden ajan.Net Applicationsin mukaan 2015 maaliskuussa IE:n markkinaosuus työpöytätietokoneissa oli 55,83%, Chromen 25,68% ja Firefoxin 11,70%. Elokuussa 2016 NetMarketShare kertoi IE:n työpöytäkoneiden markkinaosuuden olevan 27,38 %.
+
+# Internet Explorer 9 
+
+Internet Explorer 9 esitteli useita uusia ominaisuuksia, kuten uuden nopeamman ja natiivin JScript-moottorin, paremmat web-standardien luontimahdollisuudet sekä täysin laitteistokiihdytetyn selainmoottorin, joka piirtää verkkosivut Direct2D- ja DirectWrite-rajapintoja hyödyntäen. Internet Explorer 9 tukee myös uusia web-standardeja kuten HTML5:tä, CSS3-reunuksia, taustoja ja valintoja sekä SVG 1.1:tä (toinen editio).
+Selaimesta julkaistiin lähinnä kehittäjille tarkoitettuja Platform Preview -esiversioita n. 8 viikon välein. Neljäs esiversio sai mm. Acid3-testissä 95/100 pistettä, ensimmäisen esiversion saadessa 55 pistettä.Ensimmäinen Internet Explorer 9:n beetaversio (ja myös Platform Preview 5) julkistettiin 15. syyskuuta 2010. Microsoft tiedotti aiheesta virallisessa Internet Explorer -blogissa. Julkistustapahtuma, nimeltään “Beauty of the Web” (verkon kauneus), järjestettiin San Franciscossa 15. syyskuuta ja se esitteli Internet Explorer 9:n beetaversiota.
+Internet Explorer 9 on viimeinen versio, joka tukee Windows Vistaa.
+
+# Internet Explorer 10 
+
+Internet Explorer 10 julkistettiin MIX 2011 -tapahtumassa, vain nelisen viikkoa Internet Explorer 9:n valmistumisen jälkeen. Se toimitettiin Windows 8 Developer Previewin mukana. Kyseisessä käyttöjärjestelmässä on mukana sekä perinteinen, että Metro-käyttöliittymässä toimiva yksinkertaistettu versio. Metro-käyttöliittymään perustuva versio ei tue lainkaan plugineita (mm. Adobe Flash, Java, Silverlight), vain HTML5:n ominaisuuksia.
+
+# Versiohistoria 
+
+Versio 1.0 – elokuussa 1995
+Versio 2.0 – marraskuussa 1995
+Versio 3.0 – elokuussa 1996
+Versio 4.0 – lokakuussa 1997
+Versio 5.0 – maaliskuussa 1999
+Versio 5.5 – heinäkuussa 2000
+Versio 6.0 – lokakuussa 2001
+Versio 7.0 – lokakuussa 2006
+Versio 8.0 – maaliskuussa 2009
+Versio 9.0 – maaliskuussa 2011
+Versio 10.0 – lokakuussa 2012
+Versio 11.0 – lokakuussa 2013
+
+# Lähteet 
+
+# Aiheesta muualla 
+
+Internet Explorerin virallinen sivusto (englanniksi)
+Internet Explorerin suomenkieliset sivut
+Internet Explorerin virallinen blogi (englanniksi)

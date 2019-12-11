@@ -1,0 +1,21 @@
+
+## Active Directory
+
+Active Directory (AD) er en indførelse af LDAP for primær brug i Windows miljøet. AD's vigtigste opgave er at sørge for at godtgøre ægtheden og adgangstilladelse af tjenesterne for Windowsbaserede computere. Active Directory giver også administrationen mulighed for at tildele politikker, udrulle software, og anbringe kritiske opdateringer til en organisation. Active Directory opbevarer informationer og indstillinger i en central database. Et Active Directory netværk kan variere fra en lille installation med under hundrede objekter, til en stor installation med millioner af objekter.
+Active Directory blev først fremvist i 1996, og først udgivet sammen med Windows 2000 Server edition. I Windows Server 2003 blev det revideret og fik forbedret administrationen.
+Active Directory er et kartotek eller opslagstjeneste der bliver brugt til at opbevare informationer om netværket og ressourcer henover et domæne.
+Active Directory (AD) er en hierarkisk opbygget struktur af objekter. Objekterne er inddelt i 3 kategorier:
+
+Ressourcer (e. g. printers)
+Tjeneste (e. g. e-mail)
+Brugerne (bruger konti og grupper)AD sørger for informationer, organisere, og kontrollere adgang og sætter sikkerhed for objekterne.
+
+# Se også 
+
+Windows 2003
+Windows 2000
+LDAP
+
+# Eksterne henvisninger 
+
+Officiel hjemmeside

@@ -1,0 +1,68 @@
+
+## System z
+
+IBM system z ou anciennement IBM eServer zSeries est une gamme d’ordinateurs conçue par IBM pour ses mainframes. Le dernier modèle est le system z13.
+Depuis avril 2006, avec une nouvelle génération de produits, la désignation officielle a changé pour IBM system z, qui inclut les anciens IBM eServer zSeries, les modèles IBM system z9, et les nouveaux modèles IBM system z10.
+
+# Modèles 
+
+# zSeries mainframes 
+
+2000 : z900 (2064 series), pour les grands clients
+2002 : z800 (2066 series), entrée de gamme, déclinaison moins puissante du z900
+2003 : z990 (2084 series), successeur des modèles plus grands modèles de z900
+2004 : z890 (2086 series), successeur des z800 et des plus petits modèles z900
+
+# System z9 mainframes 
+
+2005 : z9 Enterprise Class (2094 series), commercialisé en 2005, initialement nommé z9-109, initiateur de la nouvelle lignée des System z9
+2006 : z9 Business Class (2096 series), successeur du z890 et des plus petites modèles de z990
+ 
+ 
+ 
+
+# System z10 mainframe 
+
+# z10 Enterprise Class 
+
+Commercialisé le 26 février 2008, le z10 Enterprise Class (EC) (2097 series) dispose de 1 à 64 processeurs POWER 64 bits quad-core cadencés à 4,4 GHz et d'une mémoire adressable allant jusqu'à 1,5 To. Il existe cinq modèles de z10 EC : le E12, E26, E40, E56 et le E64. Ces machines possèdent de 1 à 4 “books”, chacun comprenant la mémoire, le Multi-chip module (MCM) des processeurs (PU). Le E12, E26, E40 et le E56 ont des books de 17 PU chacun, le E64 possède 3 books de 20 PU et un de 17 PU.
+Ces PU peuvent être des processeurs classiques (CP), ou des processeurs spécialisés :
+
+Integrated Facility for Linux (IFL)
+z Application Assist Processor (zAAP)
+z10 Integrated Information Processor (zIIP)
+Internal Coupling Facility (ICF)
+
+# z10 Business Class 
+
+Le modèle z10 Business Class (2098 series), a été commercialisé le 21 octobre 2008
+
+ 
+
+# zEnterprise System mainframe 
+
+# zEnterprise 196 (2817 series) 
+
+Sortie le 22 juillet 2010, les systèmes zEnterprise 196 (2817 series) intègre un processeur atteignant 5,2 GHz, c'est le processeur actuellement le plus rapide au monde dans sa catégorie.
+Il est intégré aux supercalculateurs de la série Z d’IBM. Il peut héberger jusqu’à 96 processeurs selon les dires d’IBM. De quoi faire tourner plus de 100 000 machines virtuelles Linux. 
+Cette consolidation de serveurs répartis sur un seul zEnterprise IBM 196 (z196) serveur peut entraîner une réduction :
+
+Jusqu'à 80 % de coût d'énergie
+Jusqu'à 70 % de coût du travail
+Jusqu'à 90 % de dépense dans les logiciels
+
+# zEnterprise 114 (2818 series) 
+
+Les zEnterprise 114 (2818 series) ont été commercialisés le 6 juillet 2011.
+
+# Voir aussi 
+
+# Articles connexes 
+
+IBM 360 et 370
+LPAR
+zSeries
+
+# Lien externe 
+
+Présentation des mainframes system z sur le site d'IBM Portail de l’informatique

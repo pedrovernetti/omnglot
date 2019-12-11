@@ -1,0 +1,24 @@
+
+## ADM-Aeolus
+
+Atmospheric Dynamics Mission (ADM-Aeolus) on ESAn tuleva kaukokartoitussatelliitti. Se mittaa kolmidimensionaalisesti maapallon tuulet. Tämä mahdollistaa tuulienergian taseen ja energian siirtymisen analysoinnin. Tämä voi osin selittää esimerkiksi El Niño -ilmiön. 
+
+# Satelliitti 
+
+Satelliittin laukaisun arvioitiin vuonna 2009 tapahtuvan helmikuussa 2012 venäläisellä kantoraketilla. Kantoraketti voi olla Vega, Rockot tai Dnepr tai jokin muu pienten satelliittien laukaisuun sopiva kantoraketti. ESAn rakettien ostopolitiikan vuoksi Rockot ja ESAn oma Vega olivat käytännössä ainoat valinnat. Laukaisu tapahtunee Kourousta vuonna 2015: lopulta laukaisu tapahtu 22.8.2018 Vega-raketilla. 
+Satelliitin lentorata on vain 300 km korkealla aurinkosynkronisella kiertoradalla yön ja päivän rajalla.
+Satelliitti painaa noin 1 000 kg ja kuluttaa 1 000 W sähkötehoa. Satelliitti käyttää mittauksiin ultravioletti aallonpituudella 355 nm toimivaa laseria. Airbus Defense and Space-yhtiön eli entisen EADS Astrium -yhtiön Ison-Britannian tehdas valmisti satelliitin.
+
+# Tieteellinen tehtävä 
+
+Satelliitti käyttää mittauksiin Doppler Wind Lidar (DWL) -tyyppistä ALADIN-instrumenttia (Atmospheric Laser Doppler Instrument). Kyseessä on LIDAR-mittalaite, joka mittaa tuulennopeuden näkösäteensä (line-of-sight, LOS) suunnassa Doppler-ilmiön avulla eri korkeuksilta ilmakehästä yöpuolelta maapalloa. Tästä tiedosta saadaan simuloitua tuulennopeuden maanpinan suuntaiset projektiot (HLOS) eri korkeuksilla. Instrumentin avulla saadaan mitattua myös pilvien kattojen korkeus ja ilmakehän aerosolien määrä. Tutkimuksen uskotaan parantavan numeerista säänennustusta merkittävästi.
+ALADIN-instrumentin 1,5 metrin piikarbidipeili on valmistettu Turun yliopiston Tuorlan observatorion tiloissa toimivan Opteon Oy:n toimesta. Yhtiön johtajana toimii Tapio Korhonen, jonka optiikkaosaamiseen yritys perustuu.
+
+# Lähteet 
+
+# Aiheesta muualla 
+
+ADM-Aeolus Spacecraft Operations ADM-Aeolus
+ESA Bulletin No. 137, ESA Programmes in Progress
+ESan englanninkielinen ADM-Aeolus-satelliitin kuvaus
+http://www.eumetsat.int/Home/Main/Publications/Conference_and_Workshop_Proceedings/groups/cps/documents/document/pdf_conf_p51_s8_38_ingmann_v.pdf ADM-AEOLUS – PROGRESSING TOWARDS MISSION EXPLOITATION

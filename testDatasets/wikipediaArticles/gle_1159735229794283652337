@@ -1,0 +1,78 @@
+
+## Slabhra Markov
+
+Sa mhatamaitic, is éard atá i Slabhra Markov ná slabhra eachtraí ina mbraitheann an dóchúlacht go ngluaisfear ar aghaidh don chéad staid eile ar an staid atá ann anois. Is féidir iad a léiriú le maitrísí. Léirítear slabhra Markov déstaide, ina bhfuil dhá staid a d'fhéadfaí a bheith ann, mar seo:
+
+ 
+ 
+ 
+ A
+ 
+
+ 
+ 
+ [
+ 
+ 
+ 
+ a
+ 
+ 
+ 1
+ −
+ a
+ 
+ 
+ 
+ 
+ 1
+ −
+ b
+ 
+ 
+ b
+ 
+ 
+ 
+ ]
+ 
+ 
+ 
+ 
+ {\displaystyle A={\begin{bmatrix}a&1-a\\1-b&b\end{bmatrix}}}
+ Mar shampla, is féidir le duine taisteal abhaile ón obair ar charr nó traein. Má théann sé ar charr lá amháin, is í an dóchúlacht go ndéanfaidh sé amhlaidh an lá dár gcionn ná 0.4. Má théann sé ar an traein lá amháin, is í an dóchúlacht go ndéanfaidh sé amhlaidh an lá dár gcionn ná 0.3. Léirítear iad seo leis an maitrís thrasdultach:
+
+ 
+ 
+ 
+ A
+ 
+
+ 
+ 
+ [
+ 
+ 
+ 
+ 0.4
+ 
+ 
+ 0.6
+ 
+ 
+ 
+ 
+ 0.7
+ 
+ 
+ 0.3
+ 
+ 
+ 
+ ]
+ 
+ 
+ 
+ 
+ {\displaystyle A={\begin{bmatrix}0.4&0.6\\0.7&0.3\end{bmatrix}}}
+ D'fhionn an matamaiticeoir Sóivéadach Andrey Andreyevich Markov (1856-1922) an coincheap áisiúil seo.

@@ -1,0 +1,8 @@
+
+## P (vaativuusluokka)
+
+P (polynomial) on laskennan vaativuusteoriassa vaativuusluokka, johon kuuluvat ongelmat voidaan ratkaista deterministisellä Turingin koneella polynomisessa ajassa eli tehokkaasti. Polynominen aika tarkoittaa sitä, että ratkaisuun tarvittavien laskutoimenpiteiden määrä on O(na), missä a on vakio. Vaativuusluokkaan P kuuluvia ongelmia ovat muun muassa suurimman yhteisen tekijän etsiminen tai luvun verifiointi alkuluvuksi.
+
+# Katso myös 
+
+P=NP

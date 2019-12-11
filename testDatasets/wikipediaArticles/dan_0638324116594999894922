@@ -1,0 +1,8 @@
+
+## Service set (IEEE 802.11 datanet)
+
+Indenfor datanet er et service set en mængde (engelsk set) bestående af alle enheder associeret med et forbruger eller enterprise IEEE 802.11 trådløst datanet (WLAN; wireless LAN). Service set kan være local, independent, extended eller mesh.
+Service sets har en associeret identifikator; Service Set Identifier (SSID) som er en tekststreng og er det der identificerer og navngiver et trådløst netværk. Det er en del af IEEE 802.11 WLAN-standarden, som er den mest brugte i dag.
+Det kræves at alle enheder der kommunikerer via det trådløse netværk, anvender denne bestemte tekststreng i headeren af datapakkerne.
+Man anser SSID alene, som værende et svagt sikkerhedssystem, da det er ret nemt at få fingre i tekststrengen. Man kan dog under opsætningen af et trådløst netværk skjule det, men hackere kan stadig finde frem til det ved at kigge i de frames i netværket.
+SSID navnet kan bestå op til 32 bit (dvs. 32 bogstaver eller tal). Det er læseligt for mennesker og bliver ikke vist i binær form eller lignende.

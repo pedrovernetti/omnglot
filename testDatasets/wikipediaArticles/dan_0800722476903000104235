@@ -1,0 +1,57 @@
+
+## Farvesystem
+
+Et farvesystem er et teoretisk forsøg på at fastholde, navngive og klassificere farve. Metoden til at systematisere farverne kan tage udgangspunkt i hhv. matematik, lysets brydning, kemi, metafysiske idéer og bølgelængder m.m.
+
+# Farveblanding 
+
+ 
+ 
+Når man skal skabe en bestemt farvenuance, er der flere ting, man skal tage hensyn til. Farver fremkommer som hjernens bearbejdning af det lys som absorberes i øjet efter brydninger af lys, som vi ser det i naturen, på skærme, til lysshows og i biografen, når man ser en film. Men farver kan også være lavet af forskellige pigmenter, som kan bestå af alt lige fra okker fra vandløb, knuste sneglehuse, kalk og forskellige kemikalier. Pigmenter bruges i maling og trykfarver.
+Når en farve består af lys, kaldes det for additiv farveblanding. RGB og HTML-farver er systemer, der benytter sig af den form for farveblanding. 
+Når den består af pigmenter, kaldes det for subtraktiv farveblanding. Det mest simple pigmentbaserede system er CMYK-systemet, som består af fire pigmenter, Cyan (turkis), Magenta (rød-lilla), Yellow (gul) og Key color (kulsort). Disse fire farver er grundlaget for alle de farver, der er i diverse tryksager. Man kan med en lup se, at trykte farver består af små prikker (rasterpunkter), som varierer i størrelse, udelukkende i de fire CMYK-farver.
+Der er stor forskel på additiv og subtraktiv farveblanding. Blander man primærfarverne grøn og rød i det additive system, får man komplementærfarven gul. I det subtraktive system får man mørk brungrå. Farveblandingen i det subtraktive system bliver mørkere jo mere pigmentfarve, der puttes i blandingen, fordi der absorberes mere lys, jo mere pigment der er.
+En farve kan desuden koges ned til at bestå af to værdier: kulør og valør (lys/mørke). Men man bruger oftest mindst tre parametre, den tredje værdi kaldes farveintensitet.
+Et farvebilledrørs farverum skabes gennem addition af farver (f.eks. rød, grøn og blå). Alle farver kan anvendes i sammenlægningen (additionen), men typisk anvendes farver, som ligger så langt som muligt fra hinanden i menneskets gamut – og som er lysstærke set med menneskets øjne – sidst men ikke mindst skal man have noget, der kan lave farven effektivt; f.eks. lysdioder, lysstofrørs fosforfarver eller laserstråler. 
+
+# Eksempel på subtraktiv farveblanding 
+
+En printer og trykkerimaskine benytter subtraktive farver (f.eks. cyan, magenta, gul og ofte sort). Med subtraktive farver menes farver dannet under belysning med hvidligt lysindtryk og filtreret efter refleksion af farvepigmenter. Farvepigmenters lysfilterfunktion danner farven ved at absorbere alt synligt lys undtagen pigmentets farvekurve. Typisk anvendes f.eks. som nævnt:
+
+cyan – reflekterer grønligt og blåligt lys.
+magenta – reflekterer rødligt og blåligt lys.
+gul – reflekterer grønligt og rødligt lys.Subtraktive blandingseksempler:
+
+Blandes cyan og magenta farvepigment fås en blålig farve, hvis farvenuance afhænger af blandingsforholdet. Ved at blande cyan og magenta absorberes (subtraktionen!) rødligt og grønligt lys – og kun blåligt lys reflekteres.
+Blandes cyan og gul farvepigment fås en grønlig farve, hvis farvenuance afhænger af blandingsforholdet. Ved at blande cyan og gul absorberes (subtraktionen!) rødligt og blåligt lys – og kun grønligt lys reflekteres.
+Blandes gul og magenta farvepigment fås en rødlig farve, hvis farvenuance afhænger af blandingsforholdet. Ved at blande gul og magenta absorberes (subtraktionen!) blåligt og grønligt lys – og kun rødligt lys reflekteres.
+Blandes cyan, gul og magenta farvepigment, kan sort (meget pigment), grålige farver (nogen pigment) og alle farvenuancer (alle blandingsforhold) indenfor pigmenternes reflekterede lys indholdte gamut.
+
+# Farvespektrum 
+
+Lysets påvirkning af øjets sanseceller giver anledning til millioner af farvenuancer, og intet medie er i stand til gengive alle de nuancer, vores øjne kan skelne. RGB og sRGB er de gængse farvesystemer, når man taler om skærmfarver. Langt de fleste computermonitorer er i dag i stand til at vise op til 16.777.216 nuancer, mens ældre eller små håndholdte computersystemer kan være begrænset til at vise helt ned til 256. De gamle katodestråle (CRT) TV-skærme er opbygget af nogle stoffer, som når de bliver fluoresceret, danner et regelmæssigt mønster af tre forskellige stoffer som hver i sær lyser hhv. rødt, grønt og blåt, når de bliver ramt af billedrørets elektronstråle. Vis man zoomer meget ind kan man se de enkelte farver i pixels, men i normal afstand blander de sig sammen og danner det normale skærmbillede, da hver pixel ligger så tæt på den andre, at øjet ikke adskille dem. De farver som skærmen kan vise bliver dannet ud fra farvetrekanten. 
+Almindeligt firefarvetryk, som anvender CMYK-systemet, kan gengive væsentligt færre nuancer end en skærm. Kombineret med brug af Pantone-systemet kommer man op på en hel del flere.
+
+# Farvesystemer gennem historien 
+
+Isaac Newton tog i 1706, udgangspunkt i det farvespektrum, der blev dannet, når lys brydes i et prisme. Han fandt syv farver: rød, orange, gul, grøn, blå, indigo og violet, som han kaldte spektralfarver.
+Johann Wolfgang von Goethe skabte en farvelære ud fra, hvad der for ham var to grundfarver, blå og gul, som igen forholdt sig til lys og mørke, og lysets brydning, når det mødte stof. I 1793 fandt han frem til en seksdelt farvecirkel. Goethes farvelære er præget af Aristoteles, som levede ca. 350 år fvt.
+Phillipp Otto Runge lavede i 1809 et farvesystem af form som en kugle og tog udgangspunkt i tre primærfarver, rød, gul og blå, samt sort og hvid.
+Albert Munsell byggede i 1898 videre på Goethes farvelære og brugte en dobbeltkegle til at systematisere farverne i.
+Wilhelm Ostwald brugte otte primærfarver (gul, orange, rød, purpur, ultramarin, turkis, søgrøn og havgrøn) som udgangspunkt for sit dobbeltkegleformede farvesystem, som han publicerede i 1916.
+Trygve Johansson grundlagde i 1931 NCS (Natural Color System) baseret på seks grundfarver: hvid, sort, rød, blå, gul og grøn, svarende til Herings Opponent farveteori.
+Johannes Itten delte omkring 1960 farvecirklen op i tolv dele og teoretiserede over farvernes indbyrdes forhold.
+Anders Hård fuldbyrdede i 1968 det svenske NCS-system.
+I 1962 grundlagde Lawrence Herbert Pantone systemet, som i dag benyttes meget inden for den grafiske branche. Systemet er baseret på en lang række pigmenter, også specielle pigmenter som fx sølv, guld og selvlysende farver.
+
+# Se også 
+
+Synssans
+Farve
+Farvestyring
+Tertiærfarver
+
+# Eksterne henvisninger og kilder 
+
+Janet Lynn Ford: Color Theory
+Elvekjær, F. et al: Fysikkens Verden 2, side 61-92 i kapitlet Farver, 1989, Gjellerup & Gad, ISBN 87-13-03508-8

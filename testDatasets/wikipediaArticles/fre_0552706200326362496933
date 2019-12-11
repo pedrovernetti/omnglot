@@ -1,0 +1,11 @@
+
+## DirectDraw
+
+DirectDraw est une bibliothèque logicielle de la suite DirectX de Microsoft. Elle est utilisée pour le rendu d'image où une haute performance est importante. DirectDraw permet aussi aux applications de se lancer en mode plein écran ou fenêtré comme dans la plupart des applications Microsoft Windows. DirectDraw utilise l'accélération matérielle si elle est disponible sur l'ordinateur cible.
+DirectDraw est une API 2D, ce qui signifie qu'elle contient des commandes pour le rendu en 2 dimensions et ne supporte donc pas l'accélération matérielle 3D. Il est cependant possible d'utiliser DirectDraw pour de l'affichage 3D mais les performances seront nettement inférieures en comparaison à une solution supportant l'accélération matérielle 3D telle que Direct3D de DirectX.
+Depuis la version 8 de DirectX, DirectDraw a été fusionnée dans un nouveau packetage appelé Direct Graphics, qui n'est rien de plus que Direct3D doté de fonctions provenant de DirectDraw. DirectDraw peut toujours être utilisé en utilisant les interfaces de DirectX (disponibles dans les versions 7 et antérieures).
+Le jeu T4C utilise l'API DirectDraw.
+
+# Liens 
+
+Documentation DirectDraw provenant du MSDN de Microsoft (anglais) Portail de l’imagerie numérique Portail de Microsoft

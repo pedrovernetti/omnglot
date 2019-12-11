@@ -1,0 +1,959 @@
+
+## Théorème de Ptolémée
+
+En géométrie euclidienne, le théorème de Ptolémée et sa réciproque énoncent l'équivalence entre la cocyclicité de 4 points et une relation algébrique faisant intervenir leurs distances . L'implication directe est attribuée à l'astronome et mathématicien grec Claude Ptolémée, qui s'en servit pour dresser ses tables de trigonométrie dont il fit usage dans ses calculs liés à l'astronomie.
+
+# Énoncé 
+
+Ce théorème peut être traduit par :
+
+Ou encore, formulé autrement, il peut s'énoncer comme suit :
+
+# Démonstration 
+
+# L'équivalence 
+
+Le théorème de Ptolémée est une conséquence directe du cas d'égalité dans l'Inégalité de Ptolémée, dont la démonstration utilise que quatre points 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ , 
+ 
+ 
+ 
+ B
+ 
+ 
+ {\displaystyle B}
+ , 
+ 
+ 
+ 
+ C
+ 
+ 
+ {\displaystyle C}
+ et 
+ 
+ 
+ 
+ D
+ 
+ 
+ {\displaystyle D}
+ sont cocycliques (dans cet ordre) si et seulement si une inversion centrée en un de ces points envoie les trois autres sur trois points alignés (dans cet ordre).
+
+# L'implication directe par raisonnement géométrique 
+
+La démonstration qui suit est celle de Ptolémée.
+
+Soit 
+ 
+ 
+ 
+ A
+ B
+ C
+ D
+ 
+ 
+ {\displaystyle ABCD}
+ un quadrilatère inscriptible non croisé. Les angles 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ B
+ A
+ C
+ 
+ ^
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\widehat {BAC}}}
+ et 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ B
+ D
+ C
+ 
+ ^
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\widehat {BDC}}}
+ sont égaux, car ils interceptent le même arc (voir théorème de l'angle inscrit) ; de même 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ D
+ B
+ 
+ ^
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ A
+ C
+ B
+ 
+ ^
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\widehat {ADB}}={\widehat {ACB}}}
+ .
+Construisons le point K tel que 
+ 
+ 
+ 
+ K
+ ∈
+ [
+ A
+ C
+ ]
+ 
+ 
+ {\displaystyle K\in [AC]}
+ et 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ B
+ K
+ 
+ ^
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ D
+ B
+ C
+ 
+ ^
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\widehat {ABK}}={\widehat {DBC}}}
+ .
+On a alors 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ B
+ D
+ 
+ ^
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ A
+ B
+ K
+ 
+ ^
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ 
+ K
+ B
+ D
+ 
+ ^
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ D
+ B
+ C
+ 
+ ^
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ 
+ K
+ B
+ D
+ 
+ ^
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ K
+ B
+ C
+ 
+ ^
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\widehat {ABD}}={\widehat {ABK}}+{\widehat {KBD}}={\widehat {DBC}}+{\widehat {KBD}}={\widehat {KBC}}}
+ .
+Ainsi, les triangles 
+ 
+ 
+ 
+ A
+ B
+ K
+ 
+ 
+ {\displaystyle ABK}
+ et 
+ 
+ 
+ 
+ D
+ B
+ C
+ 
+ 
+ {\displaystyle DBC}
+ , ayant leurs angles égaux, sont semblables (figure du milieu), de même que 
+ 
+ 
+ 
+ A
+ B
+ D
+ 
+ 
+ {\displaystyle ABD}
+ et 
+ 
+ 
+ 
+ K
+ B
+ C
+ 
+ 
+ {\displaystyle KBC}
+ (figure de droite).
+On obtient les relations suivantes (voir « Triangles semblables ») : 
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ K
+ 
+ 
+ A
+ B
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ C
+ D
+ 
+ 
+ B
+ D
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\frac {AK}{AB}}={\frac {CD}{BD}}}
+ et 
+ 
+ 
+ 
+ 
+ 
+ 
+ C
+ K
+ 
+ 
+ B
+ C
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ D
+ A
+ 
+ 
+ B
+ D
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\frac {CK}{BC}}={\frac {DA}{BD}}}
+ 
+d'où 
+ 
+ 
+ 
+ A
+ K
+ ⋅
+ B
+ D
+ 
+
+ A
+ B
+ ⋅
+ C
+ D
+ 
+ 
+ {\displaystyle AK\cdot BD=AB\cdot CD}
+ et 
+ 
+ 
+ 
+ C
+ K
+ ⋅
+ B
+ D
+ 
+
+ B
+ C
+ ⋅
+ D
+ A
+ 
+ 
+ {\displaystyle CK\cdot BD=BC\cdot DA}
+ 
+en additionnant il vient 
+ 
+ 
+ 
+ (
+ A
+ K
+ +
+ C
+ K
+ )
+ ⋅
+ B
+ D
+ 
+
+ A
+ B
+ ⋅
+ C
+ D
+ +
+ B
+ C
+ ⋅
+ D
+ A
+ 
+ 
+ {\displaystyle (AK+CK)\cdot BD=AB\cdot CD+BC\cdot DA}
+ et par construction 
+ 
+ 
+ 
+ A
+ K
+ +
+ C
+ K
+ 
+
+ A
+ C
+ 
+ 
+ 
+ {\displaystyle AK+CK=AC\,}
+ .
+On en déduit l'égalité du théorème : 
+ 
+ 
+ 
+ A
+ C
+ ⋅
+ B
+ D
+ 
+
+ A
+ B
+ ⋅
+ C
+ D
+ +
+ B
+ C
+ ⋅
+ D
+ A
+ 
+ 
+ {\displaystyle AC\cdot BD=AB\cdot CD+BC\cdot DA}
+ .
+
+# Second théorème de Ptolémée 
+
+En effet, l'aire d'un triangle ABC inscrit dans un cercle de rayon R étant donnée par 
+
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+
+ 
+ 
+ 
+ A
+ B
+ ⋅
+ B
+ C
+ ⋅
+ C
+ A
+ 
+ 
+ 4
+ R
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {A}}={\frac {AB\cdot BC\cdot CA}{4R}}}
+ 
+En écrivant l'aire totale du quadrilatère comme somme des deux triangles ayant même cercle circonscrit, on obtient selon la décomposition choisie :
+
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+ t
+ o
+ t
+ 
+ 
+ 
+
+ 
+ 
+ 
+ A
+ B
+ ⋅
+ B
+ C
+ ⋅
+ C
+ A
+ 
+ 
+ 4
+ R
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ C
+ D
+ ⋅
+ D
+ A
+ ⋅
+ A
+ C
+ 
+ 
+ 4
+ R
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ A
+ C
+ ⋅
+ (
+ A
+ B
+ ⋅
+ B
+ C
+ +
+ C
+ D
+ ⋅
+ D
+ A
+ )
+ 
+ 
+ 4
+ R
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {A}}_{tot}={\frac {AB\cdot BC\cdot CA}{4R}}+{\frac {CD\cdot DA\cdot AC}{4R}}={\frac {AC\cdot (AB\cdot BC+CD\cdot DA)}{4R}}}
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+ t
+ o
+ t
+ 
+ 
+ 
+
+ 
+ 
+ 
+ A
+ B
+ ⋅
+ B
+ D
+ ⋅
+ D
+ A
+ 
+ 
+ 4
+ R
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ B
+ C
+ ⋅
+ C
+ D
+ ⋅
+ D
+ B
+ 
+ 
+ 4
+ R
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ B
+ D
+ ⋅
+ (
+ A
+ B
+ ⋅
+ D
+ A
+ +
+ B
+ C
+ ⋅
+ C
+ D
+ )
+ 
+ 
+ 4
+ R
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {A}}_{tot}={\frac {AB\cdot BD\cdot DA}{4R}}+{\frac {BC\cdot CD\cdot DB}{4R}}={\frac {BD\cdot (AB\cdot DA+BC\cdot CD)}{4R}}}
+ 
+En égalant, le produit en croix donne bien la relation annoncée.
+
+Les deux égalités de Ptolémée nous donnent le produit et le rapport des diagonales. Par multiplication et division, elles nous font connaître immédiatement chaque diagonale en fonction des côtés.
+
+ 
+ 
+ 
+ A
+ 
+ C
+ 
+ 2
+ 
+ 
+ 
+
+ A
+ C
+ ⋅
+ B
+ D
+ ⋅
+ 
+ 
+ 
+ A
+ C
+ 
+ 
+ B
+ D
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ (
+ A
+ B
+ ⋅
+ C
+ D
+ +
+ B
+ C
+ ⋅
+ D
+ A
+ )
+ ⋅
+ (
+ A
+ B
+ ⋅
+ D
+ A
+ +
+ B
+ C
+ ⋅
+ C
+ D
+ )
+ 
+ 
+ A
+ B
+ ⋅
+ B
+ C
+ +
+ D
+ A
+ ⋅
+ C
+ D
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle AC^{2}=AC\cdot BD\cdot {\frac {AC}{BD}}={\frac {(AB\cdot CD+BC\cdot DA)\cdot (AB\cdot DA+BC\cdot CD)}{AB\cdot BC+DA\cdot CD}}}
+ 
+
+ 
+ 
+ 
+ B
+ 
+ D
+ 
+ 2
+ 
+ 
+ 
+
+ A
+ C
+ ⋅
+ B
+ D
+ ⋅
+ 
+ 
+ 
+ B
+ D
+ 
+ 
+ A
+ C
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ (
+ A
+ B
+ ⋅
+ C
+ D
+ +
+ B
+ C
+ ⋅
+ D
+ A
+ )
+ ⋅
+ (
+ A
+ B
+ ⋅
+ B
+ C
+ +
+ D
+ A
+ ⋅
+ C
+ D
+ )
+ 
+ 
+ A
+ B
+ ⋅
+ D
+ A
+ +
+ B
+ C
+ ⋅
+ C
+ D
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle BD^{2}=AC\cdot BD\cdot {\frac {BD}{AC}}={\frac {(AB\cdot CD+BC\cdot DA)\cdot (AB\cdot BC+DA\cdot CD)}{AB\cdot DA+BC\cdot CD}}}
+ 
+
+# Utilisation par Ptolémée 
+
+Ptolémée s'est servi de ce théorème pour dresser des tables trigonométriques,. Pour cela, il considère un cercle dont la circonférence est divisée en 360 degrés et dont le diamètre est divisé en 120 parties. Il cherche ensuite à attribuer à divers arcs de cercle la longueur des cordes sous-tendues par ces arcs. 
+Il traite d'abord les cas des arcs de 36°, 60°, 72°, 90°, 120° pour lesquels la corde sous-tendue est le côté respectivement du pentagone régulier, de l'hexagone régulier, du décagone régulier, du carré, du triangle équilatéral, tous inscrits dans le cercle. Ces polygones étant tous constructibles à la règle et au compas, on peut en effet déterminer la longueur de leurs côtés. Utilisant ensuite le fait qu'un triangle inscrit dans un cercle est rectangle si l'un de ses côtés est égal au diamètre, le théorème de Pythagore lui permet de déterminer les cordes associées aux arcs qui sont les compléments à 180° des arcs précédents.
+Puis connaissant les cordes associées à deux arcs du cercle, il utilise son théorème pour déterminer la corde sous-tendue par les différences ou les sommes de ces arcs. Dans la figure ci-contre, en effet, supposons connues les longueurs des cordes sous-tendues par les arcs AB et AC, ainsi que le diamètre AD du cercle. Les triangles BAD et CAD étant rectangles en B et C, le théorème de Pythagore permet de déterminer BD et CD. Tous les segments bleus ont donc une longueur connue. Le théorème de Ptolémée permet d'en déduire la longueur du segment rouge BC. Ptolémée peut donc déterminer la longueur de la corde associée à l'angle 12° = 72° - 60°.
+On voit ainsi que le théorème de Ptolémée joue, dans les mathématiques anciennes, le rôle que jouent pour nous les formules de trigonométrie (sinus et cosinus de la somme ou de la différence de deux angles).
+
+Ptolémée sait aussi déterminer la corde sous-tendue par un arc moitié. Dans la figure ci-contre, soit BC l'arc dont on connaît la corde, et AC le diamètre du cercle. Par le théorème de Pythagore dans le triangle rectangle ABC, on connaît aussi la longueur AB. On trace la bissectrice (AD) de l'angle BAC, de sorte que BD = CD. On porte sur [AC] le point E tel que AE = AB. Les triangles ABD et AED sont alors isométriques. On a donc CD = BD = ED et le triangle ECD est isocèle. Sa hauteur (EZ) coupe (AC) en Z, milieu de [EC]. Or EC est connu car EC = AC - AE = AC - AB, et AB et AC sont connus. Donc ZC, moitié de EC est connu. Donc la corde CD cherchée est connue, car, dans le triangle rectangle ACD, on a 
+ 
+ 
+ 
+ 
+ 
+ 
+ C
+ D
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+
+ 
+ 
+ A
+ C
+ 
+ 
+ ×
+ 
+ 
+ C
+ Z
+ 
+ 
+ 
+ 
+ {\displaystyle {\rm {CD}}^{2}={\rm {AC}}\times {\rm {CZ}}}
+ . Connaissant la corde de 12°, Ptolémée peut compléter sa table en calculant les longueurs des cordes associées aux arcs de 6°, 3°, 1°30' et 45'.
+Il ne peut obtenir ainsi la longueur de la corde sous-tendant un arc de 1°. Il obtient cette valeur par une interpolation résultant des valeurs obtenues pour les arcs de 1°30' et 45'. Il en déduit ensuite la corde sous-tendant l'arc de 30', et peut enfin dresser une table des arcs et des cordes sous-tendues, demi-degré par demi-degré.
+Dans le sixième volume de l'Almageste, Ptolémée donne une valeur approchée du nombre 
+ 
+ 
+ 
+ π
+ 
+ 
+ {\displaystyle \pi }
+ qu'il a pu obtenir en utilisant sa table. Connaissant la longueur de la corde sous-tendue par un angle d'un degré, il suffit en effet de multiplier cette longueur par 360 pour obtenir une valeur approchée de la longueur du périmètre du cercle. Il obtient 
+ 
+ 
+ 
+ 
+ 
+ 377
+ 120
+ 
+ 
+ ≈
+ 3
+ ,
+ 14166
+ …
+ 
+ 
+ {\displaystyle {\frac {377}{120}}\approx 3,14166\dots }
+ .
+
+# Voir aussi 
+
+# Articles connexes 
+
+Inégalité de Ptolémée
+Théorème de Casey
+Théorème de Pythagore
+
+# Lien externe 
+
+Une démonstration du théorème et de sa réciproque sur le site « Descartes et les Mathématiques »
+
+# Références 
+
+ Portail de la géométrie

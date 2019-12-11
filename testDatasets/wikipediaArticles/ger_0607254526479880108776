@@ -1,0 +1,228 @@
+
+## Bloch-Oszillationen
+
+Als Bloch-Oszillationen (nach Felix Bloch) bezeichnet man die Oszillation von Ladungsträgern in Festkörpern unter der Wirkung eines statischen elektrischen Feldes. Ursache ist der Zusammenhang zwischen der effektiven Masse eines Ladungsträgers und der Dispersionsrelation in einem periodischen Potenzial.
+
+# Mathematische Beschreibung 
+
+Die effektive Masse von Ladungsträgern in kristallinen Festkörpern ist wesentlich von den periodischen Eigenschaften des Gitters abhängig. Auch Richtung (Anisotropie) und Betrag (Dispersion) der Ladungsträger-Geschwindigkeit relativ zum Kristallgitter haben einen Einfluss auf die effektive Masse. Für die einfache Näherung eines anisotropen Festkörpers ist die effektive Masse 
+ 
+ 
+ 
+ 
+ m
+ 
+ ∗
+ 
+ 
+ 
+ 
+ {\displaystyle m^{*}}
+ umgekehrt proportional zur Krümmung (d. h. zur zweiten Ableitung) der Dispersionskurve:
+
+ 
+ 
+ 
+ 
+ m
+ 
+ ∗
+ 
+ 
+ 
+
+ 
+ ℏ
+ 
+ 2
+ 
+ 
+ ⋅
+ 
+ 
+ [
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ ε
+ (
+ k
+ )
+ 
+ 
+ 
+ d
+ 
+ 
+ k
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ ]
+ 
+ 
+ −
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle m^{*}=\hbar ^{2}\cdot \left[{\frac {\mathrm {d} ^{2}\varepsilon (k)}{\mathrm {d} k^{2}}}\right]^{-1}}
+ mit
+
+dem reduzierten Planckschen Wirkungsquantum 
+ 
+ 
+ 
+ ℏ
+ 
+ 
+ {\displaystyle \hbar }
+ 
+der Kreiswellenzahl 
+ 
+ 
+ 
+ k
+ 
+ 
+ {\displaystyle k}
+ .Die effektive Masse kann beliebige reelle Werte annehmen, insbesondere auch negativ werden.
+Ein von außen angelegtes konstantes elektrisches Feld 
+ 
+ 
+ 
+ 
+ E
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle E_{0}}
+ führt nun zu einer Beschleunigung 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ der Ladungsträger:
+
+ 
+ 
+ 
+ a
+ 
+
+ 
+ 
+ e
+ 
+ m
+ 
+ ∗
+ 
+ 
+ 
+ 
+ ⋅
+ 
+ E
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle a={\frac {e}{m^{*}}}\cdot E_{0}}
+ mit der Elementarladung 
+ 
+ 
+ 
+ e
+ 
+ 
+ {\displaystyle e}
+ .
+Wird dabei der Impuls so groß, dass die effektive Masse negativ wird, so führt eine weitere Krafteinwirkung nicht zu weiterer Beschleunigung, sondern zur Abbremsung, gefolgt von einer Beschleunigung in die umgekehrte Richtung. Da die Dispersionsrelation symmetrisch bezüglich positiver und negativer Impulse ist, wird dann wieder ein Umkehrpunkt bei negativem Impuls erreicht, es findet also eine Oszillation statt.
+Die Oszillationsfrequenz 
+
+ 
+ 
+ 
+ 
+ ω
+ 
+ B
+ 
+ 
+ 
+
+ 
+ 
+ e
+ ℏ
+ 
+ 
+ ⋅
+ 
+ E
+ 
+ 0
+ 
+ 
+ ⋅
+ d
+ 
+ 
+ {\displaystyle \omega _{B}={\frac {e}{\hbar }}\cdot E_{0}\cdot d}
+ ist proportional zur Stärke des angelegten externen Feldes und zur Gitterperiode 
+ 
+ 
+ 
+ d
+ 
+ 
+ {\displaystyle d}
+ des Festkörpers. Diese Oszillation von elektrischer Ladung verursacht elektromagnetische Strahlung, die prinzipiell messbar ist.
+
+# Entdeckung, Beobachtung, Anwendung 
+
+In natürlichen Festkörpern ist 
+ 
+ 
+ 
+ 
+ ω
+ 
+ B
+ 
+ 
+ 
+ 
+ {\displaystyle \omega _{B}}
+ aufgrund der verhältnismäßig kleinen Gitterperioden selbst bei sehr starken elektrischen Feldern nicht ausreichend hoch, als dass die Ladungsträger innerhalb von Streu- und Tunnelzeiten vollständige Oszillationen durchführen können. Der experimentelle Nachweis von Bloch-Oszillationen konnte daher seit ihrer theoretischen Vorhersage durch Leo Esaki im Jahre 1970 lange Zeit nicht erbracht werden. Erst die Fortschritte in der Halbleitertechnologie der vergangenen Jahre und Jahrzehnte ermöglichten unter Verwendung künstlicher Halbleiter (Halbleiterübergitter) die Herstellung von Strukturen mit genügend großen Übergitterperioden. In solchen Strukturen ist die Periode der Oszillationen kleiner als die Streuzeiten der Elektronen, so dass innerhalb der Streuzeit mehrere Oszillationen in einem zeitaufgelösten Experiment beobachtet werden können. Die Beobachtung von Bloch-Oszillationen in Übergittern gelang erstmals bei Temperaturen nahe dem absoluten Nullpunkt (Jochen Feldmann, 1992; Karl Leo, 1992). Ein wichtiger Meilenstein war die Beobachtung kohärenter Terahertzstrahlung von Bloch-Oszillationen (Hartmut Roskos, 1993). Bei Raumtemperatur konnten Bloch-Oszillationen ebenfalls experimentell nachgewiesen werden (Thomas Dekorsy, 1995).Ein weiteres System, in dem sich Bloch-Oszillationen verhältnismäßig einfach beobachten lassen, sind optische Gitter für neutrale Atome.Potentielle Anwendung finden Bloch-Oszillationen in elektronischen Bauelementen zur Erzeugung von Terahertz-Strahlung. Allerdings ist es bis heute nicht gelungen, ein solches Bauelement zu realisieren.
+
+# Einzelnachweise 
+
+# Literatur 
+
+Jochen Feldmann u. a.: Optical Investigation of Bloch Oscillations in a Semiconductor Superlattice. In: Physical Review B/3. Serie, Bd. 46 (1992), 7252, ISSN 1098-0121
+Karl Leo u. a.: Observation of Bloch Oscillations in a Semiconductor Superlattice. In: Solid State Communications. A condensed matter science journal, Bd. 84 (1992), 7252, ISSN 0038-1098.
+Christian Waschke u. a.: Coherent Submillimeter-Wave Emission from Bloch Oscillations in a Semiconductor Superlattice. In: Physical Review Letters, Bd. 70 (1993), 3319, ISSN 0031-9007.
+Thomas Dekorsy u. a.: Bloch Oscillations at Room-Temperature. In: The Physical Review, Bd. 51 (1995), 17275.

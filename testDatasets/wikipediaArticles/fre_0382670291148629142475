@@ -1,0 +1,108 @@
+
+## Tétraèdre de Reuleaux
+
+En géométrie, le tétraèdre de Reuleaux est une forme géométrique, analogue du triangle de Reuleaux à trois dimensions.
+
+# Construction 
+
+La construction du tétraèdre de Reuleaux est analogue à celle du triangle de Reuleaux sur un plan. En partant d'un tétraèdre régulier de côté s, on considère les quatre sphères de rayon s centrées sur chacun des sommets du tétraèdre. Le tétraèdre de Reuleaux est l'intersection de ces quatre sphères.
+
+# Propriétés 
+
+ 
+Chacune des quatre sphères centrées sur un sommet du tétraèdre de base passent par les trois autres sommets, qui forment les sommets du tétraèdre de Reuleaux. En résumé, le tétraèdre de Reuleaux a la même structure que le tétraèdre original, mais avec des faces incurvées : quatre sommets, quatre faces incurvées reliées par six arêtes en arc-de-cercle.
+Si s est la longueur d'une arête du tétraèdre de base, le volume du tétraèdre de Reuleaux est :
+
+ 
+ 
+ 
+ 
+ 
+ 
+ s
+ 
+ 3
+ 
+ 
+ 12
+ 
+ 
+ (
+ 3
+ 
+ 
+ 2
+ 
+ 
+ −
+ 49
+ π
+ +
+ 162
+ 
+ tan
+ 
+ −
+ 1
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ )
+ ≈
+ 0.422
+ 
+ s
+ 
+ 3
+ 
+ 
+ 
+ 
+ {\displaystyle {\frac {s^{3}}{12}}(3{\sqrt {2}}-49\pi +162\tan ^{-1}{\sqrt {2}})\approx 0.422s^{3}}
+ .Contrairement à l'intuition, et à la différence du triangle de Reuleaux qui est une courbe de largeur constante, le tétraèdre de Reuleaux n'est pas un solide d'épaisseur constante : la distance entre deux points situés au milieu de deux arêtes opposées est supérieure à la distance séparant deux sommets :
+
+ 
+ 
+ 
+ (
+ 
+ 
+ 3
+ 
+ 
+ −
+ 
+ 
+ 2
+ 
+ 
+ 
+ /
+ 
+ 2
+ )
+ s
+ ≈
+ 1.0249
+ s
+ 
+ 
+ {\displaystyle ({\sqrt {3}}-{\sqrt {2}}/2)s\approx 1.0249s}
+ .
+
+# Solides de Meissner 
+
+Ernst Meissner et Friedrich Schilling (de) ont montré qu'il est possible de modifier le tétraèdre de Reuleaux afin de construire un solide d'épaisseur constante, en remplaçant trois de ses arêtes par des formes incurvées formées par la rotation d'un arc de cercle. Suivant les arêtes remplacées (trois qui possèdent un sommet commun ou trois qui forment un triangle), on obtient deux solides distincts, parfois appelés corps de Meissner ou tétraèdres de Meissner.
+Tommy Bonnesen et Werner Fenchel ont conjecturé en 1934 que les solides de Meissner possèdent le volume minimal parmi tous les solides de même épaisseur constante, mais cette conjecture n'est pas démontrée.
+
+# Notes et références 
+
+# Voir aussi 
+
+(en) T. Lachand-Robert et É. Oudet, "Spheroforms"
+(en) Chr. Weber, "Bodies of Constant Width" (informations et films) et "Meissner Bodies – interactive" (images interactives) Portail de la géométrie

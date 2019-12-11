@@ -1,0 +1,24 @@
+
+## Betydende cifre
+
+Betydende cifre er et matematisk/fysisk begreb. Begrebet dækker over hvor præcist en målt- eller afledt størrelse er. M.a.o. man skal kunne se af selve det angivede tal, hvor præcist det egentlig er. Der er fire regler og de er som følger:
+Cifferet længest til venstre, og som ikke er et nul er det mest betydende ciffer.
+Hvis der ikke er noget decimalkomma er cifferet længest til højre, som ikke er et nul, det mindst betydende ciffer.
+Hvis der er et decimalkomma, er cifferet længest til højre det mindst betydende ciffer, selvom det er et nul.
+Antallet af cifre mellem det mest- og det mindst- betydende ciffer inkl., samt evt mellemstillede nuller, angiver antallet af betydende cifre.Eksempelvis har de følgende tal alle sammen fire betydende cifre. Alle eksempler er, i parentes stavet på check notation, og derefter på videnskabelig notation. 
+
+1.234 (et tusinde to hundrede og fire og tredive) = 1,234·103
+123,4 (et hundrede og tre og tyve komma fire) = 1,234·102
+123.400 (et hundrede og tre og tyve tusinde fire hundrede) = 1,234·105
+1.001 (et tusinde og en) = 1,001·103
+1.000, (et tusinde) (Bemærk kommaet) = 1,000·103
+10,11 (ti komma en en) = 1,011·101
+0,000 101 0 (nul komma nul nul nul en, nul en) = 1, 010·10-4
+100,0 (Et hundrede komma nul) = 1,000·102Ifølge regel nr. 3 kan der, hvis der ikke er noget komma, nemt opstå tvetydigheder. F.eks. tallet 1010 har kun tre betydende cifre hvorimod 1010, har fire betydende cifre.
+
+# Måleresultater 
+
+Ved forsøgsresultater er det normalt på den ene eller anden måde at vurdere usikkerheden ved det fremkommende resultat. Det er sædvanlig praksis ikke at angive flere betydende cifre i resultatet, end der er betydende cifre i usikkerheden. F.eks. Har vi målt en størrelse til til at være 1,979 m med en usikkerhed på ±0,012 m, så kunne vi opgive resultatet som: (1,979 ±0,012) m. Men hvis usikkerheden var blevet vurderet til et større tal, f.eks: 0,082 m, så ville det være bedre at angive: (1,98 ± 0,08) m. Altså at afrunde tallene!
+
+# Kilder 
+

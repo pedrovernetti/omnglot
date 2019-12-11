@@ -1,0 +1,1253 @@
+
+## Frölicher–Nijenhuis bracket
+
+In mathematics, the Frölicher–Nijenhuis bracket is an extension of the Lie bracket of vector fields to vector-valued differential forms on a differentiable manifold.
+It is useful in the study of connections, notably the Ehresmann connection, as well as in the more general study of projections in the tangent bundle.
+It was introduced by Alfred Frölicher and Albert Nijenhuis (1956) and is related to the work of Schouten (1940).
+It is related to but not the same as the Nijenhuis–Richardson bracket and the Schouten–Nijenhuis bracket.
+
+# Definition 
+
+Let Ω*(M) be the sheaf of exterior algebras of differential forms on a smooth manifold M. This is a graded algebra in which forms are graded by degree:
+
+ 
+ 
+ 
+ 
+ Ω
+ 
+ ∗
+ 
+ 
+ (
+ M
+ )
+ 
+
+ 
+ ⨁
+ 
+ k
+ 
+
+ 0
+ 
+ 
+ ∞
+ 
+ 
+ 
+ Ω
+ 
+ k
+ 
+ 
+ (
+ M
+ )
+ .
+ 
+ 
+ {\displaystyle \Omega ^{*}(M)=\bigoplus _{k=0}^{\infty }\Omega ^{k}(M).}
+ A graded derivation of degree ℓ is a mapping
+
+ 
+ 
+ 
+ D
+ :
+ 
+ Ω
+ 
+ ∗
+ 
+ 
+ (
+ M
+ )
+ →
+ 
+ Ω
+ 
+ ∗
+ +
+ l
+ 
+ 
+ (
+ M
+ )
+ 
+ 
+ {\displaystyle D:\Omega ^{*}(M)\to \Omega ^{*+l}(M)}
+ which is linear with respect to constants and satisfies
+
+ 
+ 
+ 
+ D
+ (
+ α
+ ∧
+ β
+ )
+ 
+
+ D
+ (
+ α
+ )
+ ∧
+ β
+ +
+ (
+ −
+ 1
+ 
+ )
+ 
+ ℓ
+ deg
+ 
+ (
+ α
+ )
+ 
+ 
+ α
+ ∧
+ D
+ (
+ β
+ )
+ .
+ 
+ 
+ {\displaystyle D(\alpha \wedge \beta )=D(\alpha )\wedge \beta +(-1)^{\ell \deg(\alpha )}\alpha \wedge D(\beta ).}
+ Thus, in particular, the interior product with a vector defines a graded derivation of degree ℓ = −1, whereas the exterior derivative is a graded derivation of degree ℓ = 1.
+The vector space of all derivations of degree ℓ is denoted by DerℓΩ*(M). The direct sum of these spaces is a graded vector space whose homogeneous components consist of all graded derivations of a given degree; it is denoted
+
+ 
+ 
+ 
+ 
+ D
+ e
+ r
+ 
+ 
+ 
+ Ω
+ 
+ ∗
+ 
+ 
+ (
+ M
+ )
+ 
+
+ 
+ ⨁
+ 
+ k
+ 
+
+ −
+ ∞
+ 
+ 
+ ∞
+ 
+ 
+ 
+ 
+ D
+ e
+ r
+ 
+ 
+ k
+ 
+ 
+ 
+ 
+ Ω
+ 
+ ∗
+ 
+ 
+ (
+ M
+ )
+ .
+ 
+ 
+ {\displaystyle \mathrm {Der} \,\Omega ^{*}(M)=\bigoplus _{k=-\infty }^{\infty }\mathrm {Der} _{k}\,\Omega ^{*}(M).}
+ This forms a graded Lie superalgebra under the anticommutator of derivations defined on homogeneous derivations D1 and D2 of degrees d1 and d2, respectively, by
+
+ 
+ 
+ 
+ [
+ 
+ D
+ 
+ 1
+ 
+ 
+ ,
+ 
+ D
+ 
+ 2
+ 
+ 
+ ]
+ 
+
+ 
+ D
+ 
+ 1
+ 
+ 
+ ∘
+ 
+ D
+ 
+ 2
+ 
+ 
+ −
+ (
+ −
+ 1
+ 
+ )
+ 
+ 
+ d
+ 
+ 1
+ 
+ 
+ 
+ d
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ D
+ 
+ 2
+ 
+ 
+ ∘
+ 
+ D
+ 
+ 1
+ 
+ 
+ .
+ 
+ 
+ {\displaystyle [D_{1},D_{2}]=D_{1}\circ D_{2}-(-1)^{d_{1}d_{2}}D_{2}\circ D_{1}.}
+ Any vector-valued differential form K in Ωk(M, TM) with values in the tangent bundle of M defines a graded derivation of degree k − 1, denoted by iK, and called the insertion operator. For ω ∈ Ωℓ(M),
+
+ 
+ 
+ 
+ 
+ i
+ 
+ K
+ 
+ 
+ 
+ ω
+ (
+ 
+ X
+ 
+ 1
+ 
+ 
+ ,
+ …
+ ,
+ 
+ X
+ 
+ k
+ +
+ ℓ
+ −
+ 1
+ 
+ 
+ )
+ 
+
+ 
+ 
+ 1
+ 
+ k
+ !
+ (
+ ℓ
+ −
+ 1
+ )
+ !
+ 
+ 
+ 
+ 
+ ∑
+ 
+ σ
+ ∈
+ 
+ 
+ S
+ 
+ 
+ k
+ +
+ ℓ
+ −
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+ sign
+ 
+ 
+ 
+ σ
+ ⋅
+ ω
+ (
+ K
+ (
+ 
+ X
+ 
+ σ
+ (
+ 1
+ )
+ 
+ 
+ ,
+ …
+ ,
+ 
+ X
+ 
+ σ
+ (
+ k
+ )
+ 
+ 
+ )
+ ,
+ 
+ X
+ 
+ σ
+ (
+ k
+ +
+ 1
+ )
+ 
+ 
+ ,
+ …
+ ,
+ 
+ X
+ 
+ σ
+ (
+ k
+ +
+ ℓ
+ −
+ 1
+ )
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle i_{K}\,\omega (X_{1},\dots ,X_{k+\ell -1})={\frac {1}{k!(\ell -1)!}}\sum _{\sigma \in {S}_{k+\ell -1}}{\textrm {sign}}\,\sigma \cdot \omega (K(X_{\sigma (1)},\dots ,X_{\sigma (k)}),X_{\sigma (k+1)},\dots ,X_{\sigma (k+\ell -1)})}
+ The Nijenhuis–Lie derivative along K ∈ Ωk(M, TM) is defined by
+
+ 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+
+ [
+ d
+ ,
+ 
+ i
+ 
+ K
+ 
+ 
+ ]
+ 
+
+ d
+ 
+ 
+ ∘
+ 
+ 
+ 
+ i
+ 
+ K
+ 
+ 
+ −
+ (
+ −
+ 1
+ 
+ )
+ 
+ k
+ −
+ 1
+ 
+ 
+ 
+ i
+ 
+ K
+ 
+ 
+ 
+ ∘
+ 
+ 
+ d
+ 
+ 
+ {\displaystyle {\mathcal {L}}_{K}=[d,i_{K}]=d\,{\circ }\,i_{K}-(-1)^{k-1}i_{K}{\circ }\,d}
+ where d is the exterior derivative and iK is the insertion operator.
+The Frölicher–Nijenhuis bracket is defined to be the unique vector-valued differential form
+
+ 
+ 
+ 
+ [
+ ⋅
+ ,
+ ⋅
+ 
+ ]
+ 
+ F
+ N
+ 
+ 
+ :
+ 
+ Ω
+ 
+ k
+ 
+ 
+ (
+ M
+ ,
+ 
+ T
+ 
+ M
+ )
+ ×
+ 
+ Ω
+ 
+ ℓ
+ 
+ 
+ (
+ M
+ ,
+ 
+ T
+ 
+ M
+ )
+ →
+ 
+ Ω
+ 
+ k
+ +
+ ℓ
+ 
+ 
+ (
+ M
+ ,
+ 
+ T
+ 
+ M
+ )
+ :
+ (
+ K
+ ,
+ L
+ )
+ ↦
+ [
+ K
+ ,
+ L
+ 
+ ]
+ 
+ F
+ N
+ 
+ 
+ 
+ 
+ {\displaystyle [\cdot ,\cdot ]_{FN}:\Omega ^{k}(M,\mathrm {T} M)\times \Omega ^{\ell }(M,\mathrm {T} M)\to \Omega ^{k+\ell }(M,\mathrm {T} M):(K,L)\mapsto [K,L]_{FN}}
+ such that
+
+ 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ [
+ K
+ ,
+ L
+ 
+ ]
+ 
+ F
+ N
+ 
+ 
+ 
+ 
+ 
+
+ [
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ K
+ 
+ 
+ ,
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ L
+ 
+ 
+ ]
+ .
+ 
+ 
+ {\displaystyle {\mathcal {L}}_{[K,L]_{FN}}=[{\mathcal {L}}_{K},{\mathcal {L}}_{L}].}
+ Hence,
+
+ 
+ 
+ 
+ [
+ K
+ ,
+ L
+ 
+ ]
+ 
+ F
+ N
+ 
+ 
+ 
+
+ −
+ (
+ −
+ 1
+ 
+ )
+ 
+ k
+ l
+ 
+ 
+ [
+ L
+ ,
+ K
+ 
+ ]
+ 
+ F
+ N
+ 
+ 
+ .
+ 
+ 
+ {\displaystyle [K,L]_{FN}=-(-1)^{kl}[L,K]_{FN}.}
+ If k = 0, so that K ∈ Ω0(M, TM)
+is a vector field, the usual homotopy formula for the Lie derivative is recovered
+
+ 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+
+ [
+ d
+ ,
+ 
+ i
+ 
+ K
+ 
+ 
+ ]
+ 
+
+ d
+ 
+ 
+ ∘
+ 
+ 
+ 
+ i
+ 
+ K
+ 
+ 
+ +
+ 
+ i
+ 
+ K
+ 
+ 
+ 
+ 
+ ∘
+ 
+ 
+ d
+ .
+ 
+ 
+ {\displaystyle {\mathcal {L}}_{K}=[d,i_{K}]=d\,{\circ }\,i_{K}+i_{K}\,{\circ }\,d.}
+ If k=ℓ=1, so that K,L ∈ Ω1(M, TM),
+one has for any vector fields X and Y
+
+ 
+ 
+ 
+ [
+ K
+ ,
+ L
+ 
+ ]
+ 
+ F
+ N
+ 
+ 
+ (
+ X
+ ,
+ Y
+ )
+ 
+
+ [
+ K
+ X
+ ,
+ L
+ Y
+ ]
+ +
+ [
+ L
+ X
+ ,
+ K
+ Y
+ ]
+ +
+ (
+ K
+ L
+ +
+ L
+ K
+ )
+ [
+ X
+ ,
+ Y
+ ]
+ −
+ K
+ (
+ [
+ L
+ X
+ ,
+ Y
+ ]
+ +
+ [
+ X
+ ,
+ L
+ Y
+ ]
+ )
+ −
+ L
+ (
+ [
+ K
+ X
+ ,
+ Y
+ ]
+ +
+ [
+ X
+ ,
+ K
+ Y
+ ]
+ )
+ .
+ 
+ 
+ {\displaystyle [K,L]_{FN}(X,Y)=[KX,LY]+[LX,KY]+(KL+LK)[X,Y]-K([LX,Y]+[X,LY])-L([KX,Y]+[X,KY]).}
+ If k=0 and ℓ=1, so that K=Z∈ Ω0(M, TM) is a vector field and L ∈ Ω1(M, TM), one has for any vector field X
+
+ 
+ 
+ 
+ [
+ Z
+ ,
+ L
+ 
+ ]
+ 
+ F
+ N
+ 
+ 
+ (
+ X
+ )
+ 
+
+ [
+ Z
+ ,
+ L
+ X
+ ]
+ −
+ L
+ [
+ Z
+ ,
+ X
+ ]
+ .
+ 
+ 
+ {\displaystyle [Z,L]_{FN}(X)=[Z,LX]-L[Z,X].}
+ An explicit formula for the Frölicher–Nijenhuis bracket of 
+ 
+ 
+ 
+ ϕ
+ ⊗
+ X
+ 
+ 
+ {\displaystyle \phi \otimes X}
+ and 
+ 
+ 
+ 
+ ψ
+ ⊗
+ Y
+ 
+ 
+ {\displaystyle \psi \otimes Y}
+ (for forms φ and ψ and vector fields X and Y) is given by
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ [
+ ϕ
+ ⊗
+ X
+ ,
+ ψ
+ ⊗
+ Y
+ 
+ ]
+ 
+ F
+ N
+ 
+ 
+ 
+
+ ϕ
+ ∧
+ ψ
+ ⊗
+ [
+ X
+ ,
+ Y
+ ]
+ +
+ ϕ
+ ∧
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ X
+ 
+ 
+ ψ
+ ⊗
+ Y
+ −
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ Y
+ 
+ 
+ ϕ
+ ∧
+ ψ
+ ⊗
+ X
+ +
+ (
+ −
+ 1
+ 
+ )
+ 
+ deg
+ 
+ (
+ ϕ
+ )
+ 
+ 
+ (
+ d
+ ϕ
+ ∧
+ 
+ i
+ 
+ X
+ 
+ 
+ (
+ ψ
+ )
+ ⊗
+ Y
+ +
+ 
+ i
+ 
+ Y
+ 
+ 
+ (
+ ϕ
+ )
+ ∧
+ d
+ ψ
+ ⊗
+ X
+ )
+ .
+ 
+ 
+ {\displaystyle \left.\right.[\phi \otimes X,\psi \otimes Y]_{FN}=\phi \wedge \psi \otimes [X,Y]+\phi \wedge {\mathcal {L}}_{X}\psi \otimes Y-{\mathcal {L}}_{Y}\phi \wedge \psi \otimes X+(-1)^{\deg(\phi )}(d\phi \wedge i_{X}(\psi )\otimes Y+i_{Y}(\phi )\wedge d\psi \otimes X).}
+ 
+
+# Derivations of the ring of forms 
+
+Every derivation of Ω*(M) can be written as 
+
+ 
+ 
+ 
+ 
+ i
+ 
+ L
+ 
+ 
+ +
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle i_{L}+{\mathcal {L}}_{K}}
+ for unique elements K and L of Ω*(M, TM). The Lie bracket of these derivations is given as follows.
+
+The derivations of the form 
+ 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}_{K}}
+ form the Lie superalgebra of all derivations commuting with d. The bracket is given by
+ 
+ 
+ 
+ [
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ K
+ 
+ 1
+ 
+ 
+ 
+ 
+ ,
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ K
+ 
+ 2
+ 
+ 
+ 
+ 
+ ]
+ 
+
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ [
+ 
+ K
+ 
+ 1
+ 
+ 
+ ,
+ 
+ K
+ 
+ 2
+ 
+ 
+ ]
+ 
+ 
+ 
+ 
+ {\displaystyle [{\mathcal {L}}_{K_{1}},{\mathcal {L}}_{K_{2}}]={\mathcal {L}}_{[K_{1},K_{2}]}}
+ 
+where the bracket on the right is the Frölicher–Nijenhuis bracket. In particular the Frölicher–Nijenhuis bracket defines a graded Lie algebra structure on 
+ 
+ 
+ 
+ Ω
+ (
+ M
+ ,
+ 
+ T
+ 
+ M
+ )
+ 
+ 
+ {\displaystyle \Omega (M,\mathrm {T} M)}
+ , which extends the Lie bracket of vector fields.The derivations of the form 
+ 
+ 
+ 
+ 
+ i
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle i_{L}}
+ form the Lie superalgebra of all derivations vanishing on functions Ω0(M). The bracket is given by
+ 
+ 
+ 
+ [
+ 
+ i
+ 
+ 
+ L
+ 
+ 1
+ 
+ 
+ 
+ 
+ ,
+ 
+ i
+ 
+ 
+ L
+ 
+ 2
+ 
+ 
+ 
+ 
+ ]
+ 
+
+ 
+ i
+ 
+ [
+ 
+ L
+ 
+ 1
+ 
+ 
+ ,
+ 
+ L
+ 
+ 2
+ 
+ 
+ 
+ ]
+ 
+ ∧
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle [i_{L_{1}},i_{L_{2}}]=i_{[L_{1},L_{2}]^{\land }}}
+ 
+where the bracket on the right is the Nijenhuis–Richardson bracket.The bracket of derivations of different types is given by
+ 
+ 
+ 
+ [
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ K
+ 
+ 
+ ,
+ 
+ i
+ 
+ L
+ 
+ 
+ ]
+ 
+
+ 
+ i
+ 
+ [
+ K
+ ,
+ L
+ ]
+ 
+ 
+ −
+ (
+ −
+ 1
+ 
+ )
+ 
+ k
+ l
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ i
+ 
+ L
+ 
+ 
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle [{\mathcal {L}}_{K},i_{L}]=i_{[K,L]}-(-1)^{kl}{\mathcal {L}}_{i_{L}K}}
+ 
+for K in Ωk(M, TM), L in Ωl+1(M, TM).
+
+# Applications 
+
+The Nijenhuis tensor of an almost complex structure J, is the Frölicher–Nijenhuis bracket of J with itself. An almost complex structure is a complex structure if and only if the Nijenhuis tensor is zero.
+With the Frölicher–Nijenhuis bracket it is possible to define the curvature and cocurvature of a vector-valued 1-form which is a projection. This generalizes the concept of the curvature of a connection.
+There is a common generalization of the Schouten–Nijenhuis bracket and the Frölicher–Nijenhuis bracket; for details see the article on the Schouten–Nijenhuis bracket.
+
+# References 
+
+Frölicher, A.; Nijenhuis, A. (1956), "Theory of vector valued differential forms. Part I.", Indagationes Mathematicae, 18: 338–360.
+Frölicher, A.; Nijenhuis, A. (1960), "Invariance of vector form operations under mappings", Communicationes Mathematicae Helveticae, 34: 227–248, doi:10.1007/bf02565938.
+P. W. Michor (2001) [1994], "Frölicher–Nijenhuis bracket", in Hazewinkel, Michiel (ed.), Encyclopedia of Mathematics, Springer Science+Business Media B.V. / Kluwer Academic Publishers, ISBN 978-1-55608-010-4
+Schouten, J. A. (1940), "Über Differentialkonkomitanten zweier kontravarianten Grössen", Indagationes Mathematicae, 2: 449–452.

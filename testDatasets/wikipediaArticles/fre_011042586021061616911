@@ -1,0 +1,55 @@
+
+## Enregistrement multipiste
+
+L'enregistrement multipiste est une méthode d'enregistrement sonore qui permet l'enregistrement et le réenregistrement de plusieurs sources sonores, simultanément ou successivement.
+Ce procédé permet notamment d'enregistrer plusieurs musiciens (ou groupes de musiciens) séparément, puis un chanteur, et de corriger ou d'améliorer, grâce à de nouvelles prises, l'interprétation des uns ou des autres, sans avoir à reprendre l'ensemble.
+En audiovisuel, une piste sert à la synchronisation du son avec l'image, tandis que les autres servent au dialogue, au bruits d'ambiance, à la musique.
+
+# Historique 
+
+Le premier musicien à avoir utilisé l'enregistrement multipiste serait le guitariste Les Paul, et les premiers magnétophones multipistes commercialisés furent fabriqués par Ampex, en 1955 (bi pistes).
+Au début de leur carrière, en 1963, les Beatles enregistraient en mono sur un magnétophone à 2 pistes. En octobre 1963, pour l'enregistrement de leur single "I Want To Hold Your Hand", ils passèrent au 4 pistes, puis innovèrent avec l'utilisation du 8 pistes en 1968.
+Le potentiel artistique offert par l'enregistrement multipiste fut largement exploité ensuite par des groupes comme les Beach Boys et les Beatles, qui entraînèrent dans leur sillage toute la production de musique populaire. Cette technologie se développa très rapidement à la fin des années 1960 (8 pistes) et au début des années 1970 (16 pistes puis 24 pistes).
+
+# Évolution de l'enregistrement multipiste 
+
+L'enregistrement s'effectue sur un magnétophone ou un système d'enregistrement multipiste, dont la capacité se mesure au nombre de pistes disponibles simultanément.
+Les premiers enregistreurs multipistes ne permettaient que l'enregistrement simultané sur un nombre quelconque de pistes. Le procédé permettait de reporter le mixage après l'enregistrement et de le refaire autant de fois que nécessaire et avec l'avis des musiciens. On peut aussi régler le mélange groupe d'instruments par groupe d'instrument, avant de mélanger l'ensemble, et produire des versions différentes en 2 pistes (stéréo), en mono pour la radio-télévision, pour la diffusion en 45 tours, etc. Cependant, si une des pistes ne donnait pas satisfaction, il fallait soit l'ignorer, soit refaire l'ensemble. On a vite senti l'utilité de pouvoir refaire une piste, ou d'ajouter des pistes à un enregistrement existant, sans avoir à jouer l'ensemble et le recopier sur une autre machine en ajoutant les pistes nouvelles. Cette copie dégrade un peu la qualité de l'enregistrement, et pour un résultat optimal, obligerait à enregistrer le moins important d'abord.
+Un magnétophone possède normalement des têtes d'enregistrement et des têtes de lectures, les unes et les autres optimisées pour leur fonction. Ces têtes ne peuvent être installées au même point de la bande. Il y a donc un décalage d'une fraction de seconde entre l'enregistremente et la lecture ; par exemple, à 38 cm/s, 3 cm d'écart correspondent à 80 ms. Il est donc impossible d'utiliser les têtes de lecture pour ajouter un enregistrement à l'ensemble. Les magnétophones multipistes ont vite proposé un mode « édition », avec lecture de qualité médiocre, mais sans décalage, sur les têtes d'enregistrement. De cette façon, un musicien peut écouter les parties enregistrées auparavant, et ajouter la sienne sur une autre piste de la même bande. Ensuite, les pistes pourront être reproduites simultanément, exactement comme si elles avaient été enregistrées au même moment. Cette méthode peut être reproduite autant de fois qu'il y a de pistes de disponibles.
+Les enregistreurs multipistes ont la plupart du temps une fonction « remplacement » (« punch in /punch out »). La lecture s'effectue sur les pistes d'enregistrement. La piste où il faut remplacer une portion d'enregistrement reste en lecture jusqu'au moment du début du remplacement, et après la fin ; elle bascule en enregistrement en une fraction de seconde au moment opportun. On peut ainsi effectuer des « rustines » et corrections.
+Si le nombre maximal de pistes est atteint, on se trouve dans la nécessité d'effectuer un mixage partiel sur une autre machine multipiste, pour enregistrer sur les pistes rendues ainsi disponibles. Mais en cinéma, tous les enregistrements sont effectués avec un signal pilote qui synchronise le son avec la caméra, puis reportés sur des machines à bandes perforée comme le film, qui tournent toutes exactement en synchronisme avec le projecteur. Il n'y a donc pas de nombre maximal de pistes. L'industrie de la production musicale a repris ce procédé, en consacrant une des pistes à un signal de code temporel qui permet de faire tourner plusieurs enregistreurs ensemble. Il n'y a plus, dès lors, de limite technique au nombre de pistes simultanées. Les points de début et de fin de remplacement peuvent être programmés à l'avance, évitant d'effacer accidentellement des parties à conserver.
+Certaines productions commencent par enregistrer cette piste avec des clics de métronome en plus du code temporel, pour permettre autant de sessions que voulu, toutes avec la même référence de tempo.
+L'enregistrement monophonique se faisait couramment sur bande d'un quart de pouce (6,35 mm). Avec 32 pistes sur deux pouces (50,8 mm), l'aire servant à l'enregistrement est environ quatre fois moindre. Cette diminution entraîne une réduction d'autant du rapport signal sur bruit, soit 12 dB. Cette dégradation est rendue moins sensible du fait qu'aucune piste ne sert isolément ; d'ailleurs, en enregistrant en parallèle sur deux pistes ou plus, on pourrait la réduire ou l'éviter. L'introduction des systèmes de réduction de bruit (Dolby) a aussi contribué à l'utilisation des enregistreurs multipistes dans la plupart des secteurs de l'enregistrement phonographique.
+L'industrie phonographique réduisait généralement la musique en deux pistes stéréo. Il aura fallu attendre les recherches et innovations notamment de certains compositeurs de musique électroacoustique pour proposer en concert des œuvres en 8, 16, ou 24 pistes réelles non réduites stéréophoniquement et composées spécialement pour ce format (par exemple Patrick Ascione, compositeur français, réalise en 1987 la première œuvre composée sur 16 pistes réelles entièrement contrôlées en studio sur 16 haut-parleurs installés en cercle).
+Depuis, la diffusion, d'abord au cinéma, puis musicale, se fait aussi en son multicanal. Le passage généralisé au son numérique n'a pas transformé fondamentalement le mode de production, mais les sons de chaque piste peuvent désormais être traités de façon beaucoup plus indépendante et décalés en temps les uns par rapport aux autres.
+
+# Historique des procédés en analogique 
+
+Les magnétophones analogiques offraient des capacités allant jusqu'à 24 ou même 32 pistes avec des bandes magnétiques qui pouvaient atteindre 2 pouces de largeur.
+En cinéma, le son enregistré sur des bandes perforées comme celle de l'image permettait de synchroniser un bon nombre de bobines, enregistrées séparément. La synchronisation électronique par timecode a plus tard permis de combiner, après quelques secondes au démarrage, les pistes des plusieurs machines ce qui multiplie le nombre de pistes disponibles (par exemple: 2 * 48 = 96 pistes).
+
+# Numérique 
+
+Les enregistreurs numériques linéaires, comme le Sony 3324, permettent d'enregistrer 24, puis 32 puis 48 pistes. Ils peuvent proposer des pistes longitudinales, comme les magnétophones analogiques ; mais c'est l'utilisation de magnétoscopes à têtes rotatives pour enregistrer du son qui a promu l'enregistrement numérique. Ces machines sont dotés d'une piste de code temporel, qui permet la synchronisation — avec un temps de préparation de quelques secondes, et pas toujours sans problèmes — de plusieurs machines.
+Les enregistreurs numériques non-linéaires (informatique) remplacent inexorablement les deux autres procédés au début du XXIe siècle.
+En général, dans les systèmes informatiques, pour chaque instant de l'échantillonnage, les échantillons de chaque piste sont enregistrés à la file, avant de passer aux échantillons de l'instant suivant. Des trames regroupent les paquets d'échantillons, et portent des informations annexes et de synchronisation.
+
+De nos jours un amateur peut, chez lui, avec un PC et un seul logiciel, enregistrer, copier/coller, mixer - en audio et/ou en MIDI un grand nombre de pistes audio et midi simultanément ou alternativement. L'écran confortable du PC avec l'interface graphique des séquenceurs logiciels et autres applications audionumériques permettent des retouches et des manipulations immédiates et aisées, inimaginables en analogique. La MAO (musique assistée par ordinateur) s'est développée parallèlement au DAO (dessin assisté par ordinateur) dès les années 1990.
+
+# Notes et références 
+
+# Voir aussi 
+
+# Articles connexes 
+
+Enregistrement sonore
+Son multicanal
+LFE
+HD DVD
+Blu ray
+HDMI
+Musique électronique
+
+# Liens externes 
+
+ Portail de la musique

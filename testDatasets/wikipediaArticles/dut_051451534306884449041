@@ -1,0 +1,36 @@
+
+## F♯
+
+F# (F sharp) is een mix van een functionele en een objectgeoriënteerde programmeertaal voor het .NET-platform van Microsoft.
+
+# Kenmerken 
+
+Net als bij de andere .NET-talen (zoals C#, VB.NET en J#) zijn de .NET-bibliotheken beschikbaar. Een CTP (Community Technical Preview) voor Visual Studio zorgt ervoor dat je F#-applicaties kunt schrijven in een voor veel programmeurs bekende interface, en dat de geschreven programmeercode direct gecontroleerd wordt op fouten.
+F# is ontworpen door Don Syme in de labs van Microsoft. De kern van de taal is ongeveer gelijk aan die van de Caml-programmeertaal, maar F# heeft zelf ook een standaard library, die ontworpen is om compatibel te zijn met de Ocaml-library.
+Omdat F# gebruikmaakt van dezelfde CLR (Common Language Runtime) zoals C# en VB.NET, is het met F# direct mogelijk om samen te werken met Microsofts gamestudio XNA, en hiermee op erg eenvoudige wijze games te ontwikkelen.
+
+# Geschiedenis 
+
+Aangezien F# net als JoCaml, MetaOCaml en OcamlP3l een dialect is van de Caml-programmeertaal is het moeilijk te zeggen wanneer er precies begonnen is met de ontwikkeling van F#. Versie 1 van de taal is ergens in 2005 vrijgegeven. De meest recente versie van de taal is 2.0 en deze versie is gepubliceerd op 12 april 2010.
+
+# Sterke punten van F# 
+
+F# is een scripttaal, maar het heeft de snelheid van C#, onder andere door strong typing
+Een hele rij aan beschikbare functies en bibliotheken vanuit het .NET Framework
+Een plug-in voor naadloze integratie met Visual Studio
+Geavanceerde technieken zoals property discovery en reflectie
+F# heeft standaard uitbreidingen, onder andere voor object georiënteerd programmeren
+F# kan net zoals de andere .NET-onderdelen probleemloos samenwerken met de andere programmeertalen en gebruikmaken van de tools die beschikbaar zijn
+
+# Voorbeelden 
+
+Hello World in F#
+
+Winforms in F#
+
+# Externe links 
+
+(en) Microsoft Research F# Home
+(en) F# Software Foundation
+(en) Een website met Engelstalige F# tutorials
+(en) Don Symes WebLog

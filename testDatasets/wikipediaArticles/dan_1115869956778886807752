@@ -1,0 +1,227 @@
+
+## Offentlig saldo
+
+Den offentlige saldo betegner forskellen mellem den offentlige sektors indtægter og udgifter. Er indtægterne større end udgifterne, er der overskud på den offentlige saldo - i modsat fald er der tale om et underskud. Begrebet giver dermed et øjebliksbillede af de offentlige finansers stilling. 
+
+# Saldo, primær saldo og strukturel saldo 
+
+Den primære offentlige saldo er lig med den offentlige saldo fratrukket det offentliges renteindtægter og -udgifter.
+Den offentlige saldo vil ofte være præget af de øjeblikkelige konjunkturforhold i økonomien. Ofte ønsker man at få et indtryk af de offentlige finansers stilling, hvor der er korrigeret for sådanne meget midlertidige forhold. Til det formål anvendes den strukturelle offentlige saldo, der er lig med saldoen korrigeret for formodede konjunkturbevægelser og andre særlige midlertidige forhold.
+
+# Hvorfor er den offentlige saldo interessant? 
+
+Den offentlige saldo giver et øjebliksbillede af de offentlige finansers stilling og fortæller, hvordan den offentlige gæld udvikler sig. Samtidig er saldoen også en investerings/opsparingsbalance for den offentlige sektor: Udviser saldoen underskud, er det ensbetydende med, at de offentlige investeringer er større end den offentlige opsparing, og omvendt. Der er her en parallel til betalingsbalancen, hvis løbende poster på samme måde udtrykker forskellen på investeringer og opsparing i hele Danmark (offentlig og privat sektor taget under et). 
+For det tredje er saldoen et mål for den førte finanspolitik. Her er den strukturelle saldo dog et bedre mål end den faktiske saldo. Endelig for det fjerde afslører den offentlige saldo, hvorledes likviditeten i samfundet afsløres, når der tages hensyn til finansieringsformen for et underskud eller placeringsformen for et overskud. Dette har betydning for pengepolitikken i samfundet.
+
+# Sammenhængen mellem primær saldo, saldo og gæld 
+
+Sammenhængen mellem saldoen, den primære saldo og nettogælden i den offentlige sektor kan ses af følgende ligninger: Hvis 
+ 
+ 
+ 
+ t
+ 
+ 
+ {\displaystyle t}
+ refererer til et tilfældigt år, 
+ 
+ 
+ 
+ 
+ G
+ 
+ t
+ 
+ 
+ 
+ 
+ {\displaystyle G_{t}}
+ er offentlige udgifter eksklusive renter, og 
+ 
+ 
+ 
+ 
+ T
+ 
+ t
+ 
+ 
+ 
+ 
+ {\displaystyle T_{t}}
+ er de offentlige indtægter eksklusive renter i det pågældende år, er
+
+ 
+ 
+ 
+ 
+ 
+ Primær saldo
+ 
+ 
+ t
+ 
+ 
+ 
+
+ 
+ T
+ 
+ t
+ 
+ 
+ −
+ 
+ G
+ 
+ t
+ 
+ 
+ .
+ 
+ 
+ 
+ {\displaystyle {\text{Primær saldo}}_{t}=T_{t}-G_{t}.\,}
+ Hvis 
+ 
+ 
+ 
+ 
+ D
+ 
+ t
+ −
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle D_{t-1}}
+ er den offentlige (netto)gæld ved slutningen af det foregående år, og 
+ 
+ 
+ 
+ r
+ 
+ 
+ {\displaystyle r}
+ er den rente, som gælden forrentes med, er den offentlige sektors saldo i år t lig med 
+
+ 
+ 
+ 
+ 
+ 
+ Saldo
+ 
+ 
+ t
+ 
+ 
+ 
+
+ 
+ T
+ 
+ t
+ 
+ 
+ −
+ 
+ G
+ 
+ t
+ 
+ 
+ −
+ r
+ ⋅
+ 
+ D
+ 
+ t
+ −
+ 1
+ 
+ 
+ ,
+ 
+ 
+ 
+ {\displaystyle {\text{Saldo}}_{t}=T_{t}-G_{t}-r\cdot D_{t-1},\,}
+ hvor det sidste led på højre side er rentebetalingerne på den udestående gæld. 
+Gælden ved slutningen af det pågældende år er lig med gælden ultimo året før minus overskuddet på årets saldo, hvilket ved indsætning af ovenstående udtryk kan skrives som:
+
+ 
+ 
+ 
+ 
+ 
+ D
+ 
+ t
+ 
+ 
+ 
+ 
+
+ (
+ 1
+ +
+ r
+ )
+ 
+ D
+ 
+ t
+ −
+ 1
+ 
+ 
+ +
+ 
+ G
+ 
+ t
+ 
+ 
+ −
+ 
+ T
+ 
+ t
+ 
+ 
+ .
+ 
+ 
+ 
+ {\displaystyle {D_{t}}=(1+r)D_{t-1}+G_{t}-T_{t}.\,}
+ Denne ligning kaldes den offentlige sektors budgetrestriktion.
+Forskellige forhold kan påvirke saldoens fortegn (dvs. om der er overskud eller underskud på saldoen) og størrelse. En højkonjunktur fører typisk til højere skatteindtægter og færre udgifter til arbejdsløshedsdagpenge og forbedrer dermed automatisk saldoen, mens en lavkonjunktur giver det modsatte resultat. Mere generelt vil alle former for ændringer i skattesystemet og de offentlige udgifter påvirke saldoen. 
+
+# Balanceret budget eller optimal finanspolitik 
+
+Ofte opfattes underskud på den offentlige saldo som et problem, der bør undgås. Personer med sådan en opfattelse er tilhængere af et såkaldt ”balanceret budget”, dvs. en situation, hvor indtægter og udgifter er lige store, og saldoen dermed er lig nul. I modsætning hertil står tilhængerne af en såkaldt ”optimal finanspolitik”, der ikke nødvendigvis opfatter underskud på saldoen som et problem i sig selv – det afgørende er, hvilken situation der skaber underskuddene, og der kan fra et samfundsøkonomisk synspunkt både være hensigtsmæssige og uhensigtsmæssige årsager til et offentligt underskud.Såvel overskud som underskud på saldoen opstår, når det offentliges indtægter og udgifter optræder forskudt i forhold til hinanden. Det kan f.eks. skyldes konjunkturudsving, både på grund af de såkaldte automatiske stabilisatorer og som følge af aktiv (også kaldet diskretionær) finanspolitik. Også længerevarende, men stadig midlertidige forhold kan begrunde udsving i saldoen over tid. Et eksempel er, at forholdet mellem små og store generationer på arbejdsmarkedet forventes at ændre sig i de kommende årtier. Det forventes alt andet lige at forringe saldoen gennem 2020’erne og 2030’erne og forbedre den igen gennem 2040’erne og 2050’erne – det, som betegnes som det såkaldte ”hængekøjeproblem” i Danmarks økonomi. I sådan en situation kan det være fordelagtigt at køre med underskud i en periode i stedet for alternativet, som er først at foretage modgående stramninger og siden tilsvarende lettelser. Med et økonomisk udtryk siges det, at skatte- og udgiftsudjævning er bedre end gældsudjævning.En anden årsag er hensynet til langsigtede investeringer. Offentlige investeringer i uddannelse, forskning, bygninger, veje og infrastruktur kommer typisk fremtidige generationer til gode. Man kan derfor argumentere for, at det også er rimeligt, at disse generationer betaler for investeringerne, hvilket netop vil være tilfældet, hvis de pågældende investeringer finansieres ved hjælp af gældsstiftelse, som fremtidige generationer betaler renter og afdrag på. Er den offentlige sektor omvendt tvunget til at operere med et balanceret budget, kan det gå ud over det offentlige investeringsniveau og dermed resultere i et lavere fremtidigt kapitalapparat.
+Er underskuddene omvendt permanent for store, kan det resultere i, at den offentlige gæld løber løbsk. I sådan en situation siges det, at finanspolitikken er uholdbar. Hensynet til at have – eller få – en holdbar finanspolitik sætter dermed grænser for, hvor store offentlige underskud et land kan have på længere sigt.
+
+# Danmarks offentlige saldo 
+
+I Danmark har den offentlige saldo jævnligt bevæget sig mellem over- og underskud de sidste mange år. Svingningerne har som regel skyldtes konjunkturerne. I 1980-85 (årene efter den 2. oliekrise) var der således underskud, i 1986-88 overskud, i 1987-1998 underskud, i 1999-2001 overskud, i 2002-03 (meget små) underskud, i 2004-08 under højkonjunkturen overskud, og i 2009-13 i eftervirkningerne af finanskrisen underskud, der i 2014 ekstraordinært er vendt til et overskud på grund af omlægningen af beskatningen af kapitalpensioner. I 2015 og de kommende år ventes igen offentlige underskud, men derefter igen en ny forbedring i årene frem mod 2020.
+
+# Restriktioner på Danmarks budgetunderskud 
+
+Danmark er, både direkte af EU og som følge af den danske lovgivning, underlagt forskellige restriktioner med hensyn til størrelsen af det offentlige underskud. Den strukturelle saldo for Danmark bliver beregnet af bl.a. Finansministeriet, De Økonomiske Råd og EU. Ifølge den danske budgetlov må der ved forelæggelsen af ethvert finanslovforslag højst være et underskud på den strukturelle saldo på ½ % af BNP. EU har et krav om, at det strukturelle underskud for Danmark ikke må overstige 3/4 % af BNP. EU's krav er altså i øjeblikket 1/4 procentpoint "mildere" end Budgetloven. Samtidig må det faktiske underskud ikke overstige 3 % af BNP ifølge EU's Stabilitets- og Vækstpagt.
+
+# Se også 
+
+Offentlig gæld
+Finanspolitik
+Finanspolitisk holdbarhed
+Statsgæld
+Statsbudget
+Offentlig økonomi
+Offentlig sektor
+
+# Kilder 
+

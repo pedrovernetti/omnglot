@@ -1,0 +1,1544 @@
+
+## IMPATT-Diode
+
+Die IMPATT-Diode ist eine spezielle Diode zur Erzeugung von Hochfrequenz. Der Name leitet sich von der englischen Bezeichnung Impact Ionization Avalanche Transit Time Diode ab, im Deutschen wird sie Lawinen-Laufzeit-Diode (LLD) genannt.
+
+Die Hauptvertreter der IMPATT-Dioden-Familie sind die Read-Diode, der einseitig abrupte p-n-Übergang, die doppelseitige Doppeldriftdiode, hi-lo- und lo-hi-lo-Dioden und die pin-Diode. Weitere Laufzeitdioden sind die BARITT-Diode, die DOVETT-Diode und die TRAPATT-Diode.
+Die IMPATT-Diode ist eine der leistungsfähigsten Halbleitergeneratoren bis zu 300 GHz und damit eine wichtige Quelle für Mikrowellen derart hoher Frequenz beziehungsweise Millimeterwellen. Sie erreicht über 10-fach höhere Leistungen als die Gunndiode im Frequenzbereich 10–150 GHz.
+Genutzt wird sie in elektronischen Schaltungen, in denen hochfrequente Oszillatoren gebraucht werden. Das sind unter anderem Sender in der Millimeterwellenkommunikation, Radar für den zivilen Luft- und Bodengebrauch oder zur Steuerung von Raketen im militärischen Bereich und ähnliche Anwendungen.
+Vorteile der IMPATT-Dioden sind, dass sie eine höhere Effizienz (12–20 % im Bereich von 5–10 GHz) als Gunndioden und Reflexklystrons haben, langlebig sind und gegenüber Gunndioden hohe HF-Leistungen (z. B. bei 9,5 GHz 3,5 W kontinuierlich und 15 W gepulst) erzeugen können.Nachteilig ist das hohe Phasenrauschen und die hohen Reaktanzen. Die Reaktanzen sind stark abhängig von der Oszillationsamplitude und müssen daher im Schaltungsentwurf berücksichtigt werden, damit es nicht zu Verstimmungen oder gar zur Zerstörung der Diode kommt.
+
+# Funktionsprinzip 
+
+IMPATT-Dioden entstehen durch den Einsatz von Stoßionisations- und Transitzeiteigenschaften der Elektronen in Halbleiterstrukturen zur Herstellung eines dynamischen, effektiven negativen differentiellen Widerstandes bei Mikrowellenfrequenzen. Oft wird dieser Widerstand auch mit dem englischsprachigen Begriff negative dynamic resistance oder der entsprechenden Abkürzung NDR bezeichnet. Ein negativer Widerstand bedeutet im Allgemeinen eine Energiequelle in Form einer Strom- beziehungsweise Spannungsquelle. Der negative Widerstand kommt durch zwei Verzögerungszeiten zustande, welche wiederum eine zeitliche Verzögerung des Hochfrequenz-Stromes gegenüber der Hochfrequenz-Spannung verursachen. Man spricht in diesem Zusammenhang auch von einer negativen Phasenverschiebung zwischen dem Hochfrequenz-Strom und der Hochfrequenz-Spannung. Die eine Verzögerungszeit entsteht durch die vom Lawinen-Durchbruch verursachte „Lawinendurchbruch-Zeit“, die zweite Verschiebung kommt durch Laufzeitverzögerungen durch die Diode in der n+pip+-Struktur beziehungsweise p+nin+-Struktur in der Drift-Region zustande. Wenn die beiden Verzögerungszeiten zusammen eine halbe Periode ergeben, entsteht ein negativer elektrischer Widerstand bei der entsprechenden Frequenz.
+
+# Geschichte 
+
+Die erste experimentelle Beobachtung einer IMPATT-Oszillation durch Johnston, deLoach und Cohen erfolgte im Jahre 1965. Es handelte sich dabei um eine in Sperrpolung im Lawinendurchbruchbereich und Mikrowellenbereich betriebene Silizium-Diode.
+Der Physiker William B. Shockley fasste diesen negativen Widerstand aufgrund seiner strukturellen Einfachheit bereits 1954 ins Auge. Der große Vorteil ist, dass es sich, im Gegensatz zu Transistoren, welche über drei Anschlüsse verfügen, um ein Bauteil mit zwei Anschlüssen handelt. Im Jahre 1958 brachte Read den Vorschlag ein, eine Hochfrequenzhalbleiterdiode zu entwickeln, die aus einer Lawinenzone an einem Ende und einer Driftzone mit einem verhältnismäßig hohen Widerstand bestehen sollte. Die Driftzone dient als Transitzeitbereich für die generierten Ladungsträger. C. A. Lee, R. L. Batdorf, W. Wiegman und G. Kaminsky waren die Ersten, die diese Oszillation dokumentierten. Misawa, Gilden und Hines entwickelten hierzu die Kleinsignaltheorie, welche untermauert, dass ein negativer Widerstand mit IMPATT-Eigenschaften von Diodensperrschichten oder Halbleiter-Metall Kontakten unabhängig vom Dotierprofil zu erhalten ist.
+
+# Stationärer Fall 
+
+Betrachtet werden im folgenden Text die Feldverteilung, die Durchbruchspannung und Raumladungseffekte unter stationären Bedingungen. Im ersten Bild oben ist das Dotierprofil und die Feldverteilung einer idealisierten Read-Diode zu sehen. Der Ionisationsintegrand ist gegeben durch:
+
+ 
+ 
+ 
+ ⟨
+ α
+ ⟩
+ ≡
+ 
+ α
+ 
+ n
+ 
+ 
+ ⋅
+ exp
+ 
+ 
+ [
+ 
+ −
+ 
+ ∫
+ 
+ x
+ 
+ 
+ W
+ 
+ 
+ (
+ 
+ α
+ 
+ n
+ 
+ 
+ −
+ 
+ α
+ 
+ p
+ 
+ 
+ )
+ 
+ 
+ d
+ 
+ 
+ x
+ ′
+ 
+ 
+ ]
+ 
+ 
+ 
+ {\displaystyle \langle \alpha \rangle \equiv \alpha _{n}\cdot \exp \left[-\int _{x}^{W}(\alpha _{n}-\alpha _{p})\;\mathrm {d} x'\right]}
+ hierin sind αn und αp die jeweiligen Ionisationsraten der Elektronen und Löcher. Und W ist die Verarmungszonenbreite. Zwischen 
+ 
+ 
+ 
+ 
+ x
+ 
+ a
+ 
+ 
+ ≤
+ x
+ ≤
+ W
+ 
+ 
+ {\displaystyle x_{a}\leq x\leq W}
+ befindet sich die Driftzone.
+Die Lawinendurchbruchbedingung ist gegeben durch:
+
+ 
+ 
+ 
+ 
+ ∫
+ 
+ 0
+ 
+ 
+ W
+ 
+ 
+ ⟨
+ α
+ ⟩
+ 
+ 
+ d
+ 
+ x
+ 
+
+ 1
+ 
+ 
+ {\displaystyle \int _{0}^{W}\langle \alpha \rangle \;\mathrm {d} x=1}
+ Aufgrund der starken Abhängigkeit der Alphas vom elektrischen Feld kann man feststellen, dass die Lawinenzone stark lokal beschränkt ist. Das heißt, dass der Multiplikationsprozess in einer sehr schmalen Zone nahe der höchsten elektrischen Feldstärke zwischen 0 und xA erfolgt.
+Sonderfälle der Read-Diode sind der einseitig abrupte p+-n-Übergang und die p-i-n-Diode auch bekannt als Misawa-Diode. Eine weitere Ausführungsform ist der doppelseitig abrupte p+-p-n-n+ Übergang. Die Lawinenzone befindet sich bei Silizium in der Nähe des Verarmungszonenzentrums. Denn αn und αp sind bei Silizium sehr unterschiedlich. Bei GaP sind die Alphas fast gleich und man kann folgende Vereinfachung treffen
+
+ 
+ 
+ 
+ ⟨
+ α
+ ⟩
+ 
+
+ 
+ α
+ 
+ n
+ 
+ 
+ 
+
+ 
+ α
+ 
+ p
+ 
+ 
+ 
+ 
+ {\displaystyle \langle \alpha \rangle =\alpha _{n}=\alpha _{p}}
+ deswegen ist die Lawinenzone fast symmetrisch zum Verarmungszonenzentrum.
+
+# Durchbruchspannung 
+
+Die allgemeinen Methoden zur Ermittlung der Durchbruchspannung bei abrupten Übergängen lässt sich auch für symmetrische doppelseitig abrupte Übergang wie beispielsweise p+-p-n-n+-Übergänge anwenden. Sie errechnet sich zu
+
+ 
+ 
+ 
+ 
+ U
+ 
+ B
+ 
+ 
+ 
+
+ 
+ 
+ 1
+ 2
+ 
+ 
+ ⋅
+ 
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ 
+ 
+ m
+ a
+ x
+ 
+ 
+ 
+ ⋅
+ W
+ 
+
+ 
+ 
+ 
+ 
+ ε
+ 
+ r
+ 
+ 
+ ⋅
+ 
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ 
+ 
+ m
+ a
+ x
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ q
+ ⋅
+ 
+ N
+ 
+ 
+ B
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle U_{B}={\frac {1}{2}}\cdot {\vec {E}}_{\mathrm {max} }\cdot W={\frac {\varepsilon _{r}\cdot {\vec {E}}_{\mathrm {max} }^{2}}{q\cdot N_{\mathrm {B} }}}}
+ In dieser Gleichung ist 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ 
+ 
+ m
+ a
+ x
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\vec {E}}_{\mathrm {max} }}
+ das maximale Feld an der Stelle x=0. Dabei ist x je nach Material von der Symmetrieebene aufgrund der unterschiedlichen Alphas verschoben. Das maximale Feld an der Stelle x=0 kann, sobald die Dotierung bekannt ist, aus einem Diagramm abgelesen werden. Danach lässt ich die Durchbruchspannung mit Hilfe der oben genannten Gleichung berechnen. Die Sperrspannung bei Durchbruch ist UB-Ue. In dieser Gleichung ist Ue die Diffusionsspannung (eingebaute Spannung des p-n-Übergangs), welche durch 2⋅(k⋅T/q)⋅ln(NB/ni) gegeben ist. Für symmetrische abrupte Übergänge ist die Diffusionsspannung in der Praxis vernachlässigbar.
+Für die Read-Diode und für die hi-lo-Diode ist die Durchbruchspannung und Verarmungszonenbreite gegeben durch folgende Gleichungen
+
+ 
+ 
+ 
+ 
+ U
+ 
+ 
+ B
+ 
+ 
+ 
+ 
+
+ 
+ (
+ 
+ 
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ 
+ 
+ m
+ a
+ x
+ 
+ 
+ 
+ −
+ 
+ 
+ 
+ q
+ ⋅
+ 
+ N
+ 
+ 1
+ 
+ 
+ ⋅
+ b
+ 
+ 
+ 2
+ ⋅
+ 
+ ε
+ 
+ r
+ 
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ ⋅
+ b
+ −
+ 
+ 
+ 1
+ 2
+ 
+ 
+ ⋅
+ 
+ (
+ 
+ 
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ 
+ 
+ m
+ a
+ x
+ 
+ 
+ 
+ −
+ 
+ 
+ 
+ q
+ ⋅
+ 
+ N
+ 
+ 1
+ 
+ 
+ ⋅
+ b
+ 
+ 
+ ε
+ 
+ r
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ ⋅
+ (
+ W
+ −
+ b
+ )
+ 
+ 
+ {\displaystyle U_{\mathrm {B} }=\left({\vec {E}}_{\mathrm {max} }-{\frac {q\cdot N_{1}\cdot b}{2\cdot \varepsilon _{r}}}\right)\cdot b-{\frac {1}{2}}\cdot \left({\vec {E}}_{\mathrm {max} }-{\frac {q\cdot N_{1}\cdot b}{\varepsilon _{r}}}\right)\cdot (W-b)}
+ 
+
+ 
+ 
+ 
+ W
+ 
+
+ 
+ 
+ 
+ 
+ ε
+ 
+ r
+ 
+ 
+ ⋅
+ 
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ 
+ 
+ m
+ a
+ x
+ 
+ 
+ 
+ 
+ 
+ q
+ ⋅
+ 
+ N
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ −
+ b
+ ⋅
+ 
+ (
+ 
+ 
+ 
+ 
+ N
+ 
+ 1
+ 
+ 
+ 
+ N
+ 
+ 2
+ 
+ 
+ 
+ 
+ −
+ 1
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle W={\frac {\varepsilon _{r}\cdot {\vec {E}}_{\mathrm {max} }}{q\cdot N_{2}}}-b\cdot \left({\frac {N_{1}}{N_{2}}}-1\right)}
+ Die Epitaxieschicht ist bei der Read-Diode ausschlaggebend für die Breite der Verarmungszone. Zur Berechnung können wieder dieselben Tabellen für das maximale Feld herangezogen werden wie für den abrupten p-n-Übergang. Vorausgesetzt, die n- beziehungsweise p-Region ist gegeben, treffen diese Werte fast vollständig (mit einer Abweichung von etwa einem Prozent) ebenso auf die Read-Diode und hi-lo-Diode zu. Allerdings unter der Einschränkung, dass xA kleiner als b ist.
+Die Durchbruchspanung einer lo-hi-lo-Diode mit einem sehr smallen Q „Klump“ ist gegeben durch
+
+ 
+ 
+ 
+ 
+ U
+ 
+ 
+ B
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ 
+ 
+ m
+ a
+ x
+ 
+ 
+ 
+ ⋅
+ b
+ +
+ 
+ 
+ 1
+ 2
+ 
+ 
+ ⋅
+ 
+ (
+ 
+ 
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ 
+ 
+ m
+ a
+ x
+ 
+ 
+ 
+ −
+ 
+ 
+ 
+ q
+ ⋅
+ Q
+ 
+ 
+ ε
+ 
+ r
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ ⋅
+ (
+ W
+ −
+ b
+ )
+ 
+ 
+ {\displaystyle U_{\mathrm {B} }={\vec {E}}_{\mathrm {max} }\cdot b+{\frac {1}{2}}\cdot \left({\vec {E}}_{\mathrm {max} }-{\frac {q\cdot Q}{\varepsilon _{r}}}\right)\cdot (W-b)}
+ 
+
+ 
+ 
+ 
+ W
+ 
+
+ 
+ 
+ 
+ ε
+ 
+ r
+ 
+ 
+ 
+ q
+ ⋅
+ 
+ N
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ ⋅
+ 
+ (
+ 
+ 
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ 
+ 
+ m
+ a
+ x
+ 
+ 
+ 
+ −
+ 
+ 
+ 
+ q
+ ⋅
+ Q
+ 
+ 
+ ε
+ 
+ r
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ +
+ b
+ 
+ 
+ {\displaystyle W={\frac {\varepsilon _{r}}{q\cdot N_{2}}}\cdot \left({\vec {E}}_{\mathrm {max} }-{\frac {q\cdot Q}{\varepsilon _{r}}}\right)+b}
+ In dieser Gleichung ist Q die Anzahl der Verunreinigungen pro Quadratzentimeter im „Klump“. Das maximale Feld kann aus dem feldabhängigen Ionisationskoeffizienten berechnet werden.
+
+# Regionen 
+
+Die Lawinenzone einer idealen p-i-n-Diode erstreckt sich über die gesamte intrinsische Schicht. Allerdings ist diese Region für die Read-Diode und die p-n-Übergänge auf eine sehr schmale Region in der Nähe des metallurgischen Übergangs begrenzt. Eine gute Näherung für xA kann mit Hilfe der Lawinendurchbruchbedingung gewonnen werden. Mit zunehmendem Abstand von x vom metallurgischen Übergang sinkt der Beitrag zum Integral, so dass man bei 95 % von einem sinnvollen Beitrag ausgehen kann. Für die Read-Diode errechnet sich xA aus
+
+ 
+ 
+ 
+ 
+ ∫
+ 
+ 0
+ 
+ 
+ 
+ x
+ 
+ 
+ A
+ 
+ 
+ 
+ 
+ 
+ ⟨
+ α
+ ⟩
+ 
+ 
+ d
+ 
+ x
+ 
+
+ 0
+ 
+ ,
+ 
+ 95
+ 
+ 
+ {\displaystyle \int _{0}^{x_{\mathrm {A} }}\langle \alpha \rangle \;\mathrm {d} x=0{,}95}
+ Analog dazu für die hi-lo-Diode, den einseitig abrupten Übergang und die doppelseitige Übergänge (für den Fall, dass sie bei Durchbruchsspannung betrieben werden) wird folgende Gleichung verwendet
+
+ 
+ 
+ 
+ 
+ ∫
+ 
+ −
+ 
+ x
+ 
+ 
+ A
+ 
+ 
+ 
+ 
+ /
+ 
+ 2
+ 
+ 
+ 
+ x
+ 
+ 
+ A
+ 
+ 
+ 
+ 
+ /
+ 
+ 2
+ 
+ 
+ ⟨
+ α
+ ⟩
+ 
+ 
+ d
+ 
+ x
+ 
+
+ 0
+ 
+ ,
+ 
+ 95
+ 
+ 
+ {\displaystyle \int _{-x_{\mathrm {A} }/2}^{x_{\mathrm {A} }/2}\langle \alpha \rangle \;\mathrm {d} x=0{,}95}
+ 
+
+# Effekte 
+
+Bei Betriebsbedingungen müssen die hohen Stromdichten während des Lawinendurchbruches, welche eine beachtliche Temperaturerhöhung am Übergang und Raumladungsträgereffekte verursachen, berücksichtigt werden.
+Die Ionisationsraten von Elektronen und Löchern nehmen mit zunehmender Temperatur ab. Folglich nimmt die Durchbruchspannung mit zunehmenden Temperaturen zu. Sobald die Gleichstromleistung (das Produkt aus Rückwärtsspannung und Rückwärtsstrom) zunimmt, steigen sowohl die Temperatur am Übergang als auch die Durchbruchsspannung. Um zu vermeiden, dass es zum Totalausfall des Bauelements durch extremen Hitzeanstieg an räumlich stark begrenzten Stellen kommt, müssen IMPATT-Dioden über eine geeignete Wärmeabführung verfügen.
+Raumladungsträgereffekte sind Folge der Ladungsträgererzeugung, die Schwankungen des elektrischen Feldes in der Verarmungszone verursachen. Dadurch kommt es zur Änderung des differentiellen Gleichstromwiderstandes. Für abrupte Übergänge steigt dieser an, und für p-i-n-Dioden nimmt er ab.
+
+# Dynamischer Fall 
+
+Im Folgenden wird die Injektionsphase und die Transitzeit eines idealen Bauteils betrachtet. Das soll heißen, dass der Strom an der Stelle 
+ 
+ 
+ 
+ x
+ 
+
+ 0
+ 
+ 
+ {\displaystyle x=0}
+ mit einer Phase von φ injiziert wird und dass sich die injizierten Ladungsträger mit einer Sättigungsgeschwindigkeit von 
+ 
+ 
+ 
+ 
+ v
+ 
+ s
+ 
+ 
+ 
+ 
+ {\displaystyle v_{s}}
+ in der Driftregion bewegen. Der Betrag der Leitungswechselstromdichte 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ 
+ l
+ 
+ 
+ 
+ 
+ {\displaystyle {\tilde {J}}_{l}}
+ an der Stelle 
+ 
+ 
+ 
+ x
+ 
+
+ 0
+ 
+ 
+ {\displaystyle x=0}
+ ist gleich der gesamten Wechselstromdichte 
+ 
+ 
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tilde {J}}}
+ mit Phasenverschiebung.
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ 
+ l
+ 
+ 
+ (
+ x
+ 
+
+ 0
+ )
+ 
+
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ exp
+ 
+ (
+ −
+ j
+ ⋅
+ φ
+ )
+ 
+ 
+ {\displaystyle {\tilde {J}}_{l}(x=0)={\tilde {J}}\exp(-j\cdot \varphi )}
+ Der gesamte Wechselstrom in der Driftregion setzt sich aus der Summe von Leitungsstrom und Verschiebungsstrom zusammen. Hierin ist 
+ 
+ 
+ 
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle {\vec {E}}(x)}
+ das komplexe Wechselfeld.
+
+ 
+ 
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ (
+ x
+ )
+ 
+
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ 
+ l
+ 
+ 
+ (
+ x
+ )
+ +
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ 
+ v
+ 
+ 
+ (
+ x
+ )
+ 
+
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ 
+ l
+ 
+ 
+ (
+ x
+ 
+
+ 0
+ )
+ 
+ e
+ 
+ −
+ j
+ ω
+ x
+ 
+ /
+ 
+ 
+ v
+ 
+ s
+ 
+ 
+ 
+ 
+ +
+ j
+ ⋅
+ ω
+ ⋅
+ 
+ ε
+ 
+ s
+ 
+ 
+ ⋅
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle {\tilde {J}}(x)={\tilde {J}}_{l}(x)+{\tilde {J}}_{v}(x)={\tilde {J}}_{l}(x=0)e^{-j\omega x/v_{s}}+j\cdot \omega \cdot \varepsilon _{s}\cdot {\vec {E}}(x)}
+ Das komplexe Wechselfeld erhält man aus den beiden obigen Gleichungen.
+
+ 
+ 
+ 
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ (
+ x
+ )
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ (
+ 1
+ −
+ 
+ e
+ 
+ −
+ j
+ ω
+ x
+ 
+ /
+ 
+ 
+ v
+ 
+ s
+ 
+ 
+ −
+ j
+ ⋅
+ ϑ
+ 
+ 
+ )
+ 
+ 
+ j
+ ⋅
+ ω
+ ⋅
+ 
+ ε
+ 
+ s
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\vec {E}}(x)={\frac {{\tilde {J}}(1-e^{-j\omega x/v_{s}-j\cdot \vartheta })}{j\cdot \omega \cdot \varepsilon _{s}}}}
+ Durch Integration erhält man die Impedanz Z.
+
+ 
+ 
+ 
+ Z
+ ≡
+ 
+ 
+ 
+ 
+ ∫
+ 
+ 0
+ 
+ 
+ W
+ 
+ 
+ 
+ 
+ 
+ E
+ →
+ 
+ 
+ 
+ (
+ x
+ )
+ 
+ d
+ x
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 1
+ 
+ j
+ ⋅
+ ω
+ ⋅
+ C
+ 
+ 
+ 
+ ⋅
+ 
+ [
+ 
+ 1
+ −
+ 
+ 
+ 
+ 
+ e
+ 
+ −
+ j
+ φ
+ 
+ 
+ ⋅
+ (
+ 1
+ −
+ 
+ e
+ 
+ j
+ ⋅
+ ϑ
+ 
+ 
+ )
+ 
+ 
+ j
+ ⋅
+ ϑ
+ 
+ 
+ 
+ 
+ ]
+ 
+ 
+ 
+ {\displaystyle Z\equiv {\frac {\int _{0}^{W}{\vec {E}}(x)\;dx}{\tilde {J}}}={\frac {1}{j\cdot \omega \cdot C}}\cdot \left[1-{\frac {e^{-j\varphi }\cdot (1-e^{j\cdot \vartheta })}{j\cdot \vartheta }}\right]}
+ In dieser Gleichung ist 
+ 
+ 
+ 
+ C
+ 
+ 
+ {\displaystyle C}
+ die Kapazität pro Fläche 
+ 
+ 
+ 
+ 
+ ε
+ 
+ s
+ 
+ 
+ 
+ /
+ 
+ W
+ 
+ 
+ {\displaystyle \varepsilon _{s}/W}
+ . Und 
+ 
+ 
+ 
+ θ
+ 
+ 
+ {\displaystyle \theta }
+ ist der Transitwinkel und errechnet sich zu 
+ 
+ 
+ 
+ ω
+ ⋅
+ W
+ 
+ /
+ 
+ 
+ v
+ 
+ 
+ s
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \omega \cdot W/v_{\mathrm {s} }}
+ . Für den Real- und der Imaginärteil erhalten wir aus obiger Gleichung folgende Ausdrücke
+
+ 
+ 
+ 
+ R
+ 
+
+ 
+ 
+ 
+ cos
+ 
+ φ
+ −
+ cos
+ 
+ (
+ φ
+ +
+ ϑ
+ )
+ 
+ 
+ ω
+ ⋅
+ C
+ ⋅
+ ϑ
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle R={\frac {\cos \varphi -\cos(\varphi +\vartheta )}{\omega \cdot C\cdot \vartheta }}}
+ 
+ 
+ 
+ 
+ X
+ 
+
+ −
+ 
+ 
+ 1
+ 
+ ω
+ ⋅
+ C
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ sin
+ 
+ (
+ φ
+ +
+ ϑ
+ )
+ −
+ sin
+ 
+ φ
+ 
+ 
+ ω
+ ⋅
+ C
+ ⋅
+ ϑ
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle X=-{\frac {1}{\omega \cdot C}}+{\frac {\sin(\varphi +\vartheta )-\sin \varphi }{\omega \cdot C\cdot \vartheta }}}
+ 
+
+# Kleinsignalanalyse 
+
+Die ersten Betrachtungen zur Kleinsignalanalyse wurden von William T. Read aufgestellt. M. Gilden und M. F. Hines entwickelten diese Theorien weiter. Folgende Vereinfachungen wurden dabei getroffen: 
+ 
+ 
+ 
+ 
+ α
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+
+ 
+ α
+ 
+ 
+ p
+ 
+ 
+ 
+ 
+
+ α
+ 
+ 
+ {\displaystyle \alpha _{\mathrm {n} }=\alpha _{\mathrm {p} }=\alpha }
+ und die Sättigungsgeschwindigkeiten von Elektronen und Löchern sind gleich.Laut Literatur ist 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle {\tilde {J}}_{L}}
+ die Stromdichte beim Lawinendurchbruch und 
+ 
+ 
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tilde {J}}}
+ ist die gesamte Wechselstromdichte. Die Stromdichte beim Lawinendurchbruch ist dabei die Wechselstromdichte der Teilchen in der Lawinenregion. Unter Annahme einer dünnen Lawinenregion kommt es zu keinen Verzögerungszeiten der Stromdichte bis zum Eintritt in die Driftregion. Mit der zweiten Annahme, bei der sich die Stromdichte beim Lawinendurchbruch als ungedämpfte Welle ausbreitet (bei der sich nur die Phase ändert), berechnet sich die Driftgeschwindigkeit mit 
+ 
+ 
+ 
+ γ
+ 
+
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ /
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \gamma ={\tilde {J}}_{L}/{\tilde {J}}}
+ zu
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ (
+ x
+ )
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ ⋅
+ 
+ e
+ 
+ −
+ j
+ ω
+ x
+ 
+ /
+ 
+ 
+ v
+ 
+ s
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ≡
+ γ
+ 
+ 
+ 
+ J
+ ~
+ 
+ 
+ 
+ ⋅
+ 
+ e
+ 
+ −
+ j
+ ω
+ x
+ 
+ /
+ 
+ 
+ v
+ 
+ s
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{aligned}{\tilde {J}}(x)&={\tilde {J}}_{L}\cdot e^{-j\omega x/v_{s}}\\&\equiv \gamma {\tilde {J}}\cdot e^{-j\omega x/v_{s}}\end{aligned}}}
+ 
+
+# Großsignalanalyse 
+
+Das Bild zeigt eine Read-Diode im Großsignal-Arbeitsbereich. 
+
+# Herstellung 
+
+Für die Herstellung von IMPATT-Dioden-Kristallen dient die Epitaxie, die Diffusion und die Ionenimplantation. Dabei kommen auch Kombinationen dieser Verfahren vor. Entscheidend ist, dass die Abfolge und Höhe der Dotierungen mit hoher Genauigkeit erfolgt.
+Häufig wird die Molekularstrahlepitaxie (MBE) verwendet. Bei der MBE kann die Dicke der Dotierung und der Schicht in fast atomischen Maßstäben bestimmt werden. Sie wird besonders für Millimeterwellen-Dioden eingesetzt. Es handelt sich dabei nicht nur um das genaueste, sondern auch das teuerste Verfahren.
+Der Diodenchip wird schließlich in einem Metallgehäuse befestigt. Dabei befindet sich die diffundierte Seite beziehungsweise die Metallelektrode in Kontakt mit einer metallischen Fläche, damit die Verlustwärme gut abgeleitet werden kann. Gängige Gehäuse sind hierzu z. B. schraubbar und drücken das Ende mit dem Chip auf die Wärmesenke, die zugleich Hohlleiterwandung ist.
+Für Impattdioden wird häufig das Halbleitermaterial Siliciumcarbid verwendet.
+
+# Schichtfolgen 
+
+Es wurden zahlreiche verschiedene Dotierungsprofile untersucht. Eine relativ einfache mögliche Dotierungsschichtfolge ist die Struktur p+-n-n+. Sie wird entweder durch doppelte Epitaxie oder durch Diffusion in eine epitaktische Schicht hergestellt. Dabei soll das n+ Substrat den Reihenwiderstand reduzieren. Um Verluste zu reduzieren und Gleichmäßigkeit zu bewahren, die durch den Skin-Effekt gestört werden können, ist das Substrat nur einige Mikrometer groß. Die Dicke der epitaktischen Schicht muss ebenfalls kontrolliert sein: Beim Durchbruch soll keine Epitaxieschicht übrig bleiben, die das Bauteil unbrauchbar macht.
+Eine weitere Form ist ein Schottky-Übergang. Die Struktur ist n+-n-Metall. Der Aufbau ist der ersten Struktur ähnlich, hat jedoch einige Vorteile: So tritt das maximale Feld an der Metall-Halbleiter Schnittstelle auf, die entstehende Wärme kann schnell vom Metallkontakt weggeleitet werden. Das Bauteil kann außerdem die Form eines gestutzten Kegels haben. Wenn dabei das maximale Feld von außen nach innen verlagert ist, findet der Durchbruch innerhalb des Bauteils statt. Weil die Diode bei relativ niedrigen Temperaturen hergestellt werden kann, ist es möglich, die ursprüngliche hochwertige epitaktische Schicht zu bewahren. Ein Nachteil hingegen ist, dass die Metallelektrode von Elektronen und Löchern mit hoher Energie angegriffen werden kann – das Bauteil hält nicht lange.
+Die häufig verwendete Hi-lo-Diode hat die Struktur n+-i-n-Metall. Es ist eine modifizierte Read-Diode, bei der die p+ Schicht durch einen Metallkontakt ersetzt wurde – es ist dadurch gleichzeitig eine Schottky-Diode. Da es vorwiegend ein Majoritätsladungsträgerbauelement ist, wird der Minoritätsladungsträger-Speicherungseffekt, verhindert. Dadurch bekommt die Diode eine höhere Effizienz, besonders für Mikrowellen. Dabei ist eine strenge Kontrolle der Dotierungsprofile nötig, damit eine bestimmte Frequenz festgelegt werden kann. Mithilfe einer selbstlimitierenden anodischen Ätzungsmethode kann die hochdotierte Schicht dünner oder die Oberfläche niedrigdotiert gemacht werden. Das hat zur Folge, dass der Durchbruch bei einer gewünschten Spannung auftritt und gleichzeitig eine gewünschte Frequenz entsteht. Der Nachteil besteht darin, dass Gallium-Arsenid bei Betriebstemperatur mit Platin reagiert, wodurch der p-n-Übergang verschoben wird. Dadurch ändert sich die Durchbruchspannung, die Leistung lässt nach. Das Auftragen einer geringen Menge Platin (200 bis 500 Ångström) auf die Oberfläche der Epitaxieschicht, gefolgt von einer Wolfram- oder Tantalschicht, mindert die Reaktion.
+Eine vierte Möglichkeit ist der Aufbau nach dem Schema n+-n-p-p+, also einer Doppeldrift-Diode. Sie wird durch Ionenimplantation hergestellt und ist für Dioden sinnvoll, welche zur Erzeugung von Millimeterwellen eingesetzt werden. Sowohl die Ausgangsleistung als auch die Impedanz pro Fläche verdoppeln sich dadurch etwa, diese Struktur führt also auch zu höherer Effizienz.
+
+# Literatur 
+
+S. M. Sze: Physics of Semiconductor Devices. 2. Auflage, John Wiley & Sons, 1981, ISBN 0-471-05661-8, S. 566–636.
+M. S. Tyagi: Introduction to Semiconductor Materials and Devices. John Wiley & Sons, 1991, ISBN 0-471-60560-3, S. 311–320.R. L. Jonston, B. C. DeLoach Jr., B. G. Cohen: A Silicon Diode Oscillator. In: Bell Systems Technical Journal. 44, 1965, S. 369.
+H. Komizo, Y. Ito, H. Ashida, M. Shinoda: A 0.5-W CW IMPATT diode amplifier for high-capacity 11-GHz FM radio-relay equipment. In: IEEE Journal 8, Nr. 1, 1973, ISSN 0018-9200, S. 14–20.
+M.-S. Gupta: Large-Signal Equivalent Circuit for IMPATT-Diode Characterization and Its Application to Amplifiers. In: Microwave Theory and Techniques. IEEE Transactions Volume 21. Nr. 11. 1973, ISSN 0018-9480, S. 689–694.
+
+# Weblinks 
+
+Britney's Guide to Semiconductor Physics (engl., Grundlagen der Halbleiterphysik).
+IMPATT Diode Microwave Oscillators
+
+# Einzelnachweise 
+

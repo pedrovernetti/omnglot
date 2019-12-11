@@ -1,0 +1,243 @@
+
+## Azylindrisch hyperbolische Gruppe
+
+Azylindrisch hyperbolische Gruppen sind ein Begriff der geometrischen Gruppentheorie.
+Sie bilden eine große Klasse von Gruppen mit "hyperbolischen Eigenschaften", zu der neben hyperbolischen Gruppen beispielsweise auch Abbildungsklassengruppen und Gruppen äußerer Automorphismen gehören.
+Für azylindrisch hyperbolische Gruppen gelten zahlreiche der "largeness properties" von freien und hyperbolischen Gruppen.
+
+# Azylindrische Wirkungen 
+
+Eine Wirkung einer Gruppe 
+ 
+ 
+ 
+ G
+ 
+ 
+ {\displaystyle G}
+ auf einem metrischen Raum 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ heißt azylindrisch, wenn es zu jeder positiven Zahl 
+ 
+ 
+ 
+ ϵ
+ 
+ 
+ {\displaystyle \epsilon }
+ positive Zahlen 
+ 
+ 
+ 
+ R
+ ,
+ N
+ 
+ 
+ {\displaystyle R,N}
+ gibt, so dass zu allen 
+ 
+ 
+ 
+ x
+ ,
+ y
+ ∈
+ S
+ 
+ 
+ {\displaystyle x,y\in S}
+ mit 
+
+ 
+ 
+ 
+ d
+ (
+ x
+ ,
+ y
+ )
+ >
+ R
+ 
+ 
+ {\displaystyle d(x,y)>R}
+ höchstens 
+ 
+ 
+ 
+ N
+ 
+ 
+ {\displaystyle N}
+ Gruppenelemente 
+ 
+ 
+ 
+ g
+ ∈
+ G
+ 
+ 
+ {\displaystyle g\in G}
+ mit 
+
+ 
+ 
+ 
+ d
+ (
+ x
+ ,
+ g
+ x
+ )
+ ≤
+ ϵ
+ 
+ 
+ {\displaystyle d(x,gx)\leq \epsilon }
+ und 
+ 
+ 
+ 
+ d
+ (
+ y
+ ,
+ g
+ y
+ )
+ ≤
+ ϵ
+ 
+ 
+ {\displaystyle d(y,gy)\leq \epsilon }
+ existieren.
+
+# Azylindrisch hyperbolische Gruppen 
+
+Eine Gruppe heißt azylindrisch hyperbolisch, wenn sie eine der folgenden äquivalenten Bedingungen erfüllt:
+- es gibt einen Gromov-hyperbolischen Raum, auf dem sie nicht-elementar azylindrisch wirkt,
+- es gibt ein (möglicherweise unendliches) Erzeugendensystem, so dass der Cayley-Graph hyperbolisch ist und mehr als zwei Randpunkte hat und die natürliche Wirkung der Gruppe auf dem Cayley-Graphen azylindrisch ist,
+- die Gruppe ist nicht virtuell zyklisch und wirkt auf einem Gromov-hyperbolischen Raum, so dass mindestens ein Gruppenelement als loxodromische Isometrie wirkt und die WPD-Bedingung erfüllt,
+- die Gruppe enthält eine unendliche, hyperbolisch eingebettete, echte Untergruppe
+
+# Beispiele 
+
+Folgende Klassen von Gruppen sind azylindrisch hyperbolisch:
+- nicht-elementare hyperbolische Gruppen,
+- nicht virtuell zyklische, relativ hyperbolische Gruppen mit echten peripheralen Untergruppen,
+- die Abbildungsklassengruppen geschlossener Flächen vom Geschlecht 
+ 
+ 
+ 
+ g
+ ≥
+ 1
+ 
+ 
+ {\displaystyle g\geq 1}
+ ,
+- die Gruppe der äußeren Automorphismen einer freien Gruppe vom Rang 
+ 
+ 
+ 
+ n
+ ≥
+ 2
+ 
+ 
+ {\displaystyle n\geq 2}
+ ,
+- nicht virtuell zyklische Gruppen, die eigentlich auf einem CAT(0)-Raum wirken.
+
+# Eigenschaften 
+
+Sei 
+ 
+ 
+ 
+ G
+ 
+ 
+ {\displaystyle G}
+ eine azylindrisch hyperbolische Gruppe, die auf einem Gromov-hyperbolischen Raum 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ nicht-elementar azylindrisch wirkt. Dann gilt:
+
+jede abzählbare Gruppe 
+ 
+ 
+ 
+ Q
+ 
+ 
+ {\displaystyle Q}
+ lässt sich in einer Faktorgruppe von 
+ 
+ 
+ 
+ G
+ 
+ 
+ {\displaystyle G}
+ einbetten.es gibt ein 
+ 
+ 
+ 
+ g
+ ∈
+ G
+ 
+ 
+ {\displaystyle g\in G}
+ , das als loxodromische Isometrie auf 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ wirkt.
+ 
+ 
+ 
+ G
+ 
+ 
+ {\displaystyle G}
+ enthält eine freie Untergruppe, deren Orbiten in 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ quasi-isometrisch eingebettet sind.beschränkte Kohomologie in Graden 2 und 3 ist unendlich-dimensional.
+
+# Literatur 
+
+D. Osin, Acylindrically hyperbolic groups, Trans. Amer. Math. Soc. 368 (2016), no. 2, 851–888.
+
+# Weblinks 
+
+T. Koberda: WHAT IS ... an acylindrical group action? (Notices of the AMS, Januar 2018)
+
+# Einzelnachweise 
+

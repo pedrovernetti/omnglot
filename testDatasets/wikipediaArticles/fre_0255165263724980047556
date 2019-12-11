@@ -1,0 +1,14 @@
+
+## ADD (instruction)
+
+ADD est une instruction utilisée par certaines calculatrices programmables ainsi que dans certains langages informatiques, par exemple, dans le langage cobol ou certains Assembleurs.
+Elle consiste à additionner deux ou plusieurs valeurs, deux registres en assembleur, ou deux variables ou plus en Cobol, par exemple:
+
+ADD X, Y, Z GIVING TOTAL
+ADD MONTANT TO RESULTAT
+
+# Lien externe 
+
+Instruction ADD en cobol
+
+ Portail de l’informatique

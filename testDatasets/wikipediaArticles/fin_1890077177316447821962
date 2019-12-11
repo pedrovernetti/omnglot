@@ -1,0 +1,52 @@
+
+## Palvelunestohyökkäys
+
+Palvelunestohyökkäys (Denial of Service, DoS) tarkoittaa verkkohyökkäystä, jossa pyritään estämään verkkosivuston tarkoitettu käyttö. Tavallisimmin tämä toteutetaan kohdistamalla verkkosivustolle niin paljon liikennettä, että tämä ei käytännössä kykene palvelemaan asiakkaitaan. Useista lähteistä tapahtuvaa hyökkäystä kutsutaan erityisesti nimellä hajautettu palvelunestohyökkäys (Distributed Denial of Service, DDoS). Tällöin usein käytetään usein kaapatuista tietokoneista koostuvaa Botnettiä.
+Vastaavankaltainen puhelimiin kohdistettavasta hyökkäyksestä käytetään nimitystä tdos (telephony denial of service).
+
+# Hyökkäystavat 
+
+Palvelunestohyökkäys voidaan toteuttaa monella eri tavalla. Kolme perustapaa ovat:
+
+Rajallisten resurssien, kuten kaistan, levytilan tai suoritinajan kuluttaminen.
+Ohjaustietojen, esimerkiksi reititystietojen tai nimipalvelutietojen muuttaminen.
+Vääränlaisen lähetteen syöttäminen palvelimelle, joka kaataa sen käyttöjärjestelmän tai palvelinprosessin.
+
+# Tulvahyökkäykset 
+
+Erilaiset tulvahyökkäykset ovat yksinkertaisimpia ja niiltä on usein mahdoton suojautua. Yksinkertaisimmillaan hyökkääjä avaa tuhansia yhteyksiä www-palveluun tai lähettää tuhansia sähköposteja yrityksen sähköpostipalvelimelle. Aiemmin hyökkäyksiin käytettiin virheellisesti konfiguroituja verkkoja, joita voitiin käyttää esim. Smurf-hyökkäyksen apuna. Nykyisin yleisempiä ovat murretuista koneista muodostetut bottiverkot.
+
+# Ohjaustietojen häiritseminen 
+
+Reititysprotokollat ovat perinteinen ohjaustietojen häiritsemishyökkäyksen kohde. Periaatteessa uudemmissa reititysprotokollissa kuten RIPv2:ssa tai EIGRP:ssä on kohtalaisen hyvät tietoturvaominaisuudet, mutta monet yritykset käyttävät yhä vanhempia protokollia, tai eivät ole kytkeneet tietoturvaominaisuuksia päälle. Reitittimelle voi lähettää reittipäivityksen, jossa vaikkapa väitetään suositun www-sivuston olevan jossain aivan muualla, kuin missä se oikeasti on. Reititin ohjaa kaikki kyseiseen osoitteeseen suunnatut paketit aivan väärään osoitteeseen.
+DNS:n (nimipalvelu) kanssa on samanlaisia ongelmia. Pahimpana ongelmana on DNS-välimuistin myrkyttäminen. Ideana on, että Windows NT4 ja 2000 -käyttöjärjestelmien DNS-palvelinohjelma oletusarvoisesti hyväksyy kaikkien nimipalvelinten sille lähettämiä tietoja - muistakin DNS-nimistä kuin kyseisille palvelimille kuuluvista. Jos ns1.operaattori.fi sitten kysyy vaikkapa ns1.yritys.fi-palvelimelta tietoa koneesta www.yritys.fi, voi kyseinen palvelin lähettää vastauksen, jossa on vastaus kyselyyn (www.yritys.fi = 1.2.3.4), minkä lisäksi siinä yhdistetään www.pankki.fi johonkin väärennettyyn osoitteeseen (www.pankki.fi = 1.1.1.1). Palvelin tallentaa tiedon pankin www-palvelimesta kritiikittömästi välimuistiinsa, ja jos joku käyttäjä surffaa www.pankki.fi-osoitteeseen jatkossa, joutuu hän kräkkerin palvelimelle (selaimen osoiterivillä lukee ihan tavallisesti www.pankki.fi).
+Myös DHCP-palvelu on ongelmallinen tällaisten hyökkäysten kannalta.
+
+# Vääränlainen lähete 
+
+Lokakuussa 1996 keksittiin että suuren osan verkkoon kytketyistä käyttöjärjestelmistä sai kaadettua ylipitkällä ICMP Echo request -paketilla (Ping of death).
+Kesäkuussa 1997 julkaistiin WinNuke, jolla sai kohdekoneen Windows-käyttöjärjestelmän tai palvelinohjelman kaatumaan. Vanhemmilla Windows-koneilla tämä tarkoittaa sinistä ruutua. Hyökkäyksestä toipuminen vaati koneen uudelleenkäynnistämistä.
+
+# Istuntojen määrä 
+
+Palomuuri voidaan myös tukkia lähettämällä minimaalisen määrän informaatiota sisältäviä paketteja, joilla on tarkoitus aloittaa uusi tietoliikenneyhteys, mutta koskaan saattamatta istuntoa lopetusvaiheeseen. Tällä tavalla saadaan palomuuri tukkeutumaan yhteyksien määrästä ja kykenemättömäksi vastaamaan uusiin yhteyspyyntöihin. Tämän tiedetään toimivan myös suhteellisen uusilla FreeBSD-palomuureilla.
+
+# Lainsäädäntö 
+
+Palvelunestohyökkäykset ovat useissa maissa kriminalisoituja. Suomessa niistä voidaan tuomita rikoslain 38 luvun 5 pykälän mukaisesti tietoliikenteen häirintänä sakkoon tai vankeuteen enintään kahdeksi vuodeksi. Myös palvelunestohyökkäyksen yritys on rikos. Britannian lain mukaan hyökkäyksestä voi saada jopa kymmenen vuoden vankeusrangaistuksen.
+
+# Hyökkäyksiä 
+
+Yleisradion, Suomi24:n ja Eniron verkkosivustot joutuivat 14.–15. toukokuuta 2007 Suomen siihen asti laajimman palvelunestohyökkäyksen kohteeksi. Hyökkäyksen takana oli F-Securen Mikko Hyppösen mukaan todennäköisesti Team Elite -niminen ryhmä, jossa on jäseniä useista eri maista. Harrastajista koostuva ryhmä ei tavoittele taloudellista hyötyä, vaan ainoastaan häiriköi. Hyökätyt sivut valittiin mahdollisesti sen perusteella, että ne ovat korkealla Suomen suosituimpien sivujen listassa, ja Suomen joutumiseen hyökkäyksen kohteeksi saattoi vaikuttaa Euroviisujen kautta tullut medianäkyvyys. Suomen tietotoimiston sivuille tapahtui myös hyökkäys 17. toukokuuta. Palvelunestohyökkäys erosi teknisesti Ylen sivuille tapahtuneesta hyökkäyksestä ja se oli laajuudeltaan pienempi.Useat suomalaiset verkkosivut olivat laajan palvelunestohyökkäyksen kohteena 11.9.2012. Muun muassa Helsingin Sanomien ja Ilta-Sanomien verkkosivut eivät toimineet kunnolla hyökkäyksen aikana. Edellispäivänä hyökkäyksiä oli tehty suosittuun yhdysvaltalaiseen GoDaddy-verkkopalveluun.OP kertoi 2.1.2015 sivuillaan, että palvelunestohyökkäykset aiheuttavat häiriöitä verkkopalveluihin. Palvelunestohyökkäys alkoi 31.12.2014. Häiriökuormitus on ollut poikkeuksellisen suurta. Myös Nordea on ollut samoihin aikoihin hyökkäyksen kohteena.
+Lokakuun 21. 2016 tapahtui hajautettu palvelunestohyökkäys DNS-palveluita tarjoavaa Dyn-yritystä kohtaan. Hyökkäys esti pääsyn muun muassa Paypaliin, Pinterestiin ja Tumblriin.Palvelunestohyökkäyksiä voidaan käyttää myös informaatiosodankäynnin keinona. Operaatio Payback, suomeksi Takaisinmaksu, oli Anonymous-ryhmän hyökkäys RIAA:ta vastaan siksi, että oikeuden päätöksellä suljettiin LimeWire. 
+
+# Katso myös 
+
+Ohjelmistosodankäynti
+
+# Lähteet 
+
+# Aiheesta muualla 
+
+Cert.fi Tietoturva nyt!
+Virusliiga-kaappaus tietokoneella Ylen Elävässä arkistossa

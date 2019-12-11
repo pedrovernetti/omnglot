@@ -1,0 +1,12 @@
+
+## I/O
+
+I/O, fra engelsk: Input/Output er et koncept i informationsteknologi. I/O er en relationel betegnelse, generelt for en enhed eller entitet der forventer at forholde sig til at modtage og sende data. Helt typisk er computeren en sådan enhed og I/O refererer så til brugerens interaktion (input f.eks. tastetryk, musebevægelser, kamera) som computerens kommunikation med eksterne enheder (output f.eks. skærm, lydkort, netværk, printere). I programmering er det generelt nødvendigt at forholde sig til det input og output som ens program-proces forventer, men imellem de to yderpunkter - program-proces og pc - er det kun fantasi (og teknisk kunnen) der sætter grænser for hvad I/O kan prædikere.
+
+# Se også 
+
+Basic Input Output System
+
+# Eksterne links 
+
+Marshall Kirk McKusick; Keith Bostic; Michael J. Karels; John S. Quarterman (1996), "Chapter 2. Design Overview of 4.4BSD (2.6 I/O System)", The Design and Implementation of the 4.4BSD Operating System, Addison-Wesley Longman, Inc.

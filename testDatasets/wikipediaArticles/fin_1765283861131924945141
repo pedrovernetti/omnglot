@@ -1,0 +1,147 @@
+
+## Lewis-rakenne
+
+Lewis-rakenne eli elektronipisterakenne, -diagrammi tai -esitys on molekyylistä piirretty esitys, joka kuvaa molekyylin atomien välistä kovalenttista sitoutumista ja mahdollisia vapaita elektronipareja.lähde tarkemmin? Lewis-rakenne voidaan piirtää mille tahansa kovalenttisia sidoksia sisältävälle molekyylille tai kompleksiyhdisteelle. Lewis-rakenteen ei ole tarkoitus kuvata kolmiulotteista rakennetta.lähde tarkemmin? Rakenne esittää valenssielektronit pisteinä, mutta jaetut sidoksia muodostavat elektroniparit yksinkertaistetaan yleensä viivoiksi. Yksi atomienvälinen viiva kuvaa sidoskertalukua yksi, kaksi viivaa sidoskertalukua kaksi ja niin edelleen. Ytimiä kuvaavat alkuaineiden tunnukset. Lewis-rakenne on nimetty rakenteen keksineen G. N. Lewisin mukaan. Hän esitti rakenteen vuonna 1916.
+Elektronien lukumäärä Lewis-rakenteessa vastaa yksittäisten atomien valenssielektronien summaa. Oktettisäännön mukaan atomi on vakain, kun se on jalokaasujen valenssielektronitilassa, eli kun sillä on kahdeksan valenssielektronia. Kahdeksan valenssielektronin tilaan atomi pyrkii jakamalla elektroneja eli muodostamalla kovalenttisia sidoksia. Esimerkiksi fluori, jolla on seitsemän valenssielektronia, pyrkii jakamaan yhden elektroneistaan ja muodostamaan siten yksinkertaisen kovalenttisen sidoksen. Oktettisääntö on kuitenkin pelkkä malli ja siihen on lukuisia poikkeuksia. Esimerkiksi vety pyrkii kahdeksan elektronin sijasta kahden elektronin valenssielektronitilaan (heliumin valenssielektronitila [He]). Eräät toisen jakson alkuaineet (litium ja beryllium) pyrkivät neljän elektronin ja esimerkiksi boori pyrkii kuuden elektronin valenssielektronitilaan eli niin sanottuun sekstettiin. Eräillä alkuaineilla kuten fosforilla ja rikillä oktettisääntö voi myös ylittyä. Oktetin ylittäminen voi tapahtua 3. jakson alkuaineista lähtien. Tämän ajatellaan olevan seurausta siitä, että 3. jaksosta lähtien atomeilla on d-orbitaaleja, jotka sisältävät oktetin ylitykset.
+
+# Lewis-kaavojen kirjoittaminen 
+
+Lewis-rakenne kuvaa molekyylin tai ionin kovalenttisia sidoksia sen atomien välillä, sekä mahdollisia vapaita elektronipareja. Lewis-rakenteesta selviää molekyylin tai ionin valenssielektronien järjestäytyminen. Lewis-rakenteet ovat osa valenssisidosteorian, jota joskus kutsutaan lokalisoituneet elektronit -malliksi, mukaista kovalenttisen sidoksen käsittelyä.
+
+1. vaihe: Määritetään rakenteen valenssielektronit
+Lasketaan yhdisteen kaikkien atomien valenssielektronien lukumäärä jaksollisen järjestelmän avulla. Ionien ollessa kyseessä lisätään (anionit) tai vähennetään (kationit) ionin varauksen osoittama määrä elektroneja.
+2. vaihe: Piirretään molekyylin runko
+Yhdistetään rakenteen atomit toisiinsa yksinkertaisilla sidoksilla, jolloin muodostuu elektronipari. Keskusatomiksi valitaan atomi jolla on pienin elektronegatiivisuus, joka useimmiten on kaavassa ensimmäisenä oleva atomi. Muut atomit ovat sidoksissa keskusatomiin. Tärkeimpiä poikkeuksia ovat vedyllä H alkavat kaavat, joiden keskusatomiksi tulee valita kaavassa seuraavana oleva atomi, sillä vedyllä voi olla vain kaksi elektronia ympärillään.
+3. vaihe: Täydennetään elektronien lukumäärä
+Lisätään loput elektronit rakenteeseen vapaina elektronipareina aloittaen keskusatomiin kiinnittyneistä atomeista siten, että vedylle tulee kaksi elektronia ja oktettisääntöä noudattaville kahdeksan. Mikäli kaikki elektronit on käytetty, siirrytään suoraan viidenteen vaiheeseen.
+4. vaihe: Jäljelle jäävät elektronit
+Jos edellisestä vaiheesta jää jäljelle elektroneja, lisätään jäljelle jääneet elektronit elektronipareina keskusatomille, jos tämä kuuluu vähintään jaksoon 3. Tällöin keskusatomi ylittää oktetin.
+5. vaihe: Tarkistetaan molekyylin rakenne
+Mikäli kaikilla atomeilla on kahdeksan elektronia (vedyllä kaksi) ympärillään, niin Lewis-rakenne on valmis. Rakenteessa näkyvien valenssielektronien lukumäärän tulee vastata alun perin laskettua valenssielektronien lukumäärää.
+Jos elektronien määrä ei riitä tuottamaan kaikille oktettia, muodostetaan tarvittavat kaksois- ja kolmoissidokset niin, että jokainen atomi on oktetissa.tarvitaan parempi lähde Esimerkin tapauksessa voidaan kirjoittaa resonanssirakenteita, joka tulee ottaa huomioon Lewis-rakennetta kirjoitettaessa (ks. alla).
+
+# Resonanssirakenteet 
+
+Kaikissa tapauksissa molekyylin tai ionin ominaisuuksia ei voida esittää vain yhdellä Lewis-rakennekaavalla. Tämä on yleistä etenkin polyatomisille ioneille, jolloin on vaikea määrittää mitä yksinäisiä pareja tulisi käyttää kaksois- tai kolmoissidoksien muodostamiseen. Lewis-rakenteen sanotaan tällöin olevan resonanssirakenne, ja molekyyli on olemassa resonanssihybridinä. Resonanssirakenteissa molekyylillä on sama runko eli atomien paikat eivät muutu, ainoastaan moninkertaisten sidosten paikat vaihtuvat.Esimerkiksi nitraatti-ionin NO3- tulee muodostaa kaksoissidos typen ja hapen välillä saavuttaakseen oktetin. Koska molekyyli on symmetrinen, ei ole merkitystä mikä hapen muodoista muodostaa kaksoissidoksen. Tässä tapauksessa on kolme mahdollista resonanssirakennetta. Tällöin rakenteen voi kuvata joko piirtämällä katkoviivoilla osittaiset sidokset (tarkalleen ottaen tämä ei ole Lewis-rakenne), tai piirtämällä jokainen mahdollisuus erikseen ja sijoittamalla kaksisuuntaiset nuolet rakenteiden väliin, kuten alla on tehty. Resonanssirakenne ei ole “todellinen”. Resonanssirakenteen kuvaaminen näin ei tarkoita että molekyyli vaihtelee muotojen välillä, vaan molekyyli on “keskiarvo” esitetyistä muodoista. Tämä tarkoittaa että molekyylilla on samanaikaisesti eri resonanssimuotojen piirteitä.
+
+# Muodollinen varaus 
+
+Lewis-rakenteissa atomien muodollisia varauksia käytetään molekyylien kuvaamisessa, vertailussa ja esimerkiksi niiden todennäköisimpien topologisten- ja resonanssirakenteiden arvioinnissalähde tarkemmin? määrittämällä näennäisen varauksen jokaiselle osallistuvalle atomille. Muodollista varausta käytetään lisäksi päättelemään molekyylin runko, jos se ei ole tiedossa. Topologisten- ja resonanssirakenteiden arviointi perustuu elektronipisterakenteeseen. Yleisesti yksittäisen atomin muodollinen varaus pystytään laskemaan seuraavalla kaavalla:
+
+ 
+ 
+ 
+ 
+ C
+ 
+ f
+ 
+ 
+ 
+
+ 
+ N
+ 
+ v
+ 
+ 
+ −
+ (
+ 
+ U
+ 
+ e
+ 
+ 
+ +
+ 
+ B
+ 
+ n
+ 
+ 
+ 
+ /
+ 
+ 2
+ )
+ 
+ 
+ {\displaystyle C_{f}=N_{v}-(U_{e}+B_{n}/2)}
+ 
+missä:
+
+ 
+ 
+ 
+ 
+ C
+ 
+ f
+ 
+ 
+ 
+ 
+ {\displaystyle C_{f}}
+ on muodollinen varaus.
+
+ 
+ 
+ 
+ 
+ N
+ 
+ v
+ 
+ 
+ 
+ 
+ {\displaystyle N_{v}}
+ kuvaa atomin valenssielektronien määrää neutraalissa tilassa.
+
+ 
+ 
+ 
+ 
+ U
+ 
+ e
+ 
+ 
+ 
+ 
+ {\displaystyle U_{e}}
+ on atomin vapaiden elektronien lukumäärä.
+
+ 
+ 
+ 
+ 
+ B
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle B_{n}}
+ kuvaa atomin sidoksiin osallistuvien elektronien lukumäärää.Atomin muodollinen varaus lasketaan siis atomin neutraalin tilan valenssielektronien määrän ja atomille kuuluvien elektronien määrän erotuksella. Kovalenttisissa sidoksissa olevat elektronit jaetaan tasaisesti sidokseen osallistuvien atomien kesken. Molekyylin atomien muodollisten varausten summa ionissa tulisi olla sama kuin ionin varaus ja neutraalissa molekyylissä tulisi summan olla nolla.
+Esimerkiksi lasketaan tetrahydrobiopteriinin (BH4) keskusatomin eli boorin muodollinen varaus: 
+
+valenssielektronien lukumäärä on 3.
+sitoutumattomien elektronien määrä on 0.
+ympäröivien sidosten määrä on 4.Muodollinen varaus on siis 3 - (0 + 4) = -1.
+
+# Vaihtoehtoiset esitystavat 
+
+Kemiallisia rakenteita, erityisesti orgaanisia yhdisteitä voidaan kuvata myös ilman vapaita elektroneja muilla tiiviimmillä tavoilla. Tiivistetyissä kemiallisissa kaavoissa osa tai jopa kaikki kovalenttiset sidokset voidaan jättää pois, atomien alaindeksien puolestaan kuvatessa niiden yhteen atomiin liittynyttä määrää. Viivakaavoissa viivoilla kuvataan atomien välisiä sidoksia ja niissä hiiliatomit jätetään yleensä pois - niiden oletetaan yleensä olevan sidosviivojen kulmissa, leikkauskohdissa tai päissä. Hiiliatomeihin sitoutuneita vetyatomeita ei kuvata lainkaan, sillä ne voidaan päätellä hiiliatomeista lähtevien sidosten perusteella. Muut atomit kuin vedyt ja hiilet, piirretään kuitenkin aina. Myös 3D-malleja, kuten kalottimallia, voidaan käyttää. Nämä mallit ovat kuitenkin usein Lewis-rakenteita monimutkaisempia.
+
+# Katso myös 
+
+Fischerin projektio
+Haworth-projektio
+Newman-projektio
+Viivakaava
+
+# Lähteet 
+

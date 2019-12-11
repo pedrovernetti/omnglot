@@ -1,0 +1,6 @@
+
+## Kleins firegruppe
+
+Inden for algebra er Kleins firegruppe (eller firergruppe) en abelsk gruppe med orden 4. Opkaldt efter Felix Klein der kaldte den Vierergruppe. Den kan specificeres som mængden {1, a, b, c} hvor elementet 1 er det neutrale element, og hvor multiplikationen er fastlagt ved at ethvert elements produkt med sig selv er 1, mens produktet af to elementer forskellige fra 1 giver det tredje element forskelligt fra 1:
+
+Kleins firegruppe er det mindste eksempel på en gruppe der ikke er cyklisk. Den kan også realiseres som den multiplikative gruppe {1, 3, 5, 7} modulo 8.

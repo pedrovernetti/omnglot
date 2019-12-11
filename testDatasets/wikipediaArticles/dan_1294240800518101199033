@@ -1,0 +1,11 @@
+
+## Kantfarvning
+
+Kantfarvning af en graf drejer sig om tildeling af farver til grafens kanter, på en sådan måde, at alle kanter med fælles endeknude er tildelt forskellige farver – dette kaldes en egentlig kantfarvning. Der findes altid sådanne farvetildelinger til kanterne i en forelagt graf, f.eks. med en separat farve til hver kant. En farvetildeling kan specificeres ved en afbildning φ : E → F for en passende farvemængde F, f.eks. et afsnit af de naturlige tal, hvor E er mænden af kanter i grafen. 
+Det kantkromatiske tal for en graf G er det mindst mulige antal farver i en egentlig kantfarvning af G. Denne størrelse betegnes χ´(G) (χ er et lille græsk khi)
+Der indgår mindst Δ(G) forskellige farver i en egentlig kantfarvning, hvor Δ(G) betegner den maksimale knudevalens for G. Dette er oplagt, da kanterne som er forbundet med den knude der har maksimal valens, skal have forskellige farver. 
+Et hovedresultat om kantfarvning – Vizings sætning siger at enhver graf G kan kantfarves ved brug af Δ(G) + 1 kantfarver. Dette resultat viser altså at en forelagt graf kan enten kantfarves med Δ(G) eller Δ(G) + 1 kantfarver.
+
+# Se også 
+
+Knudefarvning

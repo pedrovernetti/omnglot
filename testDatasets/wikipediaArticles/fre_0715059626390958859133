@@ -1,0 +1,102 @@
+
+## Commandes de vol (avion)
+
+Les commandes de vol d'un avion englobent l'ensemble des dispositifs dans le poste de pilotage et les liaisons mécaniques, hydrauliques ou électriques qui permettent d'agir sur les gouvernes. Les manettes de commande des moteurs, les systèmes d'assistance au pilotage et les automatismes de pilotage en font partie.
+La configuration classique manche-palonnier agissant sur les ailerons, la profondeur et le gouvernail est présente sur le monoplan Blériot VIII conçu en 1908 par Louis Blériot ; elle reste d'actualité (2017) sur la grande majorité des avions en service. Les commandes par ordinateur la remplacent uniquement sur les avions de ligne les plus récents et sur les avions militaires les plus performants.
+
+# Commandes de pilotage 
+
+# Commandes principales 
+
+Dans la configuration classique, les commandes de pilotage principales sont généralement :
+
+un manche (familièrement appelé manche à balai) un volant ou un guidon qui agit sur les ailerons par un déplacement latéral droite-gauche ou par rotation et qui agit sur la profondeur par déplacement arrière-avant ;
+un palonnier qui agit sur la gouverne de direction ;
+une manette des gaz qui agit sur la puissance du moteur.Le manche est généralement articulé au plancher du poste de pilotage et agit dans toutes les directions (Avant-Arrière / Droite-Gauche et combinaison des deux mouvements). Le volant ou le guidon est utilisé en rotation et tiré-poussé ; il est le plus souvent monté sur une colonne éventuellement déportée sur le côté ou derrière la planche de bord pour dégager l'accès au siège.
+
+La disposition la plus commune des commandes de vol a été initiée par les pionniers de l'aviation comme Robert Esnault-Pelterie et utilisée par Louis Blériot sur son monoplan Blériot VIII en avril 1908 puis sur le Blériot XI en juillet 1909 pour la traversée de la Manche. Cette disposition a été enseignée depuis plusieurs décennies dans les manuels de vol tels que le "Stick and Rudder" de 1944. Cette disposition reste utilisée même lorsqu'un avion utilise des gouvernes non conventionnelles (empennage en V, par exemple) afin d'éviter tout risque de confusion.
+Sur les avions anciens ou actuellement sur les avions légers les commandes sont reliés aux gouvernes par des câbles. L'accroissement de la masse et de la vitesse entraîne des efforts plus importants sur les commandes et la nécessité de système d'assistance. Les commandes électriques et, a fortiori, les commandes informatisés remplacent maintenant ces aides sur les avions à haute performance civils ou militaires. A contrario, sur les appareils ultra-légers motorisés le pilote agit parfois directement sur les commandes par un système de levier et tringles.
+
+# Commandes secondaires 
+
+Aux commandes de vol principales s'ajoutent souvent des commandes secondaires. Les compensateurs permettent d'alléger la charge du pilote en lui permettant de régler l'attitude de l'avion en fonction des variations de position du centre de gravité (charge utile, consommation de carburant) ou pour maintenir l'avion en montée ou descente pendant une durée notable. Le compensateur de profondeur est relativement commun, y compris sur avion léger, les compensateurs d'ailerons et de gouvernail sont utilisés sur les avions plus importants. Les compensateurs sont le plus souvent commandés par une roulette.
+Alors que les avions légers ont une vitesse de décollage ou d'atterrissage de l'ordre de la moitié de leur vitesse de croisière, le rapport de vitesse des avions de ligne à réaction ou les avions militaires de combat est de l'ordre de 4, voire plus. Ces avions sont donc dotés de volets agissant sur la traînée ou sur la portance tels que aérofreins, spoilers, volets hypersustentateurs.
+ Les commandes électriques et, a fortiori, les commandes informatiques permettent aussi d'utiliser une même gouverne pour plusieurs fonctions. Les avions les plus performants peuvent être dotés de gouvernes comme les flaperons, mot valise composé de flap et aileron, la gouverne pouvant exercer ces deux fonctions.
+
+# Systèmes de commandes de vol 
+
+# Mécaniques 
+
+La liaison mécanique entre les commandes de vol et les gouvernes est la méthode de base utilisée sur avion. Le pilote ressent directement les forces aérodynamiques appliquées sur les gouvernes ce qui ne devient plus concevable pour les grandes vitesses et les avions lourds. Elle reste d'actualité (2017) sur les avions légers. Le déplacement des commandes est transmis aux gouvernes par l'intermédiaire de câbles sur poulies agissant sur des leviers. Ils sont tendus par des fourreaux à vis.
+L'augmentation de la taille et de la vitesse de certains avions a entraîné un accroissement des efforts à exercer sur les commandes. Divers solutions ont été développées, purement mécaniques en premier lieu, comme l'utilisation d'engrenages sur un avion tel que le Fokker 50.
+Une autre solution est l'utilisation de servo-tabs, une petite gouverne située sur la gouverne principale et qui en assure le déplacement ou l'aide au déplacement. Cette solution a été utilisé sur les avions de ligne à pistons et sur les premiers avions de ligne à réaction.
+
+# Hydro-mécaniques 
+
+Les systèmes mécaniques devenant de plus en plus complexes, l'étape suivante a consisté à assister le pilotage avec des systèmes hydrauliques. Ces systèmes ont tout d'abord été limités à une diminution des efforts sur les commandes tout en maintenant un certain degré de rétroaction.
+Un système hydro-mécanique de commandes de vol se compose de deux parties :
+
+Un système mécanique semblable au précédent qui va agir sur les vannes du système hydraulique.Le système hydraulique composé de réservoirs, pompes, tuyaux, vannes et actionneurs (servocommandes). La pression générée par les pompes est convertie en mouvement par les actionneurs et commandée par les vannes.Une action du pilote sur les commandes entraîne l'ouverture de la servo-valve correspondante. Le déplacement de la gouverne est contrôlé et referme la servo-valve lorsque le déplacement voulu est atteint.
+
+# Restitution des efforts 
+
+Avec les systèmes de commande purement mécaniques, le pilote ressent directement les efforts exercés sur les gouvernes. Les systèmes d'assistance et, a fortiori, les systèmes entièrement hydrauliques ne permettent pas au pilote d'apprécier les forces aérodynamiques subies par la gouverne. Afin d'éviter que le pilote donne des ordres excessifs pouvant entraîner des dommages aux gouvernes les constructeurs ont développé des systèmes de restitution d'effort simulant l'accroissement des efforts sur les commandes en fonction de la vitesse.
+
+# Vibreur de manche 
+
+Avec les systèmes mécaniques le pilote peut prendre conscience du risque de décrochage. Les avions équipés de systèmes hydrauliques disposent parfois d'un vibreur de manche qui avertit le pilote de ce danger.
+
+# Électriques 
+
+Les actionneurs hydrauliques à pistons peuvent être remplacés par des servomoteurs électriques. Ces systèmes sont particulièrement avantageux sur avions militaires où les circuits hydrauliques sont plus sensibles aux dommages que les circuits électriques, moins sur avions de ligne où les actionneurs électro-hydrauliques permettent encore de gagner du poids, même si la tendance à l'informatisation des commandes va de pair avec la tendance au tout-électrique
+Par contre, la transmission mécanique des ordres entre le pilote et les gouvernes est de plus en plus souvent remplacée par de l'électronique : on parle de commandes de vol électriques (fly-by-wire).
+L'étape suivante pourrait être l'apparition de systèmes à fibre optique dont l'avantage est l'insensibilité aux champs électromagnétiques.
+
+# Articles connexes 
+
+# Commandes de vol 
+
+Pilotage d'un avion
+Manche
+Conjugaison des commandes
+Mains sur manche et manette
+Mini-manche
+Palonnier
+Pilote automatique
+Les commandes de vol de l'hélicoptère
+
+# Gouvernes 
+
+# Principales 
+
+Gouverne
+Aileron
+Élévateur
+
+# Secondaires 
+
+Aileron haute-vitesse
+Compensateur
+Élevon
+Dispositif hypersustentateur
+Extension du bord d'attaque
+Aérofrein
+Spoiler
+
+# Systèmes 
+
+Servocommande
+
+# Références 
+
+# Notes 
+
+# Bibliographie 
+
+De l'USAF ET de l'OTAN Rapport ERO-TR-015 AC/323/(HFM-015)/TP-1 (2001).
+
+# Liens externes 
+
+Airbus A380 cockpit.
+« Airbus A380 cockpit - un Panorama de 360 degrés »(Archive • Wikiwix • Archive.is • Google • Que faire ?) (consulté le 10 juillet 2017)
+Touchdown: le Développement de la Propulsion des Aéronefs Contrôlés à la NASA Dryden par Tom Tucker Portail de l’aéronautique

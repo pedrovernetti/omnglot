@@ -1,0 +1,36 @@
+
+## WorldDEM
+
+WorldDEM est un modèle numérique d'élévation global sans précédent couvrant en 3D l’ensemble des terres émergées, du pôle Nord au pôle Sud. Disponible en 2014, il a été mis en œuvre dans le cadre d'un partenariat public-privé entre le Centre aérospatial allemand (DLR) et EADS Astrium.
+
+# Innovation 
+
+Avec une précision de 2 m en relatif et de 10 m en absolue, dans une trame 12x12m, WorldDE surpasse les autres DEM globaux disponibles aujourd'hui sur les plans de la qualité, de la précision et de la couverture. 
+La couverture est sans discontinuité, sans lignes de fracture aux frontières régionales ou nationales et sans hétérogénéité causée par méthodes de mesure différentes ou des campagnes décalées dans le temps .
+
+# Données radar 
+
+La base de données WorldDEM est constituée par les satellites radar jumeaux TerraSAR-X et TanDEM-X. Les deux capteurs radar fonctionnent indépendamment de la couverture nuageuse et des conditions d'éclairage.
+En formation très proche sur la même orbite, avec des distances pouvant descendre jusqu'à 200 m, TerraSAR- X et TanDEM- X forment, dans l'espace, un système d'interférométrie radar de haute précision. Les données sont acquises dans le mode bistatique. Un satellite transmet le signal radar au sol et les deux satellites enregistrent la rétrodiffusion du signal. Les informations d'élévation sont extraites après le calcul de la différence interférométrique entre les mesures de chacun des satellites.
+
+# La couverture mondiale en 3D 
+
+Ils ont couvert l’ensemble des terres émergées en moins de 2,5 ans. L'acquisition des données WorldDEM a commencé en décembre 2010. La surface du terrain est couverte au moins deux fois, jusqu'à quatre fois dans les zones montagneuses difficiles, afin d'assurer une qualité et une précision constante du produit final.
+
+# Précision 
+
+WorldDEM est un modèle numérique d'élévation global ([DEM]) avec une précision sans précédent. Dans le standard DTED de la [NGA] (National Geospatial-Intelligence Agency), il est supérieur au Niveau 2, le Niveau 3 n’ayant pas encore été spécifié.
+
+Précision verticale 2 m en relatif, 10 en absolu
+Maille de 12 sur 12
+Homogénéité globale
+Cohérence des données acquises en 2,5 ans
+Haute précision géométrique vérifiés par points de contrôle
+
+# Références 
+
+# Liens externes 
+
+(de) TerraSAR-X sur le site de l'Agence spatiale allemande.
+(fr) TerraSAR-X sur le site d'EADS Astrium
+(en) TanDEM-X Portail de l’astronautique Portail de l’information géographique

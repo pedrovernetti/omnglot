@@ -1,0 +1,17 @@
+
+## Kyoto Common Lisp
+
+Kyoto Common Lisp (KCL) is an implementation of Common Lisp by Taichi Yuasa and Masami Hagiya, written in C to run under Unix-like operating systems. KCL is compiled to ANSI C. It conforms to Common Lisp as described in the 1984 first edition of Guy Steele's book Common Lisp the Language and is available under a licence agreement.
+KCL is notable in that it was implemented from scratch, outside of the standard committee, solely on the basis of the specification. It was one of the first Common Lisp implementations ever, and exposed a number of holes and mistakes in the specification that had gone unnoticed.
+
+# Derived software 
+
+Austin Kyoto Common Lisp (AKCL) is a collection of ports, bug fixes, and performance improvements to KCL made by William Schelter. AKCL has been ported to a range of Unix workstations.
+GNU Common Lisp (GCL) was derived from AKCL.
+Embeddable Common-Lisp (ECL) was also derived from KCL.
+ManKai Common Lisp (MKCL) is a multi-threaded Lisp derived from ECL.
+Commercial versions of Kyoto Common Lisp were Ibuki Common Lisp and Delphi Common Lisp.
+
+# References 
+
+This article is based on material taken from the Free On-line Dictionary of Computing prior to 1 November 2008 and incorporated under the "relicensing" terms of the GFDL, version 1.3 or later.

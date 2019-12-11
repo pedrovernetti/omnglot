@@ -1,0 +1,960 @@
+
+## Commutateur (théorie des groupes)
+
+En théorie des groupes (mathématiques), le commutateur d'un couple (x,y) d'éléments d'un groupe G est, chez la plupart des auteurs, défini par
+
+ 
+ 
+ 
+ 
+ [
+ x
+ ,
+ y
+ ]
+ 
+
+ 
+ x
+ 
+ −
+ 1
+ 
+ 
+ 
+ y
+ 
+ −
+ 1
+ 
+ 
+ x
+ y
+ .
+ 
+ 
+ {\displaystyle \ [x,y]=x^{-1}y^{-1}xy.}
+ 
+Certains auteurs prennent pour définition
+
+ 
+ 
+ 
+ 
+ [
+ x
+ ,
+ y
+ ]
+ 
+
+ x
+ y
+ 
+ x
+ 
+ −
+ 1
+ 
+ 
+ 
+ y
+ 
+ −
+ 1
+ 
+ 
+ .
+ 
+ 
+ {\displaystyle \ [x,y]=xyx^{-1}y^{-1}.}
+ 
+Quelle que soit la définition adoptée, il est clair que x et y commutent si et seulement si [x, y] = 1.
+Si A et B sont deux sous-groupes de G, on désigne par [A, B] le sous-groupe de G engendré par les commutateurs [a, b], a parcourant A et b parcourant B. Puisque les inverses des éléments de A sont exactement les éléments de A et que les inverses des éléments de B sont exactement les éléments de B, [A, B] ne dépend pas de la définition choisie pour les commutateurs.
+Quelle que soit la définition choisie pour les commutateurs, [b, a] est l'inverse de [a,b], donc si A et B sont deux sous-groupes de G, [A, B] = [B, A].
+Le sous-groupe [G, G] de G, autrement dit le sous-groupe de G engendré par les commutateurs d'éléments de G, est le groupe dérivé de G.
+
+# Quelques faits 
+
+Dans ce qui suit, on adoptera la définition
+
+ 
+ 
+ 
+ 
+ [
+ x
+ ,
+ y
+ ]
+ 
+
+ 
+ x
+ 
+ −
+ 1
+ 
+ 
+ 
+ y
+ 
+ −
+ 1
+ 
+ 
+ x
+ y
+ 
+ 
+ {\displaystyle \ [x,y]=x^{-1}y^{-1}xy}
+ 
+et, pour tous éléments x, y d'un groupe G, on notera
+
+ 
+ 
+ 
+ 
+ 
+ x
+ 
+ y
+ 
+ 
+ 
+
+ 
+ y
+ 
+ −
+ 1
+ 
+ 
+ x
+ y
+ .
+ 
+ 
+ {\displaystyle \ x^{y}=y^{-1}xy.}
+ 
+Donc 
+ 
+ 
+ 
+ 
+ 
+ x
+ 
+ y
+ 
+ 
+ 
+ 
+ {\displaystyle \ x^{y}}
+ est un conjugué de x et on a toujours
+
+ 
+ 
+ 
+ 
+ (
+ x
+ y
+ 
+ )
+ 
+ z
+ 
+ 
+ 
+
+ 
+ x
+ 
+ z
+ 
+ 
+ 
+ y
+ 
+ z
+ 
+ 
+ 
+ 
+ {\displaystyle \ (xy)^{z}=x^{z}y^{z}}
+ et 
+ 
+ 
+ 
+ 
+ 
+ x
+ 
+ y
+ z
+ 
+ 
+ 
+
+ (
+ 
+ x
+ 
+ y
+ 
+ 
+ 
+ )
+ 
+ z
+ 
+ 
+ .
+ 
+ 
+ {\displaystyle \ x^{yz}=(x^{y})^{z}.}
+ 
+Si A et B sont deux sous-groupes de G, alors [A, B] = 1 si et seulement si tout élément de A commute avec tout élément de B.
+Si f est un homomorphisme d'un groupe G dans un groupe,
+ 
+ 
+ 
+ f
+ (
+ [
+ x
+ ,
+ y
+ ]
+ )
+ 
+
+ [
+ f
+ (
+ x
+ )
+ ,
+ f
+ (
+ y
+ )
+ ]
+ 
+ 
+ {\displaystyle f([x,y])=[f(x),f(y)]}
+ et
+ 
+ 
+ 
+ f
+ (
+ [
+ A
+ ,
+ B
+ ]
+ )
+ 
+
+ [
+ f
+ (
+ A
+ )
+ ,
+ f
+ (
+ B
+ )
+ ]
+ 
+ 
+ {\displaystyle f([A,B])=[f(A),f(B)]}
+ pour tous éléments x, y et tous sous-groupes A, B de G.
+En appliquant ceci à l'automorphisme intérieur 
+ 
+ 
+ 
+ t
+ ↦
+ 
+ t
+ 
+ z
+ 
+ 
+ 
+ 
+ {\displaystyle t\mapsto t^{z}}
+ de G, on obtient
+ 
+ 
+ 
+ 
+ [
+ x
+ ,
+ y
+ 
+ ]
+ 
+ z
+ 
+ 
+ 
+
+ [
+ 
+ x
+ 
+ z
+ 
+ 
+ ,
+ 
+ y
+ 
+ z
+ 
+ 
+ ]
+ 
+ 
+ {\displaystyle \ [x,y]^{z}=[x^{z},y^{z}]}
+ et
+ 
+ 
+ 
+ 
+ [
+ A
+ ,
+ B
+ 
+ ]
+ 
+ z
+ 
+ 
+ 
+
+ [
+ 
+ A
+ 
+ z
+ 
+ 
+ ,
+ 
+ B
+ 
+ z
+ 
+ 
+ ]
+ 
+ 
+ {\displaystyle \ [A,B]^{z}=[A^{z},B^{z}]}
+ pour tous éléments x, y et z et tous sous-groupes A, B de G. Il en résulte que si A et B sont deux sous-groupes distingués de G, [A, B] est lui aussi un sous-groupe distingué de G.
+Le même argument, appliqué à un automorphisme quelconque (non forcément intérieur) de G montre que si A et B sont des sous-groupes caractéristiques de G, alors [A, B] est lui aussi un sous-groupe caractéristique de G.
+Soient A et B deux sous-groupes de G. Pour que [A, B] soit contenu dans B, il faut et il suffit que A normalise B (c'est-à-dire soit contenu dans le normalisateur de B).
+Donc, si A et B se normalisent mutuellement (et en particulier s'ils sont tous deux distingués dans G), [A, B] est contenu dans 
+ 
+ 
+ 
+ A
+ ∩
+ B
+ 
+ 
+ {\displaystyle A\cap B}
+ .
+En particulier, si A et B sont deux sous-groupes de G qui se normalisent mutuellement et dont l'intersection se réduit à l'élément neutre, alors tout élément de A commute avec tout élément de B.
+On vérifie par calcul que
+ 
+ 
+ 
+ 
+ [
+ x
+ y
+ ,
+ z
+ ]
+ 
+
+ [
+ x
+ ,
+ z
+ 
+ ]
+ 
+ y
+ 
+ 
+ [
+ y
+ ,
+ z
+ ]
+ 
+ 
+ {\displaystyle \ [xy,z]=[x,z]^{y}[y,z]}
+ et (par calcul ou par passage aux inverses dans la formule précédente, en notant que l'inverse de [a, b] est [b, a])
+ 
+ 
+ 
+ 
+ [
+ z
+ ,
+ x
+ y
+ ]
+ 
+
+ [
+ z
+ ,
+ y
+ ]
+ [
+ z
+ ,
+ x
+ 
+ ]
+ 
+ y
+ 
+ 
+ 
+ 
+ {\displaystyle \ [z,xy]=[z,y][z,x]^{y}}
+ 
+La propriété précédente donne 
+ 
+ 
+ 
+ 
+ [
+ x
+ ,
+ z
+ 
+ ]
+ 
+ y
+ 
+ 
+ 
+
+ [
+ x
+ y
+ ,
+ z
+ ]
+ [
+ y
+ ,
+ z
+ 
+ ]
+ 
+ −
+ 1
+ 
+ 
+ ,
+ 
+ 
+ {\displaystyle \ [x,z]^{y}=[xy,z][y,z]^{-1},}
+ ce qui permet de prouver que si A et B sont deux sous-groupes de G, alors A et B normalisent tous deux [A, B], ce qui revient à dire que [A, B] est sous-groupe normal du sous-groupe <A, B> de G engendré par A et B.
+Soient H, K et L des sous-groupes normaux d'un groupe G. De la propriété 
+ 
+ 
+ 
+ 
+ [
+ x
+ y
+ ,
+ z
+ ]
+ 
+
+ [
+ x
+ ,
+ z
+ 
+ ]
+ 
+ y
+ 
+ 
+ [
+ y
+ ,
+ z
+ ]
+ 
+ 
+ {\displaystyle \ [xy,z]=[x,z]^{y}[y,z]}
+ et du fait que [H, L] est normal dans G, on tire [HK, L] = [H, L] [K, L], ce qui peut encore s'écrire [L, HK] = [L, H] [L,K].
+Identité de Hall-Witt :
+ 
+ 
+ 
+ 
+ [
+ 
+ [
+ x
+ ,
+ 
+ y
+ 
+ −
+ 1
+ 
+ 
+ ]
+ ,
+ z
+ 
+ ]
+ 
+ y
+ 
+ 
+ 
+ 
+ [
+ 
+ [
+ y
+ ,
+ 
+ z
+ 
+ −
+ 1
+ 
+ 
+ ]
+ ,
+ x
+ 
+ ]
+ 
+ z
+ 
+ 
+ 
+ 
+ [
+ 
+ [
+ z
+ ,
+ 
+ x
+ 
+ −
+ 1
+ 
+ 
+ ]
+ ,
+ y
+ 
+ ]
+ 
+ x
+ 
+ 
+ 
+
+ 1.
+ 
+ 
+ {\displaystyle \ [\ [x,y^{-1}],z]^{y}\ \ [\ [y,z^{-1}],x]^{z}\ \ [\ [z,x^{-1}],y]^{x}=1.}
+ Cela se vérifie par un calcul mécanique. On peut abréger les calculs en notant que le premier facteur de l'identité peut s'écrire
+ 
+ 
+ 
+ 
+ [
+ 
+ [
+ x
+ ,
+ 
+ y
+ 
+ −
+ 1
+ 
+ 
+ ]
+ ,
+ z
+ 
+ ]
+ 
+ y
+ 
+ 
+ 
+ 
+
+ T
+ (
+ x
+ ,
+ z
+ ,
+ y
+ 
+ )
+ 
+ −
+ 1
+ 
+ 
+ T
+ (
+ y
+ ,
+ x
+ ,
+ z
+ )
+ ,
+ 
+ 
+ {\displaystyle \ [\ [x,y^{-1}],z]^{y}\ =T(x,z,y)^{-1}T(y,x,z),}
+ où on pose:
+ 
+ 
+ 
+ 
+ T
+ (
+ a
+ ,
+ b
+ ,
+ c
+ )
+ 
+
+ a
+ b
+ 
+ a
+ 
+ −
+ 1
+ 
+ 
+ c
+ a
+ .
+ 
+ 
+ {\displaystyle \ T(a,b,c)=aba^{-1}ca.}
+ Des expressions analogues des deux autres facteurs de l'identité de Hall-Witt s'obtiennent à partir de celle-ci par une permutation circulaire des variables et quand on multiplie les trois résultats membre à membre, chaque facteur T() est détruit par le facteur T()-1 qui suit.Autre forme de l'identité de Hall-Witt. Dans l'identité de Hall-Witt ci-dessus, le premier facteur peut s'écrire:
+ 
+ 
+ 
+ 
+ [
+ 
+ [
+ x
+ ,
+ 
+ y
+ 
+ −
+ 1
+ 
+ 
+ ]
+ ,
+ z
+ 
+ ]
+ 
+ y
+ 
+ 
+ 
+ 
+
+ [
+ 
+ [
+ y
+ ,
+ x
+ ]
+ ,
+ 
+ z
+ 
+ y
+ 
+ 
+ ]
+ ,
+ 
+ 
+ {\displaystyle \ [\ [x,y^{-1}],z]^{y}\ =[\ [y,x],z^{y}],}
+ et par permutation circulaire des variables, on obtient des expressions analogues pour les deux autres facteurs. En faisant les remplacements dans l'identité de Hall-Witt puis en passant aux inverses en tenant compte que l'inverse de [a, b] est [b, a], et enfin en échangeant x et y, on trouve cette formule équivalente à l'identité de Hall-Wit :
+ 
+ 
+ 
+ 
+ [
+ 
+ x
+ 
+ y
+ 
+ 
+ ,
+ [
+ y
+ ,
+ z
+ ]
+ 
+ ]
+ 
+ [
+ 
+ y
+ 
+ z
+ 
+ 
+ ,
+ [
+ z
+ ,
+ x
+ ]
+ 
+ ]
+ 
+ [
+ 
+ z
+ 
+ x
+ 
+ 
+ ,
+ [
+ x
+ ,
+ y
+ ]
+ 
+ ]
+ 
+
+ 1.
+ 
+ 
+ {\displaystyle \ [x^{y},[y,z]\ ]\ [y^{z},[z,x]\ ]\ [z^{x},[x,y]\ ]=1.}
+ 
+Si H, K et L sont des sous-groupes de G, le sous-groupe [ [H, K], L] de G n'est pas forcément engendré par les commutateurs [ [h,k], l] avec h dans H, k dans K et l dans L.
+En revanche, si chacun de ces commutateurs [ [h,k], l] est égal à 1, alors [ [H, K], L] = 1. (En effet, chaque commutateur [h, k] avec h dans H et k dans K appartient alors au centralisateur de L, donc le sous-groupe [H, K] de G engendré par ces commutateurs est contenu dans le centralisateur de L.)
+Lemme des trois sous-groupes (forme particulière)Si H, K et L sont des sous-groupes de G, si [ [H,K], L] = 1 et [ [K, L], H] = 1, alors [ [L, H], K] = 1.Cela se déduit de l'identité de Hall-Witt et de la remarque précédente.
+Lemme des trois sous-groupes (forme générale)Si H, K et L sont des sous-groupes de G, si N est un sous-groupe distingué de G, si 
+ 
+ 
+ 
+ [
+ [
+ H
+ ,
+ K
+ ]
+ ,
+ L
+ ]
+ ≤
+ N
+ 
+ 
+ {\displaystyle [[H,K],L]\leq N}
+ et 
+ 
+ 
+ 
+ [
+ [
+ K
+ ,
+ L
+ ]
+ ,
+ H
+ ]
+ ≤
+ N
+ 
+ 
+ {\displaystyle [[K,L],H]\leq N}
+ , alors 
+ 
+ 
+ 
+ [
+ [
+ L
+ ,
+ H
+ ]
+ ,
+ K
+ ]
+ ≤
+ N
+ 
+ 
+ {\displaystyle [[L,H],K]\leq N}
+ .On déduit cette forme générale de la forme particulière en passant (dans les hypothèses de la présente forme générale) aux images par l'homomorphisme canonique de G sur G/N et en se rappelant que, comme noté plus haut, f([A,B]) = [f(A), f(B)] pour tous sous-groupes A, B de G et pour tout homomorphisme f partant de G.
+
+Corollaire du lemme des trois sous-groupes.Si H, K et L sont des sous-groupes distingués de G, alors
+ 
+ 
+ 
+ 
+ [
+ 
+ [
+ L
+ ,
+ H
+ ]
+ ,
+ K
+ ]
+ ≤
+ [
+ 
+ [
+ H
+ ,
+ K
+ ]
+ ,
+ L
+ ]
+ 
+ [
+ 
+ [
+ K
+ ,
+ L
+ ]
+ ,
+ H
+ ]
+ .
+ 
+ 
+ {\displaystyle \ [\ [L,H],K]\leq [\ [H,K],L]\ [\ [K,L],H].}
+ En effet, 
+ 
+ 
+ 
+ 
+ [
+ 
+ [
+ H
+ ,
+ K
+ ]
+ ,
+ L
+ ]
+ 
+ [
+ 
+ [
+ K
+ ,
+ L
+ ]
+ ,
+ H
+ ]
+ 
+ 
+ {\displaystyle \ [\ [H,K],L]\ [\ [K,L],H]}
+ est alors un sous-groupe distingué de G et on obtient facilement l'énoncé en posant 
+ 
+ 
+ 
+ 
+ N
+ 
+
+ [
+ 
+ [
+ H
+ ,
+ K
+ ]
+ ,
+ L
+ ]
+ 
+ [
+ 
+ [
+ K
+ ,
+ L
+ ]
+ ,
+ H
+ ]
+ 
+ 
+ {\displaystyle \ N=[\ [H,K],L]\ [\ [K,L],H]}
+ dans la forme générale du lemme des trois sous-groupes.
+Ce corollaire du lemme des trois sous-groupes permet de démontrer certaines propriétés de la suite centrale descendante d'un groupe.
+
+# Exemple 
+
+Dans le groupe du cube de Rubik, un commutateur échange deux cubes par exemple. Si maintenant on veut échanger deux cubes à un autre endroit, on prendra le conjugué d'un tel commutateur. Par exemple, les cubeurs connaissent bien l'algorithme FRUR'U'F' = [R,U]F. 
+
+# Bibliographie 
+
+J. Petresco, Sur les commutateurs, Séminaire Dubreil, Algèbre et théorie des nombres, t. 7 (1953-1954), pp. 1-11. Consultable sur Numdam.
+Nicolas Bourbaki, Éléments de mathématique, Algèbre, Paris, 1970, chap. 1, p. 65-68
+(en) I. Martin Isaacs, Finite Group Theory, AMS, 2008, p. 113-128.
+(en) Joseph J. Rotman (en), An Introduction to the Theory of Groups [détail de l’édition], 4e éd.
+(en) Hans Kurzweil (de) et Bernd Stellmacher, The Theory of Finite Groups, An Introduction, 2004 (lire en ligne)
+
+# Notes et références 
+
+# Voir aussi 
+
+ Portail de l’algèbre

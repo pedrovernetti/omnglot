@@ -1,0 +1,145 @@
+
+## EN 60601-2-25
+
+Die Normenreihe EN 60601 definiert Sicherheitsanforderungen und ergonomische Forderungen an medizinische elektrische Geräte und in medizinischen Systemen. Sie wird in Deutschland durch das Deutsche Institut für Normung als DIN-Norm herausgegeben. Die Norm basiert auf der IEC-Fassung IEC 60601.
+In Deutschland gibt es seit 1957 produktspezifische Anforderungen an medizinische Geräte im Rahmen des VDE-Normenwerks als Normenreihe VDE 0750. Seit Anfang der 1970er Jahre erfolgt die Internationalisierung mit der Erstausgabe der IEC 60601.
+
+# Aufbau 
+
+Die Normenreihe EN 60601 gliedert sich in 
+
+die allgemeine Norm EN 60601-1 „Medizinische elektrische Geräte – Teil 1: Allgemeine Festlegungen für die Sicherheit einschließlich der wesentlichen Leistungsmerkmale“, auch Basisnorm genannt
+die Ergänzungsnormen EN 60601-1-x, manchmal auch Kollateralstandards genannt
+die Besonderen Festlegungen EN 60601-2-y, manchmal auch Partikulärstandards genannt.Festlegungen in den Partikulärstandards haben Vorrang vor Festlegungen in Ergänzungsnormen oder der allgemeinen Norm.
+Aktuell gültig ist die IEC 60601-1:2005 + Cor.: 2006 + Cor.: 2007 + A1:2012, auch bekannt als Edition 3.1.
+
+# Basisnorm 
+
+Die EN 60601-1 gilt für die Basissicherheit und die wesentlichen Leistungsmerkmale von medizinischen elektrischen Geräten und medizinischen elektrischen Systemen mit genau einem Anschluss an ein Versorgungsnetz, die gemäß Herstellerfestlegung zur Diagnose, Behandlung oder Überwachung eines Patienten bestimmt sind. Diese Geräte und Systeme übertragen Energie zum oder vom Patienten und stehen in körperlichem oder elektrischen Kontakt mit dem Patienten. Hier werden allgemeine Anforderungen an die Sicherheit einschließlich der wesentlichen Leistungsmerkmale von medizinischen elektrischen Geräten festgelegt.
+Die Basisnorm legt also allgemeine Anforderung fest und dient als Grundlage für die besonderen Festlegungen.
+
+# Ergänzungsnormen 
+
+Neben der Basisnorm EN 60601-1 gibt es noch rund zehn Ergänzungsnormen, die jeweils anwendbar sind auf eine Untergruppe aller Medizinprodukte. So ist z. B. die EN 60601-1-3 nur auf die Produkte anwendbar, die Röntgenstrahlung für diagnostische Zwecke nutzen.
+
+# Besondere Festlegungen 
+
+In den Besonderen Festlegungen sind besondere Sicherheitsanforderungen an einzelne medizinische Geräte festgelegt, z. B. EN 60601-2-41 „Medizinische elektrische Geräte - Teil 2-41: Besondere Festlegungen für die Sicherheit von Operationsleuchten und Untersuchungsleuchten“. Derzeit (Stand: April 2011) gibt es rund 60 dieser Normen.
+Daneben gibt es noch Normen mit der Bezeichnung EN 60601-3-X, welche Leistungsmerkmale von medizinischen elektrischen Geräten regeln. Entsprechende Normen, die zur 3. Edition der EN 60601-1 gehören, sind derzeit allerdings nicht in Vorbereitung.
+
+# Anwendbarkeit 
+
+Bei der Anwendung von Normen aus der EN 60601-Familie zum Testen oder Entwickeln eines Medizinproduktes ist stets darauf zu achten, dass sich alle angewendeten Ergänzungsnormen und Besonderen Festlegungen auf dieselbe Edition der EN 60601-1 beziehen. Aufgrund der Gliederung und des inhaltlichen Aufbaus ist z. B. eine Verwendung von Besonderen Festlegungen, die sich auf die EN 60601-1:1990 beziehen, gemeinsam mit der EN 60601-1:2006 nicht möglich.
+Derzeit (Januar 2013) darf in der EU die 2. Edition (also die EN 60601-1:1990) für immer weniger Produktkategorien zur In-Verkehr-Bringung angewendet werden. Für Produkte, für die es keine Besondere Festlegung gibt (z. B. PET), ist dies schon seit dem 1. Juni 2012 nicht mehr möglich. Im EU-Amtsblatt ist festgelegt, dass die EN 60601-1:1990 seit diesem Datum für solche Produkte nicht mehr zur Erfüllung der sog. Grundlegenden Anforderung der Medizinprodukte-Richtlinie und damit zur In-Verkehr-Bringung herangezogen werden kann, d. h. die Anwendung dieser Norm löst die sog. Vermutungswirkung nicht mehr aus. Die Vermutungswirkung (Presumption of conformity) besagt ganz allgemein, dass bei Anwendung einer Norm vermutet wird, dass das Produkt damit alle anwendbaren Grundlegenden Anforderungen erfüllt.
+Für Produkte, für die es Besondere Festlegungen gibt, die auf die 3. Edition verweisen (also die EN 60601-1:2006), legt das EU-Amtsblatt Übergangstermine fest, wie lange noch Produkte basierend auf der 2. Edition in Verkehr gebracht werden dürfen. Diese Übergangstermine sind noch nicht für alle Produkte festgelegt.
+
+# Neue Benummerung 
+
+Ab 2009 gibt es eine Änderung in der Benummerung der Normenreihe. Die Normen, welche auf internationaler Ebene von ISO und IEC zusammen erstellt werden, werden mit „80“ beginnend nummeriert. Damit lauten einige Normen dieser Reihe dann EN 80601. Normen, die unter der bisherigen Benummerung erschienen sind (EN 60601), sind davon nicht betroffen und werden unter ihrer bestehenden Benummerung weiter geführt.
+Im Rahmen dieser Umstellung kann es zu Doppelbezeichnungen kommen. Beispiel in Deutschland: Die Pulsoximetrie (früher nur DIN EN ISO 9919) wurde aktuell in Deutschland als DIN EN ISO 9919/VDE 0750-2-54:2009 veröffentlicht. Der aktuelle Entwurf und die für die nahe Zukunft gültige Norm wird als DIN ISO 80601-2-61/VDE 0750-2-61 bezeichnet werden. Gleichzeitig wurde ein Entwurf DIN EN 60601-2-54/VDE0750-2-54 veröffentlicht, dieser behandelt allerdings Röntgengeräte. Ergebnis: die Pulsoximetrie wird unter XXXXX-2-61 geführt werden und die Röntgennorm unter XXXXX-2-54. Bis dies eindeutig festgelegt wurde, kann es zu Verwechslungen kommen.
+
+# Übersicht aller Unterteile 
+
+Die Übersicht erhebt keinen Anspruch auf Vollständigkeit und kann beispielsweise mit dem Normenverzeichnis des Beuth-Verlages oder des Austrian Standards Institute abgeglichen werden. Die Normtitel sind verkürzt wiedergegeben und entsprechen nicht den Originaltiteln.
+Sofern ein Normteil mit neuer Benummerung erscheint, ist dieser hier als EN 80601-... aufgeführt.
+
+# Ergänzungsnormen 
+
+EN 60601-1 Allgemeine Festlegungen
+EN 60601-1-1 System-Norm (nur anwendbar mit EN 60601-1:1990, Inhalt wurde mittlerweile in Abschnitt 16 der EN 60601-1:2006 integriert)
+EN 60601-1-2 EMV-Norm
+EN 60601-1-3 Allgemeiner Strahlenschutz, Diagnostik
+EN 60601-1-4 Software-Norm (nur anwendbar mit EN 60601-1:1990, Inhalt wurde mittlerweile in Abschnitt 14 der EN 60601-1:2006 integriert)
+EN 60601-1-6 Gebrauchstauglichkeit
+EN 60601-1-8 Alarmsysteme
+EN 60601-1-9 Reduzierung von Umweltauswirkungen
+EN 60601-1-10 Physiologisch geschlossene Regelkreise
+EN 60601-1-11 Medizintechnik in häuslicher Umgebung
+EN 60601-1-12 Medizintechnik in der Umgebung für den Notfalleinsatz
+
+# Besondere Festlegungen 
+
+EN 60601-2-1 Elektronenbeschleuniger 1MeV – 50MeV
+EN 60601-2-2 HF-Chirurgie
+EN 60601-2-3 Kurzwellentherapie (Teilgebiet der Diathermie)
+EN 60601-2-4 Defibrillatoren
+EN 60601-2-5 Ultraschalltherapie
+EN 60601-2-6 Mikrowellen-Therapie
+EN 60601-2-7 Röntgenstrahlung (nur anwendbar mit EN 60601-1:1990, Inhalt wurde mittlerweile in EN 60601-2-54:2009 integriert)
+EN 60601-2-8 Röntgentherapie 10kV – 1MV
+EN 60601-2-9 Dosimeter mit Patientenkontakt (Norm wurde zurückgezogen)
+EN 60601-2-10 Reizstrom
+EN 60601-2-11 Gammastrahlung Strahlentherapie
+EN 60601-2-12 Beatmungsgeräte
+EN 60601-2-13 Anästhesiegeräte
+EN 60601-2-14 Elektrokrampftherapie (EKT), Elektrokonvulsionstherapie (Norm wurde zurückgezogen)
+EN 60601-2-15 Kondensatorgeneratoren (Röntgen) (Norm wurde zurückgezogen)
+EN 60601-2-16 Hämo-Dialyse
+EN 60601-2-17 Geräte für die Brachytherapie (Strahlentherapie)
+EN 60601-2-18 Endoskopie
+EN 60601-2-19 Säuglingsinkubatoren
+EN 60601-2-20 Transportinkubatoren
+EN 60601-2-21 Säuglingwärmestrahler
+EN 60601-2-22 Laser
+EN 60601-2-23 Transkutane Partialdrucküberwachung
+EN 60601-2-24 Infusionspumpen und –Regler
+EN 60601-2-25 EKG (Elektrokardiogramm)
+EN 60601-2-26 EEG (Elektroenzephalografie)
+EN 60601-2-27 EKG Überwachung
+EN 60601-2-28 Röntgenstrahler
+EN 60601-2-29 Strahlentherapiesimulatoren
+EN 60601-2-30 Blutdrucküberwachung (nicht invasiv)
+EN 60601-2-31 Herzschrittmacher (extern)
+EN 60601-2-32 Röntgenanwendungsgeräte
+EN 60601-2-33 Magnetresonanztomographie
+EN 60601-2-34 Blutdrucküberwachung (invasiv)
+EN 80601-2-35 Decken, Matten und Matratzen zur Erwärmung von Patienten in der medizinischen Anwendung
+EN 60601-2-36 Lithotripsie (Nierensteinzertrümmerung)
+EN 60601-2-37 Ultraschall zur Diagnose (Sonografie, Echokardiografie)
+EN 60601-2-38 elektrisches Krankenhausbett, im Dezember 2010 zurückgezogen, in der EN 60601-2-52:2010-12 enthalten.
+EN 60601-2-39 Peritonealdialyse
+EN 60601-2-40 EMG, evozierte Potentiale (Elektromyografie)
+EN 60601-2-41 OP- und Untersuchungsleuchten
+EN 60601-2-43 Röntgen (interventionelle Verfahren)
+EN 60601-2-44 CT Computertomographie
+EN 60601-2-45 Röntgen (Mammografie, Stereotaxie)
+EN 60601-2-46 OP-Tische
+EN 60601-2-47 EKG (ambulant)
+EN 60601-2-49 Patientenüberwachung (multifunktional)
+EN 60601-2-50 Säuglings-Phototherapie
+EN 60601-2-51 EKG (interpretierend)
+EN 60601-2-52 Medizinische Betten (siehe Krankenhausbett)
+EN 60601-2-54 Röntgen (Radiographie und Radioskopie)
+EN 80601-2-55 Überwachungsgeräte für Atemgase
+EN 80601-2-56 Medizinische Thermometer zum Messen der Körpertemperatur (Entwurf)
+EN 60601-2-57 Nicht-Laser-Lichtquellen
+EN 80601-2-58 Geräte zur Linsenentfernung und Geräte zur Glaskörperentfernung in der Augenchirurgie
+EN 80601-2-59 Wärmebildkameras für Reihenuntersuchungen von Menschen auf Fieber
+EN 80601-2-60 Dentalgeräte
+EN 80601-2-61 Pulsoximetriegeräte (SPO2)
+EN 60601-2-62 Hochintensive therapeutische Ultraschallsysteme
+EN 60601-2-63 Dentalradiographie
+EN 60601-2-64 Leichtionen-Bestrahlungseinrichtungen
+EN 60601-2-65 Intraorale zahnärztliche Röntgeneinrichtungen
+EN 60601-2-66 Hörgeräte und Hörgerätesysteme
+EN 60601-2-68 Röntgenstrahlungsbasierte Geräte für die bildgesteuerte Strahlentherapie zur Verwendung mit Elektronenbeschleunigern, Leichtionen-Strahlentherapiesystemen und Radionuklid-Strahlentherapiesystemen
+EN 80601-2-69 Sauerstoff-Konzentratoren
+EN 80601-2-70 Schlafapnoe-Atemtherapiegeräten (Entwurf)
+EN 80601-2-71 Oximetriegeräten (NIRS)(Entwurf)
+EN 80601-2-72 Heimbeatmungsgeräte
+
+# Leistungsmerkmale 
+
+EN 60601-3-1 Wesentliche Anforderungen an die Performance für die transkutane Sauerstoff- und Kohlendioxid-Partialdruck Überwachungsgeräte (zurückgezogen)
+
+# Siehe auch 
+
+DIN-VDE-Normen Teil 7
+Harmonisierte Norm
+
+# Weblinks 
+
+Informationen der EU auf die harmonisierten Normen für Medizinprodukte (englisch)
+
+# Einzelnachweise 
+

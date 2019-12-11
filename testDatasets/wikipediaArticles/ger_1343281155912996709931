@@ -1,0 +1,6 @@
+
+## Hardware-Fehlertoleranz
+
+Hardware-Fehlertoleranz (HFT, engl. Hardware Fault Tolerance) ist eine Kennzahl zur Beschreibung von Systemen mit sicherheitsgerichteter Funktion. Der Begriff wird in der Norm IEC 61508 zur Funktionssicherheit u. a. elektrischer Systeme verwendet.
+Eine HFT = N gibt an, dass N + 1 Hardware-Fehler, ungünstig verteilt, zum Verlust der Sicherheitsfunktion führt.
+Eine HFT > 0 ist für hohe Sicherheitsanforderungsstufen praktisch notwendig und wird oft durch Redundanz erreicht.

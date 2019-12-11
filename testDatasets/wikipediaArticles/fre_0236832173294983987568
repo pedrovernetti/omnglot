@@ -1,0 +1,49 @@
+
+## FIGlet
+
+FIGlet est un logiciel qui crée des bannières textuelles dans différentes polices d'écriture. Chaque caractère est composé d'un amas de plus petites lettres à la manière de l'art ASCII.
+Sous licence libre, FIGlet fait régulièrement partie des distributions Unix et de ses dérivés, dont Linux et BSD, mais il a été adapté pour d'autres systèmes d'exploitation. Le site FTP comprend des versions compilées de FIGlet pour Acorn, Amiga, Apple II, Atari ST, BeOS, Macintosh, MS-DOS, NextStep, OS/2 et Windows. Le logiciel a aussi été réécrit en Java, en PHP, et en Perl,.
+
+# Exemples 
+
+Un exemple de texte créé par FIGlet apparaît ci-dessous.
+
+__ ___ _ _ _ _ 
+\ \ / (_) | _(_)_ __ ___ __| (_) __ _ 
+ \ \ /\ / /| | |/ / | '_ \ / _ \/ _` | |/ _` |
+ \ V V / | | <| | |_) | __/ (_| | | (_| |
+ \_/\_/ |_|_|\_\_| .__/ \___|\__,_|_|\__,_|
+ |_| 
+
+Cette commande :
+
+figlet -ct -f roman Wikipedia
+
+crée ceci :
+
+Le paramètre -ct centre le texte et le force à occuper la pleine largeur du terminal. Le paramètre -f roman exige la police d'écriture roman.
+
+# Exécution 
+
+FIGlet exécute les commandes à l'aide d'un CLI. Il imprime le résultat sur la sortie du terminal. Voici quelques paramètres :
+
+-f : choisir la police d'écriture
+-d : changer de dossier contenant les polices d'écriture.
+-c : centrer le texte créé.
+-l : aligner le texte créé à gauche.
+-r : aligner le texte créé à droite.
+-t : forcer le texte à occuper la pleine largeur du terminal.
+-w : imposer une largeur au texte.
+-k : forcer le crénage, c'est-à-dire l'impression individuelle de chaque lettre plutôt qu'en partie fondue dans les lettres adjacentes.
+
+# Notes et références 
+
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « FIGlet » (voir la liste des auteurs).
+
+# Liens externes 
+
+(en) Site officiel
+(en) FIGlet Fonts Library
+(en) Liste de différents frontends web
+(en) Bibliothèque FIGlet écrite en PHP
+(fr) Convertir du texte en ASCII Art sous GNU/Linux Portail de l’informatique Portail de l’écriture Portail des logiciels libres

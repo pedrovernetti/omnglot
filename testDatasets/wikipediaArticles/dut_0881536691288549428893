@@ -1,0 +1,424 @@
+
+## Stelling van Lindemann-Weierstrass
+
+De stelling van Lindemann-Weierstrass gaat over een bepaald resultaat in de getaltheorie. De stelling zegt, dat algebraïsche lineaire combinaties van algebraïsche machten van e niet nul kunnen zijn. Uit deze stelling kan afgeleid worden dat e en π transcendent getallen zijn. De stelling is genoemd naar de wiskundigen Ferdinand von Lindemann en Karl Weierstrass. 
+
+# Stelling 
+
+Laat 
+ 
+ 
+ 
+ 
+ α
+ 
+ 1
+ 
+ 
+ ,
+ …
+ ,
+ 
+ α
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \alpha _{1},\ldots ,\alpha _{n}}
+ verschillende algebraïsche getallen zijn en 
+ 
+ 
+ 
+ 
+ β
+ 
+ 1
+ 
+ 
+ ,
+ …
+ ,
+ 
+ β
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \beta _{1},\ldots ,\beta _{n}}
+ willekeurige algebraïsche getallen, die niet alle gelijk zijn aan 0, dan geldt
+
+ 
+ 
+ 
+ 
+ β
+ 
+ 1
+ 
+ 
+ 
+ e
+ 
+ 
+ α
+ 
+ 1
+ 
+ 
+ 
+ 
+ +
+ …
+ +
+ 
+ β
+ 
+ n
+ 
+ 
+ 
+ e
+ 
+ 
+ α
+ 
+ n
+ 
+ 
+ 
+ 
+ ≠
+ 0
+ 
+ 
+ {\displaystyle \beta _{1}e^{\alpha _{1}}+\ldots +\beta _{n}e^{\alpha _{n}}\neq 0}
+ .Met behulp van deze zeer algemene stelling bewees von Lindemann de duidelijk zwakkere resultaten dat e en π transcendent zijn.
+
+# Gevolgen 
+
+De volgende resultaten zijn een direct gevolg van de stelling:
+
+Zou 
+ 
+ 
+ 
+ e
+ 
+ 
+ {\displaystyle e}
+ een algebraïsch getal zijn, dan zouden er gehele getallen 
+ 
+ 
+ 
+ 
+ β
+ 
+ 0
+ 
+ 
+ ,
+ 
+ β
+ 
+ 1
+ 
+ 
+ ,
+ …
+ ,
+ 
+ β
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \beta _{0},\beta _{1},\ldots ,\beta _{n}}
+ moeten zijn, niet alle gelijk aan nul, zodat
+ 
+ 
+ 
+ 
+ β
+ 
+ 0
+ 
+ 
+ 
+ e
+ 
+ 0
+ 
+ 
+ +
+ 
+ β
+ 
+ 1
+ 
+ 
+ 
+ e
+ 
+ 1
+ 
+ 
+ +
+ …
+ +
+ 
+ β
+ 
+ n
+ 
+ 
+ 
+ e
+ 
+ n
+ 
+ 
+ 
+
+ 0
+ ,
+ 
+ 
+ {\displaystyle \beta _{0}e^{0}+\beta _{1}e^{1}+\ldots +\beta _{n}e^{n}=0,}
+ 
+wat duidelijk in tegenspraak is met de bovengenoemde stelling.Om de transcendentie van 
+ 
+ 
+ 
+ π
+ 
+ 
+ {\displaystyle \pi }
+ af te leiden, veronderstelt men dat 
+ 
+ 
+ 
+ π
+ 
+ 
+ {\displaystyle \pi }
+ een algebraïsch getal zou zijn. Omdat de algebraïsche getallen een lichaam vormen, moet dan ook 
+ 
+ 
+ 
+ π
+ i
+ 
+ 
+ {\displaystyle \pi i}
+ algebraïsch zijn, waarin 
+ 
+ 
+ 
+ i
+ 
+ 
+ {\displaystyle i}
+ de imaginaire eenheid is. Voor 
+ 
+ 
+ 
+ n
+ 
+
+ 1
+ ,
+ 
+ β
+ 
+ 0
+ 
+ 
+ 
+
+ 
+ β
+ 
+ 1
+ 
+ 
+ 
+
+ 1
+ ,
+ 
+ α
+ 
+ 0
+ 
+ 
+ 
+
+ π
+ i
+ 
+ 
+ {\displaystyle n=1,\beta _{0}=\beta _{1}=1,\alpha _{0}=\pi i}
+ en 
+ 
+ 
+ 
+ 
+ α
+ 
+ 1
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle \alpha _{1}=0}
+ krijgt men een tegenspraak met de bovengenoemde stelling, want volgens de formule van Euler geldt:
+ 
+ 
+ 
+ 
+ e
+ 
+ π
+ i
+ 
+ 
+ +
+ 1
+ 
+
+ 
+ e
+ 
+ π
+ i
+ 
+ 
+ +
+ 
+ e
+ 
+ 0
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle e^{\pi i}+1=e^{\pi i}+e^{0}=0}
+ .Duidelijk is dat de natuurlijke logaritme van een algebraïsch getal een transcendent getal is. Immers, stel dat 
+ 
+ 
+ 
+ α
+ 
+ 
+ {\displaystyle \alpha }
+ een algebraïsch getal is, dan geldt
+ 
+ 
+ 
+ 
+ e
+ 
+ ln
+ 
+ (
+ α
+ )
+ 
+ 
+ −
+ α
+ 
+ e
+ 
+ 0
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle e^{\ln(\alpha )}-\alpha e^{0}=0}
+ en hierin zijn behalve 
+ 
+ 
+ 
+ ln
+ 
+ (
+ α
+ )
+ 
+ 
+ {\displaystyle \ln(\alpha )}
+ alle coëfficiënten algebraïsch.Is 
+ 
+ 
+ 
+ α
+ 
+ 
+ {\displaystyle \alpha }
+ een van 0 verschillend algebraïsch getal, dan volgt uit de stelling ook dat de getallen 
+ 
+ 
+ 
+ 
+ e
+ 
+ α
+ 
+ 
+ 
+ 
+ {\displaystyle e^{\alpha }}
+ , sin(α), cos(α), tan(α), sinh(α), cosh(α) en tanh(α) transcendent zijn.Korte tijd na het bewijs van de stelling van Lindemann-Weierstrass leverde David Hilbert een duidelijk vereenvoudigd bewijs voor de speciale gevallen van de transcendentie van de wiskundige constanten 
+ 
+ 
+ 
+ e
+ 
+ 
+ {\displaystyle e}
+ en 
+ 
+ 
+ 
+ π
+ 
+ 
+ {\displaystyle \pi }
+ , waaruit ook weer de algemene stelling af te leiden is.
+
+# Literatuur 
+
+(de) Ferdinand Lindemann: Über die Zahl 
+ 
+ 
+ 
+ π
+ 
+ 
+ {\displaystyle \pi }
+ . (1882) In: Mathematische Annalen 20, pp. 213 - 225.
+(de) David Hilbert: Ueber die Transcendenz der Zahlen e und 
+ 
+ 
+ 
+ π
+ 
+ 
+ {\displaystyle \pi }
+ . (1893) In: Mathematische Annalen 43, pp. 216 - 219.

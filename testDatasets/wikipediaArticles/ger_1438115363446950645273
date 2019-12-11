@@ -1,0 +1,47 @@
+
+## Boot Camp (Software)
+
+Boot Camp ist eine Software von Apple zur Installation von Windows neben macOS auf einem Mac mit Intel-Prozessor.
+Der Computer wird so zu einem Dual-Boot-System. Vor Boot Camp war für die Nutzung von Windows auf Macs eine virtuelle Maschine notwendig. Entbehrlich wurde sie durch einen hybriden Modus der Firmware und der Partitionstabelle. Boot Camp unterstützt den Nutzer bei der Partitionierung der Festplatte und bringt die Gerätetreiber für Windows mit.
+Boot Camp wird als strategisch wichtiger Schachzug von Apple gesehen, um mehr Kunden zu gewinnen, da diese nun das eigene macOS und Windows wechselweise auf demselben Rechner ohne Geschwindigkeitsverluste betreiben können.
+
+# Funktionsweise 
+
+Das Hochfahren von macOS erfolgt mittels Extensible Firmware Interface (EFI) und GUID Partition Table. Um Kompatibilität zu älteren Windows-Versionen herzustellen, ergänzte Apple sein EFI um eine Emulation eines BIOS, das mit einer zweiten Partitionstabelle (Master Boot Record) in der ersten arbeitet.
+Der Boot-Camp-Assistent hilft bei der Installation von Windows. Voraussetzung ist, dass macOS auf nur einer einzigen Partition installiert wurde. Der Assistent kann die existierende macOS-Partition (formatiert mit dem Dateisystem HFS+, angezeigt als „Mac OS Extended“) verkleinern und den frei gewordenen Bereich mit einer zusätzlichen, mit dem Dateisystem FAT32 formatierten Partition belegen. Diese erhält die Bezeichnung BOOTCAMP und muss für die Installation von Windows auf der Festplatte als Installationsziel ausgewählt werden, wobei sie als NTFS neu formatiert werden muss. Nach der Installation kann der Nutzer beim Neustart des Rechners durch Drücken der Wahltaste ⌥ zwischen beiden Betriebssystemen wechseln oder die mitgelieferte, ebenfalls „Boot Camp“ genannte Software unter Windows bzw. den Punkt „Startvolume“ in den Systemeinstellungen von macOS zum Festlegen der Startpartition nutzen.Teile der Boot-Camp-Software können auch auf Nicht-Apple-PCs installiert werden. Damit sind in Verbindung mit der Apple-Tastatur einige spezielle Apple-Funktionen möglich, etwa Steuerung der Lautstärke, des Media-Players, Ausfahren der Laufwerkschublade usw.
+
+# Einschränkungen 
+
+Es ist mit Boot Camp nicht möglich, mehr als zwei Betriebssysteme zu installieren. Das liegt daran, dass Windows auf dem Mac durch Verwendung des im EFI enthaltenen englisch Compatibility Support Module (CSM) gestartet wird. Das CSM stellt BIOS-Funktionen zur Verfügung, sodass auch Windows wie auf einem PC mit BIOS gestartet wird und daher einen Master Boot Record (MBR) erwartet. Der Boot-Camp-Assistent legt dafür mithilfe von diskutil von Mac OS X / OS X / macOS einen Hybrid-MBR an, welcher bedingt durch dessen Aufbau auf vier Partitionen beschränkt ist. Zählt man die EFI System Partition (ESP) und die macOS-Wiederherstellungspartition dazu, bleiben lediglich je eine Partition für die Betriebssysteme macOS und Windows.Zum Wechsel zwischen den installierten Betriebssystemen muss der Computer bei Nutzung von Boot Camp neu gestartet werden.
+
+# Alternativen 
+
+Man kann andere Betriebssysteme auch ohne Boot Camp-Hilfe installieren und sogar macOS entfernen, was jedoch Systemkenntnisse erfordert. Dazu muss ein alternativer Bootlader, wie z. B. rEFIt oder rEFInd installiert werden.
+Eine weitere Möglichkeit, andere Betriebssysteme auf einem Intel-Mac zu nutzen, bietet sich durch Virtualisierungs-Software. Diese hat gegenüber Boot Camp den Vorteil, dass zwei Betriebssysteme zugleich laufen können, ohne dass ein Neustart erforderlich ist, allerdings müssen sich die Betriebssysteme Ressourcen wie Rechenleistung und Arbeitsspeicher teilen. Bekannte Virtualisierungs-Lösungen sind Parallels Desktop, VMWare Fusion oder VirtualBox. Mit Virtual PC war es möglich, Windows-Betriebssysteme auf PowerPC-Macs zu benutzen; auf Macs mit Intel-Prozessoren läuft dieses Programm jedoch nicht mehr.
+Außerdem ist es mit Wine und dessen Forks wie CrossOver möglich, Windows-Programme auf anderen Betriebssystemen auszuführen, ohne Windows zu installieren. Dazu wurden große Teile der Windows-API nachprogrammiert. Allerdings ist dies bisher nicht vollständig geschehen. Einige Multimedia-Funktionen werden noch nicht unterstützt, sodass solche Programme nicht verwendet werden können.
+
+# Systemanforderungen 
+
+Apple-Mac-Computer mit einem Intel-Prozessor und aktueller Firmware
+Betriebssystem Mac OS X Leopard (Leopard) oder höher
+mindestens 10 GB freier Festplatten-Speicher (5 GB für die Windows-Partition, 5 GB müssen frei bleiben)
+Ab Mac OS X 10.5 befindet sich auf der Installations-DVD eine Windows-Partition für die benötigten Windows-Treiber.
+Eine Windows-Installations-CD (Windows XP ab Service Pack 2, Windows Vista oder Windows 7) und einen gültigen Product-Key
+
+# Versionsgeschichte 
+
+Boot Camp war seit April 2006 als zeitlich begrenzte Beta-Version erhältlich; mit dem Erscheinen von Mac OS X Leopard am 26. Oktober 2007 können diese nicht mehr zur Neueinrichtung von Windows-Partitionen genutzt werden. Bestehende Windows-Installationen funktionieren jedoch problemlos weiter. Boot Camp ist seitdem Teil des Betriebssystems macOS und nicht mehr separat erhältlich.
+Ab August 2010 war Bootcamp in Mac OS X Server nicht mehr enthalten.
+
+# Literatur 
+
+Antoni Nadir Cherif: Windows auf dem Macintosh – Mac OS X 10.5, Boot Camp & Co. SmartBooks, Baar (Schweiz) 2008, ISBN 978-3-908497-77-6. 
+
+# Weblinks 
+
+Boot-Camp-Website von Apple
+Homepage Windows On Mac
+Englisches Howto zu Fedora-(Linux) On Intel-Mac
+
+# Einzelnachweise 
+

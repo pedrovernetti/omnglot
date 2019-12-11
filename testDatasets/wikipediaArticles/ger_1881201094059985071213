@@ -1,0 +1,1440 @@
+
+## Satz von Myhill-Nerode
+
+Der Satz von Myhill-Nerode gibt im Fachgebiet Formale Sprachen der Theoretischen Informatik ein notwendiges und hinreichendes Kriterium dafür an, dass eine formale Sprache regulär ist. Er wurde im Jahr 1957/1958 von John Myhill und Anil Nerode vorgestellt und bewiesen.
+Umgangssprachlich ausgedrückt dient der Satz hauptsächlich dazu, herauszufinden, ob eine formale Sprache so „gutartig“ oder „einfach gestrickt“ ist, dass ein Computer mit konstantem Speicher (d. h. mit endlich begrenztem Speicher, dessen Größe nicht von der Eingabe abhängt) automatisch feststellen kann, ob eine Zeichenfolge ein Wort der Sprache ist oder nicht.
+
+# Satz 
+
+Hinweis: Die nachfolgenden Fachbegriffe werden im Artikel Formale Sprache erläutert.
+Gegeben sei eine formale Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ über dem Alphabet 
+ 
+ 
+ 
+ Σ
+ 
+ 
+ {\displaystyle \Sigma }
+ sowie die zugehörige Nerode-Relation 
+ 
+ 
+ 
+ ∼
+ 
+ 
+ {\displaystyle \sim }
+ . Dann gilt:
+Es existiert genau dann ein deterministischer endlicher Automat, der 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ akzeptiert, wenn der Index der zugehörigen Nerode-Relation endlich ist.
+Formal:
+
+ 
+ 
+ 
+ ∃
+ A
+ :
+ 
+ L
+ (
+ A
+ )
+ 
+
+ L
+ 
+ ⟺
+ 
+ 
+ |
+ 
+ 
+ Σ
+ 
+ ∗
+ 
+ 
+ 
+ /
+ 
+ ∼
+ 
+ |
+ 
+ <
+ ∞
+ 
+ 
+ {\displaystyle \exists A:\ L(A)=L\qquad \Longleftrightarrow \qquad |\Sigma ^{*}/\sim |<\infty }
+ wobei 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ ein deterministischer endlicher Automat ist und 
+ 
+ 
+ 
+ L
+ (
+ A
+ )
+ 
+ 
+ {\displaystyle L(A)}
+ die Sprache, die er akzeptiert.
+
+# Anwendung 
+
+Die Existenz eines deterministischen endlichen Automaten, der 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ akzeptiert, ist notwendiges und hinreichendes Kriterium dafür, dass 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ eine reguläre Sprache ist. Der Satz kann also sowohl dazu verwendet werden zu zeigen, dass eine formale Sprache regulär ist, als auch um zu zeigen, dass sie es nicht ist. Da dies die wichtigste Anwendung des Satzes von Myhill-Nerode ist, wird er vielfach auch so gelesen:
+Die Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ ist genau dann regulär, wenn der Index der zugehörigen Nerode-Relation endlich ist.
+Weiter lässt sich folgern, dass die Anzahl der Zustände eines minimalen deterministischen endlichen Automaten, der 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ akzeptiert, dem Index der zugehörigen Nerode-Relation entspricht.
+Genauer gesagt: Sei 
+ 
+ 
+ 
+ W
+ 
+
+ {
+ 
+ w
+ 
+ i
+ 
+ 
+ ,
+ …
+ }
+ 
+ 
+ {\displaystyle W=\{w_{i},\ldots \}}
+ ein Repräsentantensystem von 
+ 
+ 
+ 
+ 
+ Σ
+ 
+ ∗
+ 
+ 
+ 
+ /
+ 
+ ∼
+ 
+ 
+ {\displaystyle \Sigma ^{*}/\sim }
+ , dann ist 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+
+ (
+ Q
+ ,
+ Σ
+ ,
+ δ
+ ,
+ 
+ q
+ 
+ 0
+ 
+ 
+ ,
+ F
+ )
+ 
+ 
+ {\displaystyle {\mathcal {A}}=(Q,\Sigma ,\delta ,q_{0},F)}
+ der (eindeutige) minimale, deterministische Automat, der 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ akzeptiert, wobei
+
+ 
+ 
+ 
+ Q
+ 
+
+ 
+ Σ
+ 
+ ∗
+ 
+ 
+ 
+ /
+ 
+ ∼
+ 
+ 
+ {\displaystyle Q=\Sigma ^{*}/\sim }
+ Die Zustände entsprechen den Äquivalenzklassen nach 
+ 
+ 
+ 
+ ∼
+ 
+ 
+ {\displaystyle \sim }
+ 
+
+ 
+ 
+ 
+ 
+ q
+ 
+ 0
+ 
+ 
+ 
+
+ [
+ ϵ
+ 
+ ]
+ 
+ ∼
+ 
+ 
+ 
+ 
+ {\displaystyle q_{0}=[\epsilon ]_{\sim }}
+ Der Startzustand entspricht der Äquivalenzklasse, in der das leere Wort liegt
+
+ 
+ 
+ 
+ F
+ 
+
+ {
+ [
+ 
+ w
+ 
+ i
+ 
+ 
+ 
+ ]
+ 
+ ∼
+ 
+ 
+ ∣
+ 
+ w
+ 
+ i
+ 
+ 
+ ∈
+ L
+ }
+ 
+ 
+ {\displaystyle F=\{[w_{i}]_{\sim }\mid w_{i}\in L\}}
+ Endzustände entsprechen den Äquivalenzklassen der Wörter, die in 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ liegen (umgekehrt zerfällt 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ genau in die Äquivalenzklassen, die in 
+ 
+ 
+ 
+ F
+ 
+ 
+ {\displaystyle F}
+ liegen, also 
+ 
+ 
+ 
+ L
+ 
+
+ ⋃
+ F
+ 
+ 
+ {\displaystyle L=\bigcup F}
+ )
+
+ 
+ 
+ 
+ δ
+ (
+ [
+ 
+ w
+ 
+ i
+ 
+ 
+ 
+ ]
+ 
+ ∼
+ 
+ 
+ ,
+ a
+ )
+ 
+
+ [
+ 
+ w
+ 
+ i
+ 
+ 
+ ⋅
+ a
+ 
+ ]
+ 
+ ∼
+ 
+ 
+ 
+ 
+ {\displaystyle \delta ([w_{i}]_{\sim },a)=[w_{i}\cdot a]_{\sim }}
+ für alle 
+ 
+ 
+ 
+ 
+ w
+ 
+ i
+ 
+ 
+ ∈
+ W
+ ,
+ a
+ ∈
+ Σ
+ 
+ 
+ {\displaystyle w_{i}\in W,a\in \Sigma }
+ Dieser Zusammenhang gilt auch für nicht-reguläre Sprachen. Dort wird 
+ 
+ 
+ 
+ Q
+ 
+ 
+ {\displaystyle Q}
+ eben nicht endlich, womit (aufgrund der Minimalität von 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {A}}}
+ ) dann auch kein DEA für 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ existiert.
+Eine weitere Anwendung besteht darin, dass mit Hilfe des Satzes bewiesen werden kann, dass (unabhängig vom P-NP-Problem) kein Polynomialzeit-Algorithmus existiert, der aus einem NEA einen äquivalenten DEA konstruiert. Es existieren Sprachen, die von einem NEA mit 
+ 
+ 
+ 
+ n
+ +
+ 1
+ 
+ 
+ {\displaystyle n+1}
+ Zuständen erkannt werden, die aber 
+ 
+ 
+ 
+ 
+ 2
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle 2^{n}}
+ Myhill-Nerode Äquivalenzklassen haben.
+Ein Beispiel hierfür ist die Sprache 
+ 
+ 
+ 
+ 
+ L
+ 
+ n
+ 
+ 
+ 
+
+ {
+ w
+ ∈
+ {
+ 0
+ ,
+ 1
+ 
+ }
+ 
+ ∗
+ 
+ 
+ ∣
+ 
+ in der 
+ 
+ n
+ 
+ -letzten Stelle von 
+ 
+ w
+ 
+ steht eine 0
+ 
+ }
+ .
+ 
+ 
+ {\textstyle L_{n}=\{w\in \{0,1\}^{*}\mid {\text{in der }}n{\text{-letzten Stelle von }}w{\text{ steht eine 0}}\}.}
+ Sind 
+ 
+ 
+ 
+ 
+ w
+ 
+ 1
+ 
+ 
+ ,
+ 
+ w
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle w_{1},w_{2}}
+ zwei unterschiedliche Wörter aus 
+ 
+ 
+ 
+ {
+ 0
+ ,
+ 1
+ 
+ }
+ 
+ ∗
+ 
+ 
+ 
+ 
+ {\displaystyle \{0,1\}^{*}}
+ der Länge 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ , dann unterscheiden sie sich an einer Position 
+ 
+ 
+ 
+ i
+ 
+ 
+ {\displaystyle i}
+ . Somit liegt genau eines der Wörter 
+ 
+ 
+ 
+ 
+ w
+ 
+ 1
+ 
+ 
+ 
+ 0
+ 
+ i
+ −
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle w_{1}0^{i-1}}
+ und 
+ 
+ 
+ 
+ 
+ w
+ 
+ 2
+ 
+ 
+ 
+ 0
+ 
+ i
+ −
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle w_{2}0^{i-1}}
+ in 
+ 
+ 
+ 
+ 
+ L
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle L_{n}}
+ und es gilt 
+ 
+ 
+ 
+ [
+ 
+ w
+ 
+ 1
+ 
+ 
+ 
+ ]
+ 
+ ∼
+ 
+ 
+ ≠
+ [
+ 
+ w
+ 
+ 2
+ 
+ 
+ 
+ ]
+ 
+ ∼
+ 
+ 
+ 
+ 
+ {\displaystyle [w_{1}]_{\sim }\neq [w_{2}]_{\sim }}
+ . 
+Die Ausgabe kann also exponentiell größer sein als die Eingabe und somit kann keine Turingmaschine die Ausgabe in weniger als Exponentialzeit berechnen. Für dieses Problem existiert damit kein wesentlich besserer Algorithmus als die Potenzmengenkonstruktion.
+
+# Beispiele 
+
+# Endliche Sprachen sind regulär 
+
+Die Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ über dem Alphabet 
+ 
+ 
+ 
+ Σ
+ 
+ 
+ {\displaystyle \Sigma }
+ enthalte endlich viele Wörter. (Alle Wörter aus 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ haben endliche Länge.) Das heißt, es existieren natürliche Zahlen 
+ 
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle m}
+ und 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ , so dass gilt:
+
+ 
+ 
+ 
+ 
+ |
+ 
+ L
+ 
+ |
+ 
+ ≤
+ m
+ 
+ 
+ {\displaystyle |L|\leq m}
+ 
+
+ 
+ 
+ 
+ 
+ |
+ 
+ w
+ 
+ |
+ 
+ ≤
+ n
+ 
+ ∀
+ w
+ ∈
+ L
+ 
+ 
+ {\displaystyle |w|\leq n\quad \forall w\in L}
+ .Da zu jedem Wort so viele Präfixe existieren, wie es Buchstaben enthält, und das leere Wort 
+ 
+ 
+ 
+ ϵ
+ 
+ 
+ {\displaystyle \epsilon }
+ auch als Präfix zählt, hat die Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ insgesamt höchstens 
+ 
+ 
+ 
+ n
+ ⋅
+ m
+ +
+ 1
+ 
+ 
+ {\displaystyle n\cdot m+1}
+ Präfixe und ebenso viele Äquivalenzklassen. Es gilt also:
+
+ 
+ 
+ 
+ ind
+ 
+ (
+ L
+ )
+ ≤
+ n
+ ⋅
+ m
+ +
+ 1
+ <
+ ∞
+ 
+ 
+ {\displaystyle \operatorname {ind} (L)\leq n\cdot m+1<\infty }
+ .Das heißt, die Anzahl der Äquivalenzklassen ist endlich, und aus dem Satz von Myhill-Nerode folgt, dass die Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ regulär ist. Man kann also sagen: Jede Sprache, die endlich viele Wörter enthält, ist regulär.
+
+# Die Sprache {ε, a, aa, aaa, …} ist regulär 
+
+Die Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ über dem Alphabet 
+ 
+ 
+ 
+ Σ
+ :
+
+ {
+ a
+ }
+ 
+ 
+ {\displaystyle \Sigma :=\{a\}}
+ sei definiert durch:
+
+ 
+ 
+ 
+ L
+ :
+
+ {
+ a
+ 
+ }
+ 
+ ∗
+ 
+ 
+ 
+ 
+ {\displaystyle L:=\{a\}^{*}}
+ .Es ergibt sich genau eine Äquivalenzklasse bezüglich der Nerode-Relation, nämlich 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ selbst:
+
+ 
+ 
+ 
+ [
+ ϵ
+ ]
+ 
+
+ [
+ a
+ ]
+ 
+
+ [
+ a
+ a
+ ]
+ 
+
+ [
+ a
+ a
+ a
+ ]
+ 
+
+ …
+ 
+
+ {
+ ϵ
+ ,
+ a
+ ,
+ a
+ a
+ ,
+ a
+ a
+ a
+ ,
+ …
+ }
+ 
+
+ {
+ a
+ 
+ }
+ 
+ ∗
+ 
+ 
+ 
+
+ L
+ 
+ 
+ {\displaystyle [\epsilon ]=[a]=[aa]=[aaa]=\ldots =\{\epsilon ,a,aa,aaa,\dotsc \}=\{a\}^{*}=L}
+ .Das heißt, alle Präfixe der Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ lassen sich mit denselben Suffixen zu Wörtern aus 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ ergänzen. Damit ist der Index der Nerode-Relation endlich:
+
+ 
+ 
+ 
+ ind
+ 
+ (
+ L
+ )
+ 
+
+ 1
+ <
+ ∞
+ 
+ 
+ {\displaystyle \operatorname {ind} (L)=1<\infty }
+ .Aus dem Satz von Myhill-Nerode folgt schließlich, dass die Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ regulär ist.
+
+# Die Sprache {ab, aabb, aaabbb, …} ist nicht regulär 
+
+Die Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ über dem Alphabet 
+ 
+ 
+ 
+ Σ
+ :
+
+ {
+ a
+ ,
+ b
+ }
+ 
+ 
+ {\displaystyle \Sigma :=\{a,b\}}
+ sei definiert durch:
+
+ 
+ 
+ 
+ L
+ :
+
+ {
+ 
+ a
+ 
+ n
+ 
+ 
+ 
+ b
+ 
+ n
+ 
+ 
+ ∣
+ n
+ ∈
+ 
+ N
+ 
+ ,
+ n
+ >
+ 0
+ }
+ 
+ 
+ {\displaystyle L:=\{a^{n}b^{n}\mid n\in \mathbb {N} ,n>0\}}
+ .Es ergeben sich insbesondere folgende Äquivalenzklassen bezüglich der Nerode-Relation (jedes Präfix eines Wortes dieser Sprache lässt nur ein Suffix zur Vervollständigung zu):
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ [
+ a
+ b
+ ]
+ 
+ 
+ 
+
+ 
+ 
+ L
+ 
+ 
+ 
+ S
+ u
+ f
+ f
+ i
+ x
+ :
+ 
+ 
+ 
+ {
+ ϵ
+ }
+ 
+ 
+ 
+ 
+ 
+ [
+ 
+ a
+ 
+ 2
+ 
+ 
+ b
+ ]
+ 
+ 
+ 
+
+ 
+ 
+ {
+ 
+ a
+ 
+ 2
+ 
+ 
+ b
+ ,
+ 
+ a
+ 
+ 3
+ 
+ 
+ 
+ b
+ 
+ 2
+ 
+ 
+ ,
+ 
+ a
+ 
+ 4
+ 
+ 
+ 
+ b
+ 
+ 3
+ 
+ 
+ ,
+ …
+ }
+ 
+ 
+ 
+ S
+ u
+ f
+ f
+ i
+ x
+ :
+ 
+ 
+ 
+ {
+ b
+ }
+ 
+ 
+ 
+ 
+ 
+ [
+ 
+ a
+ 
+ 3
+ 
+ 
+ b
+ ]
+ 
+ 
+ 
+
+ 
+ 
+ {
+ 
+ a
+ 
+ 3
+ 
+ 
+ b
+ ,
+ 
+ a
+ 
+ 4
+ 
+ 
+ 
+ b
+ 
+ 2
+ 
+ 
+ ,
+ 
+ a
+ 
+ 5
+ 
+ 
+ 
+ b
+ 
+ 3
+ 
+ 
+ ,
+ …
+ }
+ 
+ 
+ 
+ S
+ u
+ f
+ f
+ i
+ x
+ :
+ 
+ 
+ 
+ {
+ b
+ b
+ }
+ 
+ 
+ 
+ 
+ 
+ ⋮
+ 
+ 
+ 
+ ⋮
+ 
+ 
+ 
+ 
+ 
+ [
+ 
+ a
+ 
+ k
+ 
+ 
+ b
+ ]
+ 
+ 
+ 
+
+ 
+ 
+ {
+ 
+ a
+ 
+ k
+ +
+ i
+ −
+ 1
+ 
+ 
+ 
+ b
+ 
+ i
+ 
+ 
+ ∣
+ k
+ ,
+ i
+ ≥
+ 1
+ ∈
+ 
+ N
+ 
+ }
+ 
+ 
+ 
+ S
+ u
+ f
+ f
+ i
+ x
+ :
+ 
+ 
+ 
+ {
+ 
+ b
+ 
+ k
+ −
+ 1
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ ⋮
+ 
+ 
+ 
+ ⋮
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{matrix}&[ab]&=&L&\mathrm {Suffix:} &\{\epsilon \}\\&[a^{2}b]&=&\{a^{2}b,a^{3}b^{2},a^{4}b^{3},\ldots \}&\mathrm {Suffix:} &\{b\}\\&[a^{3}b]&=&\{a^{3}b,a^{4}b^{2},a^{5}b^{3},\ldots \}&\mathrm {Suffix:} &\{bb\}\\&\vdots &&\vdots \\&[a^{k}b]&=&\{a^{k+i-1}b^{i}\mid k,i\geq 1\in \mathbb {N} \}&\mathrm {Suffix:} &\{b^{k-1}\}\\&\vdots &&\vdots \end{matrix}}}
+ Diese Äquivalenzklassen sind paarweise verschieden, das heißt es gilt:
+
+ 
+ 
+ 
+ [
+ 
+ a
+ 
+ i
+ 
+ 
+ b
+ ]
+ ≠
+ [
+ 
+ a
+ 
+ j
+ 
+ 
+ b
+ ]
+ 
+ ∀
+ i
+ ,
+ j
+ ∈
+ 
+ N
+ 
+ :
+ i
+ ≠
+ j
+ 
+ 
+ {\displaystyle [a^{i}b]\neq [a^{j}b]\quad \forall i,j\in \mathbb {N} :i\neq j}
+ .Daraus folgt, dass bereits die Anzahl dieser Äquivalenzklassen unendlich ist und – da die Anzahl aller Äquivalenzklassen von 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ nochmals größer ist – damit auch der Index der Nerode-Relation bezüglich 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ unendlich ist. Aus dem Satz von Myhill-Nerode folgt schließlich, dass die Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ nicht regulär ist.
+
+# Bemerkung 
+
+Es ist nicht erforderlich, die Klassenstruktur der einer Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ zugeordneten Äquivalenzrelation vollständig aufzuklären, um die Nicht-Regularität dieser Sprache zu zeigen. Andernfalls müssten noch weitere Äquivalenzklassen aufgestellt werden, um der Forderung von Äquivalenzrelationen gerecht zu werden, eine bestimmte Grundmenge (hier: 
+ 
+ 
+ 
+ 
+ Σ
+ 
+ ∗
+ 
+ 
+ 
+ 
+ {\displaystyle \Sigma ^{*}}
+ , also alle Wörter über dem Eingabealphabet 
+ 
+ 
+ 
+ Σ
+ 
+ 
+ {\displaystyle \Sigma }
+ ) vollständig in disjunkte Äquivalenzklassen aufzuteilen.
+
+# Die Suffixe 
+
+Prinzipiell kann als Suffix jedes Wort über dem Eingabealphabet 
+ 
+ 
+ 
+ Σ
+ 
+ 
+ {\displaystyle \Sigma }
+ eingesetzt werden, also z. B. 
+ 
+ 
+ 
+ a
+ ,
+ b
+ ,
+ a
+ b
+ a
+ b
+ ,
+ a
+ a
+ b
+ b
+ a
+ b
+ a
+ 
+ 
+ {\displaystyle a,b,abab,aabbaba}
+ usw. Hier wurde für jede Äquivalenzklasse nur das jeweils einzige Suffix angegeben, für welches bei dessen Anfügung an die Elemente der jeweiligen Klasse alle auf diese Art entstandenen Wörter zu der Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ gehören. Für jedes andere Suffix würden alle entstandenen Wörter nicht zur Sprache 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ gehören. Darauf beruht die Nerode-Relation.
+
+# Siehe auch 
+
+Liste von Sätzen der Informatik
+
+# Literatur 
+
+Uwe Schöning: Theoretische Informatik – kurzgefasst. 5. Auflage. Spektrum, Heidelberg 2008, ISBN 978-3-8274-1824-1, (HochschulTaschenbuch), S. 34–38.
+A. Nerode: Linear automaton transformations. In: Proceedings of the American Mathematical Society 9, 1958, ISSN 0002-9939, S. 541–544.
+J. Myhill: Finite automata and the representation of events. In: WADD TR 57-624, 1957, ZDB-ID 2518731-4, S. 112–137.

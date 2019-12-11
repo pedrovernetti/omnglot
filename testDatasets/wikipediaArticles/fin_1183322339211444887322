@@ -1,0 +1,129 @@
+
+## C. C. Catch
+
+C++ on ohjelmointikieli, jonka Bjarne Stroustrup kehitti 1980-luvulla. Kieli on kehitetty C-kielestä lisäämällä siihen muun muassa olio-ohjelmointiin ja geneerisyyteen liittyviä ominaisuuksia.C++-kielen standardi ISO/IEC 14882:1998 vahvistettiin vuonna 1998, C++11 (ent. C++0x) vuonna 2011, C++14 (ISO/IEC 14882:2014) vuonna 2014. Uusin standardi ISO/IEC 14882:2017 (C++17) on valmistunut vuonna 2017.C++ sisältää muun muassa luokat, virtuaalisen moniperintätuen, mallit (templates) ja poikkeukset. C++ perustuu C-kieleen siten, ettei kieltä ole suunniteltu uudelleen, vaan uusia ominaisuuksia on lisätty. Kieli on moniparadigmainen, mahdollistaen muun muassa proseduraalisen-, olio- ja funktionaalisen ohjelmoinnin.
+Muistihallinta on suunniteltu RAII (engl. Resource acquisition is initialization) konseptille, joka soveltuu mm. poikkeuksien kanssa käyttöön.C++:lla on kirjoitettu suuri osa maailman käyttöjärjestelmä-, laiteohjain-, ohjelmisto-, sulautettu järjestelmä-, verkko-, ja peliohjelmista, esim. Microsoftin ja Adobe Systemsin ohjelmat.
+
+# Kehitysvaiheet 
+
+C++:n kehitys alkaa vuodesta 1979 jolloin Bjarne Stroustrup aloitti kehittämisen.
+Alkuvaiheessa kieli oli oliolaajennus C-kieleen ja tunnettiin nimellä C with Classes.
+C++98 (ISO/IEC 14882:1998) oli kielen ensimmäinen ISO-standardoitu versio.C++03 sisälsi korjauksen std::vector määrittelyyn, jonka mukaan elementtien käyttämä muistialue on oltava jatkuva (joka takaa yhteensopivuuden perinteisempien taulukoiden kanssa).C++11 lisää tuen mm. säie-kohtaiselle muistille (thread_local avainsana) sekä säikeistykselle yleisesti. Älyosoittimia kuten std::shared_ptr (toteuttaa viitelaskennan) on lisätty standardikirjastoon.C++14 lisää tuen mm. nk. anonyymeille inline-funktioille (lamba-operaattorit).C++17 on laaja päivitys, jossa on mm. UTF-8 merkkijonoliteraalit, standardoitu tiedostojärjestelmätuki ja standardikirjaston rinnakkaissuorituksen parantaminen.C++20 on suunniteltu seuraavana C++17:n jälkeen.
+
+# ISO-standardit 
+
+C++ ISO/IEC standardista on julkaistu seuraavat versiot:
+
+ISO/IEC 14882:1998 (1998)
+ISO/IEC 14882:2003 (2003)
+ISO/IEC 14882:2011 (2011)
+ISO/IEC 14882:2014 (2014)
+ISO/IEC 14882:2017 (2017)
+
+# Tekniset määrittelyt 
+
+Virallisten standardien lisäksi ISO-työryhmällä on eräitä teknisiä määrittelyjä, jotka eivät ole vielä varsinaisen standardin tasolla ja jotka ovat vielä muuttuvia.
+Esimerkkinä N4514, joka määrittelee transaktiopohjaisen muistin käsittelyn tuen C++-kieleen. Osa ohjelmointikielen kääntäjistä tarjoaa kokeellisen tuen kuten esimerkiksi GCC.ISO:n julkaisemia määrittelyjä:
+
+ISO/IEC TR 18015:2006
+ISO/IEC TR 19768:2007
+ISO/IEC TR 29124:2010
+ISO/IEC TR 24733:2011
+ISO/IEC TS 18822:2015
+ISO/IEC TS 19570:2015
+ISO/IEC TS 19841:2015
+ISO/IEC TS 19568:2015
+ISO/IEC TS 19217:2015
+
+# Standardidokumenttien saatavuus 
+
+Virallinen standardi on saatavissa ISO:lta korvausta vastaan, mutta viimeisin työskentelyluonnos on saatavilla internetistä ilmaiseksi. Virallisessa standardissa on korjattu kirjoitusvirheitä ja lisätty selvennyksiä.
+
+# Erot C:hen 
+
+Monet C:llä kirjoitetuista ohjelmista ovat myös kelvollista C++:aa. Eivät kuitenkaan kaikki, muun muassa C:n kehittymisen aikana luotujen uusien varattujen sanojen ja tarkemman tyyppitarkistuksen vuoksi.
+C:stä poiketen C++ tukee useaa nimiavaruutta.
+
+# Standardikirjastot 
+
+C++ sisältää Standard Template Library (STL) standardikirjaston.
+Standard Template Library sisältää yleisiä ohjelmoijien tarvitsemia säiliöitä (containers), algoritmeja, funktioita ja iteraattoreita. STL toteutus seuraa usein kääntäjän mukana, mutta myös riippumattomia toteutuksia on olemassa.
+C++:n standardikirjasto sisältää STL:n lisäksi myös joukon C-kielen standardikirjastoa vastaavista toiminnoista yhteensopivuuden vuoksi.
+
+# Polymorfismi 
+
+C++ tukee yksinkertaista perintää, abstrakteja pure virtual luokkia, moniperintää sekä virtuaalista moniperintää.
+
+# Hello, World! -esimerkkiohjelma 
+
+Tämä on yleisesti käytetty esimerkkiohjelma C++-oppaissa. Se tulostaa näytölle tekstin ”Hello, world!” Kuten C:ssä, ohjelma alkaa komennoilla esikääntäjälle, tässä kirjaston liittämisellä #include-käskyllä. Lohkot rajataan aaltosuluilla {}, ja main-funktio suoritetaan aina ensimmäisenä. Ohjaamalla tekstin cout-olioon <<-operaattorilla teksti tulostuu stdout-virtaan (näytölle).
+C++:n kielioppi on samantapaista kuin C:n ja Javan. Lauseet päättyvät puolipisteeseen ;, eikä välilyöntejä tai muuta tyhjää tilaa oteta huomioon. Lohkot ympäröidään aaltosulkeilla { }, kommentit aloitetaan /* -merkinnällä ja päätetään */ -merkinnällä. Yhden rivin kommentti merkitään kahdella vinoviivalla //. Kaikki standardikirjaston luokat, funktiot ja globaalit muuttujat ovat std-nimiavaruudessa.
+
+# Nimiavaruudet 
+
+C++ tukee useaa nimiavaruutta.C++17 lisäsi tuen sisäkkäisille nimiavaruuksille, joka mahdollistaa namespace A::B::C {} käytön aiemman namespace A { namespace B { namespace C {}}} sijaan.
+Lisäksi kieli tukee nimiavaruuden aliasointia:
+
+C++ tukee myös anonyymejä nimiavaruuksia.Aaltosuluilla merkittävät lohkot luovat oman nimiavaruuden kaltaisen näkyvyysalueen (engl. scope):
+
+# RTTI 
+
+Ajonaikainen tyyppitieto (engl. Run-time type information, RTTI) on ominaisuus, jolla välitetyn olion tyyppi voidaan tunnistaa ohjelman ajonaikana.
+Tämä mahdollistaa mm. perityn olion tyypin mukaisen käsittelyn.
+
+# Poikkeuskäsittely 
+
+C++ tukee poikkeuksia ja pinon (stack) siivoamista (kuten näkyvyydeltä eli scopesta poistuessa).
+
+Poikkeuskäsittelijä valitaan määrittelyjärjestyksessä ja tyypin mukaan.
+Ellipsis (kolme pistettä) voi vastaanottaa tyypit, joille ei ole muuta käsittelijää.
+
+# RAII 
+
+Konseptia, jossa resurssit varataan konstruktorissa ja vapautetaan destruktorissa kutsutaan nimellä engl. Resource acquisition is initialization, RAII. 
+Konseptin ovat kehittäneet Bjarne Stroustrup ja Andrew Koenig vuosina 1984–89 ja se on esitelty ensimmäisenä C++ kielessä.RAII-muistihallintakonsepti voidaan esittää seuraavan triviaalin esimerkin avulla:
+
+Esimerkissä resurssit vapautetaan kutsumalla olion destruktoria:
+
+poikkeustapauksessa
+normaalisti poistuessa (näkyvyysalueen scope ulkopuolella)Olion luominen tekee tarvittavan varauksen ja alustuksen, jotka olion destruktori vapauttaa. Menetelmä on poikkeusturvallinen ja ei tarvitse roskienkeräystä tueksi.
+
+# Template-mallit 
+
+Template-mallit mahdollistavat geneerisen ohjelmoinnin, jossa samoja algoritmeja voidaan käyttää uusille tietotyypeille ilman uutta ohjelmointia.
+RAII-esimerkin ohjelmakoodi voidaan muokata geneerisemmäksi käyttämällä template-määrittelyä.
+
+# Katso myös 
+
+Ohjelmointi
+Ohjelmointikieli
+SystemC – C++ -pohjainen laitteistokuvauskieli
+
+# Lähteet 
+
+Stroustrup, Bjarne: The design and evolution of C++. Addison-Wesley, 1994. ISBN 0-201-54330-3. 
+Lippman, Stanley B.: C++ Primer, s. 1–464. Addison-Wesley, 1989. ISBN 0-201-16487-6. 
+Reisdorph, Kent: Teach Yourself C++ in 5 Days, s. 1–192. SAMS, 1999. 
+Hietanen, Päivi: C++ ja olio-ohjelmointi, s. 16. Jyväskylä: Teknolit, 1997. ISBN 952-9823-45-2. 
+Peltonen, Hannu: Olio-ohjelmoinnin perusteet C++, s. 1–389. Jyväskylä: Suomen ATK-kustannus, 1997. ISBN 951-762-457-3. 
+Prata, Stephen: Suuri C++ -ohjelmointi, s. 1–866. Suomentanut Risto Torkkeli. Vantaa: Pagina, 1996. ISBN 951-644-064-9. 
+Horton, Ivor: C++ Ohjelmoijan käsikirja, s. 1–941. Suomentanut Jouni Laaksonen. Helsinki: IT Press, 1999. ISBN 951-826-032-X. 
+Lippman, Stanley B. & Lajoie, Josee: C++ Vol 1, s. 1–941. Suomentanut Erkki Huru. Helsinki: EDITA, 2000. ISBN 951-826-191-1. 
+Meyers, Skott: C++ Vol 2, s. 1–256. Suomentanut Arto Kuvaja. Helsinki: EDITA, 2000. ISBN 951-826-192-X. 
+Stroustrup, Bjarne: The C++ Programming Language, 4th ed.. Addison-Wesley, 2015. ISBN 0-321-56384-0. 
+
+# Viitteet 
+
+# Kirjallisuutta 
+
+Stroustrup, Bjarne: The C++ Programming Language, s. 1–328. Addison-Wesley, copyright Bell laboratories, 1986. ISBN 0-201-12078-X. 
+Stroustrup, Bjarne: The C++ Programming Language, s. 1–911. Third Edition, Bjarne Stroustrup The Creator of C++. Addison-Wesley, copyright AT&T, 1997. ISBN 0-20-88954-4. 
+Stroustrup, Bjarne: C++ -ohjelmointi, s. 1–944. Alkuteos The C++ Programming Language, Third Edition, Bjarne Stroustrup The Creator of C++. Suomentanut Veli-Pekka Ketola. Jyväskylä: Teknolit, copyright AT&T, copyright Teknolit, 2000. ISBN 951-846-026-4. 
+
+# Aiheesta muualla 
+
+Programming:C plus plus Wikibook, C++-opas (englanniksi)
+Thinking in C++, kattava ilmainen e-kirja C++:sta (englanniksi)
+C++ opas, laaja Suomenkielinen C++ opas.
+C++ Standards Committee Papers (englanniksi)
+C++17 Working Draft (englanniksi)

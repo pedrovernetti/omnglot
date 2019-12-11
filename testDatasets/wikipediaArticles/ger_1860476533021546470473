@@ -1,0 +1,15 @@
+
+## Apple A13 Bionic
+
+Der Apple A13 Bionic ist ein von dem US-amerikanischen Unternehmen Apple entwickelter und von dem taiwanischen Halbleiterhersteller TSMC hergestellter ARM-basierter System-on-a-Chip (SoC).
+2019 ist er Apples neuester und leistungsstärkster SoC und kommt beim iPhone 11 und beiden Varianten des iPhone 11 Pro zum Einsatz.
+
+# Design 
+
+Der A13 Bionic verfügt über eine von Apple entwickelte 64-Bit ARMv8.3-A Sechskern-CPU mit zwei Hochleistungskernen, die Lightning heißen und mit bis zu 2,66 GHz takten, und vier energieeffizienten Kernen, Thunder genannt, die mit bis zu 1,73 GHz takten. Den Lightning-Kernen stehen je 128 KiB L1I und 128 KiB L1D zur Verfügung, der gemeinsame L2 ist 8 MiB groß. Den Thunder-Kernen stehen je 48 KiB L1I und 32 KiB L1D sowie ein gemeinsamer 4 MiB L2 zur Verfügung. Für beide reklamiert Apple ein Leistungsplus von 20 %.
+Erstmals verbaut Apple spezielle Einheiten (AMX genannt) zur Beschleunigung von Matrizenberechnungen für AI-Anwendungen. Sie sollen bis zu sechsmal schneller ablaufen als eine Berechnung durch die CPU und dabei eine Billion Rechenvorgänge (1 TOps) erreichen.Der A13 Bionic integriert einen von Apple entwickelten Grafikprozessor (GPU) mit vier Shaderclustern sowie eine dedizierte neuronale Netzwerk-Hardware (NPU) mit 8 Kernen. Beide sollen laut Apple bis zu 20 % schneller sein als im Vorgänger Apple A12 Bionic.
+Im SoC ist der M13-Motion-Koprozessor integriert und ein dem gesamten SoC zur Verfügung stehender System-Cache ist 16 MiB groß.
+Der A13 Bionic wird bei TSMC in einem 7-nm-FinFET-Verfahren 'N7P' hergestellt und enthält 8,5 Milliarden Transistoren, das Die ist 98,48 mm² groß. Das SoC mit der Bezeichnung APL1W85 bildet zusammen mit 4 GiB LPDDR4X-RAM einen PoP (Package-on-Package), hergestellt in TSMCs InFO-Packaging-Verfahren, das Speicherinterface ist 64 Bit breit.
+
+# Einzelnachweise 
+

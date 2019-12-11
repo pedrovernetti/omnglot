@@ -1,0 +1,67 @@
+
+## C1orf27
+
+Uncharacterized protein Chromosome 1 Open Reading Frame 27 is a protein in humans, encoded by the C1orf27 gene. It is accession number NM_017847. This is a membrane protein that is 3926 base pairs long with the most extensive string of amino acids being 454aa long. C1orf27 exhibits cytoplasmic expression in epidermal tissues. Predicted associated biological processes of the gene include cell fate specification and developmental properties.
+
+# Gene 
+
+# Locus 
+
+This gene is located on chromosome 1 at 1q31.1. It is encoded on the plus strand of DNA spanning from 186,344,406 to 186,390,514.
+
+# mRNA 
+
+# Alternative splicing 
+
+There appear to be four isoforms due to splicing. Two of those are truncated on the 3' end of the protein from 266aa and 396aa. Additional location of alternative splice sites are from 79aa to 102aa and 246aa to 260aa.
+
+# Protein 
+
+# General properties 
+
+The primary encoded protein of C1orf27 consists of 454 amino acid residues and is 3926 base pairs long. It consists of 14 total exons. The predicted molecular weight of the primary, unmodified protein is approximately 51.1 kdal.
+
+# Aliases 
+
+As with many other genes, there are some common aliases found with this gene. Those aliases are Lymphocyte-Activation Gene-1 (LAG1) Interacting Protein, Transparent Testa Glabra 1 (TTG1), and Odorant Response Abnormal 4 (ODR4). The most common alias for C1orf27 is ODR4, and this is what most readily appears when searching the gene.
+
+# Composition 
+
+Computational analysis revealed the most abundant amino acid to be leucine at 10.1% of the total protein. The second most abundant was serine which contributes to 8.6% of the total protein. Glutamic acid was third most abundant and contributes to 7.7% of the protein. This analysis also revealed that the protein appears to be deficient in tryptophan as it only contributes to 1.1% of the protein. Based on the distribution of other amino acid types, there were five high scoring hydrophobic segments. There were also two transmembrane domains located at 82-98aa and 432-449aa.
+
+# Post-translational modifications 
+
+C1orf27 is predicted to undergo multiple post translational modifications such as glycosylation, myristoylation, and phosphorylation.
+
+# Interactions 
+
+There were eight interactions identified by Mentha. The first one was UFSP2 which hydrolyzes the peptide bond at the C-term gly of UFM1, a ubiquitin-like modifier protein bound to a number of target proteins. The second one was HSCB which acts as a co-chaperone in iron-sulfur cluster assembly in mitochondria. The third was GRB2 which is an adapter protein that provides a critical link between cell surface growth factor receptors and the Ras signaling pathway. The fourth was CYLD which is a protease that cleaves Lys-63-linked polyubiquitin chains, controls regulation of cell survival, proliferation, and differentiation, and is required for normal cell cycle progress. The fifth was ATM which activates checkpoint signaling upon double strand breaks, apaptosis, and genotoxic stress. The sixth was FAM177A1, the function of which is unknown. The last two were THID2 and Q81kP6 which are both in bacillus anthracis.
+
+# Subcellular localization 
+
+The c1orf27 protein is likely cytoplasmic. This was found with 55.5 reliability. The K-NN prediction was k=9/23 and the protein was found to be 55.6% cytoplasmic, 11.1% mitochondrial, 11.1% vacuolar, 11.1% cytoskeletal, and 11.1% golgi.
+
+# Structure 
+
+Alpha helices predicted in the c1orf27 protein are colored blue in the above picture. Beta sheets are pictured by the red arrows. Random coils are the purple strands between structures.
+
+# Expression 
+
+Overall, expression of c1orf27 seems to be ubiquitous. Highest expression body sites (>50 TPM) were bladder, bone marrow, kidney, liver, pancreas, parathyroid, and vascular. Highest expression health sites (>50 TPM) were adrenal tumors, cervical tumors, and liver tumors. While both of these observations had relatively high TPM scores, there was still relatively low occurrence. This validates the assumption that expression is ubiquitous. There was moderate expression (>25 TPM) in the human fetus, and expression increased with age. Expression was completely absent in the ears, esophagus, lymph, nerve, salivary glands, thyroid, tonsils, and umbilical cord. There was no expression in bladder carcinoma despite expression being elevated in the bladder itself. There was high expression in endothelial cells and neuronal cells but was undetectable in glial cells and neuropil cells. Expression was also localized to the nucleoplasm and plasma membrane in humans but is localized to the cytosol in mice.
+
+# Homology 
+
+# Paralogs 
+
+There were no paralogs of C1orf27 identified in the human genome.
+
+# Orthologs 
+
+There were orthologs identified in most animals for which there were complete genome data. The most distant, yet still relevant, orthologs identified were invertebrates from phylum Cnidaria.
+
+# Molecular Evolution 
+
+The m value, or number of corrected amino acid changes per 100 residues, for the C1orf27 gene was graphed against the species divergence in millions of years. When compared to divergence graphs of fibrinogen and cytochrome C, it was determined that this gene closely resembles the evolutionary pattern observed in fibrinogen, suggesting a more rapid rate of evolution. M values for C1orf27 were calculated using the percentage of identity, when compared to humans, observed in the mRNA sequences of the orthologs using the formula derived from the Molecular Clock Hypothesis.
+
+# References 
+

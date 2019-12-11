@@ -1,0 +1,61 @@
+
+## Centrino
+
+Centrino er et marketing initiativ fra Intel, som involverer en bestemt kombination af CPU, chipset på motherboard, samt komponenter til trådløst netværk, markedsført samlet som en platform, hvorpå en notebook computer kan baseres. Intel hævder at systemer baseret på disse komponenter vil levere bedre ydelse, længere tids operation på batteriet og bedre kompatibilitet med trådløse enheder.
+For at kvalificere til Centrino mærket, skal producenter benytte alle 3 autoriserede dele fra Intel til den bærbare computer. Alternativt, hvis kun processor og chipset benyttes, skal den bærbare have Intel Core klistermærket i stedet.
+
+# Carmel platformen 
+
+Carmel var kodenavnet for den første generation af Centrino platformen lanceret i marts 2003.
+Carmel platformen består af:
+
+En Intel Pentium M processor (med kodenavn Banias eller senere Dothan) med en 400 MT/s FSB.
+Et chipset i Intel 855 serien (med kodenavn Odem eller Montara)
+Et Intel PRO/Wireless 2100 eller senere 2200 IEEE 802.11b mini-PCI netkort (kodenavn Calexico eller Calexico2).Intel blev i begyndelsen kritiseret for at have lavet en platform uden en IEEE 802.11g løsning, da mange uafhængige producenter af WiFi chips, som eksempelvis Broadcom og Atheros, allerede havde 802.11g produkter på markedet. Intel besvarede kritikken med at standardiseringsorganet IEEE endnu ikke have færdiggjort 802.11g standarden på tidspunktet hvor Carmel blev lanceret, og at firmaet ikke ønskede at lancere produkter baseret på ufærdige standarder.
+I begyndelsen af 2004 efter færdiggørelsen af 802.11g standarden tillod Intel at et Intel PRO/Wireless 2200BG kort kunne indgå i platformen i stedet for 2100 kortet. På samme tid tillod de at den nye Dothan Pentium M kunne erstatte Banias Pentium M.
+Ligeledes i begyndelsen kunne blot 855GM chipsettet benyttes, men dette havde ikke understøttelse for eksterne grafikkort. Senere blev 855GME og 855PM, som havde den fornødne understøttelse, tilladt i Centrino baserede notebooks.
+Uanset kritikken blev Carmel platformen en succes blandt både OEM producenter og forbrugere. Carmel var i stand til at yde det samme som, eller mere end, den ældre Pentium 4-M platform, mens den samtidig typisk tillod en notebook at fungere i 4-5 timer på et 48 Watt-timers batteri. Carmel gjorde også at notebook producenter kunne lave tyndere og lettere notebooks, fordi komponenterne ikke afgav megen varme og derfor ikke krævede store kølesystemer.
+
+# Sonoma platformen 
+
+Sonoma var kodenavnet for den anden generation Centrino platform som blev lanceret i januar 2005.
+Sonoma platformen består af:
+
+En Intel Pentium M processor (kodenavn Dothan) med en 533 MT/s FSB.
+Et chipset i Intel Mobile 915 Express serien (kodenavn Alviso).
+Et Intel PRO/Wireless 2200 eller 2915ABG mini-PCI trådløst netkort (kodenavn Calexico2).Mobile 915 Express chipsettet har ligesom udgaven til stationære computere understøttelse for mange nye ting, så som DDR2, PCI Express, Intel High Definition Audio og SATA. Desværre var resultatet af introduktionen af PCI Express og endnu hurtigere Pentium M processorer, at notebooks bygget på Sonoma platform har en kortere batterilevetid end notebooks fra Carmel platformen. Sonoma notebooks kan typisk operere i 3.5 til 4.5 timer på et 53 Watt-timers batteri.
+
+# Napa platformen 
+
+Napa er kodenavnet for den tredje generation af Centrino platformen. Den blev introduceret i januar 2006 på Consumer Electronics Show.
+Napa består af:
+
+En Intel Core, Core Duo eller Core 2 Duo processor (kodenavn Yonah eller Merom (Core 2 Duo)).
+Et chipset i Intel Mobile 945 Express serien (kodenavn Calistoga)
+Et Intel PRO/Wireless 3945ABG mini-PCI-Express trådløst netkort (kodenavn Golan).Intel benytter et Centrino Duo varemærke for notebooks med dual-core (”Core Duo”) processor og beholder Centrino navnet for notebooks med en single core (”Core Solo”) processor.
+
+# Santa Rosa platformen 
+
+Santa Rosa er kodenavnet for den fjerde generation af Centrino, og blev også fremvist i januar 2006 på Consumer Electronics Show. Den blev lanceret 9. maj 2007.
+Platformen består af:
+
+En andengenerations Intel Core 2 processor (kodenavn Merom) som benytter Socket P.
+800 MT/s Front Side Bus med Dynamic Front Side Bus Switching for at spare på strøm når høj ydelse ikke er nødvendig
+Et Intel Mobile 965 Express chipset (kodenavn Crestline) med Intels GMA X3000 teknologi til grafik
+Et Intel PRO/Wireless 4965AGN IEEE 802.11abgn mini-PCI-Express trådløst netkort (kodenavn Kedron).
+NAND flash hukommelses mellemlagring (kodenavn Robson)
+WWAN internetadgang gennem mobiltelefonnetværk med HSDPA (3.5G) trådløs teknologi udviklet sammen med Nokia (kodenavn Windigo)
+EFI, som er en afløser til BIOS
+Intel Dynamic Acceleration (IDA), for bedre Windows Vista Aero understøttelseUnderstøttelse for WiMAX (802.16) var oprindeligt planlagt til Santa Rosa, men er nu taget ud af roadmap. I stedet kom WiMAX i 2008 med Montevina platformen.
+Santa Rosa platformen vil blev lanceret som "Centrino Pro".
+
+# Montevina platformen 
+
+Kodenavnet Montevina refererer til femte generation af Centrino platformen og blev lanceret i 2008. Montevina understøtter Penryn, som var Intels 45nm version af deres daværende 65nm Core 2 processorer. 45nm CPU'en blev ikke forsynet med mere end 29 Watt sammenlignet med Meroms 35 Watt. Penryn understøtter også SSE4 som lægger 50 nye processorinstruktioner til SSE3.
+Montevina indeholder Cantiga chipsettet, sammen med et nyt trådløst modul ved navn Shiloh som havde understøttelse for WiMAX (802.16) sammen med HSDPA (3.5G). LAN controlleren har kodenavnet 'Boaz'.
+Cantiga øger hastigheden på frontside bus til 1.067MHz og vil understøtte 1066MHz DDR3 RAM frem for den mindre strømeffektive 800MHz DDR2 RAM. Chipset familien har ti pixel shaders frem for GMA 3000s otte. Kernen i GPU har en clockfrekvens på 475MHz.
+
+# Marketing 
+
+Ordet Centrino er en blanding af ordene center og neutrino.
+Intel har efter sigende investeret omkring US$300 millioner i reklame for Centrino. På grund af omfanget af kampagnen tror mange forbrugere fejlagtigt, at en Pentium M processor er "en centrino". Nogle forbrugere har indtrykket af at Centrino platformen er den eneste måde at slutte en notebook til trådløst net. Resultatet har været en stor efterspørgsel efter Intels PRO/Wireless chips.

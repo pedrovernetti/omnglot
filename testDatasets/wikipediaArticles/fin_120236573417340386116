@@ -1,0 +1,11 @@
+
+## Network-attached storage
+
+Network-attached storage (tai network access storage) (NAS), eli verkkotallennus on tallennusjärjestelmä, joka jakaa tiedostoja verkossa yhteiskäyttöön. Palvelin on kytketty suoraan tietoverkkoon, eikä tietokoneeseen kuten perinteiset kiintolevyt.
+Sisäisesti NAS sisältää sulautetun palvelimen ja yhden tai useampia kiintolevyjä, usein RAID-tekniikkaa hyväksi käyttäen.
+NAS-palvelin huolehtii käyttäjien autentikoinnista ja tiedostojen lukituksesta. NAS-palvelimet jakavat tiedostoja hajautetulla levyjärjestelmällä TCP/IP-verkoissa kuten NFS ja CIFS -protokollilla.
+
+# Katso myös 
+
+Storage area network
+Klusteroitu levyjärjestelmä

@@ -1,0 +1,33 @@
+
+## MIUI
+
+MIUI est une distribution propriétaire du système d'exploitation Android, créée par la société chinoise Xiaomi Tech fondée le 6 avril 2010. Le nom est un jeu de mot de la phrase en anglais « Me You I » (prononcé mi you aï) et de UI qui en anglais signifie user interface. L'explication du PDG de Xiaomi, Lei Jun, sur la signification du "MI" de "MIUI" est "Mobile Internet" ou "Mission Impossible". C'est un Fork basé sur Android, qui bénéficie de fonctionnalités supplémentaires.
+Créé pour équiper les appareils de la marque Xiaomi, il est aussi porté sur d'autres smartphones et tablettes,. MIUI intègre diverses fonctions comme un éditeur de thème.
+
+# Développement 
+
+La première version du MIUI est basée sur Android Froyo (2.2) et les sources de CyanogenMod 6, et développée par Xiaomi pour le marché chinois. Xiaomi complète le système avec diverses applications comme un bloc-notes, un lecteur de musique ou une galerie photo qui lui est propre.
+Les mises à jour sont généralement distribuées le vendredi par OTA. MIUI est traduit dans d'autres langues et porté sur d'autres appareils par des développeurs tiers.
+
+# MIUI et les services Google Play 
+
+Les problèmes juridiques entre Google et le gouvernement chinois font que l'accès à de nombreux services du géant américain sont bloqués en Chine, MIUI n'intègre donc pas les services Google Play sur les firmwares distribués en Chine. En revanche, les versions distribuées à l'international intègrent Google Play, Gmail ou Google Maps et sont certifiées par Google.
+
+# Critiques et controverses 
+
+Le noyau de MIUI était propriétaire et enfreignait la licence GPL du noyau Linux,. En réponse aux critiques, une partie du code source est publié sur GitHub le 25 octobre 2013. Les sources du noyau sont finalement publiées en mars 2015, mais uniquement pour les appareils Mi3, Mi4, MiNote, et Redmi 1S.
+Une autre critique est la trop grande proximité visuelle entre MIUI et Apple iOS, ainsi qu'avec TouchWiz, la surcouche logicielle Samsung.
+Depuis la version 4, basée sur Android Ice Cream Sandwich et Jelly Bean, Xiaomi a ajouté un antivirus d'une compagnie partenaire, Tencent, malgré l'opposition des utilisateurs. L'application n'ayant pas été jugée efficace, la communauté réagit en publiant des méthodes permettant la suppression de l'application indésirable,.
+La version 4 est aussi celle à partir de laquelle Xiaomi a commencé à retirer les services Google de la version chinoise de la ROM, en raison du blocage des services américains par le gouvernement chinois, qui interdit aussi la commercialisation d'appareils intégrant ces services dans le pays. Xiaomi a développé en remplacement ses propres services. Ils ont tous été retirés dans la version 5.
+
+# Historique des versions 
+
+# Notes et références 
+
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « MIUI » (voir la liste des auteurs).
+
+# Liens externes 
+
+(zh) (en) miui.com, site officiel international, en anglais et chinois.
+(en) en.miui, site officiel en anglais.
+(en) github.com/MiCode, code source Portail de l’informatique Portail des télécommunications

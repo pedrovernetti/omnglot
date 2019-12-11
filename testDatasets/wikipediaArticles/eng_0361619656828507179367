@@ -1,0 +1,2850 @@
+
+## Polyakov action
+
+In physics, the Polyakov action is an action of the two-dimensional conformal field theory describing the worldsheet of a string in string theory. It was introduced by Stanley Deser and Bruno Zumino and independently by L. Brink, P. Di Vecchia and P. S. Howe (in "A locally supersymmetric and reparametrization invariant action for the spinning string", Physics Letters B, 65, pp. 369 and 471 respectively), and has become associated with Alexander Polyakov after he made use of it in quantizing the string (in "Quantum geometry of the bosonic string", Physics Letters B, 103, 1981, p. 207). The action reads
+
+ 
+ 
+ 
+ 
+ 
+ S
+ 
+ 
+ 
+
+ 
+ 
+ T
+ 2
+ 
+ 
+ ∫
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ σ
+ 
+ 
+ −
+ h
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ g
+ 
+ μ
+ ν
+ 
+ 
+ (
+ X
+ )
+ 
+ ∂
+ 
+ a
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ (
+ σ
+ )
+ 
+ ∂
+ 
+ b
+ 
+ 
+ 
+ X
+ 
+ ν
+ 
+ 
+ (
+ σ
+ )
+ 
+ 
+ {\displaystyle {\mathcal {S}}={T \over 2}\int \mathrm {d} ^{2}\sigma {\sqrt {-h}}h^{ab}g_{\mu \nu }(X)\partial _{a}X^{\mu }(\sigma )\partial _{b}X^{\nu }(\sigma )}
+ where 
+ 
+ 
+ 
+ T
+ 
+ 
+ {\displaystyle T}
+ is the string tension, 
+ 
+ 
+ 
+ 
+ g
+ 
+ μ
+ ν
+ 
+ 
+ 
+ 
+ {\displaystyle g_{\mu \nu }}
+ is the metric of the target manifold, 
+ 
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ {\displaystyle h_{ab}}
+ is the worldsheet metric, 
+ 
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ {\displaystyle h^{ab}}
+ its inverse, and 
+ 
+ 
+ 
+ h
+ 
+ 
+ {\displaystyle h}
+ is the determinant of 
+ 
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ {\displaystyle h_{ab}}
+ . The metric signature is chosen such that timelike directions are + and the spacelike directions are –. The spacelike worldsheet coordinate is called 
+ 
+ 
+ 
+ σ
+ 
+ 
+ {\displaystyle \sigma }
+ whereas the timelike worldsheet coordinate is called 
+ 
+ 
+ 
+ τ
+ 
+ 
+ {\displaystyle \tau }
+ . This is also known as nonlinear sigma model.The Polyakov action must be supplemented by the 
+Liouville action to describe string fluctuations.
+
+# Global symmetries 
+
+N.B.: Here, a symmetry is said to be local or global from the two dimensional theory (on the worldsheet) point of view. For example, Lorentz transformations, that are local symmetries of the space-time, are global symmetries of the theory on the worldsheet.
+The action is invariant under spacetime translations and infinitesimal Lorentz transformations:
+
+(i) 
+ 
+ 
+ 
+ 
+ X
+ 
+ α
+ 
+ 
+ →
+ 
+ X
+ 
+ α
+ 
+ 
+ +
+ 
+ b
+ 
+ α
+ 
+ 
+ 
+ 
+ {\displaystyle X^{\alpha }\rightarrow X^{\alpha }+b^{\alpha }}
+ 
+(ii) 
+ 
+ 
+ 
+ 
+ X
+ 
+ α
+ 
+ 
+ →
+ 
+ X
+ 
+ α
+ 
+ 
+ +
+ 
+ ω
+ 
+ 
+ β
+ 
+ 
+ α
+ 
+ 
+ 
+ X
+ 
+ β
+ 
+ 
+ 
+ 
+ {\displaystyle X^{\alpha }\rightarrow X^{\alpha }+\omega _{\ \beta }^{\alpha }X^{\beta }}
+ where 
+ 
+ 
+ 
+ 
+ ω
+ 
+ μ
+ ν
+ 
+ 
+ 
+
+ −
+ 
+ ω
+ 
+ ν
+ μ
+ 
+ 
+ 
+ 
+ {\displaystyle \omega _{\mu \nu }=-\omega _{\nu \mu }}
+ and 
+ 
+ 
+ 
+ 
+ b
+ 
+ α
+ 
+ 
+ 
+ 
+ {\displaystyle b^{\alpha }}
+ is a constant. This forms the Poincaré symmetry of the target manifold.
+The invariance under (i) follows since the action 
+ 
+ 
+ 
+ 
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {S}}}
+ depends only on the first derivative of 
+ 
+ 
+ 
+ 
+ X
+ 
+ α
+ 
+ 
+ 
+ 
+ {\displaystyle X^{\alpha }}
+ . The proof of the invariance under (ii) is as follows:
+
+# Local symmetries 
+
+The action is invariant under worldsheet diffeomorphisms (or coordinates transformations) and Weyl transformations.
+
+# Diffeomorphisms 
+
+Assume the following transformation:
+
+ 
+ 
+ 
+ 
+ σ
+ 
+ α
+ 
+ 
+ →
+ 
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ 
+ α
+ 
+ 
+ 
+ (
+ 
+ σ
+ ,
+ τ
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle \sigma ^{\alpha }\rightarrow {\tilde {\sigma }}^{\alpha }\left(\sigma ,\tau \right)}
+ It transforms the metric tensor in the following way:
+
+ 
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ (
+ σ
+ )
+ →
+ 
+ 
+ 
+ 
+ h
+ ~
+ 
+ 
+ 
+ 
+ a
+ b
+ 
+ 
+ 
+
+ 
+ h
+ 
+ c
+ d
+ 
+ 
+ (
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ ∂
+ 
+ 
+ σ
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ ∂
+ 
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ 
+ c
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ∂
+ 
+ 
+ σ
+ 
+ 
+ b
+ 
+ 
+ 
+ 
+ ∂
+ 
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle h^{ab}(\sigma )\rightarrow {\tilde {h}}^{ab}=h^{cd}({\tilde {\sigma }}){\frac {\partial {\sigma }^{a}}{\partial {\tilde {\sigma }}^{c}}}{\frac {\partial {\sigma }^{b}}{\partial {\tilde {\sigma }}^{d}}}}
+ One can see that:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ h
+ ~
+ 
+ 
+ 
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ ∂
+ 
+ ∂
+ 
+ 
+ σ
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ (
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ )
+ 
+ 
+ ∂
+ 
+ ∂
+ 
+ 
+ σ
+ 
+ 
+ b
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+ 
+ ν
+ 
+ 
+ (
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ )
+ 
+
+ 
+ h
+ 
+ c
+ d
+ 
+ 
+ (
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ ∂
+ 
+ 
+ σ
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ ∂
+ 
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ 
+ c
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ∂
+ 
+ 
+ σ
+ 
+ 
+ b
+ 
+ 
+ 
+ 
+ ∂
+ 
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ∂
+ 
+ ∂
+ 
+ 
+ σ
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ (
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ )
+ 
+ 
+ ∂
+ 
+ ∂
+ 
+ 
+ σ
+ 
+ 
+ b
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+ 
+ ν
+ 
+ 
+ (
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ )
+ 
+
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ (
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ )
+ 
+ 
+ ∂
+ 
+ ∂
+ 
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ (
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ )
+ 
+ 
+ ∂
+ 
+ ∂
+ 
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ 
+ b
+ 
+ 
+ 
+ 
+ 
+ 
+ X
+ 
+ ν
+ 
+ 
+ (
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle {\tilde {h}}^{ab}{\frac {\partial }{\partial {\sigma }^{a}}}X^{\mu }({\tilde {\sigma }}){\frac {\partial }{\partial {\sigma }^{b}}}X^{\nu }({\tilde {\sigma }})=h^{cd}({\tilde {\sigma }}){\frac {\partial {\sigma }^{a}}{\partial {\tilde {\sigma }}^{c}}}{\frac {\partial {\sigma }^{b}}{\partial {\tilde {\sigma }}^{d}}}{\frac {\partial }{\partial {\sigma }^{a}}}X^{\mu }({\tilde {\sigma }}){\frac {\partial }{\partial {\sigma }^{b}}}X^{\nu }({\tilde {\sigma }})=h^{ab}({\tilde {\sigma }}){\frac {\partial }{\partial {\tilde {\sigma }}^{a}}}X^{\mu }({\tilde {\sigma }}){\frac {\partial }{\partial {\tilde {\sigma }}^{b}}}X^{\nu }({\tilde {\sigma }})}
+ One knows that the Jacobian of this transformation is given by:
+
+ 
+ 
+ 
+ 
+ J
+ 
+ 
+
+ 
+ d
+ e
+ t
+ 
+ 
+ (
+ 
+ 
+ 
+ ∂
+ 
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ 
+ α
+ 
+ 
+ 
+ 
+ ∂
+ 
+ σ
+ 
+ β
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle \mathrm {J} =\mathrm {det} \left({\frac {\partial {\tilde {\sigma }}^{\alpha }}{\partial \sigma ^{\beta }}}\right)}
+ which leads to:
+
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ 
+
+ 
+ J
+ 
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ σ
+ 
+ 
+ 
+ {\displaystyle \mathrm {d} ^{2}{\tilde {\sigma }}=\mathrm {J} \mathrm {d} ^{2}\sigma \,}
+ 
+
+ 
+ 
+ 
+ h
+ 
+
+ 
+ d
+ e
+ t
+ 
+ 
+ (
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ )
+ 
+ →
+ 
+ 
+ 
+ h
+ ~
+ 
+ 
+ 
+ 
+
+ 
+ 
+ J
+ 
+ 
+ 2
+ 
+ 
+ h
+ 
+ 
+ 
+ {\displaystyle h=\mathrm {det} \left(h_{ab}\right)\rightarrow {\tilde {h}}=\mathrm {J} ^{2}h\,}
+ and one sees that:
+
+ 
+ 
+ 
+ 
+ 
+ −
+ 
+ 
+ 
+ h
+ ~
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ 
+ σ
+ 
+ 
+
+ 
+ 
+ −
+ h
+ (
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\sqrt {-{\tilde {h}}}}\mathrm {d} ^{2}{\sigma }={\sqrt {-h({\tilde {\sigma }})}}\mathrm {d} ^{2}{\tilde {\sigma }}}
+ summing up this transformation and relabeling 
+ 
+ 
+ 
+ 
+ 
+ 
+ σ
+ ~
+ 
+ 
+ 
+ 
+
+ σ
+ 
+ 
+ {\displaystyle {\tilde {\sigma }}=\sigma }
+ we see that the action is invariant.
+
+# Weyl transformation 
+
+Assume the Weyl transformation:
+
+ 
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ →
+ 
+ 
+ 
+ 
+ h
+ ~
+ 
+ 
+ 
+ 
+ a
+ b
+ 
+ 
+ 
+
+ Λ
+ (
+ σ
+ )
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ {\displaystyle h_{ab}\rightarrow {\tilde {h}}_{ab}=\Lambda (\sigma )h_{ab}}
+ then:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ h
+ ~
+ 
+ 
+ 
+ 
+ a
+ b
+ 
+ 
+ 
+
+ 
+ Λ
+ 
+ −
+ 1
+ 
+ 
+ (
+ σ
+ )
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ {\displaystyle {\tilde {h}}^{ab}=\Lambda ^{-1}(\sigma )h^{ab}}
+ 
+
+ 
+ 
+ 
+ 
+ d
+ e
+ t
+ 
+ (
+ 
+ 
+ 
+ 
+ h
+ ~
+ 
+ 
+ 
+ 
+ a
+ b
+ 
+ 
+ )
+ 
+
+ 
+ Λ
+ 
+ 2
+ 
+ 
+ (
+ σ
+ )
+ 
+ d
+ e
+ t
+ 
+ (
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle \mathrm {det} ({\tilde {h}}_{ab})=\Lambda ^{2}(\sigma )\mathrm {det} (h_{ab})}
+ And finally:
+
+And one can see that the action is invariant under Weyl transformation. If we consider n-dimensional (spatially) extended objects whose action is proportional to their worldsheet area/hyperarea, unless n=1, the corresponding Polyakov action would contain another term breaking Weyl symmetry.
+One can define the stress–energy tensor:
+
+ 
+ 
+ 
+ 
+ T
+ 
+ a
+ b
+ 
+ 
+ 
+
+ 
+ 
+ 
+ −
+ 2
+ 
+ 
+ −
+ h
+ 
+ 
+ 
+ 
+ 
+ 
+ δ
+ S
+ 
+ 
+ δ
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle T^{ab}={\frac {-2}{\sqrt {-h}}}{\frac {\delta S}{\delta h_{ab}}}}
+ Let's define:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ h
+ ^
+ 
+ 
+ 
+ 
+ a
+ b
+ 
+ 
+ 
+
+ exp
+ 
+ 
+ (
+ 
+ ϕ
+ (
+ σ
+ )
+ 
+ )
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ {\displaystyle {\hat {h}}_{ab}=\exp \left(\phi (\sigma )\right)h_{ab}}
+ Because of Weyl symmetry the action does not depend on 
+ 
+ 
+ 
+ ϕ
+ 
+ 
+ {\displaystyle \phi }
+ :
+
+ 
+ 
+ 
+ 
+ 
+ 
+ δ
+ S
+ 
+ 
+ δ
+ ϕ
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ δ
+ S
+ 
+ 
+ δ
+ 
+ 
+ 
+ 
+ h
+ ^
+ 
+ 
+ 
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ δ
+ 
+ 
+ 
+ 
+ h
+ ^
+ 
+ 
+ 
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ δ
+ ϕ
+ 
+ 
+ 
+ 
+
+ −
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ 
+ −
+ h
+ 
+ 
+ 
+ 
+ T
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ e
+ 
+ ϕ
+ 
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+
+ −
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ 
+ −
+ h
+ 
+ 
+ 
+ 
+ T
+ 
+ 
+ a
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ e
+ 
+ ϕ
+ 
+ 
+ 
+
+ 0
+ ⇒
+ 
+ T
+ 
+ 
+ a
+ 
+ 
+ a
+ 
+ 
+ 
+
+ 0
+ ,
+ 
+ 
+ {\displaystyle {\frac {\delta S}{\delta \phi }}={\frac {\delta S}{\delta {\hat {h}}_{ab}}}{\frac {\delta {\hat {h}}_{ab}}{\delta \phi }}=-{\frac {1}{2}}{\sqrt {-h}}\,T_{ab}\,e^{\phi }\,h^{ab}=-{\frac {1}{2}}{\sqrt {-h}}\,T_{\ a}^{a}\,e^{\phi }=0\Rightarrow T_{\ a}^{a}=0,}
+ where we've used the functional derivative chain rule.
+
+# Relation with Nambu–Goto action 
+
+Writing the Euler–Lagrange equation for the metric tensor 
+ 
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ {\displaystyle h^{ab}}
+ one obtains that:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ δ
+ S
+ 
+ 
+ δ
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ T
+ 
+ a
+ b
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle {\frac {\delta S}{\delta h^{ab}}}=T_{ab}=0}
+ Knowing also that:
+
+ 
+ 
+ 
+ δ
+ 
+ 
+ −
+ h
+ 
+ 
+ 
+
+ −
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ 
+ −
+ h
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ δ
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ {\displaystyle \delta {\sqrt {-h}}=-{\frac {1}{2}}{\sqrt {-h}}h_{ab}\delta h^{ab}}
+ One can write the variational derivative of the action:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ δ
+ S
+ 
+ 
+ δ
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ T
+ 2
+ 
+ 
+ 
+ 
+ −
+ h
+ 
+ 
+ 
+ (
+ 
+ 
+ G
+ 
+ a
+ b
+ 
+ 
+ −
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ h
+ 
+ c
+ d
+ 
+ 
+ 
+ G
+ 
+ c
+ d
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle {\frac {\delta S}{\delta h^{ab}}}={\frac {T}{2}}{\sqrt {-h}}\left(G_{ab}-{\frac {1}{2}}h_{ab}h^{cd}G_{cd}\right)}
+ where 
+ 
+ 
+ 
+ 
+ G
+ 
+ a
+ b
+ 
+ 
+ 
+
+ 
+ g
+ 
+ μ
+ ν
+ 
+ 
+ 
+ ∂
+ 
+ a
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ 
+ ∂
+ 
+ b
+ 
+ 
+ 
+ X
+ 
+ ν
+ 
+ 
+ 
+ 
+ {\displaystyle G_{ab}=g_{\mu \nu }\partial _{a}X^{\mu }\partial _{b}X^{\nu }}
+ which leads to:
+
+ 
+ 
+ 
+ 
+ T
+ 
+ a
+ b
+ 
+ 
+ 
+
+ T
+ 
+ (
+ 
+ 
+ G
+ 
+ a
+ b
+ 
+ 
+ −
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ h
+ 
+ c
+ d
+ 
+ 
+ 
+ G
+ 
+ c
+ d
+ 
+ 
+ 
+ )
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle T_{ab}=T\left(G_{ab}-{\frac {1}{2}}h_{ab}h^{cd}G_{cd}\right)=0}
+ 
+
+ 
+ 
+ 
+ 
+ G
+ 
+ a
+ b
+ 
+ 
+ 
+
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ h
+ 
+ c
+ d
+ 
+ 
+ 
+ G
+ 
+ c
+ d
+ 
+ 
+ 
+ 
+ {\displaystyle G_{ab}={\frac {1}{2}}h_{ab}h^{cd}G_{cd}}
+ 
+
+ 
+ 
+ 
+ G
+ 
+
+ 
+ d
+ e
+ t
+ 
+ 
+ (
+ 
+ G
+ 
+ a
+ b
+ 
+ 
+ )
+ 
+ 
+
+ 
+ 
+ 1
+ 4
+ 
+ 
+ h
+ 
+ 
+ (
+ 
+ 
+ h
+ 
+ c
+ d
+ 
+ 
+ 
+ G
+ 
+ c
+ d
+ 
+ 
+ 
+ )
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle G=\mathrm {det} \left(G_{ab}\right)={\frac {1}{4}}h\left(h^{cd}G_{cd}\right)^{2}}
+ If the auxiliary worldsheet metric tensor 
+ 
+ 
+ 
+ 
+ 
+ −
+ h
+ 
+ 
+ 
+ 
+ {\displaystyle {\sqrt {-h}}}
+ is calculated from the equations of motion:
+
+ 
+ 
+ 
+ 
+ 
+ −
+ h
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 2
+ 
+ 
+ −
+ G
+ 
+ 
+ 
+ 
+ 
+ h
+ 
+ c
+ d
+ 
+ 
+ 
+ G
+ 
+ c
+ d
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\sqrt {-h}}={\frac {2{\sqrt {-G}}}{h^{cd}G_{cd}}}}
+ and substituted back to the action, it becomes the Nambu–Goto action:
+
+ 
+ 
+ 
+ S
+ 
+
+ 
+ 
+ T
+ 2
+ 
+ 
+ ∫
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ σ
+ 
+ 
+ −
+ h
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ G
+ 
+ a
+ b
+ 
+ 
+ 
+
+ 
+ 
+ T
+ 2
+ 
+ 
+ ∫
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ σ
+ 
+ 
+ 
+ 2
+ 
+ 
+ −
+ G
+ 
+ 
+ 
+ 
+ 
+ h
+ 
+ c
+ d
+ 
+ 
+ 
+ G
+ 
+ c
+ d
+ 
+ 
+ 
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ 
+ G
+ 
+ a
+ b
+ 
+ 
+ 
+
+ T
+ ∫
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ σ
+ 
+ 
+ −
+ G
+ 
+ 
+ 
+ 
+ {\displaystyle S={T \over 2}\int \mathrm {d} ^{2}\sigma {\sqrt {-h}}h^{ab}G_{ab}={T \over 2}\int \mathrm {d} ^{2}\sigma {\frac {2{\sqrt {-G}}}{h^{cd}G_{cd}}}h^{ab}G_{ab}=T\int \mathrm {d} ^{2}\sigma {\sqrt {-G}}}
+ However, the Polyakov action is more easily quantized because it is linear.
+
+# Equations of motion 
+
+Using diffeomorphisms and Weyl transformation, with a Minkowskian target space, one can make the physically insignificant transformation 
+ 
+ 
+ 
+ 
+ 
+ −
+ h
+ 
+ 
+ 
+ h
+ 
+ a
+ b
+ 
+ 
+ →
+ 
+ η
+ 
+ a
+ b
+ 
+ 
+ 
+ 
+ {\displaystyle {\sqrt {-h}}h^{ab}\rightarrow \eta ^{ab}}
+ , thus writing the action in the conformal gauge:
+
+ 
+ 
+ 
+ 
+ 
+ S
+ 
+ 
+ 
+
+ 
+ 
+ T
+ 2
+ 
+ 
+ ∫
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ σ
+ 
+ 
+ −
+ η
+ 
+ 
+ 
+ η
+ 
+ a
+ b
+ 
+ 
+ 
+ g
+ 
+ μ
+ ν
+ 
+ 
+ (
+ X
+ )
+ 
+ ∂
+ 
+ a
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ (
+ σ
+ )
+ 
+ ∂
+ 
+ b
+ 
+ 
+ 
+ X
+ 
+ ν
+ 
+ 
+ (
+ σ
+ )
+ 
+
+ 
+ 
+ T
+ 2
+ 
+ 
+ ∫
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ σ
+ 
+ (
+ 
+ 
+ 
+ 
+ 
+ X
+ ˙
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ −
+ 
+ X
+ 
+ ′
+ 
+ 2
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle {\mathcal {S}}={T \over 2}\int \mathrm {d} ^{2}\sigma {\sqrt {-\eta }}\eta ^{ab}g_{\mu \nu }(X)\partial _{a}X^{\mu }(\sigma )\partial _{b}X^{\nu }(\sigma )={T \over 2}\int \mathrm {d} ^{2}\sigma \left({\dot {X}}^{2}-X'^{2}\right)}
+ where 
+ 
+ 
+ 
+ 
+ η
+ 
+ a
+ b
+ 
+ 
+ 
+
+ 
+ (
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ −
+ 1
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle \eta _{ab}=\left({\begin{array}{cc}1&0\\0&-1\end{array}}\right)}
+ 
+Keeping in mind that 
+ 
+ 
+ 
+ 
+ T
+ 
+ a
+ b
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle T_{ab}=0}
+ one can derive the constraints:
+
+ 
+ 
+ 
+ 
+ T
+ 
+ 01
+ 
+ 
+ 
+
+ 
+ T
+ 
+ 10
+ 
+ 
+ 
+
+ 
+ 
+ 
+ X
+ ˙
+ 
+ 
+ 
+ 
+ X
+ ′
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle T_{01}=T_{10}={\dot {X}}X'=0}
+ 
+
+ 
+ 
+ 
+ 
+ T
+ 
+ 00
+ 
+ 
+ 
+
+ 
+ T
+ 
+ 11
+ 
+ 
+ 
+
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 
+ 
+ X
+ ˙
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ +
+ 
+ X
+ 
+ ′
+ 
+ 2
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle T_{00}=T_{11}={\frac {1}{2}}\left({\dot {X}}^{2}+X'^{2}\right)=0}
+ .Substituting 
+ 
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ →
+ 
+ X
+ 
+ μ
+ 
+ 
+ +
+ δ
+ 
+ X
+ 
+ μ
+ 
+ 
+ 
+ 
+ {\displaystyle X^{\mu }\rightarrow X^{\mu }+\delta X^{\mu }}
+ one obtains:
+
+ 
+ 
+ 
+ δ
+ 
+ 
+ S
+ 
+ 
+ 
+
+ T
+ ∫
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ σ
+ 
+ η
+ 
+ a
+ b
+ 
+ 
+ 
+ ∂
+ 
+ a
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ 
+ ∂
+ 
+ b
+ 
+ 
+ δ
+ 
+ X
+ 
+ μ
+ 
+ 
+ 
+
+ 
+ 
+ {\displaystyle \delta {\mathcal {S}}=T\int \mathrm {d} ^{2}\sigma \eta ^{ab}\partial _{a}X^{\mu }\partial _{b}\delta X_{\mu }=}
+ 
+ 
+ 
+ 
+ 
+
+ −
+ T
+ ∫
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ σ
+ 
+ η
+ 
+ a
+ b
+ 
+ 
+ 
+ ∂
+ 
+ a
+ 
+ 
+ 
+ ∂
+ 
+ b
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ δ
+ 
+ X
+ 
+ μ
+ 
+ 
+ +
+ 
+ 
+ (
+ 
+ T
+ ∫
+ d
+ τ
+ 
+ X
+ ′
+ 
+ δ
+ X
+ 
+ )
+ 
+ 
+ σ
+ 
+
+ π
+ 
+ 
+ −
+ 
+ 
+ (
+ 
+ T
+ ∫
+ d
+ τ
+ 
+ X
+ ′
+ 
+ δ
+ X
+ 
+ )
+ 
+ 
+ σ
+ 
+
+ 0
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle =-T\int \mathrm {d} ^{2}\sigma \eta ^{ab}\partial _{a}\partial _{b}X^{\mu }\delta X_{\mu }+\left(T\int d\tau X'\delta X\right)_{\sigma =\pi }-\left(T\int d\tau X'\delta X\right)_{\sigma =0}=0}
+ And consequently:
+
+ 
+ 
+ 
+ ◻
+ 
+ X
+ 
+ μ
+ 
+ 
+ 
+
+ 
+ η
+ 
+ a
+ b
+ 
+ 
+ 
+ ∂
+ 
+ a
+ 
+ 
+ 
+ ∂
+ 
+ b
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle \square X^{\mu }=\eta ^{ab}\partial _{a}\partial _{b}X^{\mu }=0}
+ With the boundary conditions in order to satisfy the second part of the variation of the action.
+
+Closed stringsPeriodic boundary conditions: 
+ 
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ (
+ τ
+ ,
+ σ
+ +
+ π
+ )
+ 
+
+ 
+ X
+ 
+ μ
+ 
+ 
+ (
+ τ
+ ,
+ σ
+ )
+ 
+ 
+ 
+ {\displaystyle X^{\mu }(\tau ,\sigma +\pi )=X^{\mu }(\tau ,\sigma )\ }
+ Open strings(i) Neumann boundary conditions: 
+ 
+ 
+ 
+ 
+ ∂
+ 
+ σ
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ (
+ τ
+ ,
+ 0
+ )
+ 
+
+ 0
+ ,
+ 
+ ∂
+ 
+ σ
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ (
+ τ
+ ,
+ π
+ )
+ 
+
+ 0
+ 
+ 
+ {\displaystyle \partial _{\sigma }X^{\mu }(\tau ,0)=0,\partial _{\sigma }X^{\mu }(\tau ,\pi )=0}
+ 
+(ii) Dirichlet boundary conditions: 
+ 
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ (
+ τ
+ ,
+ 0
+ )
+ 
+
+ 
+ b
+ 
+ μ
+ 
+ 
+ ,
+ 
+ X
+ 
+ μ
+ 
+ 
+ (
+ τ
+ ,
+ π
+ )
+ 
+
+ 
+ b
+ 
+ ′
+ 
+ μ
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle X^{\mu }(\tau ,0)=b^{\mu },X^{\mu }(\tau ,\pi )=b'^{\mu }\ }
+ Working in light cone coordinates 
+ 
+ 
+ 
+ 
+ ξ
+ 
+ ±
+ 
+ 
+ 
+
+ τ
+ ±
+ σ
+ 
+ 
+ {\displaystyle \xi ^{\pm }=\tau \pm \sigma }
+ , we can rewrite the equations of motion as:
+
+ 
+ 
+ 
+ 
+ ∂
+ 
+ +
+ 
+ 
+ 
+ ∂
+ 
+ −
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle \partial _{+}\partial _{-}X^{\mu }=0}
+ 
+
+ 
+ 
+ 
+ (
+ 
+ ∂
+ 
+ +
+ 
+ 
+ X
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+
+ (
+ 
+ ∂
+ 
+ −
+ 
+ 
+ X
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle (\partial _{+}X)^{2}=(\partial _{-}X)^{2}=0}
+ Thus, the solution can be written as 
+ 
+ 
+ 
+ 
+ X
+ 
+ μ
+ 
+ 
+ 
+
+ 
+ X
+ 
+ +
+ 
+ 
+ μ
+ 
+ 
+ (
+ 
+ ξ
+ 
+ +
+ 
+ 
+ )
+ +
+ 
+ X
+ 
+ −
+ 
+ 
+ μ
+ 
+ 
+ (
+ 
+ ξ
+ 
+ −
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle X^{\mu }=X_{+}^{\mu }(\xi ^{+})+X_{-}^{\mu }(\xi ^{-})}
+ and the stress-energy tensor is now diagonal. By Fourier expanding the solution and imposing canonical commutation relations on the coefficients, applying the second equation of motion motivates the definition of the Virasoro operators and lead to the Virasoro constraints that vanish when acting on physical states.
+
+# See also 
+
+D-brane
+Einstein–Hilbert action
+
+# Notes 
+
+# References 
+
+Polchinski (Nov, 1994). What is String Theory, NSF-ITP-94-97, 153pp, arXiv:hep-th/9411028v1
+Ooguri, Yin (Feb, 1997). TASI Lectures on Perturbative String Theories, UCB-PTH-96/64, LBNL-39774, 80pp, arXiv:hep-th/9612254v3

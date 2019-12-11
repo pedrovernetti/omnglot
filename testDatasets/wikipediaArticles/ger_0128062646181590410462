@@ -1,0 +1,54 @@
+
+## Simula
+
+Simula ist eine Programmiersprache, die von Ole-Johan Dahl und Kristen Nygaard in den 1960er Jahren am Norsk Regnesentral (Norwegisches Rechenzentrum) an der Universität Oslo entwickelt wurde, um Simulationen von z. B. physikalischen Prozessen am Rechner durchführen zu können.
+Die Sprache gilt als erste objektorientierte Programmiersprache. Sie baute auf der Definition von Algol 60 auf, ist blockstrukturiert mit den üblichen Grunddatentypen und Kontrollstrukturen und führt Klassen ein, die die Konzepte von Datenstrukturen und Koroutinen vereinigen.
+Simula gilt als Vorgänger von Smalltalk. Viele der mit Simula eingeführten Konzepte finden sich in modernen objektorientierten Programmiersprachen wieder. Das Klassenkonzept von Simula-67 diente beispielsweise als Vorbild für das von C++; die Sprache benutzte schon damals einige der noch heute in modernen objektorientierten Programmiersprachen verwendeten Schlüsselwörter wie class, new, this.
+Das Wort Simula setzt sich aus den Bestandteilen simu für simulation und la für language zusammen.
+
+# Objekte 
+
+Die Sprache basiert auf Algol 60, ergänzt diese aber um Konzepte von Objekten und Koroutinen. Simula führt auch das Klassenkonzept ein. Was in späteren Jahren unter den Begriffen Datenabstraktion – das Verbergen von Implementierungsdetails – oder Modularisierung – das Trennen eines Programms in Funktionseinheiten – bekannt wurde, ist schon in Simula als Begriff vorhanden. Ein Objekt fasst Untereinheiten ggf. unterschiedlicher Datentypen zu einer neuen Einheit zusammen. Zur Manipulation eines Objektes werden dazu passende Prozeduren und Funktionen vereinbart.
+In Simula ist diese Implementierung noch nicht für andere Blöcke unsichtbar, aber der erste Schritt in diese Richtung ist getan. Gibt es mehrere Objekte mit einer ähnlichen Struktur, die sich vielleicht nur in einigen Komponenten unterscheiden, so besteht die Möglichkeit, Ober- und Unterklassen zu vereinbaren, was heutzutage als Vererbung bezeichnet wird.
+Zusätzlich gibt es eine Möglichkeit, sogenannte Koroutinen zu vereinbaren, damit Objekte miteinander kommunizieren und selbständig agieren können; und es gibt große Bibliotheken mit Funktionen zur Verwaltung von Warteschlangen und zur Ausführung von Prozeduren zu festgelegten Zeitpunkten, so dass es auch möglich ist, umfangreiche Simulationen zu programmieren. Die Sprache fand außerhalb Europas kaum Verbreitung, obwohl sie in Skandinavien sehr verbreitet war. 1987 wurde der letzte gültige Simula-Standard verabschiedet. Hier ist ein Code-Beispiel:
+Vereinbarung einer Klassendefinition:
+
+class datum;
+begin
+ integer tag, monat, jahr;
+ jahr := 1992;
+end;
+
+Erzeugung eines „Datum-Objektes“:
+
+ref (datum) heute; (* Variable vom Typ "Zeiger auf datum" *)
+heute :- new datum; (* Erzeugung eines Objektes und Zuweisung
+ der Referenz an "heute" mit ":-" *)
+outint(datum.jahr,6); (* Ausgabe der Jahreszahl *)
+
+Verwendung von Datum als Oberklasse – der Wochentag wird hinzugefügt:
+
+datum class tagesdatum;
+begin
+ ref (string) wochentag;
+end;
+
+# Entstehungsgeschichte 
+
+1962 trafen sich Ole-Johan Dahl und Kristen Nygaard am Norsk Regnesentral (NR) in Oslo, im selben Jahr wurde eine erste formale Beschreibung der Sprache auf dem IFIP 62 Weltkongress in München vorgestellt. Als UNIVAC das Simula-Projekt unterstützte, wurde eine UNIVAC 1107 am NR installiert. Ein erster Prototyp eines Simula-Compilers lief 1964 auf der UNIVAC 1107 des NR und das Simula-I-Handbuch wurde 1965 veröffentlicht. 1967 erschien die überarbeitete Sprachversion Simula-67, für die auf mehreren damals existierenden Großrechnersystemen Compiler entwickelt wurden. In den 70er Jahren wurde Simula in der Praxis vielfach eingesetzt, und die theoretischen Konzepte der Sprache hatten großen Einfluss auf damals moderne Programmiersprachen. Die Konzepte der Objektorientierung wurden weiterentwickelt und schließlich in Smalltalk-80 erstmals konsequent umgesetzt. Die erste Smalltalk-Version wurde in Simula geschrieben.
+Erzählt wird, dass Dahl und Nygaard an Schiffssimulationen gearbeitet hatten. Dabei ergab sich durch die kombinatorische Explosion von Parameterbeziehungen eine verwirrende Vielfalt an Möglichkeiten, wie sich die verschiedensten Attribute der unterschiedlichen Schiffe gegenseitig beeinflussen konnten. So kam die Idee auf, die unterschiedlichen Schiffstypen jeweils als eigenständige Objekte zu klassifizieren, wobei jede Klasse von Objekten für die eigenen Daten und das eigene Verhalten selbst zuständig war.
+Simula wird heute immer noch gelegentlich eingesetzt, aber der historische Einfluss der Sprache ist wichtiger als ihre Bedeutung in der modernen Programmierung. In den skandinavischen Ländern wurde Simula lange Zeit als Ausbildungssprache verwendet; das Buch SIMULA begin gilt auch in Deutschland als Klassiker. Bjarne Stroustrup, der als Student das Programmieren mit Simula erlernt hatte und bei seinem späteren Arbeitgeber AT&T in C programmieren musste, reicherte C mit Hilfe eines Präprozessors (cfront) um die wesentlichen Konstrukte von Simula an, um weiter in der erlernten Art programmieren zu können. Seine Erweiterung hieß zunächst C with classes und ist heute als C++ bekannt.
+Ein Nachfolger von Simula mit dem Namen Beta wurde zwar entwickelt, aber kaum eingesetzt.
+
+# Literatur 
+
+Helmut Rohlfing: SIMULA. Eine Einführung. Bibliographisches Institut, Mannheim 1973, ISBN 3-411-00747-8. 
+G. M. Birtwhistle and O.-J. Dahl and B Myhrhaug and K. Nygaard: SIMULA begin. Studentlitteratur, Lund, Schweden 1973. 
+
+# Weblinks 
+
+Literatur über Simula im Katalog der Deutschen Nationalbibliothek
+Ole-Johan Dahl: The Birth of Object Orientation (PDF; 132 kB) – englische, ausführliche Darstellung der Historie
+Dahl, Ole-Johan; Nygaard, Kristen: Simula – An Algol-based Simulation Language. CACM, 9(9):671–678, 1966.
+The Association of Simula Users ASU
+An Introduction to Programming in Simula Eine Einführung von Rob Pooley in HTML Form

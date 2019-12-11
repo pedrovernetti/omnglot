@@ -1,0 +1,24 @@
+
+## Boids
+
+A Boids egy Craig Reynolds által 1986-ban kifejlesztett mesterséges élet program, ami a madárrajoknál megfigyelhető emergens viselkedést szimulálja virtuális lények (a boidok) segítségével.
+Más emergens jelenségekhez hasonlóan a boidok is egyszerű viselkedési szabályokat követnek, azonban nagyszámú boid találkozásakor ezeknek a szabályoknak az interakciójából bonyolult minták alakulnak ki. A szabályok a legegyszerűbb változatban a következőek:
+
+szeparáció: a boidok elkerülik azokat a helyeket, ahol más boidok összesűrűsödtek;
+igazodás: a boidok átveszik a közelükben lévő boidok irányának átlagát;
+kohézió: a boidok a közelükben lévő boidok helyzetének átlaga felé mozognak (amennyire a szeparáció engedi).A boid-csoportok viselkedésében ezen egyszerű szabályok váratlan mintákat eredményeznek, például akadályok előtt két csoportra válnak, és a túloldalon újra összeolvadnak, illetve egy boidcsoport néha minden látható ok nélkül több csoportra bomlik.
+A boid-szabályrendszert gyakran használják a számítógépes grafikában madárcsapatok, halrajok és más hasonló együttmozgó csoportok irányítására.
+Reynolds a Boids egy módosított változatát használta a Batman visszatér denevér- és pingvincsapatainak animálásához.
+
+# Kapcsolódó szócikkek 
+
+rajintelligencia
+
+# További információk 
+
+Craig Reynolds Boids oldala
+Boids Java applet
+Boids pszeudokód
+3D Boids szimuláció OpenGL-ben
+3D Java Boids (Paul Richmond)
+Battle boids egymás ellen küzdő 2D boidok

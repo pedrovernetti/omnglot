@@ -1,0 +1,3586 @@
+
+## Prädikatenlogik zweiter Stufe
+
+Die Prädikatenlogik zweiter Stufe ist ein Teilgebiet der mathematischen Logik. Sie erweitert die Prädikatenlogik erster Stufe um die Möglichkeit, über alle Relationen zu quantifizieren. Die Prädikatenlogik zweiter Stufe ist daher echt ausdrucksstärker als die der ersten Stufe, bestimmte wichtige Sätze gelten jedoch nicht mehr, wie etwa der Kompaktheitssatz.
+
+# Die Sprache der Prädikatenlogik zweiter Stufe 
+
+Dieser Artikel benutzt die im Artikel Prädikatenlogik erster Stufe eingeführten Begriffe und Bezeichnungen.
+
+# Symbole 
+
+Die Symbole der Prädikatenlogik zweiter Stufe enthalten neben denjenigen der ersten Stufe
+
+logische Symbole:
+Quantoren: 
+ 
+ 
+ 
+ ∀
+ ,
+ ∃
+ 
+ 
+ {\displaystyle \forall ,\exists }
+ ,
+Junktoren: 
+ 
+ 
+ 
+ ∧
+ ,
+ ∨
+ ,
+ →
+ ,
+ ↔
+ ,
+ ¬
+ 
+ 
+ {\displaystyle \land ,\lor ,\rightarrow ,\leftrightarrow ,\neg }
+ ,
+technische Zeichen: 
+ 
+ 
+ 
+ (
+ ,
+ )
+ ,
+ ≡
+ 
+ 
+ {\displaystyle (,),\equiv }
+ ,
+Variablensymbole: 
+ 
+ 
+ 
+ 
+ v
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle v_{0}}
+ , 
+ 
+ 
+ 
+ 
+ v
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle v_{1}}
+ , 
+ 
+ 
+ 
+ 
+ v
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle v_{2}}
+ , …,
+eine (möglicherweise leere) Menge 
+ 
+ 
+ 
+ 
+ 
+ C
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {C}}}
+ von Konstantensymbolen,
+eine (möglicherweise leere) Menge 
+ 
+ 
+ 
+ 
+ 
+ F
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {F}}}
+ von Funktionssymbolen,
+eine (möglicherweise leere) Menge 
+ 
+ 
+ 
+ 
+ 
+ R
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {R}}}
+ von Relationssymbolenzusätzlich noch
+
+Relationsvariablensymbole 
+ 
+ 
+ 
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle V_{0}}
+ , 
+ 
+ 
+ 
+ 
+ V
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle V_{1}}
+ , 
+ 
+ 
+ 
+ 
+ V
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle V_{2}}
+ , …deren Stelligkeit nötigenfalls als oberer Index notiert wird. Sie treten neben die Variablensymbole 
+ 
+ 
+ 
+ 
+ v
+ 
+ 0
+ 
+ 
+ ,
+ 
+ v
+ 
+ 1
+ 
+ 
+ ,
+ 
+ v
+ 
+ 2
+ 
+ 
+ ,
+ …
+ 
+ 
+ {\displaystyle v_{0},v_{1},v_{2},\ldots }
+ . Auch wenn die intendierte Anwendung, nämlich die Quantifizierung über alle Relationen, schon im Namen steckt, wollen wir an dieser Stelle wie in der Prädikatenlogik erster Ordnung davon absehen und die Symbole und die nachfolgenden Bildungsgesetze zunächst rein syntaktisch sehen. Die Konstanten-, Funktions- und Relationssymbole 
+ 
+ 
+ 
+ 
+ 
+ C
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {C}}}
+ , 
+ 
+ 
+ 
+ 
+ 
+ F
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {F}}}
+ und 
+ 
+ 
+ 
+ 
+ 
+ R
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {R}}}
+ werden wieder zu einer Menge 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ zusammengefasst, die man dann die Signatur der Sprache nennt. Man beachte, dass die Relationssymbole zur Signatur gehören, die Relationsvariablensymbole hingegen nicht.
+
+# Terme und Ausdrücke 
+
+Terme, genauer 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ -Terme, werden wie in der Prädikatenlogik erster Stufe durch die dort angegebenen Bildungsgesetze erklärt. Damit wurden mittels weiterer Bildungsgesetze 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ -Ausdrücke definiert. Wir ergänzen diese durch zwei weitere Regeln:
+
+Ist 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ ein n-stelliges Relationsvariablensymbol und sind 
+ 
+ 
+ 
+ 
+ t
+ 
+ 1
+ 
+ 
+ ,
+ …
+ ,
+ 
+ t
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle t_{1},\ldots ,t_{n}}
+ Terme, so ist 
+ 
+ 
+ 
+ X
+ 
+ t
+ 
+ 1
+ 
+ 
+ …
+ 
+ t
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle Xt_{1}\ldots t_{n}}
+ ein 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ -Ausdruck.
+Sind 
+ 
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \varphi }
+ ein 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ -Ausdruck und 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ ein Relationsvariablensymbol, so sind 
+ 
+ 
+ 
+ ∃
+ X
+ φ
+ 
+ 
+ {\displaystyle \exists X\varphi }
+ und 
+ 
+ 
+ 
+ ∀
+ X
+ φ
+ 
+ 
+ {\displaystyle \forall X\varphi }
+ ebenfalls 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ -Ausdrücke.
+
+# 2. Stufe 
+
+Alle 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ -Ausdrücke, die sich nach oben angegebenen Regeln erstellen lassen, bilden die mit 
+ 
+ 
+ 
+ 
+ L
+ 
+ I
+ I
+ 
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle L_{II}^{S}}
+ bezeichnete Sprache, wobei die römische 
+ 
+ 
+ 
+ I
+ I
+ 
+ 
+ {\displaystyle II}
+ für die zweite Stufe steht. Damit wird zum Ausdruck gebracht, dass man hier nicht nur über alle Variablen quantifizieren kann, sondern gemäß dem oben angegebenen zweiten Bildungsgesetz auch über alle Relationsvariablen. Damit können wir mehr Ausdrücke als in der Prädikatenlogik erster Stufe bilden, während zum Beispiel die Peano-Axiome in der Prädikatenlogik erster Stufe nicht formulierbar sind, werden wir unten sehen, dass die zweite Stufe über eine hinreichende Ausdrucksstärke verfügt.
+
+# Metasprachliche Ausdrücke 
+
+Im Folgenden werden wir metasprachliche Ausdrücke für Formeln aus 
+ 
+ 
+ 
+ 
+ L
+ 
+ I
+ I
+ 
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle L_{II}^{S}}
+ verwenden, d. h. es werden in den Formeln Schreibweisen eingesetzt, die nicht durch oben angegebene Regeln gedeckt sind. An Stelle von 
+ 
+ 
+ 
+ 
+ v
+ 
+ 0
+ 
+ 
+ ,
+ 
+ v
+ 
+ 1
+ 
+ 
+ ,
+ …
+ 
+ 
+ {\displaystyle v_{0},v_{1},\ldots }
+ verwendet man kleine Buchstaben wie 
+ 
+ 
+ 
+ x
+ ,
+ y
+ ,
+ z
+ 
+ 
+ {\displaystyle x,y,z}
+ und statt 
+ 
+ 
+ 
+ 
+ V
+ 
+ 0
+ 
+ 
+ ,
+ 
+ V
+ 
+ 1
+ 
+ 
+ ,
+ …
+ 
+ 
+ {\displaystyle V_{0},V_{1},\ldots }
+ große Buchstaben wie 
+ 
+ 
+ 
+ X
+ ,
+ Y
+ ,
+ Z
+ 
+ 
+ {\displaystyle X,Y,Z}
+ und achtet darauf, dass keine Konflikte mit den Elementen der Signatur entstehen. Ferner erlauben wir uns suggestive Abkürzungen wie zum Beispiel 
+ 
+ 
+ 
+ ∀
+ x
+ y
+ z
+ 
+ 
+ {\displaystyle \forall xyz}
+ für 
+ 
+ 
+ 
+ ∀
+ x
+ ∀
+ y
+ ∀
+ z
+ 
+ 
+ {\displaystyle \forall x\forall y\forall z}
+ . Der einzige Grund dafür ist die bessere Lesbarkeit der auftretenden Formeln; es ist in jedem Fall klar, welcher syntaktisch korrekte Ausdruck mit einer solchen Formel gemeint ist.
+
+# Semantik 
+
+# Strukturen und Interpretationen 
+
+Ausgehend von einer Sprache 
+ 
+ 
+ 
+ 
+ L
+ 
+ I
+ I
+ 
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle L_{II}^{S}}
+ werden jetzt den oben eingeführten Symbolen eine Bedeutung zuwgewiesen. Wie in der Prädikatenlogik erster Stufe vor werden Strukturen über der Signatur 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ definiert, um den Symbolen dann Konstanten, Funktionen, Relationen der Objektwelt zuzuordnen. Eine Interpretation ist ein Paar 
+ 
+ 
+ 
+ (
+ 
+ 
+ A
+ 
+ 
+ ,
+ β
+ )
+ 
+ 
+ {\displaystyle ({\mathcal {A}},\beta )}
+ bestehend aus einer 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ -Struktur 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {A}}}
+ über einer Menge 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ und einer sogenannten Belegungsfunktion 
+ 
+ 
+ 
+ β
+ 
+ 
+ {\displaystyle \beta }
+ die jeder Variablen 
+ 
+ 
+ 
+ 
+ v
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle v_{i}}
+ ein Element aus 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ und jeder Relationsvariablen 
+ 
+ 
+ 
+ 
+ V
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle V_{i}}
+ eine Relation gleicher Stelligkeit über 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ zuordnet.
+Ist 
+ 
+ 
+ 
+ β
+ 
+ 
+ {\displaystyle \beta }
+ eine solche Belegung, 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ eine Variable und 
+ 
+ 
+ 
+ a
+ ∈
+ A
+ 
+ 
+ {\displaystyle a\in A}
+ , so sei 
+ 
+ 
+ 
+ 
+ β
+ ′
+ 
+ 
+
+ β
+ 
+ 
+ a
+ x
+ 
+ 
+ 
+ 
+ {\displaystyle \beta '=\beta {\frac {a}{x}}}
+ genau diejenige Belegung, die mit Ausnahme von 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ an allen Stellen mit 
+ 
+ 
+ 
+ β
+ 
+ 
+ {\displaystyle \beta }
+ übereinstimmt und lediglich an der Stelle 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ den möglicherweise abweichenden Wert 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ hat. Ist analog 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ eine Relationsvariable der Stelligkeit 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ und 
+ 
+ 
+ 
+ B
+ 
+ 
+ {\displaystyle B}
+ eine n-stellige Relation auf 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ , d. h. 
+ 
+ 
+ 
+ R
+ ⊆
+ 
+ A
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle R\subseteq A^{n}}
+ , so sei analog 
+ 
+ 
+ 
+ β
+ 
+ 
+ B
+ X
+ 
+ 
+ 
+ 
+ {\displaystyle \beta {\frac {B}{X}}}
+ diejenige Belegung, die mit Ausnahme von 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ an allen Stellen mit 
+ 
+ 
+ 
+ β
+ 
+ 
+ {\displaystyle \beta }
+ übereinstimmt, lediglich an der Stelle 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ den möglicherweise abweichenden Wert 
+ 
+ 
+ 
+ B
+ 
+ 
+ {\displaystyle B}
+ hat. Man beachte, dass das Variablensymbol 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ und die Relation 
+ 
+ 
+ 
+ R
+ 
+ 
+ {\displaystyle R}
+ als Objekt dieselbe Stelligkeit 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ aufweisen müssen, wenn die Relationssymbole an feste Stelligkeiten gebunden sind.
+Wird alternativ ein gemeinsamer Pool 
+ 
+ 
+ 
+ 
+ 
+ R
+ e
+ l
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathrel {Rel}}}
+ von Relationssymbolen für alle Stelligkeiten vorhgesehen und den benutzten Symbolen per Deklaration (einer partiellen Abbildung) 
+ 
+ 
+ 
+ ν
+ :
+ 
+ 
+ R
+ e
+ l
+ 
+ 
+ ↛
+ 
+ 
+ N
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle \nu :{\mathrel {Rel}}\not \to \mathbb {N} _{0}}
+ eine Stelligkeit zugewiesen, dann kann diese Einschränkung entfallen. Die Belegungsvariante 
+ 
+ 
+ 
+ β
+ 
+ 
+ R
+ X
+ 
+ 
+ 
+ 
+ {\displaystyle \beta {\frac {R}{X}}}
+ ist dann mit einer Deklarationsvariante 
+ 
+ 
+ 
+ ν
+ 
+ 
+ n
+ X
+ 
+ 
+ 
+ 
+ {\displaystyle \nu {\frac {n}{X}}}
+ assoziiert (die auch lokale Deklaration genannt wird), wobei dann 
+ 
+ 
+ 
+ R
+ ⊆
+ 
+ A
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle R\subseteq A^{n}}
+ gelten muss: Das Relationssymbol 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ wird lokal auf die möglicherweise andere Stelligkeit 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ umdeklariert.
+Man schreibt 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ 
+ 
+ a
+ x
+ 
+ 
+ :
+
+ (
+ 
+ 
+ A
+ 
+ 
+ ,
+ β
+ 
+ 
+ a
+ x
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle {\mathcal {I}}{\frac {a}{x}}:=({\mathcal {A}},\beta {\frac {a}{x}})}
+ und 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ 
+ 
+ B
+ X
+ 
+ 
+ :
+
+ (
+ 
+ 
+ A
+ 
+ 
+ ,
+ β
+ 
+ 
+ B
+ X
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle {\mathcal {I}}{\frac {B}{X}}:=({\mathcal {A}},\beta {\frac {B}{X}})}
+ .
+
+# Modelle 
+
+Eine Interpretation 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ 
+
+ (
+ 
+ 
+ A
+ 
+ 
+ ,
+ β
+ )
+ 
+ 
+ {\displaystyle {\mathcal {I}}=({\mathcal {A}},\beta )}
+ heißt ein Modell für einen Ausdruck 
+ 
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \varphi }
+ , geschrieben 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ φ
+ 
+ 
+ {\displaystyle {\mathcal {I}}\vDash \varphi }
+ , wenn sich dies auf Grund folgender Regeln ergibt, wobei der regelhafte Aufbau der Sprache 
+ 
+ 
+ 
+ 
+ L
+ 
+ I
+ I
+ 
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle L_{II}^{S}}
+ verwendet wird:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ 
+ t
+ 
+ 1
+ 
+ 
+ ≡
+ 
+ t
+ 
+ 2
+ 
+ 
+ 
+ 
+ :⇔
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ (
+ 
+ t
+ 
+ 1
+ 
+ 
+ )
+ 
+
+ 
+ 
+ I
+ 
+ 
+ (
+ 
+ t
+ 
+ 2
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ X
+ 
+ t
+ 
+ 1
+ 
+ 
+ …
+ 
+ t
+ 
+ n
+ 
+ 
+ 
+ 
+ :⇔
+ 
+ 
+ β
+ (
+ X
+ )
+ 
+ trifft auf 
+ 
+ (
+ 
+ 
+ I
+ 
+ 
+ (
+ 
+ t
+ 
+ 1
+ 
+ 
+ )
+ ,
+ …
+ ,
+ 
+ 
+ I
+ 
+ 
+ (
+ 
+ t
+ 
+ n
+ 
+ 
+ )
+ )
+ 
+ zu.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ R
+ 
+ t
+ 
+ 1
+ 
+ 
+ …
+ 
+ t
+ 
+ n
+ 
+ 
+ 
+ 
+ :⇔
+ 
+ 
+ 
+ R
+ 
+ 
+ A
+ 
+ 
+ 
+ 
+ trifft auf 
+ 
+ (
+ 
+ 
+ I
+ 
+ 
+ (
+ 
+ t
+ 
+ 1
+ 
+ 
+ )
+ ,
+ …
+ ,
+ 
+ 
+ I
+ 
+ 
+ (
+ 
+ t
+ 
+ n
+ 
+ 
+ )
+ )
+ 
+ zu.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ ¬
+ φ
+ 
+ 
+ :⇔
+ 
+ 
+ 
+ nicht 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ φ
+ 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ (
+ φ
+ ∧
+ ψ
+ )
+ 
+ 
+ :⇔
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ φ
+ 
+ und 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ ψ
+ 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ (
+ φ
+ ∨
+ ψ
+ )
+ 
+ 
+ :⇔
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ φ
+ 
+ oder 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ ψ
+ 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ (
+ φ
+ →
+ ψ
+ )
+ 
+ 
+ :⇔
+ 
+ 
+ 
+ wenn 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ φ
+ 
+ dann auch 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ ψ
+ 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ (
+ φ
+ ↔
+ ψ
+ )
+ 
+ 
+ :⇔
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ φ
+ 
+ genau dann, wenn 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ ψ
+ 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ ∀
+ x
+ φ
+ 
+ 
+ :⇔
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ 
+ 
+ a
+ x
+ 
+ 
+ ⊨
+ φ
+ 
+ 
+ für alle 
+ 
+ 
+ a
+ ∈
+ A
+ 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ ∃
+ x
+ φ
+ 
+ 
+ :⇔
+ 
+ 
+ 
+ es gibt ein 
+ 
+ a
+ ∈
+ A
+ 
+ mit 
+ 
+ 
+ 
+ I
+ 
+ 
+ 
+ 
+ a
+ x
+ 
+ 
+ ⊨
+ φ
+ 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ ∀
+ X
+ φ
+ 
+ 
+ :⇔
+ 
+ 
+ 
+ für alle Relationen 
+ 
+ B
+ 
+ auf 
+ 
+ A
+ 
+ gilt 
+ 
+ 
+ 
+ I
+ 
+ 
+ 
+ 
+ B
+ X
+ 
+ 
+ ⊨
+ φ
+ 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ ∃
+ X
+ φ
+ 
+ 
+ :⇔
+ 
+ 
+ 
+ es gibt eine Relation 
+ 
+ B
+ 
+ auf 
+ 
+ A
+ 
+ mit 
+ 
+ 
+ 
+ I
+ 
+ 
+ 
+ 
+ B
+ X
+ 
+ 
+ ⊨
+ φ
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{matrix}{\mathcal {I}}\vDash t_{1}\equiv t_{2}&:\Leftrightarrow &{\mathcal {I}}(t_{1})={\mathcal {I}}(t_{2})\\{\mathcal {I}}\vDash Xt_{1}\ldots t_{n}&:\Leftrightarrow &\beta (X){\text{ trifft auf }}({\mathcal {I}}(t_{1}),\ldots ,{\mathcal {I}}(t_{n})){\text{ zu.}}\\{\mathcal {I}}\vDash Rt_{1}\ldots t_{n}&:\Leftrightarrow &R^{\mathcal {A}}{\text{ trifft auf }}({\mathcal {I}}(t_{1}),\ldots ,{\mathcal {I}}(t_{n})){\text{ zu.}}\\{\mathcal {I}}\vDash \neg \varphi &:\Leftrightarrow &{\text{nicht }}{\mathcal {I}}\vDash \varphi \\{\mathcal {I}}\vDash (\varphi \land \psi )&:\Leftrightarrow &{\mathcal {I}}\vDash \varphi {\text{ und }}{\mathcal {I}}\vDash \psi \\{\mathcal {I}}\vDash (\varphi \lor \psi )&:\Leftrightarrow &{\mathcal {I}}\vDash \varphi {\text{ oder }}{\mathcal {I}}\vDash \psi \\{\mathcal {I}}\vDash (\varphi \rightarrow \psi )&:\Leftrightarrow &{\text{wenn }}{\mathcal {I}}\vDash \varphi {\text{ dann auch }}{\mathcal {I}}\vDash \psi \\{\mathcal {I}}\vDash (\varphi \leftrightarrow \psi )&:\Leftrightarrow &{\mathcal {I}}\vDash \varphi {\text{ genau dann, wenn }}{\mathcal {I}}\vDash \psi \\{\mathcal {I}}\vDash \forall x\varphi &:\Leftrightarrow &{\mathcal {I}}{\frac {a}{x}}\vDash \varphi {\mbox{ für alle }}a\in A\\{\mathcal {I}}\vDash \exists x\varphi &:\Leftrightarrow &{\text{es gibt ein }}a\in A{\text{ mit }}{\mathcal {I}}{\frac {a}{x}}\vDash \varphi \\{\mathcal {I}}\vDash \forall X\varphi &:\Leftrightarrow &{\text{für alle Relationen }}B{\text{ auf }}A{\text{ gilt }}{\mathcal {I}}{\frac {B}{X}}\vDash \varphi \\{\mathcal {I}}\vDash \exists X\varphi &:\Leftrightarrow &{\text{es gibt eine Relation }}B{\text{ auf }}A{\text{ mit }}{\mathcal {I}}{\frac {B}{X}}\vDash \varphi \end{matrix}}}
+ 
+Dabei wird bei den letzten beiden Zeilen gewöhnlich eine beliebige feste Stelligkeit 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ der Relationssymbole und der Relationen vorausgesetzt: 
+ 
+ 
+ 
+ X
+ ∈
+ 
+ 
+ 
+ R
+ e
+ l
+ 
+ 
+ 
+ n
+ 
+ 
+ ,
+ R
+ ⊆
+ 
+ A
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle X\in {\mathrel {Rel}}_{n},R\subseteq A^{n}}
+ , was gelegentlich durch einen Index n der Art 
+ 
+ 
+ 
+ 
+ X
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle X_{n}}
+ angedeutet wird.Damit ist den Symbolen eine inhaltliche Bedeutung zugewiesen. Ist 
+ 
+ 
+ 
+ Φ
+ 
+ 
+ {\displaystyle \Phi }
+ eine Menge von Ausdrücken der betrachteten Sprache und ist 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ φ
+ 
+ 
+ {\displaystyle {\mathcal {I}}\vDash \varphi }
+ für alle 
+ 
+ 
+ 
+ φ
+ ∈
+ Φ
+ 
+ 
+ {\displaystyle \varphi \in \Phi }
+ , so schreiben wir abkürzend wieder 
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ ⊨
+ Φ
+ 
+ 
+ {\displaystyle {\mathcal {I}}\vDash \Phi }
+ . Ist 
+ 
+ 
+ 
+ Φ
+ 
+ 
+ {\displaystyle \Phi }
+ eine Menge von Sätzen, das heißt die 
+ 
+ 
+ 
+ φ
+ ∈
+ Φ
+ 
+ 
+ {\displaystyle \varphi \in \Phi }
+ enthalten keine freien Variablen, so sagt man auch, dass 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {A}}}
+ ein Modell von 
+ 
+ 
+ 
+ Φ
+ 
+ 
+ {\displaystyle \Phi }
+ ist, denn die Modellbeziehung hängt in diesem Fall gar nicht von der konkreten Belegung ab.
+
+# Peano-Axiome 
+
+Bekanntlich lassen sich die Peano-Axiome nicht in der Prädikatenlogik erster Stufe formulieren, da das Induktionsaxiom eine Aussage über alle Teilmengen der betrachteten Grundmenge trifft, aber nicht über alle Teilmengen quantifiziert werden kann. Da Teilmengen aber nichts anderes als einstellige Relationen sind, kann man mit der Signatur 
+ 
+ 
+ 
+ S
+ 
+
+ {
+ 0
+ ,
+ σ
+ }
+ 
+ 
+ {\displaystyle S=\{0,\sigma \}}
+ , wobei 0 ein Konstantensymbol ist, genannt Nullelement, und 
+ 
+ 
+ 
+ σ
+ 
+ 
+ {\displaystyle \sigma }
+ ein einstelliges Funktionssymbol, genannt Nachfolgerfunktion, folgende Ausdrücke bilden:
+
+ 
+ 
+ 
+ ∀
+ x
+ 
+ ¬
+ σ
+ x
+ ≡
+ 0
+ 
+ 
+ {\displaystyle \forall x\,\neg \sigma x\equiv 0}
+ 
+
+ 
+ 
+ 
+ ∀
+ x
+ ∀
+ y
+ 
+ (
+ σ
+ x
+ ≡
+ σ
+ y
+ →
+ x
+ ≡
+ y
+ )
+ 
+ 
+ {\displaystyle \forall x\forall y\,(\sigma x\equiv \sigma y\rightarrow x\equiv y)}
+ 
+
+ 
+ 
+ 
+ ∀
+ X
+ (
+ (
+ X
+ 0
+ ∧
+ ∀
+ x
+ (
+ X
+ x
+ →
+ X
+ σ
+ x
+ )
+ )
+ →
+ ∀
+ x
+ 
+ X
+ x
+ )
+ 
+ 
+ {\displaystyle \forall X((X0\land \forall x(Xx\rightarrow X\sigma x))\rightarrow \forall x\,Xx)}
+ Betrachten wir Interpretationen, also 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ -Strukturen, in denen das Symbol 0 dann Element einer Menge ist und 
+ 
+ 
+ 
+ σ
+ 
+ 
+ {\displaystyle \sigma }
+ eine auf dieser definierte Funktion, so sagt der erste Ausdruck, dass 0 kein Nachfolger ist, denn 0 ist von allen Bildern 
+ 
+ 
+ 
+ σ
+ x
+ 
+ 
+ {\displaystyle \sigma x}
+ verschieden. Die zweite Zeile drückt die Injektivität der Nachfolgerfunktion aus. Die dritte Zeile schließlich besagt, dass jede einstellige Relation 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ (das heißt Teilmenge des betrachteten Grundbereichs), die auf 0 zutrifft und mit jedem 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ , auf das sie zutrifft, auch auf den Nachfolger 
+ 
+ 
+ 
+ σ
+ x
+ 
+ 
+ {\displaystyle \sigma x}
+ zutrifft, für alle Variablen 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ gilt, womit das Induktionsaxiom formuliert ist. Damit ist die Prädikatenlogik zweiter Stufe echt ausdrucksstärker als diejenige erster Stufe.
+Schließlich kann man zeigen, dass je zwei 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ -Strukturen, die Modelle obiger 
+ 
+ 
+ 
+ 
+ L
+ 
+ I
+ I
+ 
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle L_{II}^{S}}
+ -Ausdrücke sind, isomorph sind. In der Prädikatenlogik zweiter Stufe gibt es also keine Nichtstandardmodelle der natürlichen Zahlen.
+
+# Reelle Zahlen 
+
+Die Theorie der geordneten Körper, die sich mit der Signatur 
+ 
+ 
+ 
+ S
+ 
+
+ {
+ 0
+ ,
+ 1
+ ,
+ +
+ ,
+ ⋅
+ ,
+ <
+ }
+ 
+ 
+ {\displaystyle S=\{0,1,+,\cdot ,<\}}
+ in der Sprache 
+ 
+ 
+ 
+ 
+ L
+ 
+ I
+ 
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle L_{I}^{S}}
+ formulieren lässt, erlaubt keine eindeutige Kennzeichnung der reellen Zahlen bis auf Isomorphie, denn das Vollständigkeitsaxiom, nach dem jede nicht-leere, nach oben beschränkte Menge ein Supremum besitzt, lässt sich in 
+ 
+ 
+ 
+ 
+ L
+ 
+ I
+ 
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle L_{I}^{S}}
+ nicht formulieren. Dieser Mangel an Ausdrucksstärke der Prädikatenlogik erster Stufe führt zur Nichtstandardanalysis. In der hier behandelten Prädikatenlogik zweiter Stufe gelingt folgende Symbolisierung der Vollständigkeit:
+
+ 
+ 
+ 
+ ∀
+ X
+ :
+ (
+ (
+ ∃
+ x
+ 
+ X
+ x
+ ∧
+ ∃
+ y
+ ∀
+ z
+ (
+ X
+ z
+ →
+ z
+ <
+ y
+ )
+ )
+ →
+ 
+ 
+ {\displaystyle \forall X:((\exists x\,Xx\land \exists y\forall z(Xz\rightarrow z<y))\rightarrow }
+ 
+ 
+ 
+ 
+ ∃
+ y
+ (
+ ∀
+ z
+ (
+ X
+ z
+ →
+ (
+ z
+ <
+ y
+ ∨
+ z
+ ≡
+ y
+ )
+ )
+ ∧
+ ∀
+ x
+ (
+ x
+ <
+ y
+ →
+ ∃
+ z
+ 
+ (
+ x
+ <
+ z
+ ∧
+ X
+ z
+ )
+ )
+ )
+ )
+ 
+ 
+ {\displaystyle \exists y(\forall z(Xz\rightarrow (z<y\lor z\equiv y))\land \forall x(x<y\rightarrow \exists z\,(x<z\land Xz))))}
+ Zur Erläuterung dieser Formel beachte man, dass die einstellige Relation 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ wieder für Teilmengen der Grundgesamtheit einer Interpretation steht. Für alle Teilmengen soll also gelten: Wenn diese nicht leer ist, 
+ 
+ 
+ 
+ ∃
+ x
+ 
+ X
+ x
+ 
+ 
+ {\displaystyle \exists x\,Xx}
+ , und wenn diese nach oben beschränkt ist, 
+ 
+ 
+ 
+ ∃
+ y
+ ∀
+ z
+ (
+ X
+ z
+ →
+ z
+ <
+ y
+ )
+ 
+ 
+ {\displaystyle \exists y\forall z(Xz\rightarrow z<y)}
+ , dann gibt es ein 
+ 
+ 
+ 
+ y
+ 
+ 
+ {\displaystyle y}
+ , so dass dieses obere Schranke der Menge ist, 
+ 
+ 
+ 
+ ∀
+ z
+ (
+ X
+ z
+ →
+ (
+ z
+ <
+ y
+ ∨
+ z
+ ≡
+ y
+ )
+ )
+ 
+ 
+ {\displaystyle \forall z(Xz\rightarrow (z<y\lor z\equiv y))}
+ , und jedes kleinere Element nicht mehr obere Schranke ist, 
+ 
+ 
+ 
+ ∀
+ x
+ (
+ x
+ <
+ y
+ →
+ ∃
+ z
+ 
+ (
+ x
+ <
+ z
+ ∧
+ X
+ z
+ )
+ )
+ 
+ 
+ {\displaystyle \forall x(x<y\rightarrow \exists z\,(x<z\land Xz))}
+ . Damit ist das Vollständigkeitsaxiom in 
+ 
+ 
+ 
+ 
+ L
+ 
+ I
+ I
+ 
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle L_{II}^{S}}
+ formuliert.
+
+# Mächtigkeiten 
+
+Die Prädikatenlogik zweiter Stufe bietet Möglichkeiten, über Mächtigkeiten von Mengen zu reden, die weit über die Prädikatenlogik erster Stufe hinausgehen. Im Folgenden verwenden wir die Abkürzung
+
+ 
+ 
+ 
+ 
+ ∃
+ 
+ 1
+ 
+ 
+ x
+ 
+ φ
+ 
+ 
+ {\displaystyle \exists ^{1}x\,\varphi }
+ für 
+ 
+ 
+ 
+ ∃
+ x
+ 
+ (
+ φ
+ 
+ ∧
+ 
+ ∀
+ y
+ 
+ (
+ φ
+ 
+ 
+ y
+ x
+ 
+ 
+ →
+ y
+ ≡
+ x
+ )
+ )
+ ,
+ 
+ 
+ {\displaystyle \exists x\,(\varphi \,\land \,\forall y\,(\varphi {\frac {y}{x}}\rightarrow y\equiv x)),}
+ was in jeder Interpretation offenbar bedeutet, dass es genau ein 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ mit 
+ 
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \varphi }
+ gibt.
+
+# Endliche Mengen 
+
+Bekanntlich kann man in der Prädikatenlogik erster Stufe nicht ausdrücken, dass eine Menge endlich ist. Man kann lediglich mittels Sätzen der Art
+
+ 
+ 
+ 
+ 
+ φ
+ 
+ ≥
+ n
+ 
+ 
+ 
+
+ ∃
+ 
+ v
+ 
+ 1
+ 
+ 
+ …
+ ∃
+ 
+ v
+ 
+ n
+ 
+ 
+ 
+ (
+ ¬
+ 
+ v
+ 
+ 1
+ 
+ 
+ ≡
+ 
+ v
+ 
+ 2
+ 
+ 
+ ∧
+ ¬
+ 
+ v
+ 
+ 1
+ 
+ 
+ ≡
+ 
+ v
+ 
+ 3
+ 
+ 
+ ∧
+ …
+ ∧
+ ¬
+ 
+ v
+ 
+ n
+ −
+ 1
+ 
+ 
+ ≡
+ 
+ v
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle \varphi _{\geq n}=\exists v_{1}\ldots \exists v_{n}\,(\neg v_{1}\equiv v_{2}\land \neg v_{1}\equiv v_{3}\land \ldots \land \neg v_{n-1}\equiv v_{n})}
+ sagen, dass eine Menge (das heißt der Grundbereich einer Interpretation) mindestens 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ Elemente hat. 
+ 
+ 
+ 
+ 
+ φ
+ 
+ ≥
+ n
+ 
+ 
+ ∧
+ ¬
+ 
+ φ
+ 
+ ≥
+ n
+ +
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \varphi _{\geq n}\land \neg \varphi _{\geq n+1}}
+ trifft dann nur auf Mengen mit genau 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ Elementen zu. Die Endlichkeit einer Menge wäre dann eine unendliche Disjunktion
+
+ 
+ 
+ 
+ ¬
+ 
+ φ
+ 
+ ≥
+ 1
+ 
+ 
+ ∨
+ ¬
+ 
+ φ
+ 
+ ≥
+ 2
+ 
+ 
+ ∨
+ ¬
+ 
+ φ
+ 
+ ≥
+ 3
+ 
+ 
+ ∨
+ …
+ ,
+ 
+ 
+ {\displaystyle \neg \varphi _{\geq 1}\lor \neg \varphi _{\geq 2}\lor \neg \varphi _{\geq 3}\lor \ldots ,}
+ die man weder in der ersten noch in der zweiten Stufe bilden kann. In der Prädikatenlogik zweiter Stufe hat man aber
+
+ 
+ 
+ 
+ 
+ φ
+ 
+ e
+ n
+ d
+ l
+ 
+ 
+ 
+
+ ∀
+ X
+ 
+ (
+ (
+ ∀
+ x
+ 
+ 
+ ∃
+ 
+ 1
+ 
+ 
+ y
+ 
+ X
+ x
+ y
+ 
+ ∧
+ 
+ ∀
+ x
+ y
+ z
+ 
+ (
+ X
+ x
+ z
+ ∧
+ X
+ y
+ z
+ →
+ x
+ ≡
+ y
+ )
+ )
+ →
+ ∀
+ y
+ 
+ ∃
+ x
+ 
+ X
+ x
+ y
+ )
+ 
+ 
+ {\displaystyle \varphi _{endl}=\forall X\,((\forall x\,\exists ^{1}y\,Xxy\,\land \,\forall xyz\,(Xxz\land Xyz\rightarrow x\equiv y))\rightarrow \forall y\,\exists x\,Xxy)}
+ .In jedem Modell dieses Satzes bedeutet 
+ 
+ 
+ 
+ ∀
+ x
+ 
+ 
+ ∃
+ 
+ 1
+ 
+ 
+ y
+ 
+ X
+ x
+ y
+ 
+ 
+ {\displaystyle \forall x\,\exists ^{1}y\,Xxy}
+ , dass die zweistellige Relation 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ eine Funktion des Grundbereichs in sich ist, 
+ 
+ 
+ 
+ ∀
+ x
+ y
+ z
+ 
+ (
+ X
+ x
+ z
+ ∧
+ X
+ y
+ z
+ →
+ x
+ ≡
+ y
+ )
+ 
+ 
+ {\displaystyle \forall xyz\,(Xxz\land Xyz\rightarrow x\equiv y)}
+ sagt, dass diese injektiv ist, und 
+ 
+ 
+ 
+ ∀
+ y
+ 
+ ∃
+ x
+ 
+ X
+ x
+ y
+ 
+ 
+ {\displaystyle \forall y\,\exists x\,Xxy}
+ , dass sie surjektiv ist. Obige Formel sagt also aus, dass jede injektive Funktion des Grundbereichs in sich automatisch surjektiv ist, eine Aussage, die bekanntlich genau auf endliche Mengen zutrifft. Daher bedeutet die Formel 
+ 
+ 
+ 
+ 
+ φ
+ 
+ e
+ n
+ d
+ l
+ 
+ 
+ 
+ 
+ {\displaystyle \varphi _{endl}}
+ tatsächlich, dass alle sie erfüllenden Modelle endlich sind. Dies zeigt erneut, dass die Prädikatenlogik zweiter Stufe echt ausdrucksstärker ist als die erste Stufe.
+
+# Abzählbare Mengen 
+
+Man kann in der Prädikatenlogik zweiter Stufe sogar ausdrücken, dass eine Menge höchstens abzählbar ist, denn eine Menge ist genau dann höchstens abzählbar, wenn es eine lineare Ordnungsrelation auf ihr gibt, in der jeder Anfangsabschnitt endlich ist. Dass 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ eine lineare Ordnung ist, wird offenbar durch
+
+ 
+ 
+ 
+ 
+ φ
+ 
+ o
+ r
+ d
+ 
+ 
+ 
+
+ ∀
+ x
+ 
+ ¬
+ X
+ x
+ x
+ ∧
+ ∀
+ x
+ y
+ z
+ 
+ (
+ (
+ X
+ x
+ y
+ ∧
+ X
+ y
+ z
+ )
+ →
+ X
+ x
+ z
+ )
+ ∧
+ ∀
+ x
+ y
+ 
+ (
+ X
+ x
+ y
+ ∨
+ x
+ ≡
+ y
+ ∨
+ X
+ y
+ x
+ )
+ 
+ 
+ {\displaystyle \varphi _{ord}=\forall x\,\neg Xxx\land \forall xyz\,((Xxy\land Xyz)\rightarrow Xxz)\land \forall xy\,(Xxy\lor x\equiv y\lor Xyx)}
+ beschrieben, denn diese Formel bedeutet von links nach rechts, dass die zweistellige Relation irreflexiv, transitiv und linear ist.
+Eine einstellige Relation 
+ 
+ 
+ 
+ Y
+ 
+ 
+ {\displaystyle Y}
+ , die für eine Teilmenge des Grundbereichs steht, ist genau dann endlich, wenn jede injektive Funktion dieser Teilmenge in sich schon surjektiv ist, was sich in Analogie zu obigem 
+ 
+ 
+ 
+ 
+ φ
+ 
+ e
+ n
+ d
+ l
+ 
+ 
+ 
+ 
+ {\displaystyle \varphi _{endl}}
+ wie folgt symbolisieren lässt:
+
+ 
+ 
+ 
+ 
+ ψ
+ 
+ e
+ n
+ d
+ l
+ 
+ 
+ 
+
+ ∀
+ X
+ 
+ (
+ ∀
+ x
+ y
+ 
+ (
+ X
+ x
+ y
+ →
+ Y
+ x
+ ∧
+ Y
+ y
+ )
+ ∧
+ ∀
+ x
+ 
+ (
+ Y
+ x
+ →
+ 
+ ∃
+ 
+ 1
+ 
+ 
+ y
+ 
+ X
+ x
+ y
+ ∧
+ ∀
+ x
+ y
+ z
+ 
+ (
+ X
+ x
+ z
+ ∧
+ X
+ y
+ z
+ →
+ x
+ ≡
+ y
+ )
+ )
+ →
+ 
+ 
+ {\displaystyle \psi _{endl}=\forall X\,(\forall xy\,(Xxy\rightarrow Yx\land Yy)\land \forall x\,(Yx\rightarrow \exists ^{1}y\,Xxy\land \forall xyz\,(Xxz\land Xyz\rightarrow x\equiv y))\rightarrow }
+ 
+ 
+ 
+ 
+ ∀
+ y
+ 
+ (
+ Y
+ y
+ →
+ ∃
+ x
+ 
+ X
+ x
+ y
+ )
+ )
+ 
+ 
+ {\displaystyle \forall y\,(Yy\rightarrow \exists x\,Xxy))}
+ .Die folgende Formel symbolisiert dann, dass es auf einer Menge eine lineare Ordnung gibt, in der jeder Anfangsabschnitt endlich ist, und das ist äquivalent dazu, dass die Menge höchstens abzählbar ist:
+
+ 
+ 
+ 
+ 
+ φ
+ 
+ ≤
+ a
+ b
+ z
+ 
+ 
+ 
+
+ ∃
+ X
+ 
+ (
+ 
+ φ
+ 
+ o
+ r
+ d
+ 
+ 
+ ∧
+ (
+ ∀
+ Y
+ (
+ ∃
+ x
+ 
+ (
+ Y
+ y
+ ↔
+ X
+ y
+ x
+ )
+ →
+ 
+ ψ
+ 
+ e
+ n
+ d
+ l
+ 
+ 
+ )
+ )
+ )
+ 
+ 
+ {\displaystyle \varphi _{\leq abz}=\exists X\,(\varphi _{ord}\land (\forall Y(\exists x\,(Yy\leftrightarrow Xyx)\rightarrow \psi _{endl})))}
+ 
+
+# Mängel der Prädikatenlogik zweiter Stufe 
+
+Wie die folgenden Ausführungen zeigen, führt die größere Ausdrucksstärke der Prädikatenlogik zweiter Stufe dazu, dass viele wichtige Sätze der Prädikatenlogik erster Stufe nicht mehr gelten.
+
+# Ungültigkeit des Kompaktheitssatzes 
+
+Mit den oben eingeführten Formeln 
+ 
+ 
+ 
+ 
+ φ
+ 
+ ≥
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \varphi _{\geq n}}
+ und 
+ 
+ 
+ 
+ 
+ φ
+ 
+ e
+ n
+ d
+ l
+ 
+ 
+ 
+ 
+ {\displaystyle \varphi _{endl}}
+ lässt sich leicht zeigen, dass für die Prädikatenlogik zweiter Stufe kein Kompaktheitssatz gelten kann. Offenbar ist jede endliche Teilmenge der Formelmenge
+
+ 
+ 
+ 
+ {
+ 
+ φ
+ 
+ e
+ n
+ d
+ l
+ 
+ 
+ }
+ ∪
+ {
+ 
+ φ
+ 
+ ≥
+ n
+ 
+ 
+ 
+ |
+ 
+ 
+ n
+ ∈
+ 
+ N
+ 
+ }
+ 
+ 
+ {\displaystyle \{\varphi _{endl}\}\cup \{\varphi _{\geq n}|\,n\in \mathbb {N} \}}
+ erfüllbar, das heißt, sie hat ein Modell, denn eine endliche Teilmenge dieser Formelmenge ist für geeignetes 
+ 
+ 
+ 
+ m
+ ∈
+ 
+ N
+ 
+ 
+ 
+ {\displaystyle m\in \mathbb {N} }
+ in
+
+ 
+ 
+ 
+ {
+ 
+ φ
+ 
+ e
+ n
+ d
+ l
+ 
+ 
+ }
+ ∪
+ {
+ 
+ φ
+ 
+ ≥
+ n
+ 
+ 
+ 
+ |
+ 
+ 
+ n
+ ≤
+ m
+ }
+ 
+ 
+ {\displaystyle \{\varphi _{endl}\}\cup \{\varphi _{\geq n}|\,n\leq m\}}
+ enthalten, weshalb jede endliche Menge mit mindestens 
+ 
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle m}
+ Elementen ein Modell ist.
+Dagegen gibt es kein Modell für die gesamte Formelmenge, denn ein Modell von 
+ 
+ 
+ 
+ 
+ φ
+ 
+ e
+ n
+ d
+ l
+ 
+ 
+ 
+ 
+ {\displaystyle \varphi _{endl}}
+ muss eine endliche Menge sein und kann daher nicht alle 
+ 
+ 
+ 
+ 
+ φ
+ 
+ ≥
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \varphi _{\geq n}}
+ erfüllen.
+Da der Kompaktheitssatz aber für die Prädikatenlogik erster Stufe gilt, zeigt diese Überlegung noch einmal, dass 
+ 
+ 
+ 
+ 
+ φ
+ 
+ e
+ n
+ d
+ l
+ 
+ 
+ 
+ 
+ {\displaystyle \varphi _{endl}}
+ in der Prädikatenlogik erster Stufe nicht formulierbar sein kann.
+
+# Ungültigkeit des Satzes von Löwenheim-Skolem 
+
+Im Abschnitt Mächtigkeit hatten wir eine 
+ 
+ 
+ 
+ 
+ L
+ 
+ I
+ I
+ 
+ 
+ ∅
+ 
+ 
+ 
+ 
+ {\displaystyle L_{II}^{\emptyset }}
+ -Formel 
+ 
+ 
+ 
+ 
+ φ
+ 
+ ≤
+ a
+ b
+ z
+ 
+ 
+ 
+ 
+ {\displaystyle \varphi _{\leq abz}}
+ erstellt, deren Modelle genau die höchstens abzählbaren Mengen sind. Würde der Satz von Löwenheim-Skolem auch für die Prädikatenlogik zweiter Stufe gelten, so müsste es zur Formelmenge 
+ 
+ 
+ 
+ {
+ ¬
+ 
+ φ
+ 
+ ≤
+ a
+ b
+ z
+ 
+ 
+ }
+ 
+ 
+ {\displaystyle \{\neg \varphi _{\leq abz}\}}
+ ein abzählbares Modell geben, was aber nicht sein kann, denn jedes Modell von 
+ 
+ 
+ 
+ ¬
+ 
+ φ
+ 
+ ≤
+ a
+ b
+ z
+ 
+ 
+ 
+ 
+ {\displaystyle \neg \varphi _{\leq abz}}
+ ist notwendigerweise überabzählbar.
+
+# Unvollständigkeit der Prädikatenlogik zweiter Stufe 
+
+In der Prädikatenlogik erster Stufe kann man einen Sequenzenkalkül aufstellen und von diesem nachweisen, dass er für alle Herleitungen in einer Sprache der Prädikatenlogik erster Stufe ausreichend ist, das ist der sogenannte Gödelsche Vollständigkeitssatz.
+Man könnte nun versuchen, einen solchen Sequenzenkalkül um Elemente, die den Umgang mit Relationsvariablensymbolen festlegen, zu erweitern, um auch für die Prädikatenlogik zweiter Stufe alle Herleitungen auf rein syntaktische Weise in einem solchen Kalkül ausführen zu können. Ein solcher Versuch muss scheitern, denn mit einem vollständigen Sequenzenkalkül für die Prädikatenlogik zweiter Stufe könnte man den Beweis, der in der Prädikatenlogik erster Stufe daraus auf den Kompaktheitssatz schließt, auf die Prädikatenlogik zweiter Stufe übertragen, aber wir wissen ja schon, dass der Kompaktheitssatz hier nicht gilt.
+Bezeichnet man das Schließen in einem solchen Sequenzenkalkül 
+ 
+ 
+ 
+ K
+ 
+ 
+ {\displaystyle K}
+ mit 
+ 
+ 
+ 
+ 
+ ⊢
+ 
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle \vdash _{K}}
+ , so bedeutet 
+ 
+ 
+ 
+ Φ
+ 
+ ⊢
+ 
+ K
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \Phi \vdash _{K}\varphi }
+ , dass sich der Ausdruck 
+ 
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \varphi }
+ durch Anwendungen der Regeln des Sequenzenkalküls aus der Formelmenge 
+ 
+ 
+ 
+ Φ
+ 
+ 
+ {\displaystyle \Phi }
+ herleiten lässt.
+Die Schreibweise 
+ 
+ 
+ 
+ Φ
+ ⊨
+ φ
+ 
+ 
+ {\displaystyle \Phi \vDash \varphi }
+ bedeute wie oben, dass jedes Modell, das 
+ 
+ 
+ 
+ Φ
+ 
+ 
+ {\displaystyle \Phi }
+ erfüllt, auch 
+ 
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \varphi }
+ erfüllen muss.
+Die gerade ausgeführte Überlegung zeigt also, dass es keinen Sequenzenkalkül 
+ 
+ 
+ 
+ K
+ 
+ 
+ {\displaystyle K}
+ gibt, so dass für alle Formelmengen 
+ 
+ 
+ 
+ Φ
+ 
+ 
+ {\displaystyle \Phi }
+ und Ausdrücke 
+ 
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \varphi }
+ die Äquivalenz
+
+ 
+ 
+ 
+ Φ
+ ⊨
+ φ
+ 
+ 
+ {\displaystyle \Phi \vDash \varphi }
+ genau dann, wenn 
+ 
+ 
+ 
+ Φ
+ 
+ ⊢
+ 
+ K
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \Phi \vdash _{K}\varphi }
+ gilt. Das schließt nicht aus, dass es einen Sequenzenkalkül geben könnte, der diese Äquivalenz für 
+ 
+ 
+ 
+ Φ
+ 
+
+ ∅
+ 
+ 
+ {\displaystyle \Phi =\emptyset }
+ erfüllt, dann hätte man immerhin einen Sequenzenkalkül für allgemeingültige Aussagen, aber auch das ist nicht der Fall, wie Kurt Gödel zeigen konnte. Diese Aussage nennt man die Unvollständigkeit der Prädikatenlogik zweiter Stufe. Es sei darauf hingewiesen, dass dies nicht der Gödelsche Unvollständigkeitssatz ist.
+
+# Fragmente der Prädikatenlogik zweiter Stufe 
+
+Für Anwendungen werden gewisse Beschränkungen der Ausdrücke der Prädikatenlogik zweiter Stufe betrachtet, man spricht von Fragmenten der Prädikatenlogik zweiter Stufe und interessiert sich für deren Ausdrucksstärke.
+
+# ∃SO und ∀SO 
+
+In der existentiellen Prädikatenlogik zweiter Stufe beschränkt man sich auf Ausdrücke der Form
+
+ 
+ 
+ 
+ ∃
+ 
+ X
+ 
+ 1
+ 
+ 
+ …
+ ∃
+ 
+ X
+ 
+ n
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \exists X_{1}\ldots \exists X_{n}\varphi }
+ ,wobei 
+ 
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \varphi }
+ ein Ausdruck der Prädikatenlogik erster Stufe in einer um 
+ 
+ 
+ 
+ 
+ X
+ 
+ 1
+ 
+ 
+ ,
+ …
+ ,
+ 
+ X
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle X_{1},\ldots ,X_{n}}
+ erweiterten Signatur ist. Insbesondere sind keine Allquantoren über Relationensymbole erlaubt. Wegen der englischen Bezeichnung existential second order logic wird dieses Fragment mit ∃SO bezeichnet.
+Die Klasse der mittels ∃SO-Ausdrücken definierbaren Strukturen ist über den Satz von Fagin eng mit den Sprachen der Komplexitätsklasse NP verbunden, so dass sich bei geeigneter Codierung ∃SO mit NP identifizieren lassen.
+Analog besteht die universelle Prädikatenlogik zweiter Stufe aus Ausdrücken der Form
+
+ 
+ 
+ 
+ ∀
+ 
+ X
+ 
+ 1
+ 
+ 
+ …
+ ∀
+ 
+ X
+ 
+ n
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \forall X_{1}\ldots \forall X_{n}\varphi }
+ ,mit einem Ausdruck 
+ 
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \varphi }
+ der Prädikatenlogik erster Stufe wie oben. Dieses Fragment wird mit ∀SO bezeichnet.
+In der Komplexitätstheorie gehört ∀SO zur Komplexitätsklasse coNP, denn die ∀SO-Ausdrücke sind genau die Negationen der ∃SO-Ausdrücke und umgekehrt.
+Allgemeiner lassen sich Fragmente 
+ 
+ 
+ 
+ 
+ Σ
+ 
+ k
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \Sigma _{k}^{1}}
+ als Menge von Ausdrücken der Form
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ ∃
+ …
+ ∃
+ )
+ (
+ ∀
+ …
+ ∀
+ )
+ (
+ ∃
+ …
+ ∃
+ )
+ …
+ 
+ ⏟
+ 
+ 
+ 
+ k
+ 
+ Blöcke
+ 
+ 
+ 
+ φ
+ 
+ 
+ {\displaystyle \underbrace {(\exists \ldots \exists )(\forall \ldots \forall )(\exists \ldots \exists )\ldots } _{k{\text{ Blöcke}}}\varphi }
+ definieren und analog 
+ 
+ 
+ 
+ 
+ Π
+ 
+ k
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \Pi _{k}^{1}}
+ als Menge der Negationen von 
+ 
+ 
+ 
+ 
+ Σ
+ 
+ k
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \Sigma _{k}^{1}}
+ .
+Damit ist 
+ 
+ 
+ 
+ ∃
+ S
+ O
+ 
+
+ 
+ Σ
+ 
+ 1
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \exists SO=\Sigma _{1}^{1}}
+ und 
+ 
+ 
+ 
+ ∀
+ S
+ O
+ 
+
+ 
+ Π
+ 
+ 1
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \forall SO=\Pi _{1}^{1}}
+ . Die Fragmente 
+ 
+ 
+ 
+ 
+ Σ
+ 
+ k
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \Sigma _{k}^{1}}
+ und 
+ 
+ 
+ 
+ 
+ Π
+ 
+ k
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \Pi _{k}^{1}}
+ beschreiben dann die Komplexitätsklassen der polynomialen Hierarchie.
+
+# MSO 
+
+Ein weiteres wichtiges Fragment erhält man, wenn man die Quantifizierung über Relationen auf einstellige Relationen, das heißt in jeder Interpretation auf Teilmengen des Universums, einschränkt. Man nennt dies die monadische Prädikatenlogik zweiter Stufe oder kurz, nach dem englischen monadic second order logic, MSO. Auch hier interessiert man sich für die Ausdrucksstärke und geht dazu auch auf kleinere Fragmente über wie etwa ∃MSO, was aus Ausdrücken besteht, die in MSO und in ∃SO liegen. Auch das lässt sich auf naheliegende Weise zu mit 
+ 
+ 
+ 
+ M
+ 
+ Σ
+ 
+ k
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle M\Sigma _{k}^{1}}
+ und 
+ 
+ 
+ 
+ M
+ 
+ Π
+ 
+ k
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle M\Pi _{k}^{1}}
+ bezeichneten Hierarchien erweitern.
+
+# Siehe auch 
+
+Satz von Fagin
+Satz von Trachtenbrot
+Prädikatenlogik höherer Stufe
+
+# Literatur 
+
+H.-D. Ebbinghaus, J. Flum, W. Thomas: Finite Model Theory. Springer Verlag, 1995, ISBN 3-540-28787-6.
+H.-D. Ebbinghaus, J. Flum, W. Thomas: Einführung in die mathematische Logik. Spektrum Akademischer Verlag, 1996, ISBN 3-8274-0130-5. 
+Leonid Libkin: Elements of Finite Model Theory. Springer-Verlag, 2004, ISBN 3-540-21202-7.
+Stefan Brass: Mathematische Logik mit Datenbank-Anwendungen. Martin-Luther-Universität Halle-Wittenberg, Institut für Informatik, Halle 2005, S. 176 (informatik.uni-halle.de [PDF]). Alternative Notation für eine lokal modifizierte Variablendeklaration und -belegung.
+Klaus Grue: Object Oriented Mathematics. Universität Kopenhagen, Department of Computer Science (Datalogisk Institut), 1995, S. 21 (diku.dk [PDF]). Generelle Maplet-Notation, ebenfalls eine Notation für lokal modifizierte Variablendeklaration und -belegung.
+Carsten Lutz: Logik Teil 4: Prädikatenlogik zweiter Stufe. Universität Bremen, AG Theorie der künstlichen Intelligenz, 2010, S. 65 (informatik.uni-bremen.de [PDF] Vorlesung im Wintersemester 2010). 
+François Bry: 2.10 Exkurs: Prädikatenlogik zweiter Stufe. LMU, Institut für Informatik, Lehr- und Forschungseinheit für Programmier- und Modellierungssprachen, München 1999 (en.pms.ifi.lmu.de). 
+Esther Ramharter, Günther Eder: Prädikatenlogik zweiter Stufe. SE Modallogik und andere philosophisch relevante Logiken. WS 2015/2016. Universität Wien, S. 22 (homepage.univie.ac.at [PDF]). 
+
+# Anmerkungen und Einzelnachweise 
+

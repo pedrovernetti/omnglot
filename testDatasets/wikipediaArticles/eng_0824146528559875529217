@@ -1,0 +1,27 @@
+
+## CheShift
+
+CheShift-2 (pronounced /tʃeʃɪft/) is an application created to compute 13Cα and 13Cβ protein chemical shifts and to validate protein structures. It is based on quantum mechanics computations of 13Cα and 13Cβchemical shift as a function of the torsional angles (φ, ψ, ω and χ1, χ2) of the 20 amino acids.
+CheShift-2 can return a list of theoretical chemical shift values from a PDB file. It also can display a 3D protein model based on an uploaded PDB file and chemical shift values. The 3D protein model is colored using a five color code indicating the differences of the theoretical vs the observed chemical shifts values. The differences between observed and predicted 13Cα and 13Cβ chemical shifts can be used as a sensitive probe with which to detect possible local flaws in protein structures. 
+If both 13Cα and 13Cβ observed chemical shifts are provided CheShift-2 will attempt to provide a list of alternative χ1 and χ2 side-chain torsional angles that will reduce the differences between observed and computed chemical shifts, these values can be used to repair flaws in protein structures.CheShift-2 can be accessed online at http://www.cheshift.com, or via PyMOL plugin.
+
+# See also 
+
+Structure validation
+Bioinformatics
+Computational biology
+
+# Related software 
+
+WHAT IF software
+PROCHECK
+PSVS
+
+# External links 
+
+Official website
+CheShift PyMOL plugin
+GitHub repository
+
+# References 
+

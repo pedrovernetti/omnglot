@@ -1,0 +1,30 @@
+
+## T-Engine
+
+T-Engine ist ein Projekt zur Entwicklung eines standardisierten, offenen, Echtzeitbetriebssystem mit standardisierter Entwicklungsumgebung. Das Ziel des Projekt ist es günstigere eingebettete Systeme für alltägliche Anwendungen zu schaffen, die unter dem Begriff des „Ubiquitous Computing“ zusammengefasst werden. Das T-Engine Forum entwickelte, basierend auf Arbeiten des TRON-Projekts, ein solches System. 
+Das T-Engine Forum ist eine Non-Profit-Organisation, die 2002 gegründet worden ist. Mitglieder sind sowohl deutsche Unternehmen wie die Robert Bosch Car Multimedia GmbH und internationale Unternehmen wie NEC, Hitachi und Microsoft.
+
+# Architektur 
+
+T-Engine beschreibt eine standardisierte Hardware (T-Engine-Board), sowie ein Echtzeitbetriebssystem (T-Kernel). Im Gegensatz zu TRON ist auch die Hardware standardisiert. Die Entwicklungsumgebung ist auf den Entwicklungstools des GNU-Projekts aufgebaut.
+
+# Hardware 
+
+Es gibt insgesamt vier verschiedene T-Engine Hardwaretypen:
+standard T-Engine: Mobile Geräte wie Mobiltelefone oder elektronische Bücher mit umfangreicher Benutzerschnittstelle
+micro T-Engine: Heimelektronik und messtechnische Instrumente mit geringem Benutzerinterface
+nano T-Engine: Kleine Geräte wie Schalter oder Sensoren
+pico T-Engine: Kleinstgeräte mit kabelloser Anbindung
+
+# Software 
+
+Die ITRON-Spezifikation beschreibt nur die Betriebssystem-API und das Design der Treiber und der Entwicklungsumgebung bleibt dem Entwickler offen. Die T-Kernel-Spezifikation ist auch auf diese Aspekte ausgeweitet und bietet somit die Möglichkeit sowohl Middleware und Treiber auf anderen T-Kernel-Implementierungen zu nutzen. Dies war bei ITRON-Systemen nicht möglich.
+
+# Weblinks 
+
+T-Engine Forum
+IEEE Computer Society Artikel (PDF, englisch; 989 kB)
+Personal Media Corporation: Einführung in T-Engine (englisch)
+
+# Einzelnachweise 
+

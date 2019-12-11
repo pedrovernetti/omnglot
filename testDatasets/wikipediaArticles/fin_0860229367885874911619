@@ -1,0 +1,25 @@
+
+## 3DES
+
+3DES, joka tunnetaan myös nimellä Triple-DES tai DES-3, on nykyään yleisimmin käytetty DES-salauksen muoto. Se käyttää samaa algoritmia kuin DES, mutta tuo mukaan lisää suojauskertoja (iterations). 3DESistä on kolme eri versiota. Vaikka avaimen pituudet näiden versioiden välillä vaihtelevatkin, ne ovat silti kaikki yhtä turvallisia. Kyseisten salauksien purkaminen tapahtuu käänteisessä järjestyksessä, tarvittavien avainten kanssa.3DES ei voida enää pitää turvallisena. Esim. OpenSSL -ohjelmiston versiossa 1.1.0 ja sen jälkeisissä versioissa 2016 lähtien ei enää ole ollut 3DES algoritmeja saatavilla, koska ohjelmiston kehittäjät pitävät niitä heikkoina.
+
+# Kolme avainta: 168-bittinen avain 
+
+Tieto salataan 1. avaimella
+Tieto salataan 2. avaimella
+Tieto salataan 3. avaimellaKoska perus-DES:n avaimen pituus on 56 bittiä, ja tämä versio käyttää kolmea eri avainta, saadaan tälle avaimelle pituudeksi 168 bittiä.
+
+# Kaksi avainta: 112-bittinen avain, metodi A 
+
+Tieto salataan 1. avaimella
+Tieto salataan 2. avaimella
+Tieto salataan toistamiseen 1. avaimellaKäytetään kahta eri avainta, joten avaimen pituudeksi tulee (2×56) = 112 bittiä.
+
+# Kaksi avainta: 112-bittinen avain, metodi B 
+
+Tieto salataan 1. avaimella
+Tieto avataan 2. avaimella
+Tieto salataan toistamiseen 1. avaimellaKun salattu teksti avataan väärällä avaimella, tuloksena ei ole alkuperäinen viesti vaan toisenlainen salattu viesti.
+
+# Lähteet 
+

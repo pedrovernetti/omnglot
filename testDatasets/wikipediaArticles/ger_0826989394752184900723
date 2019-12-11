@@ -1,0 +1,23 @@
+
+## GandCrab
+
+GandCrab ist ein Verschlüsselungstrojaner, der seit Anfang 2018 bekannt ist. Ende Mai 2019 gaben die Entwickler des Trojaners im Hacker-Forum Exploit.it bekannt, dass sie den Support für GandCrab Ende Juni 2019 einstellen würden. Ihren Angaben nach hätten die Opfer des Trojaners mehr als zwei Milliarden US-Dollar an Lösegeldern bezahlt. Die Entwickler hätten pro Woche 2,5 Millionen US-Dollar verdient, etwa 150 Millionen im Jahr. Das Geld sei in verschiedenen legalen Projekten investiert worden.GandCrab hatte zeitweise einen Anteil von 40 % am gesamten Ransomware-Markt. Es gab ständig neue Versionen, die auf unterschiedlichen Wegen installiert wurden, etwa über E-Mail-Anhänge oder Schwachstellen in Softwaresystemen.
+
+# Geschichte 
+
+GandCrab wurde erstmals Ende Januar 2018 von dem IT-Sicherheitsexperten David Montenegro beschrieben. Die Zahl der Opfer stieg sehr schnell an. Lösegeld wurde zunächst in der Kryptowährung Dash gefordert, erst später kam Bitcoin dazu. Ende Februar 2018 gab es ein Entschlüsselungsprogramm für GandCrab v1, eine Gemeinschaftsarbeit der rumänischen Polizei mit Bitdefender und Europol.Anfang März 2018 wurde GandCrab v2 identifiziert, das gegen das Entschlüsselungsprogramm immun war und etliche Erweiterungen und Verbesserungen enthielt. Am 23. April 2018 wurde Version 3 entdeckt, Version 4 am 1. Juli 2018.Version 5 wurde am 27. September 2018 angekündigt. Im Februar 2019 erschien Version 5.2 auf dem Markt.Ende Mai 2019 kündigten die Entwickler von GandCrab auf einem vielbenutzten Hacker-Forum an, ihr Online-Portal Ende Juni 2019 einzustellen. Die Entwickler erklärten, GandCrab habe über 2 Milliarden US-Dollar eingenommen, wodurch die Entwickler 2,5 Millionen US-Dollar pro Woche bzw. etwa 150 Millionen US-Dollar im Jahr bekamen und in verschiedenen legalen Projekten anlegten. Sie hätten bewiesen, dass Böses tun nicht zu Strafe führe (We have proved that by doing evil deeds, retribution does not come).Die von den Entwicklern genannten Zahlen wurden indes angezweifelt. Es wird vermutet, dass Opfer zum schnellen Zahlen des Lösegelds veranlasst werden sollten.
+
+# Geschäftsmodell 
+
+GandCrab wurde als Ransomware-as-a-Service (RaaS) verkauft. Der Kunde, der den Trojaner zur Erpressung einsetzen wolle, kaufte eine mit wenigen Clicks durchzuführende Dienstleistung.Der Kunde erwarb auf dem Online-Portal der Entwickler eine maßgeschneiderte Version des Trojaners, um diese dann beim gewünschten Opferkreis einzusetzen. Vom erpressten Lösegeld ging ein Anteil an die Entwickler.
+
+# Übertragungswege 
+
+GandCrab nutzte verschiedene Verbreitungswege. Häufig wurden JavaScript und Doc (VBA) Dropper benutzt, die meist als E-Mail-Anhänge (Spam) beim Opfer ankamen und dann den Trojaner nachluden. Ein anderer Verbreitungsweg waren Exploit Kits (z. B. RIG, GrandSoft, Fallout), die über verschleierte Links, meist auf infizierten Webseiten, aktiviert wurden und Browser- oder Flash-Schwachstellen ausnutzten.
+
+# Arbeitsweise 
+
+In den ersten Versionen setzte sich GandCrab mit seinem C&C-Server in Verbindung, um die Dateiverschlüsselung durchzuführen. Version 4 konnte die Verschlüsselung auch ohne Verbindung zum Server ausführen. Version 4 benutzte Salsa20 zur Verschlüsselung, gegenüber RSA-2048 in früheren Versionen.GandCrab prüfte, ob sich der infizierte Rechner in einem Land befand, in dem Russisch gesprochen wird (z. B. Russland, Ukraine, Weißrussland u. a.); in diesem Fall führte der Trojaner keine Verschlüsselung durch.
+
+# Einzelnachweise 
+

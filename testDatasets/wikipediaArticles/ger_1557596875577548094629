@@ -1,0 +1,48 @@
+
+## Lichtmühle
+
+Eine Lichtmühle (auch als Lichtrad oder Radiometer, selten als Sonnenmühle, bezeichnet) ist eine Glaskugel, in deren Innerem sich ein bewegliches Flügelrad befindet, das mit mehreren einseitig geschwärzten Plättchen versehen ist. Bei Lichteinfall beginnt sich das Rad zu drehen. Die meist dekorativen Zwecken dienende Apparatur wurde 1873 von William Crookes erfunden.
+
+# Aufbau 
+
+Meist besteht eine Lichtmühle aus einem vierarmigen Flügelrad, das mittels eines Glashütchens auf einer Nadelspitze leicht drehbar gelagert ist. Jeder der aus Draht bestehenden Arme trägt an seinem Ende ein vertikal gestelltes Plättchen aus geglühtem Glimmer (eventuell verspiegelt), bei dem eine Seite mit Ruß geschwärzt ist, und zwar so, dass die berußten Flächen alle nach derselben Drehrichtung gerichtet sind.
+Der Aufbau ist in eine hohle Glaskugel von fünf bis sechs Zentimeter Durchmesser eingeschlossen. Von oben her ragt eine Glasröhre in die Kugel hinein, die das Herunterfallen des Flügelrades verhindert.
+Der Glaskolben wird auf etwa 5 Pascal (das sind 0,05 Millibar) evakuiert und dann zugeschmolzen. Lichtmühlen funktionieren weder im Hochvakuum noch bei Normaldruck.
+Setzt man die Lichtmühle Licht- oder Wärmestrahlung aus, so dreht sich das Rädchen mit einer von der Stärke der Strahlung abhängigen Geschwindigkeit, wobei die nicht geschwärzten Flächen vorangehen.
+Um eine Drehbewegung zu beobachten, müssen Reibungs- und Luftwiderstand sehr gering sein. Das wird durch den Unterdruck im Inneren der Glaskugel sowie durch die reibungsarme Lagerung des Rotors erreicht.
+Eine Lichtmühle funktioniert nur, wenn die geschwärzte Seite Energie absorbieren kann, gut von der hellen Seite thermisch isoliert ist und sich somit aufheizt. Eine gute Lichtmühle dreht im Sonnenlicht schnell, bewegt sich aber auch in schwachem Tageslicht noch langsam, während eine Zimmerbeleuchtung zum Beispiel aus Leuchtstoffröhren üblicherweise nicht ausreicht. Da die Empfindlichkeit im infraroten Bereich groß ist, genügen jedoch Kerzen, Taschenlampen oder sogar die Hände, um die Flügel langsam drehen zu lassen.
+
+# Erklärung 
+
+Der Gasdruck im Inneren der Glaskugel ist so gering – nur ein bis zehn Pascal –, dass die freie Weglänge, also die mittlere Distanz, die ein Gasmolekül zwischen zwei Zusammenstößen zurücklegt, in der Größenordnung von Millimetern liegt. Für einen Druck von 5 Pascal beträgt die mittlere freie Weglänge immerhin 1,4 Millimeter. Daher muss man das Verhalten der Gasmoleküle im Inneren eher mit dem Impulsgesetz statt mit Strömung, Konvektion oder Wärmeausdehnung beschreiben. Die Wechselwirkung der Gasmoleküle untereinander ist für diese Phänomene zu gering. Untersuchungen zur Stärke des Effektes, die bereits der Berliner Professor Wilhelm Westphal vor 1920 vorgenommen hat, zeigen ein Maximum der Kraftwirkung auf die Mühle bei einem Innendruck von ca. 1,33 Pa.
+Die thermische Bewegung der Gasmoleküle im Inneren führt bei unbeleuchtetem Flügelrad und thermischem Gleichgewicht statistisch zu gleich vielen Stößen auf die hellen und die dunklen Flügelflächen sowie die Glaswand. Bei Bestrahlung erwärmen sich die berußten Flächen, und deren Moleküle und Atome führen eine stärkere Bewegung (Brownsche Molekularbewegung) aus. Treffen nun Gasmoleküle auf schnell schwingende Teilchen der warmen Seite, erhalten sie einen stärkeren Impuls beim Wegfliegen. Das Kräftegleichgewicht des Flügels ist nicht mehr gegeben und die schwarze Seite erfährt nach dem Impulserhaltungssatz eine Rückstoßkraft in der entgegengesetzten Richtung des wegfliegenden Gasteilchens.
+Mit dieser Theorie lassen sich alle beobachteten Abhängigkeiten wie Optimum des Gasdruckes, möglichst schlecht wärmeleitende Plättchen wie auch der Gegenimpuls auf das Glasgefäß erklären.
+Auch die beim Abkühlen des Glasgefäßes stattfindende Umkehrung der Drehrichtung der unbestrahlten Mühle, mit den schwarzen Flächen voran, lässt sich so erklären. Eine unbestrahlte stillstehende Lichtmühle beginnt sich in umgekehrter Richtung zu drehen, wenn man sie zum Beispiel in ein Gefäß mit kaltem Wasser setzt. Die meistens mit Ruß geschwärzten Flächen nehmen dann aufgrund ihres nicht nur im sichtbaren Bereich des Lichtes, sondern auch im mittleren Infrarotbereich höheren Emissionsgrades eine niedrigere Temperatur als die hellen Flächen an. Sie verlieren Wärmeenergie durch Abstrahlung im gestörten Strahlungsgleichgewicht im Inneren der Kugel, die Glaswandung strahlt weniger zurück als sie absorbiert. Dadurch wird die hellere Seite des Flügels zur „Antriebsseite“, da diese eine höhere Temperatur hat und die Gasmoleküle dort einen stärkeren Impuls erhalten.
+
+# Geschichte der Erklärungsversuche 
+
+Zur Erklärung der Ursache der Drehung wurden im Laufe der Zeit verschiedene physikalische Wirkprinzipien herangezogen.
+Crookes glaubte anfänglich, dass die Drehbewegung aufgrund des unterschiedlichen Strahlungsdrucks (an der hellen Seite wird Lichtenergie reflektiert, an der dunklen absorbiert) entsteht. Eine genauere Analyse (unter anderem von James Clerk Maxwell) ergab allerdings, dass dieser Effekt zu gering ist, außerdem würde das eine Drehung mit der geschwärzten Seite voran bewirken, was im Gegensatz zur beobachteten Richtung stünde.
+Eine weitere Widerlegung der Strahlungsdruck-Theorie gelang durch Versuche, die zeigten, dass zwischen Flügelrad und Glashülle eine Wechselwirkung stattfindet und folglich die Bewegung nicht von einer äußeren Kraft herrühren kann.
+Lässt man nämlich eine Lichtmühle, deren Flügelrad mit einem leichten Magnetstäbchen versehen ist, in Wasser schwimmen und hält die Drehbewegung des Rades durch einen von außen genäherten Magnet an, so dreht sich bei Bestrahlung die Glashülle in die entgegengesetzte Richtung.
+Die Strahlungsdruck-Hypothese kann leicht widerlegt werden, indem man das Flügelrad im Vakuum lagert. Aufgrund des nun entfallenden Luftwiderstandes wäre zu erwarten, dass sich die Flügel nun schneller drehen. Der Druck hat jedoch ein Optimum, bei zu geringem Innendruck findet keine Bewegung mehr statt.
+Die Temperaturabhängigkeit der Drehbewegung ist ein weiteres Indiz gegen den Strahlungsdruck – die Drehrichtung der Lichtmühle hängt vom Strahlungsgleichgewicht im Inneren und somit auch von der Temperaturdifferenz zwischen innen und außen ab:
+Eine unbestrahlte, stillstehende Lichtmühle beginnt sich in umgekehrter Richtung, mit den schwarzen Flächen voran, zu drehen, wenn man sie in ein Gefäß mit kaltem Wasser setzt – die meist mit Ruß geschwärzten Flächen nehmen aufgrund ihres auch im mittleren Infrarotbereich besseren Emissionsgrads dabei eine niedrigere Temperatur an als die hellen Flächen.
+Eine weitere Erklärung der Funktionsweise wurde 1879 von dem englischen Ingenieur Osborne Reynolds veröffentlicht. Er erklärte die Bewegung mit einer Temperaturdifferenz zwischen der schwarzen warmen und der weißen kalten Fläche und dem damit verbundenen Gasfluss, der bei unbeweglichen Flächen zu einer Druckdifferenz führe. Wenn diese Luft in Richtung auf die Außenkanten der Schaufeln fließe, strichen die wärmeren, schnelleren Moleküle in einem größeren Winkel über die Kanten als die kühleren, was die Schaufeln in die der dunklen Fläche abgewandte Richtung treibe.Es gibt eine Fülle weiterer Erklärungsversuche für die Drehbewegung, wobei einige davon zumindest einen Beitrag zur Bewegung liefern, nicht jedoch deren Hauptursache sein können. Die herangezogenen Effekte sind
+
+das Ausgasen der schwarzen Überzüge,
+der photoelektrische Effekt,
+die Konvektionsströmung.
+
+# Literatur 
+
+Wolfgang Bürger: Die Lichtmühle, Spektrum der Wissenschaft 2 / 2001, Seite 104
+Falk Müller: Warum dreht sich eine Lichtmühle? Ein historischer Blick. In: Jürgen Renn (Hrsg.): Albert Einstein. Ingenieur des Universums. Hundert Autoren für Einstein. Wiley-VCH Verlag, Weinheim 2005, ISBN 978-3-527-40579-4, S. 48–51.
+Gerhard Wurm: Photophorese – die Kraft von Licht und Schatten. Die Bedeutung des Lichtmühleneffekts für die Astronomie. in: Sterne und Weltraum, April 2008 preview online
+
+# Einzelnachweise 
+
+# Weblinks 
+
+Philip Gibbs: How does a light-mill work?, Usenet Physics FAQ, 1997 (englisch)
+Muß der Behälter des Rotors in der Lichtmühle unbedingt eine Kugel sein?, Verband Deutscher Glasbläser, 1998

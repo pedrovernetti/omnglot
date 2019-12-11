@@ -1,0 +1,241 @@
+
+## Winkel-Tripel-Projektion
+
+Die Winkel-Tripel-Projektion ist ein 1921 von Oswald Winkel (1874–1953) veröffentlichter Kartennetzentwurf für die gesamte Erdoberfläche. Sie stellt einen gelungenen Kompromiss zwischen Flächen- und Winkeltreue dar und gehört daher zu den am meisten verwendeten Weltkartenprojektionen. Im Vergleich zur ähnlichen Robinson-Projektion erzielt sie geringere Verzerrungen, gibt dafür jedoch die Lagetreue auf, so dass gekrümmte Breitenkreise entstehen. Im Vergleich zu flächentreuen Projektionen wie der Mollweide-Projektion oder der Eckert-IV-Projektion vermeidet sie deren relativ starke Form- und Winkelverzerrungen, erreicht aber keine vollständige Flächentreue.
+Die Projektionsformel ist das arithmetische Mittel aus der rechteckigen Plattkarte und der Aitov-Projektion:
+
+ 
+ 
+ 
+ x
+ 
+
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ [
+ 
+ λ
+ cos
+ 
+ (
+ 
+ ϕ
+ 
+ 1
+ 
+ 
+ )
+ +
+ 
+ 
+ 
+ 2
+ cos
+ 
+ (
+ ϕ
+ )
+ sin
+ 
+ 
+ (
+ 
+ 
+ λ
+ 2
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ s
+ i
+ 
+ (
+ α
+ )
+ 
+ 
+ 
+ 
+ ]
+ 
+ 
+ 
+ {\displaystyle x={\frac {1}{2}}\left[\lambda \cos(\phi _{1})+{\frac {2\cos(\phi )\sin \left({\frac {\lambda }{2}}\right)}{\mathrm {si} (\alpha )}}\right]}
+ 
+ 
+ 
+ 
+ y
+ 
+
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ [
+ 
+ ϕ
+ +
+ 
+ 
+ 
+ sin
+ 
+ (
+ ϕ
+ )
+ 
+ 
+ 
+ s
+ i
+ 
+ (
+ α
+ )
+ 
+ 
+ 
+ 
+ ]
+ 
+ 
+ 
+ {\displaystyle y={\frac {1}{2}}\left[\phi +{\frac {\sin(\phi )}{\mathrm {si} (\alpha )}}\right]}
+ 
+ 
+ 
+ 
+ λ
+ 
+ 
+ {\displaystyle \lambda }
+ ist der Längengrad (relativ zum Zentralmeridian)
+
+ 
+ 
+ 
+ ϕ
+ 
+ 
+ {\displaystyle \phi }
+ ist der Breitengrad
+
+ 
+ 
+ 
+ α
+ :
+
+ arccos
+ 
+ 
+ (
+ 
+ cos
+ 
+ (
+ ϕ
+ )
+ cos
+ 
+ 
+ (
+ 
+ 
+ 
+ λ
+ 2
+ 
+ 
+ 
+ )
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle \alpha :=\arccos \left(\cos(\phi )\cos \left({\tfrac {\lambda }{2}}\right)\right)}
+ 
+
+ 
+ 
+ 
+ 
+ ϕ
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \phi _{1}}
+ ist der Breitengrad der Standardparallelen der Plattkarte. Winkel wählte für seine Projektion 
+ 
+ 
+ 
+ 
+ ϕ
+ 
+ 1
+ 
+ 
+ 
+
+ arccos
+ 
+ 
+ (
+ 
+ 
+ 
+ 2
+ π
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle \phi _{1}=\arccos \left({\tfrac {2}{\pi }}\right)}
+ .
+
+ 
+ 
+ 
+ 
+ s
+ i
+ 
+ 
+ 
+ {\displaystyle \mathrm {si} }
+ ist der nicht normierte Sinus cardinalis.Winkel stellte gleichzeitig zwei andere Kartennetzentwürfe vor. Diese werden als Winkel I (das arithmetische Mittel aus der Plattkarte und der Sinusoidal-Projektion) und Winkel II bezeichnet. Die Tripelprojektion wird daher auch Winkel III genannt.
+
+# Literatur 
+
+Günter Hake: Kartographie I. de Gruyter, 1982, ISBN 3-11-008455-4. 
+Kurt Stüwe: Einführung in die Geodynamik der Lithosphäre. Springer, 2000, ISBN 978-3-540-67516-7, S. 28 (eingeschränkte Vorschau in der Google-Buchsuche). 
+
+# Weblinks 
+
+Winkel's Tripel Projection. In: Three Modifications for Azimuthal Projections. Carlos A. Furuti, 21. September 2002.
+Winkel Tripel Projection. In: Modified Azimuthal Projections. Carlos A. Furuti, 22. Dezember 2002.
+Beschreibung der inversen Lösung
+
+# Einzelnachweise 
+

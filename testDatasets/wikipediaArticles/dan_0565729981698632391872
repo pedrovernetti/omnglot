@@ -1,0 +1,12 @@
+
+## Smart akkumulator
+
+En smart akkumulator eller smart akkumulatorpakke er en akkumulatorpakke med en indbygget batteristyresystem (BMS).
+Udover de sædvanlige plus og minus terminaler har den også f.eks. mellem 2 eller flere terminaler til forbindelse til BMSet - typisk er minus også anvendt til BMS stel. BMS-grænseflade eksempler: SMBus, PMBus, EIA-232, EIA-485 og Local Interconnect Network.
+Den smarte akkumulator kan internt gøre nogle få eller mange ting - f.eks. måle spænding og strøm - og udlede ladningsniveau, SoH (State-of-Health) som nævnt i artiklen batteristyresystem.
+Eksternt kan den smarte akkumulator kommunikere med en smart akkumulatorlader og en smart elforbruger. F.eks. kan den smarte akkumulator kræve at ladningen stoppes - eller bede om at ladning startes - eller kræve at den smarte elforbruger stopper med at bruge energi fra denne akkumulator.
+Der er en standard for en smart akkumulator specifikation kaldet Smart Battery System - og herudover mange ad-hoc specifikationer.
+
+# Eksterne henvisninger 
+
+batteryuniversity.com: : Inner Workings of a Smart Battery Citat: "...A speaker at a battery conference said, “The battery is a wild animal and artificial intelligence domesticates it.”...Ironically, the more features that are added to the SMBus battery and charger, the higher the likelihood of incompatibilities..."

@@ -1,0 +1,29 @@
+
+## AntiX Linux
+
+antiX Linux est une distribution Linux dérivée de Debian, adaptée aux ordinateurs vieillissants, depuis les Pentium III.
+
+# Description 
+
+antiX existe depuis 2007.
+Elle demande peu de ressources (Pentium III, 256 Mo de mémoire vive) et tient sur un CD.
+
+# Spécificités 
+
+Cette distribution utilise sysvinit en lieu et place de systemd, pour des raisons qui ne sont pas idéologiques, mais techniques.
+antiX intègre par défaut les gestionnaires de fenêtres IceWM, Fluxbox et JWM, ainsi que les environnements de bureau ROX et SpaceFM, lesquels occupent peu de mémoire vive et d'espace disque, en cohérence avec l'esprit de la distribution.
+La distribution intègre les logiciels LibreOffice, Firefox ESR, Claws Mail et SMTube, entre autres. Sont également présents des outils de configuration simplifiés (sous forme de scripts) tels que l'antiX Control Center ou encore le bloqueur de publicités advert-block, qui écrit dans le fichier hosts.
+
+# Voir aussi 
+
+# Articles connexes 
+
+Mini Linux, liste des distributions Linux qui fonctionnent sur une carte mémoire.
+Liste de live CD
+MX Linux, distribution utilisant l'environnement de bureau Xfce, issue de la collaboration des communautés antiX et MEPIS.
+
+# Notes et références 
+
+# Liens externes 
+
+Site officiel Portail de l’informatique Portail des logiciels libres Portail GNU/Linux

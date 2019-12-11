@@ -1,0 +1,5 @@
+
+## Duaaliavaruus
+
+Matematiikassa jokaisella vektoriavaruudella, V, on vastaava duaaliavaruus, joka sisältää kaikki lineaariset funktionaalit V:llä. Duaaliavaruus on myös vektoriavaruus, ja äärellisdimensioista duaalivektoriavaruutta voidaan käyttää määrittelemään tensoreita. Funktioavaruuksien duaaliavaruuksia voidaan käyttää määrittelemään mittoja, jakaumia ja Hilbertin avaruuksia. Tämän vuoksi duaaliavaruudet ovat tärkeitä työkaluja funktionaalianalyysissä.
+Duaaliavaruudet voidaan jakaa kahteen tyyppiin: algebraalisiin duaaliavaruuksiin ja jatkuviin duaaliavaruuksiin. Algebraalinen duaaliavaruus on määritelty kaikille vektoriavaruuksille. Tämän avaruuden aliavaruus on jatkuva duaaliavaruus, joka koostuu topologisen vektoriavaruuden jatkuvista lineaarisista funktionaaleista.

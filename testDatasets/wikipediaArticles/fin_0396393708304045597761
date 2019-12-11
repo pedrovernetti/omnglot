@@ -1,0 +1,17 @@
+
+## PDP-8
+
+PDP-8 on Digital Equipment Corporationin 1960-luvulla valmistama minitietokone. Se oli ensimmäinen laajasti myyty PDP-sarjan tietokone. PDP-8 oli myös ensimmäinen laite, josta käytettiin minitietokone-sanaa.Tietokone käytti diodi-transistori-logiikkaa (DTL).
+Ensimmäinen PDP-8-malli vastasi fyysiseltä kooltaan pientä pakastinta. Myöhemmin koneesta ilmestyi myös hieman pienempiä malleja, esimerkiksi pöydälle mahtuva PDP-8/E. Esittelyvuotena 1965 PDP-8:n hinta oli 18 500 dollaria.
+
+PDP-8 oli 12-bittinen kone, eli sen sananleveys oli 12 bittiä ja keskusmuisti koostui tämän kokoisista sanoista. Muisti oli toteutettu ferriittirengastekniikalla ja sitä saattoi olla koneessa 4 096 – 32 768 sanaa eli 6–48 kilotavua. Käskykanta oli hyvin yksinkertainen, ja varsinaisia rekistereitä oli ensimmäisissä malleissa vain yksi. Syöttö- ja tulostuslaitteina oli aluksi vain kytkimiin ja valoihin perustuva etupaneeli, reikänauhanlukija ja tekstipäätteenä käytetty kaukokirjoitinlaite. Myöhemmin oli käytettävissä myös magneettinauha, RS-232-sarjaväylä, levykeasema ja kiintolevy.
+Tietokoneelle oli useita käyttöjärjestelmiä kuten RTS/8 reaaliaikainen käyttöjärjestelmä (RTOS) ja TSS-8 osituskäyttöjärjestelmä.Intersil 6100 -mikroprosessori toteuttaa tietokoneen käskykannan.
+
+# Lähteet 
+
+# Aiheesta muualla 
+
+PDP-8 FAQ (englanniksi)
+PDP-8 (Straight 8) Computer Functional Restoration (englanniksi)
+Vanhoja teknisiä dokumentteja, Bitsavers.org (englanniksi)
+Online PDP-8 Home Page, Run a PDP-8 (englanniksi)

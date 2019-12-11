@@ -1,0 +1,32 @@
+
+## Geotargeting
+
+Geotargeting (Synonyme: Geolocation/Geolokation) ordnet IP-Adressen oder IPTC/XMP ihrer geografischen Herkunft zu.
+IP-Adressen können zwar wegen Verfahren wie dynamischer IP-Vergabe, Proxyservern oder NAT nicht immer eindeutig einem Internetnutzer zugewiesen werden, jedoch immer einem Besitzer. Hierbei handelt es sich häufig um Internetprovider, Universitäten und ähnliche Einrichtungen, die nicht nur eine IP-Adresse, sondern Adressräume verwalten. Der Besitzer einer IP-Adresse kann frei entscheiden, welchem Netzknoten er welche Adresse zuteilt. Obwohl die Zuteilung im Prinzip schnell geändert werden kann, wird von dieser Möglichkeit nur selten Gebrauch gemacht. Der dafür entstehende Verwaltungsaufwand ist nicht zu unterschätzen. Dadurch kann aus einer einmal festgestellten Geoposition einer IP-Adresse auf einen Wochen später noch aktuellen Zusammenhang geschlossen werden. Da regionale Einwahlknoten häufig einen eigenen festen IP-Adresspool besitzen, funktioniert das Verfahren meist bei dynamischer IP-Vergabe ebenfalls. Beim Einsatz von Proxyservern kann maximal der Standort jenes Servers, jedoch nicht der des eigentlichen Nutzers ermittelt werden.
+„Geointelligenz“ geht einen Schritt weiter: Der Standort der Internetnutzer wird mit Regeln verknüpft, die auf der geographischen Herkunft des Internetnutzers basieren. Wenn ein Internetbesucher aus Deutschland eine Website aufruft, erhält er andere Inhalte als ein gleichzeitiger Besucher derselben Website aus Frankreich oder den USA. IP-Intelligenz erweitert die reine geografische Sicht um qualitative Faktoren wie die Verbindungsgeschwindigkeit oder den identifizierten ISP des Nutzers. Ein Kabelnetzanbieter kann davon Gebrauch machen und den Besuchern gezielte Wechsel-Angebote unterbreiten, ohne dass der Besucher eigene Angaben machen muss. 
+Geolokationssoftware hat zum Ziel, mit Hilfe der IP-Adresse den Standort von Personen oder Systemen möglichst genau zu bestimmen. Mitunter werden auch vom Erzeuger bereits Geo-Tags auf Fotos oder Videos gesetzt. Um einheitliche Voraussetzungen vorzugeben, wurde mit der W3C Geolocation API eine geeignete Schnittstelle geschaffen.
+
+# Anwendungsbeispiele 
+
+Eine profitable Anwendung ist Geomarketing. Die meisten Online-Werbefirmen bieten ihren Kunden auf Basis von Geotargeting die Schaltung national oder sogar regional differenzierter Werbung an (Ad Targeting). Besucher sehen Anzeigen, die – unabhängig vom Standort der aufgerufenen Seite – ihren derzeitigen Aufenthaltsort als Zielmarkt ansprechen.
+Webcontrolling-Anbieter integrieren Geointelligenz in ihre Produkte, um eine geografische Besucheranalyse zu ermöglichen. Der Webseitenbetreiber kann sehen, aus welchen Ländern und Regionen die Besucher kommen.
+PayPal verwendet Geolocation zum Schutz vor Betrug, um Onlinezahlungen auf regionale Unstimmigkeiten zu überwachen und schließt Transaktionen aus, die aus mit Sanktionen belegten Ländern (laut OFAC-Liste) zu kommen scheinen.
+Loudeye Inc. benutzt Geolocation in der Marktforschung, um regionale Nachfrageunterschiede besser abzubilden oder die eigenen Direktmarketingmaßnahmen zu optimieren.
+DidTheyReadIt bietet als E-Mail-Serviceanbieter nicht nur die Information, ob eine Nachricht geöffnet wurde, sondern auch wo dieses geschehen ist (E-Mail-Location).
+DigitalEnvoy bietet neben den Datenbanken zu allen verwendeten IP-Adressen auch Produkte, welche E-Mails auf geografische Plausibilität überprüfen. Diese Produkte vergleichen die Geografie des E-Mail-Headers mit der Geografie des E-Mail-Body. Verdächtige E-Mails werden gegebenenfalls blockiert oder an Prüfroutinen zum Schutz vor Phishing übergeben.
+Video-on-Demand-Anbieter verwenden Geoblocking, da Sportverbände und Filmverlage die Verwertung ihrer Inhalte an territoriale Grenzen binden. Beispiele hierfür sind CinemaNow und Disney.
+E4X nutzt Geointelligenz, um E-Commerce-Site-Besuchern automatisch die richtige Währung anzubieten.
+Google und viele Andere personalisieren ihre Angebote, indem sie die Benutzer automatisch auf die Seite in der Sprache des Benutzers führen.
+Content-Distribution-Netzwerke optimieren die Lastverteilung zwischen ihren Servern durch Geointelligenz. Die Unternehmen sparen dadurch Kosten und bieten bessere Downloads durch Traffic-Management.
+Für teilautomatisierte telemedizinische Betreuungs- oder Versorgungssysteme bedeutet die Geo-Lokalisierung von Patienten eine notwendige Facette aller möglichen Lokalisierungs-Techniken. Es laufen Feldstudien vor allem zur Notfallversorgung, wie bei Myokardinfarkten. Einfache Applikationen wie rasche Lokalisierungen eines spezialisierten Behandlungszentrums werden erprobt.
+Unternehmen mit Filialen können Besuchern ihrer Website mit Hilfe von Geotargeting einen passenden Standort zuweisen.
+YouTube bietet bestimmte Videos aufgrund von Lizenzfragen in einigen Ländern nicht an. Dies wird dem Nutzer mit einer Meldung angezeigt („Dieses Video ist in Ihrem Land nicht verfügbar“).
+
+# Qualität der Geotargetingverfahren 
+
+Die Qualität der Verfahren wird anhand folgender Parameter beschrieben: 
+
+Datenvollständigkeit beschreibt wie viele der weltweit verwendeten IP-Adressen das Verfahren abbildet. Eine zuverlässige Technologie sollte 99,99 % der im Gebrauch befindlichen IP-Adressen abdecken.
+Datengenauigkeit besagt, wie genau die Technologie eine einzelne IP-Adresse der Region (Land, Bundesland, Stadt) zurechnen kann. Mögliche Zielwerte liegen über 95 % auf Stadtebene. Wesentlich verschlechtert werden kann diese Erfolgsquote, wenn sich in der Zielgruppe viele Nutzer von Providern befinden, deren Netze sich nur auf Länderebene zuverlässig identifizieren lassen. Ebenso wichtig sind weitere Parameter wie die Identifikation von Proxys, Firmenservern und Bandbreiten, Längen- und Breitengraden, Domains.
+Leistungsfähigkeit sagt aus, wie viele Zugriffe pro Sekunde pro Server das Verfahren leisten kann. Eine schlechte Performance führt nicht nur zu höheren Systemkosten, sondern beeinträchtigt auch die interne Nutzungsqualität des Dienstes wesentlich.
+Integrationsaufwand besagt, ob es möglich ist, das Verfahren für mehr als eine Anwendung zu integrieren, und wie hoch der Aufwand zur technischen Einbindung in die alternative Systemumgebung ist.

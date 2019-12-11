@@ -1,0 +1,346 @@
+
+## Plotkin-Grenze
+
+In der Kanalcodierung verwendet man Blockcodes, um Fehler in Datenströmen erkennen und korrigieren zu können. Ein Blockcode 
+ 
+ 
+ 
+ C
+ 
+ 
+ {\displaystyle C}
+ der Länge 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ über einem 
+ 
+ 
+ 
+ q
+ 
+ 
+ {\displaystyle q}
+ -nären Alphabet mit einem Minimalabstand 
+ 
+ 
+ 
+ d
+ 
+ 
+ {\displaystyle d}
+ erfüllt die Plotkin-Grenze, auch als Plotkin-Schranke bezeichnet,
+
+ 
+ 
+ 
+ 
+ |
+ 
+ C
+ 
+ |
+ 
+ ≤
+ 
+ 
+ d
+ 
+ d
+ −
+ (
+ 
+ 
+ 
+ q
+ −
+ 1
+ 
+ q
+ 
+ 
+ )
+ ⋅
+ n
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle |C|\leq {\frac {d}{d-({\frac {q-1}{q}})\cdot n}}}
+ dann, wenn der Nenner positiv ist. Somit liefert die Plotkin-Grenze nur dann ein Resultat, wenn 
+ 
+ 
+ 
+ d
+ 
+ 
+ {\displaystyle d}
+ hinreichend nahe bei 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ liegt.
+Nimmt ein Code 
+ 
+ 
+ 
+ C
+ 
+ 
+ {\displaystyle C}
+ die Plotkin-Schranke an, so gilt insbesondere, dass der Abstand zweier beliebiger Codewörter genau 
+ 
+ 
+ 
+ d
+ 
+ 
+ {\displaystyle d}
+ ist.
+Ist 
+ 
+ 
+ 
+ q
+ ≥
+ 3
+ 
+ 
+ {\displaystyle q\geq 3}
+ und 
+ 
+ 
+ 
+ 
+ |
+ 
+ C
+ 
+ |
+ 
+ 
+
+ a
+ ⋅
+ q
+ +
+ b
+ 
+ 
+ {\displaystyle |C|=a\cdot q+b}
+ mit 
+ 
+ 
+ 
+ b
+ <
+ q
+ 
+ 
+ {\displaystyle b<q}
+ , so gilt sogar die schärfere Beziehung:
+
+ 
+ 
+ 
+ d
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 
+ |
+ 
+ C
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ )
+ 
+ 
+ 
+ ≤
+ n
+ 
+ (
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 
+ |
+ 
+ C
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ )
+ 
+ 
+ 
+ −
+ b
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ a
+ +
+ 1
+ 
+ 2
+ 
+ 
+ )
+ 
+ 
+ 
+ −
+ (
+ q
+ −
+ b
+ )
+ 
+ 
+ 
+ (
+ 
+ 
+ a
+ 2
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle d{|C| \choose 2}\leq n\left({|C| \choose 2}-b{a+1 \choose 2}-(q-b){a \choose 2}\right)}
+ Beispielsweise liefert die Plotkin-Grenze für 
+ 
+ 
+ 
+ q
+ 
+
+ 3
+ 
+ 
+ {\displaystyle q=3}
+ , 
+ 
+ 
+ 
+ n
+ 
+
+ 9
+ 
+ 
+ {\displaystyle n=9}
+ und 
+ 
+ 
+ 
+ d
+ 
+
+ 7
+ 
+ 
+ {\displaystyle d=7}
+ nur 
+ 
+ 
+ 
+ 
+ |
+ 
+ C
+ 
+ |
+ 
+ ≤
+ 7
+ 
+ 
+ {\displaystyle |C|\leq 7}
+ , die Verschärfung jedoch 
+ 
+ 
+ 
+ 
+ |
+ 
+ C
+ 
+ |
+ 
+ ≤
+ 6
+ 
+ 
+ {\displaystyle |C|\leq 6}
+ , da sich für 
+ 
+ 
+ 
+ a
+ 
+
+ 2
+ 
+ 
+ {\displaystyle a=2}
+ und 
+ 
+ 
+ 
+ b
+ 
+
+ 1
+ 
+ 
+ {\displaystyle b=1}
+ ein Widerspruch ergibt.
+Sie wurde 1960 von Morris Plotkin veröffentlicht.
+
+# Siehe auch 
+
+Optimaler Code
+
+# Einzelnachweise 
+

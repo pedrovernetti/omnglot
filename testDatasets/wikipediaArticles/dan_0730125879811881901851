@@ -1,0 +1,42 @@
+
+## Tankados kode
+
+Tankados Kode (originaltitel på engelsk: Digital Fortress) er en roman af Dan Brown udkommet på dansk i efteråret 2006. Forlaget er (som de tidligere af Dan Browns romaner) det islandsk baserede Hr. Ferdinand. Romanen er oversat til dansk af Mich Vraa. Tankados Kode er Dan Browns første roman. Originalen udkom i 1998, og handler ligesom flere andre af hans bøger om koder og kryptografi. Bogen er endvidere udkommet som lydbog på dansk.
+
+# Resume 
+
+Susan Fletcher, en meget begavet matematiker og leder af NSA's (National Security Agency) kryptografidivision, bliver stillet over for en ubrydelig krypteringskode, der er modstandsdygtig over for råstyrkeangreb af NSA's supercomputer indeholdende 3 millioner processorer. Koden er skrevet af den japanske kryptograf Ensei Tankado, en tidligere(fyret) NSA-medarbejder, der er utilfreds med NSA's overvågning af privates emailkorrespondancer. Tankado lægger sin kode på nettet, og truer med, at hans sammensvorne, "North Dakota (e-mail adressen forkortes til NDakota)", vil frigive nøglen til krypteringskoden til alle, hvis Tankado dør. Tankado findes senere død i Sevilla, Spanien, og Fletcher må, sammen med sin forlovede, David Becker, en talentfuld sprogprofessor, finde en løsning for at stoppe spredningen af den ubrydelige kode.
+
+# Personer i "Tankados Kode" 
+
+Susan Fletcher: Matematiker, NSA's chefkryptograf
+David Becker: Professor i sprogvidenskab ved Georgetown University og Susan's forlovede
+Commander Trevor Strathmore: Vicedirektør for NSA, chef for Crypto
+Ensei Tankado: Japansk ex-NSA-kryptograf, forfatteren til "Digital Fortress"
+Greg Hale: NSA-kryptograf, tidligere marinesoldat
+Leland Fontaine: Direktør for NSA
+Midge Milken: NSA's interne sikkerhedsanalytiker
+Hulohot: En døv lejemorder fra Portugal hyret til at dræbe Ensei Tankado og stjæle nøglen. Efter dette var hans nye mission at levere ringen tilbage, inden David Becker får fat i den.
+Chad Brinkerhoff: Personlig assistent for NSA's direktør
+Phil Chartrukian: NSA Sys-sec medarbejder
+Tokugen Numataka: Japansk forretningsmand, Ensei Tankado's modvillige fader
+"Jabba": Nuværende Sys-sec chef, anti-hacker, computerekspert
+Soshi: Jabba's assistent
+
+# Kodeløsning 
+
+I bogens slutning findes følgende kode:
+
+128-10-93-85-10-128-98-112-6-6-25-126-39-1-68-78For af løse denne kode skal man kigge på det første bogstav i det kapitel, som nummeret symboliserer. Eksempel: Kapitel 128 begynder: "When Susan awoke...". Det vil sige at det første bogstav er W.
+Når de seksten tal erstattes af det første bogstav i kapitlerne fås teksten WECGEWHYAAIORTNU.
+Når disse bogstaver sættes ind i Cæsars kvadrat (en gammel krypteringsmetode brugt af Julius Cæsar), danner de en firkant med 4 bogstaver vertikalt og horisontalt:
+
+Læst fra top til bund, fås teksten WEAREWATCHINGYOU. Ved indsættelse af mellemrum passende steder i teksten fås sætningen:
+
+"We are watching you" (Vi holder øje med dig)Dette er en reference til NSA's overvågningssystem
+
+# Dansk udgave 
+
+Koden kan ikke løses i den danske udgave af bogen, idet tallene refererer til kapitlerne i den engelske udgave. I den danske udgave kunne koden i stedet have været:
+
+87-18-127-94-42-25-85-123-109-103-10-0-30-103-36-3Sættes disse tal ind i et Cæsars kvadrat og aflæses, får man "Vi kan ikke gemme os". Det ville give læseren den oplevelse forfatteren ønskede.

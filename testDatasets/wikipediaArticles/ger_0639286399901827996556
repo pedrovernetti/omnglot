@@ -1,0 +1,773 @@
+
+## Überdeckung (Mathematik)
+
+In der Mathematik ist eine Überdeckung ein grundlegendes Konzept aus der Topologie. Offene Überdeckungen spielen insbesondere bei der Kompaktheit von topologischen Räumen eine wichtige Rolle.
+
+# Definitionen 
+
+# Überdeckung 
+
+Eine Familie 
+ 
+ 
+ 
+ (
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ )
+ 
+ i
+ ∈
+ I
+ 
+ 
+ 
+ 
+ {\displaystyle (A_{i})_{i\in I}}
+ von Teilmengen von 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ heißt Überdeckung von 
+ 
+ 
+ 
+ B
+ ⊂
+ A
+ 
+ 
+ {\displaystyle B\subset A}
+ , wenn 
+
+ 
+ 
+ 
+ B
+ ⊂
+ 
+ ⋃
+ 
+ i
+ ∈
+ I
+ 
+ 
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle B\subset \bigcup _{i\in I}A_{i}}
+ gilt. Die Überdeckung 
+ 
+ 
+ 
+ (
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ )
+ 
+ i
+ ∈
+ I
+ 
+ 
+ 
+ 
+ {\displaystyle (A_{i})_{i\in I}}
+ heißt endlich (oder abzählbar), wenn die Indexmenge 
+ 
+ 
+ 
+ I
+ 
+ 
+ {\displaystyle I}
+ endlich (bzw. abzählbar) ist.
+
+# Teilüberdeckung 
+
+Sind 
+ 
+ 
+ 
+ (
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ )
+ 
+ i
+ ∈
+ I
+ 
+ 
+ 
+ 
+ {\displaystyle (A_{i})_{i\in I}}
+ und 
+ 
+ 
+ 
+ (
+ 
+ C
+ 
+ j
+ 
+ 
+ 
+ )
+ 
+ j
+ ∈
+ J
+ 
+ 
+ 
+ 
+ {\displaystyle (C_{j})_{j\in J}}
+ Überdeckungen von 
+ 
+ 
+ 
+ B
+ 
+ 
+ {\displaystyle B}
+ , so heißt 
+ 
+ 
+ 
+ (
+ 
+ C
+ 
+ j
+ 
+ 
+ 
+ )
+ 
+ j
+ ∈
+ J
+ 
+ 
+ 
+ 
+ {\displaystyle (C_{j})_{j\in J}}
+ Teilüberdeckung von 
+ 
+ 
+ 
+ (
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ )
+ 
+ i
+ ∈
+ I
+ 
+ 
+ 
+ 
+ {\displaystyle (A_{i})_{i\in I}}
+ , falls zu jedem 
+ 
+ 
+ 
+ j
+ ∈
+ J
+ 
+ 
+ {\displaystyle j\in J}
+ ein 
+ 
+ 
+ 
+ i
+ ∈
+ I
+ 
+ 
+ {\displaystyle i\in I}
+ existiert mit 
+ 
+ 
+ 
+ 
+ C
+ 
+ j
+ 
+ 
+ 
+
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle C_{j}=A_{i}}
+ .
+
+# Verfeinerung 
+
+Sind 
+ 
+ 
+ 
+ (
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ )
+ 
+ i
+ ∈
+ I
+ 
+ 
+ 
+ 
+ {\displaystyle (A_{i})_{i\in I}}
+ und 
+ 
+ 
+ 
+ (
+ 
+ D
+ 
+ k
+ 
+ 
+ 
+ )
+ 
+ k
+ ∈
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle (D_{k})_{k\in K}}
+ wieder zwei Überdeckungen von 
+ 
+ 
+ 
+ B
+ ⊂
+ A
+ 
+ 
+ {\displaystyle B\subset A}
+ , so heißt 
+ 
+ 
+ 
+ (
+ 
+ D
+ 
+ k
+ 
+ 
+ 
+ )
+ 
+ k
+ ∈
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle (D_{k})_{k\in K}}
+ feiner als 
+ 
+ 
+ 
+ (
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ )
+ 
+ i
+ ∈
+ I
+ 
+ 
+ 
+ 
+ {\displaystyle (A_{i})_{i\in I}}
+ , wenn es zu jedem 
+ 
+ 
+ 
+ k
+ ∈
+ K
+ 
+ 
+ {\displaystyle k\in K}
+ einen Index 
+ 
+ 
+ 
+ i
+ ∈
+ I
+ 
+ 
+ {\displaystyle i\in I}
+ gibt, so dass 
+ 
+ 
+ 
+ 
+ D
+ 
+ k
+ 
+ 
+ ⊂
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle D_{k}\subset A_{i}}
+ gilt. Das Mengensystem 
+ 
+ 
+ 
+ (
+ 
+ D
+ 
+ k
+ 
+ 
+ 
+ )
+ 
+ k
+ ∈
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle (D_{k})_{k\in K}}
+ wird dann Verfeinung oder Verfeinerungsüberdeckung von 
+ 
+ 
+ 
+ (
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ )
+ 
+ i
+ ∈
+ I
+ 
+ 
+ 
+ 
+ {\displaystyle (A_{i})_{i\in I}}
+ genannt.
+
+# Quasischrumpfung und Schrumpfung 
+
+Eine Verfeinerung, wie oben definiert, heißt eine Quasischrumpfung, wenn sogar 
+ 
+ 
+ 
+ 
+ 
+ 
+ D
+ 
+ k
+ 
+ 
+ ¯
+ 
+ 
+ ⊂
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle {\overline {D_{k}}}\subset A_{i}}
+ gilt. Gilt zusätzlich 
+ 
+ 
+ 
+ K
+ 
+
+ I
+ 
+ 
+ {\displaystyle K=I}
+ und 
+ 
+ 
+ 
+ 
+ 
+ 
+ D
+ 
+ i
+ 
+ 
+ ¯
+ 
+ 
+ ⊂
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle {\overline {D_{i}}}\subset A_{i}}
+ für alle 
+ 
+ 
+ 
+ i
+ ∈
+ I
+ 
+ 
+ {\displaystyle i\in I}
+ , so spricht man von einer Schrumpfung.
+
+# Überdeckungen in topologischen Räumen 
+
+# Offene/abgeschlossene Überdeckung 
+
+Eine Überdeckung 
+ 
+ 
+ 
+ (
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ )
+ 
+ i
+ ∈
+ I
+ 
+ 
+ 
+ 
+ {\displaystyle (A_{i})_{i\in I}}
+ eines topologischen Raumes 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ heißt offen (bzw. abgeschlossen), wenn alle 
+ 
+ 
+ 
+ 
+ A
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle A_{i}}
+ in 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ offen (bzw. abgeschlossen) sind.
+
+# Kompaktheit 
+
+Ein topologischer Raum 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ heißt kompakt, wenn jede offene Überdeckung von 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ eine endliche Teilüberdeckung enthält.
+
+# Überdeckungseigenschaften 
+
+Eine Überdeckung heißt punktendlich, wenn jeder Punkt des Raumes in höchstens endlich vielen Überdeckungsmengen liegt.
+Eine Überdeckung heißt lokalendlich, wenn jeder Punkt des Raumes eine Umgebung hat, die höchstens endlich viele Überdeckungsmengen schneidet. Bekanntlich heißt ein topologischer Raum parakompakt, wenn jede offene Überdeckung eine lokalendliche Verfeinerung besitzt.
+Eine Überdeckung heißt 
+ 
+ 
+ 
+ σ
+ 
+ 
+ {\displaystyle \sigma }
+ -lokalendlich, wenn sie als abzählbare Vereinigung 
+ 
+ 
+ 
+ 
+ ∪
+ 
+ n
+ ∈
+ 
+ N
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \cup _{n\in \mathbb {N} }{\mathcal {A}}_{n}}
+ von Mengenfamilien 
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {A}}_{n}}
+ geschrieben werden kann, so dass jeder Punkt des Raumes zu jedem 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ eine Umgebung hat, die höchstens endlich viele Mengen aus 
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {A}}_{n}}
+ schneidet.
+Eine Überdeckung heißt 
+ 
+ 
+ 
+ σ
+ 
+ 
+ {\displaystyle \sigma }
+ -diskret, wenn sie als abzählbare Vereinigung 
+ 
+ 
+ 
+ 
+ ∪
+ 
+ n
+ ∈
+ 
+ N
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \cup _{n\in \mathbb {N} }{\mathcal {A}}_{n}}
+ von Mengenfamilien 
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {A}}_{n}}
+ geschrieben werden kann, so dass es zu jedem Punkt und zu jedem 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ eine Umgebung dieses Punktes gibt, die höchstens eine der Mengen aus 
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {A}}_{n}}
+ schneidet. Die 
+ 
+ 
+ 
+ σ
+ 
+ 
+ {\displaystyle \sigma }
+ -diskreten und 
+ 
+ 
+ 
+ σ
+ 
+ 
+ {\displaystyle \sigma }
+ -lokalendlichen Überdeckungen spielen eine wichtige Rolle im Satz von Bing-Nagata-Smirnow.
+
+# Normalität 
+
+Ein T1-Raum ist genau dann normal, wenn jede offene lokalendliche Überdeckung eine Schrumpfung besitzt.
+
+# Siehe auch 
+
+Lebesgue’sche Überdeckungsdimension
+
+# Literatur 
+
+Boto von Querenburg: Mengentheoretische Topologie (= Springer-Lehrbuch). 3., neu bearbeitete und erweiterte Auflage. Springer, Berlin u. a. 2001, ISBN 3-540-67790-9
+Karl Peter Grotemeyer: Topologie, Bibliographisches Institut Mannheim (1969), ISBN 3-411-00836-9

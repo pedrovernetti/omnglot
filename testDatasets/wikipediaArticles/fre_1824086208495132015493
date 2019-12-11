@@ -1,0 +1,1441 @@
+
+## Fonction négligeable (informatique)
+
+En mathématiques, la notion de prépondérance ou de négligeabilité exprime le fait qu'une fonction numérique « l'emporte » localement sur une autre. On dit que la première fonction est prépondérante devant la deuxième ou que la deuxième fonction est négligeable devant la première. Cette notion fait partie, comme la domination et l'équivalence, des relations de comparaison.
+En physique, une quantité l'est par rapport à une autre si ses effets le sont par rapport à ceux de l'autre. Par exemple, la masse d'une fourmi est négligeable devant celle d'un l'éléphant, et la masse de l'ensemble peut être assimilée à celle du pachyderme.
+
+# Définition en mathématiques 
+
+Soient I une partie de 
+ 
+ 
+ 
+ 
+ R
+ 
+ 
+ 
+ {\displaystyle \mathbb {R} }
+ , a un élément de ℝ = ℝ ∪ {–∞, +∞} adhérent à I, et f et g deux applications de I vers 
+ 
+ 
+ 
+ 
+ R
+ 
+ 
+ 
+ {\displaystyle \mathbb {R} }
+ .
+On dit que f est négligeable devant g (ou que g est prépondérante devant f) au voisinage de a, si :
+
+il existe une fonction 
+ 
+ 
+ 
+ ε
+ 
+ 
+ {\displaystyle \varepsilon }
+ de limite nulle en a telle que, sur un voisinage de a, 
+ 
+ 
+ 
+ f
+ 
+
+ ε
+ g
+ 
+ 
+ {\displaystyle f=\varepsilon g}
+ ,ce qui se traduit :
+
+si 
+ 
+ 
+ 
+ a
+ ∈
+ 
+ R
+ 
+ 
+ 
+ {\displaystyle a\in \mathbb {R} }
+ , par : 
+ 
+ 
+ 
+ ∀
+ ε
+ >
+ 0
+ 
+ ∃
+ η
+ >
+ 0
+ 
+ ∀
+ x
+ ∈
+ 
+ ]
+ 
+ a
+ −
+ η
+ ,
+ a
+ +
+ η
+ 
+ [
+ 
+ ∩
+ I
+ 
+ 
+ |
+ 
+ f
+ (
+ x
+ )
+ 
+ |
+ 
+ ≤
+ ε
+ 
+ |
+ 
+ g
+ (
+ x
+ )
+ 
+ |
+ 
+ 
+ 
+ {\displaystyle \forall \varepsilon >0\quad \exists \eta >0\quad \forall x\in \left]a-\eta ,a+\eta \right[\cap I\quad \left|f(x)\right|\leq \varepsilon \left|g(x)\right|}
+ ;
+si 
+ 
+ 
+ 
+ a
+ 
+
+ +
+ ∞
+ 
+ 
+ {\displaystyle a=+\infty }
+ (resp. 
+ 
+ 
+ 
+ −
+ ∞
+ 
+ 
+ {\displaystyle -\infty }
+ ), par : 
+ 
+ 
+ 
+ ∀
+ ε
+ >
+ 0
+ 
+ ∃
+ A
+ ∈
+ 
+ R
+ 
+ 
+ ∀
+ x
+ ∈
+ 
+ [
+ 
+ A
+ ,
+ +
+ ∞
+ 
+ [
+ 
+ ∩
+ I
+ 
+ (resp. 
+ 
+ 
+ ]
+ 
+ −
+ ∞
+ ,
+ A
+ 
+ ]
+ 
+ ∩
+ I
+ )
+ 
+ 
+ |
+ 
+ f
+ (
+ x
+ )
+ 
+ |
+ 
+ ≤
+ ε
+ 
+ |
+ 
+ g
+ (
+ x
+ )
+ 
+ |
+ 
+ 
+ 
+ {\displaystyle \forall \varepsilon >0\quad \exists A\in \mathbb {R} \quad \forall x\in \left[A,+\infty \right[\cap I{\text{ (resp. }}\left]-\infty ,A\right]\cap I)\quad \left|f(x)\right|\leq \varepsilon \left|g(x)\right|}
+ .Une caractérisation plus commode, dans le cas où g est (sauf peut-être en a) non nulle sur un voisinage de a, est :
+
+f est négligeable devant g au voisinage de a si et seulement si :
+
+ 
+ 
+ 
+ 
+ lim
+ 
+ x
+ →
+ a
+ ,
+ 
+ x
+ ≠
+ a
+ 
+ 
+ 
+ 
+ 
+ f
+ (
+ x
+ )
+ 
+ 
+ g
+ (
+ x
+ )
+ 
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle \lim _{x\rightarrow a,\;x\not =a}{f(x) \over g(x)}=0}
+ .On écrit alors 
+ 
+ 
+ 
+ f
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ g
+ )
+ 
+ 
+ {\displaystyle f\,{\underset {a}{=}}\,o(g)}
+ , qui se lit « f est un petit o de g au voisinage de a ». C'est une des notations de Landau.
+
+# Propriétés 
+
+Si 
+ 
+ 
+ 
+ 
+ f
+ 
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ g
+ )
+ 
+ 
+ {\displaystyle f_{1}\,{\underset {a}{=}}\,o(g)}
+ et 
+ 
+ 
+ 
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ g
+ )
+ 
+ 
+ {\displaystyle f_{2}\,{\underset {a}{=}}\,o(g)}
+ alors 
+ 
+ 
+ 
+ 
+ f
+ 
+ 1
+ 
+ 
+ +
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ g
+ )
+ 
+ 
+ {\displaystyle f_{1}+f_{2}\,{\underset {a}{=}}\,o(g)}
+ .
+Si 
+ 
+ 
+ 
+ 
+ f
+ 
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ 
+ g
+ 
+ 1
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle f_{1}\,{\underset {a}{=}}\,o(g_{1})}
+ et 
+ 
+ 
+ 
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ O
+ (
+ 
+ g
+ 
+ 2
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle f_{2}\,{\underset {a}{=}}\,O(g_{2})}
+ alors 
+ 
+ 
+ 
+ 
+ f
+ 
+ 1
+ 
+ 
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ 
+ g
+ 
+ 1
+ 
+ 
+ 
+ g
+ 
+ 2
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle f_{1}f_{2}\,{\underset {a}{=}}\,o(g_{1}g_{2})}
+ ,
+en particulier, si 
+ 
+ 
+ 
+ 
+ f
+ 
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ g
+ )
+ 
+ 
+ {\displaystyle f_{1}\,{\underset {a}{=}}\,o(g)}
+ et 
+ 
+ 
+ 
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle f_{2}}
+ est bornée au voisinage de a, alors 
+ 
+ 
+ 
+ 
+ f
+ 
+ 1
+ 
+ 
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ g
+ )
+ 
+ 
+ {\displaystyle f_{1}f_{2}\,{\underset {a}{=}}\,o(g)}
+ .
+Si 
+ 
+ 
+ 
+ f
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ g
+ )
+ 
+ 
+ {\displaystyle f\,{\underset {a}{=}}\,o(g)}
+ et 
+ 
+ 
+ 
+ g
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ O
+ (
+ h
+ )
+ 
+ 
+ {\displaystyle g\,{\underset {a}{=}}\,O(h)}
+ , ou si 
+ 
+ 
+ 
+ f
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ O
+ (
+ g
+ )
+ 
+ 
+ {\displaystyle f\,{\underset {a}{=}}\,O(g)}
+ et 
+ 
+ 
+ 
+ g
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ h
+ )
+ 
+ 
+ {\displaystyle g\,{\underset {a}{=}}\,o(h)}
+ , alors 
+ 
+ 
+ 
+ f
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ h
+ )
+ 
+ 
+ {\displaystyle f\,{\underset {a}{=}}\,o(h)}
+ 
+en particulier, 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ 
+ 
+ {\displaystyle \,{\underset {a}{=}}\,o}
+ est transitive.
+
+ 
+ 
+ 
+ f
+ 
+ 
+ 
+ ∼
+ a
+ 
+ 
+ 
+ g
+ ⇔
+ f
+ −
+ g
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ g
+ )
+ ⇔
+ f
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ g
+ +
+ o
+ (
+ g
+ )
+ 
+ 
+ {\displaystyle f\,{\underset {a}{\sim }}\,g\Leftrightarrow f-g\,{\underset {a}{=}}\,o(g)\Leftrightarrow f\,{\underset {a}{=}}\,g+o(g)}
+ .
+
+# Partie principale d'une fonction par rapport à une échelle 
+
+# Échelle de comparaison 
+
+Une échelle de comparaison 
+ 
+ 
+ 
+ 
+ E
+ 
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle E_{a}}
+ est une famille de fonctions définies au voisinage de a (sauf peut-être en a), non équivalentes à 0 en a, telle que :
+
+ 
+ 
+ 
+ ∀
+ (
+ f
+ ,
+ g
+ )
+ ∈
+ 
+ 
+ 
+ E
+ 
+ a
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ f
+ ≠
+ g
+ ⇒
+ 
+ (
+ 
+ f
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ g
+ )
+ 
+ ou 
+ 
+ g
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ f
+ )
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle \forall (f,g)\in {E_{a}}^{2}\quad f\neq g\Rightarrow \left(f\,{\underset {a}{=}}\,o(g){\text{ ou }}g\,{\underset {a}{=}}\,o(f)\right)}
+ .
+
+# Définition 
+
+Soient f une fonction définie dans un voisinage V de a (sauf peut-être en a), ne s'annulant pas sur 
+ 
+ 
+ 
+ V
+ ∖
+ {
+ a
+ }
+ 
+ 
+ {\displaystyle V\setminus \{a\}}
+ , et 
+ 
+ 
+ 
+ 
+ E
+ 
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle E_{a}}
+ une échelle de comparaison en a.
+On dit que f admet la fonction 
+ 
+ 
+ 
+ g
+ ∈
+ 
+ E
+ 
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle g\in E_{a}}
+ comme partie principale par rapport à l'échelle 
+ 
+ 
+ 
+ 
+ E
+ 
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle E_{a}}
+ s'il existe un réel A non nul tel que 
+ 
+ 
+ 
+ f
+ 
+ 
+ 
+ ∼
+ a
+ 
+ 
+ 
+ A
+ g
+ 
+ 
+ {\displaystyle f\,{\underset {a}{\sim }}\,Ag}
+ (ou 
+ 
+ 
+ 
+ f
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ A
+ g
+ +
+ o
+ (
+ g
+ )
+ 
+ 
+ {\displaystyle f\,{\underset {a}{=}}\,Ag+o(g)}
+ ).
+
+# Propriétés 
+
+Unicité en cas d'existence
+Soient 
+ 
+ 
+ 
+ 
+ f
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle f_{1}}
+ et 
+ 
+ 
+ 
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle f_{2}}
+ admettant respectivement 
+ 
+ 
+ 
+ 
+ g
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle g_{1}}
+ et 
+ 
+ 
+ 
+ 
+ g
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle g_{2}}
+ comme partie principale par rapport à l'échelle de comparaison 
+ 
+ 
+ 
+ 
+ E
+ 
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle E_{a}}
+ .La partie principale de 
+ 
+ 
+ 
+ 
+ f
+ 
+ 1
+ 
+ 
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle f_{1}f_{2}}
+ par rapport à l'échelle de comparaison 
+ 
+ 
+ 
+ 
+ E
+ 
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle E_{a}}
+ est la même que celle de 
+ 
+ 
+ 
+ 
+ g
+ 
+ 1
+ 
+ 
+ 
+ g
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle g_{1}g_{2}}
+ .
+Si 
+ 
+ 
+ 
+ 
+ g
+ 
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+
+ a
+ 
+ 
+ 
+ o
+ (
+ 
+ g
+ 
+ 2
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle g_{1}\,{\underset {a}{=}}\,o(g_{2})}
+ alors 
+ 
+ 
+ 
+ 
+ g
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle g_{2}}
+ est la partie principale de 
+ 
+ 
+ 
+ 
+ f
+ 
+ 1
+ 
+ 
+ +
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle f_{1}+f_{2}}
+ par rapport à l'échelle de comparaison 
+ 
+ 
+ 
+ 
+ E
+ 
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle E_{a}}
+ .
+Si 
+ 
+ 
+ 
+ 
+ g
+ 
+ 1
+ 
+ 
+ 
+
+ 
+ g
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle g_{1}=g_{2}}
+ et 
+ 
+ 
+ 
+ 
+ A
+ 
+ 1
+ 
+ 
+ +
+ 
+ A
+ 
+ 2
+ 
+ 
+ ≠
+ 0
+ 
+ 
+ {\displaystyle A_{1}+A_{2}\neq 0}
+ alors 
+ 
+ 
+ 
+ 
+ g
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle g_{1}}
+ est la partie principale de 
+ 
+ 
+ 
+ 
+ f
+ 
+ 1
+ 
+ 
+ +
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle f_{1}+f_{2}}
+ par rapport à l'échelle de comparaison 
+ 
+ 
+ 
+ 
+ E
+ 
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle E_{a}}
+ .
+
+# Comparaison pour les suites 
+
+Une suite n'est qu'un cas particulier de fonction, définie sur 
+ 
+ 
+ 
+ I
+ 
+
+ 
+ N
+ 
+ 
+ 
+ {\displaystyle I=\mathbb {N} }
+ , auquel 
+ 
+ 
+ 
+ a
+ 
+
+ +
+ ∞
+ 
+ 
+ {\displaystyle a=+\infty }
+ est adhérent.
+Par conséquent, une suite 
+ 
+ 
+ 
+ (
+ 
+ u
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (u_{n})}
+ de nombres réels est négligeable devant une suite réelle 
+ 
+ 
+ 
+ (
+ 
+ v
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (v_{n})}
+ si et seulement si :
+
+il existe une suite 
+ 
+ 
+ 
+ (
+ 
+ ε
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (\varepsilon _{n})}
+ de limite nulle telle que, à partir d'un certain rang, 
+ 
+ 
+ 
+ 
+ u
+ 
+ n
+ 
+ 
+ 
+
+ 
+ ε
+ 
+ n
+ 
+ 
+ 
+ v
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle u_{n}=\varepsilon _{n}v_{n}}
+ ou encore :
+
+ 
+ 
+ 
+ ∀
+ ε
+ >
+ 0
+ 
+ ∃
+ N
+ ∈
+ 
+ N
+ 
+ 
+ ∀
+ n
+ ≥
+ N
+ 
+ 
+ |
+ 
+ 
+ u
+ 
+ n
+ 
+ 
+ 
+ |
+ 
+ ≤
+ ε
+ 
+ |
+ 
+ 
+ v
+ 
+ n
+ 
+ 
+ 
+ |
+ 
+ 
+ 
+ {\displaystyle \forall \varepsilon >0\quad \exists N\in \mathbb {N} \quad \forall n\geq N\quad |u_{n}|\leq \varepsilon |v_{n}|}
+ ,ce qui, lorsque 
+ 
+ 
+ 
+ (
+ 
+ v
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (v_{n})}
+ ne s'annule pas à partir d'un certain rang, équivaut à :
+
+ 
+ 
+ 
+ 
+ lim
+ 
+ n
+ →
+ +
+ ∞
+ 
+ 
+ 
+ 
+ 
+ u
+ 
+ n
+ 
+ 
+ 
+ v
+ 
+ n
+ 
+ 
+ 
+ 
+ 
+
+ 0
+ 
+ 
+ {\displaystyle \lim _{n\to +\infty }{\frac {u_{n}}{v_{n}}}=0}
+ .On note : 
+ 
+ 
+ 
+ 
+ u
+ 
+ n
+ 
+ 
+ 
+
+ o
+ (
+ 
+ v
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle u_{n}=o(v_{n})}
+ .
+
+# Références 
+
+# Voir aussi 
+
+Propriété N de Luzin
+
+ Portail de l’analyse

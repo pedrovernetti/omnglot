@@ -1,0 +1,158 @@
+
+## Moteur ionique
+
+Un moteur ionique est un moteur qui produit sa force de propulsion en accélérant des ions à très haute vitesse. En pratique ce terme désigne le moteur ionique utilisant des grilles polarisées et s'oppose à l'autre grande catégorie de moteur ionique : le propulseur à effet Hall. Le moteur ionique se range dans la famille des propulseurs électriques c'est-à-dire des moteurs dont l'énergie est d'origine électrique et fournie par une source externe (panneaux solaires) par opposition aux moteurs-fusées classiques qui tirent leur énergie des réactions chimiques du ou des ergols. C'est un propulseur électromagnétique car l'accélération des ions est obtenue à l'aide d'un champ électrique. 
+La poussée est très faible (entre 0,05 et 5 newtons en 2018) et de ce fait son utilisation est réservée au domaine spatial. La vitesse d'éjection des ions très élevée (jusqu'à 50 km/s) produit un rendement (impulsion spécifique) 10 fois plus élevé que les moteurs chimiques ce qui permet de diminuer fortement la masse de l'engin spatial en réduisant la quantité d'ergols à emporter. 
+Les principes physiques sous-jacents ont été découverts dans les années 1910, mais les premières réalisations sous forme de prototype ne sont apparues que dans les années 1950 au début de l'ère spatiale. Le domaine d'application réservé initialement aux petites corrections de trajectoire orbitale ou d'orientation s'est étendu à la fin du XXe siècle à la propulsion de sondes spatiales interplanétaires (Deep Space 1, Dawn, Hayabusa) et aux mises en orbite géostationnaire depuis une orbite basse (satellite de télécommunications).
+
+# Fonctionnement du moteur ionique 
+
+Le moteur ionique, n'utilise pas de "carburant" comme les autres moteurs-fusées mais un gaz neutre (du xénon) qui n’est en rien une source d'énergie et qui n'est utilisé que pour la "masse d'appui" qu'il représente (sa masse d'inertie). Ce gaz neutre n'est donc pas brûlé (il ne brûle pas) mais simplement ionisé. Les ions alors libérés passent par deux grilles fortement chargées électriquement et subissent ainsi une accélération. La force d’accélération des ions cause une force de réaction de sens opposé : c’est la force de propulsion du moteur à ions.
+Les ions récupèrent leurs électrons juste avant de sortir du moteur, afin de maintenir la neutralité électrique du véhicule et du gaz neutre éjecté. En l'absence de canon à électrons neutralisateurs, les ions qui sortent du propulseur ionique sont attirés par le compartiment principal par attraction coulombienne du fait de leur caractère ionique. En les neutralisant, les atomes sont ainsi propulsés vers l'extérieur du dispositif sans attraction dans le sens opposé à leur déplacement.
+C’est le xénon (un gaz noble) qui est utilisé comme « carburant » (ou plutôt comme masse d'appui). Par le passé, le césium, le sodium et le mercure ont été testés, mais ces matières érodent le moteur[réf. nécessaire]. Selon une étude américaine de 1998, le mercure est trop toxique, ce qui complique les opérations, et le césium convient mal car il conduit à une dégradation des surfaces.
+L’énergie électrique nécessaire pour l’ionisation du gaz neutre et l’accélération des ions libérés est obtenue grâce à des panneaux solaires. Il est envisagé d'utiliser des réacteurs nucléaires pour fournir suffisamment d'énergie, soit à grande distance du Soleil, soit dans l'optique d'obtenir des poussées plus importantes.
+
+# Principes physiques 
+
+Une particule chargée dans un champ électrostatique subit une force proportionnelle au champ électrique et à sa charge électrique.
+
+ 
+ 
+ 
+ 
+ F
+ 
+ 
+
+ q
+ 
+ E
+ 
+ 
+ 
+ {\displaystyle \mathbf {F} =q\mathbf {E} }
+ 
+Cette force permet d'accélérer la particule.
+
+ 
+ 
+ 
+ 
+ a
+ 
+ 
+
+ 
+ 
+ q
+ m
+ 
+ 
+ 
+ E
+ 
+ 
+ 
+ {\displaystyle \mathbf {a} ={\frac {q}{m}}\mathbf {E} }
+ 
+À côté de la simplicité de ce principe, la propulsion ionique soulève une complexité pour obtenir un moteur réellement efficace.
+
+# Description technique 
+
+Un propulseur ionique se compose essentiellement de trois éléments :
+
+une source d'ions, c'est-à-dire un dispositif d'ionisation permettant de séparer les ions des électrons. On cherche principalement à obtenir une production d'ions en grande quantité avec une charge uniforme grâce à différents procédés :
+l'ionisation par contact ;
+l'arc électrique ;
+ou l'induction HF ;
+une partie accélératrice et focalisatrice : elle accélère et met en forme le faisceau d'ions produits ;
+un système de neutralisation : des cathodes creuses permettant de recombiner les électrons et les ions pour éviter qu'une charge électrique n'apparaisse sur le propulseur et le système spatial auquel il est associé (satellite, sonde, etc.) ;Les principaux propulsifs utilisables sont le césium, le sodium, le lithium, le platine, ou le xénon. Émettant une couleur bleutée caractéristique, ce dernier est le plus souvent employé du fait de sa neutralité chimique, alors que le sodium, par exemple, érode le moteur.
+
+# Production des ions 
+
+Deux principales méthodes de production d'ions :
+
+l'ionisation par contact : le propulsif est vaporisé et circule dans une structure métallique portée à haute température. Le contact avec le métal, qui a une fonction de travail élevée, va arracher les électrons aux atomes de gaz.
+l'ionisation par génération d'un plasma : soit par une source HF soit par un arc électrique.Les ions vont ensuite être focalisés sous forme de faisceau grâce à une première série d'électrodes. Une autre série d'électrodes, ou grille, va alors les accélérer en dehors du propulseur. Enfin un système d'émission électronique se charge de neutraliser le faisceau.
+
+# Caractéristiques et applications 
+
+De par leur principe même, l'ionisation du gaz propulsif, ces moteurs ne fonctionnent que dans un environnement de vide (spatial ou caisson d'essai).
+Leur faible poussée, de quelques dixièmes de newtons seulement, équivalente à un souffle humain sur une main distante de 20 cm, limite leur usage à des missions de maintien en orbite, ou plus généralement dans des zones de champs gravitationnels faibles.
+Ces types de propulseurs ont de grandes impulsions spécifiques : 5000 à 25 000 s.
+Les moteurs de ce type sont bien adaptés pour des missions d'exploration automatique (sonde), et sont envisagés très sérieusement pour des missions habitées lointaines comme celle de Mars dans un premier temps.
+Le courant ionique de sortie est un paramètre important dans ce type de propulseur. Il peut être calculé en première approximation par la somme (l'intégrale sur la surface) des charges franchissant le plan de sortie par la vitesse moyenne des charges.
+La poussée du propulseur peut être calculée facilement à partir du courant ionique de sortie.
+
+# Comparaison avec les moteurs-fusées classiques 
+
+Avec les moteurs classiques, il faut embarquer la masse à éjecter, et l’énergie pour l’éjecter. Alors qu’avec les moteurs ioniques, seule la masse à éjecter est embarquée, l’énergie de l’éjection peut être prise sur place avec des panneaux solaires ou provenir d’un générateur thermoélectrique à radioisotope.
+Les moteurs-fusées classiques fournissent, en peu de temps, une accélération importante, mais utilisent pour cela de grandes quantités de carburant. Les moteurs-fusées doivent pouvoir supporter des contraintes énormes de pression et de température, ce qui les rend lourds. De plus, la réserve de carburant elle-même doit être propulsée, tout autant que le véhicule spatial ; en conséquence, le véhicule spatial doit emmener avec lui encore plus de carburant (voir Équation de Tsiolkovski).
+Les moteurs ioniques, qui produisent une force de propulsion faible mais sur une très longue durée, sont particulièrement économes. Ils produisent, par kilogramme de gaz neutre embarqué comme masse d'appui, une quantité de travail très supérieure à celle des moteurs-fusées classiques. Ils peuvent donc, après un temps, certes, non négligeable, conférer la même vitesse au véhicule spatial, au prix d'une consommation de masse d'appui bien moindre. Ce véhicule peut alors emporter moins de cette masse d'appui. Les moteurs ioniques sont également beaucoup plus légers (une dizaine de kg), permettant ainsi une économie supplémentaire de propulsion.
+
+# Applications 
+
+Les moteurs ioniques, de par leur faible poussée, ne conviennent pas pour le lancement de véhicules spatiaux. Pour cela, les moteurs-fusées conventionnels sont encore nécessaires. Mais, en principe, dès que le véhicule spatial a atteint l’espace, le moteur ionique peut prendre le relais.
+Le moteur ionique peut fonctionner très longtemps sans s’arrêter, si nécessaire durant des années. Avec son aide, des destinations extrêmement lointaines, comme Jupiter, peuvent être atteintes bien plus rapidement.
+
+# Les travaux de recherche à la NASA 
+
+Le développement de la propulsion ionique débute à la NASA dans les années 1950. Le docteur Harold Kaufman du centre de recherche Lewis (établissement de la NASA), construit le premier moteur de ce type en 1959. En 1964, un petit satellite expérimental, Space Electric Rocket Test 1 (SERT 1), est lancé par une fusée Scout. Un des deux moteurs parvient à fonctionner durant 31 minutes. SERT 2 également équipé de deux moteurs ioniques est mis en orbite en 1970 : un des deux moteurs fonctionne durant 5 mois (3 871 heures en continu), l'autre durant 3 mois. Ces premiers moteurs utilisent comme ergols soit du césium soit du mercure. Mais ces deux éléments chimiques présentent des inconvénients et les ingénieurs choisissent pour les moteurs suivants le xénon qui s'avère plus simple à utiliser. Au début des années 1960 le centre de recherche HRL Laboratories situé à Malibu (Californie), filiale du constructeur aérospatial Hughes, travaille également sur la propulsion ionique. Un premier moteur expérimental de ce constructeur est testé à bord du satellite militaire Geophysics Laboratory's Spacecraft Charging at High Altitude lancé en 1979. En aout 1997 une version opérationnelle est installée à bord du satellite de télécommunications PanAmSat 5 : le moteur ionique est utilisé pour maintenir le satellite sur sa position géostationnaire et contrôler son orientation. Au début des années 1990, le Jet Propulsion Laboratory et le centre de recherche Lewis développent ensemble le moteur ionique NSTAR dans l'optique de l'utiliser pour propulser des engins spatiaux interplanétaires. Le centre Lewis fait fonctionner le moteur dans une chambre à vide durant 8 000 heures. Les tests qui s'achèvent en septembre 1997 sont un succès et la NASA décide de développer un moteur ionique opérationnel avec Hughes pour la mission Deep Space 1.
+
+# Premier test en 1998 
+
+Le moteur ionique a été testé de façon approfondie pour la première fois par le véhicule spatial non habité Deep Space 1. Ce dernier a été lancé par la NASA le 24 octobre 1998. Il avait pour but premier de tester un certain nombre de nouvelles techniques astronautiques, dont le moteur ionique.
+À la fin de la mission, la vitesse de Deep Space 1 avait augmenté, grâce au moteur ionique, de 4,5 km/s, après l’usage de seulement 81,5 kilogrammes de gaz neutre. Avec un moteur conventionnel utilisant la même masse d'ergols, le véhicule aurait subi à peine un dixième de cette augmentation de vitesse.
+
+# Satellites 
+
+Les satellites de télécommunication suivants sont munis de propulseurs à ions :
+
+Astra 2 A construit par Boeing ;
+Inmarsat 4 et Intelsat X-02 construits par Astrium (maintenant Airbus Defence and Space)Les forces d’attraction variables de la Lune et du Soleil impliquent d'effectuer régulièrement des corrections de trajectoire afin de maintenir ce type de satellite sur la bonne orbite. La quantité de gaz neutre (ou masse d'appui) qui peut être emportée est limitée, mais du fait que les moteurs ioniques sont très économes, la durée de la mission pourra ainsi être augmentée.
+Le satellite Artémis (Advanced Relay and Technology Mission Satellite) a été sauvé d'un mauvais lancement (échec partiel d'Ariane 5, le 12 juillet 2001, qui l'avait placé sur une orbite plus de deux fois inférieure à celle prévue, 17 000 km d'altitude à l'apogée au lieu de 36 000). Propulsé par ses moteurs ioniques qui n'avaient pourtant pas été conçus à cette fin, car destinés à de simples corrections d'orbite une fois à l'altitude et à la position voulues, il a rejoint l'altitude souhaitée au bout de 18 mois.
+En 2018, l'ESA a mis au point un prototype de moteur ionique fonctionnant avec l'air ambiant, pouvant être utilisé pour des satellites dont l'orbite est comprise entre 150 et 200 km d'altitude. Ce modèle, encore en développement, n'est cependant pas prêt à être utilisé en conditions de vol réelles.
+
+# Sondes spatiales 
+
+La sonde spatiale SMART-1 (367 kg, dont 52 kg de xénon à éjecter) de l’Agence spatiale européenne (ESA) avait aussi un moteur ionique. Lancée le 28 septembre 2003 sur une orbite géostationnaire (36 000 km), elle a effectué des orbites terrestres de plus en plus hautes, puis le 15 novembre 2004, sa première orbite autour de la Lune. Pour rejoindre la Lune, distante seulement de 385 000 km, elle a parcouru 100 millions de kilomètres, en ne consommant que 60 litres de gaz neutre, grâce à son moteur remarquablement performant. Pendant près de deux ans, elle effectua de nombreuses orbites lunaires, puis comme prévu s'est écrasée sur la Lune, le 3 septembre 2006. Cette sonde met beaucoup plus de temps qu’un véhicule spatial muni d’un moteur-fusée classique, mais elle coûte beaucoup moins, car la charge à mettre en orbite est considérablement réduite.
+La sonde spatiale japonaise Hayabusa, lancée le 9 mai 2003, est dotée d’un moteur ionique. C’est la première à avoir (presque) réussi à se poser sur l’astéroïde Itokawa, le 19 novembre 2005. Sa propulsion ionique lui a permis de revenir sur Terre le dimanche 13 juin 2010 à 13 h 51 TU, avec des échantillons de l’astéroïde, après avoir parcouru environ 300 millions de kilomètres et plus de 31 000 heures cumulées de fonctionnement.
+La sonde Dawn, de la NASA, lancée en 2007 vers la ceinture d'astéroïdes, dispose de trois moteurs ioniques à xénon, en version améliorée du NSTAR. La propulsion ionique a été utilisée durant 70 % du temps de transit vers le premier objectif, Vesta. Après une mise en orbite le 16 juillet 2011, Dawn a quitté Vesta le 5 septembre 2012 pour rejoindre Cérès en février 2015.
+La mission BepiColombo, lancée le 20 octobre 2018, consiste à envoyer deux modules d'observation conçus par l'ESA et la JAXA vers la planète Mercure. L'ensemble des sondes, avec une masse initiale de 4 121 kg, est propulsé par 4 moteurs ioniques puisant dans une réserve de 580 kg de Xénon avec une durée d'utilisation de 880 jours. Les sondes arriveront en orbite autour de Mercure en décembre 2025, et la durée de la mission d'observation sera de 1 à 2 ans.
+La mission Hayabusa 2 possède également un moteur ionique pour rejoindre l'astéroïde Riogou
+
+# Vols spatiaux futurs, à très grande distance du soleil 
+
+La NASA travaille au développement d’un moteur ionique qui sera alimenté en énergie grâce à un réacteur nucléaire. Cela rendrait l’utilisation du moteur ionique possible pour les vols spatiaux à très grande distance du Soleil, là où des panneaux photovoltaïques ne peuvent plus fournir assez d’énergie.
+
+# Notes et références 
+
+Cet article est partiellement ou en totalité issu de l'article intitulé « Propulsion ionique » (voir la liste des auteurs).
+
+# Bibliographie 
+
+(en) James S. Sovey et al., « A Synopsis of Ion Propulsion Development Projects in the United States : SERT I to Deep Space I », AIAA, vol. 99, no 2270, septembre octobre 1998, p. 1-24 (lire en ligne)
+(en) James S. Wilbur et al., « Ion Thruster Development Trends and Status in the United States », JOURNAL OF PROPULSION AND POWER, vol. 14, no 5, 1999, p. 708-715 (lire en ligne)
+(en) William R. Kerslake, Louis R. Ignaczak et al., « Development and Flight History of SERT II Spacecraft », AIAA, vol. 92, no 3516, juillet 1992, p. 1-55 (lire en ligne)
+(en) Jose Gonzalez del Amo (8-12 octobre 2017) « Electric Propulsion Activities at ESA » (pdf) dans The 35th International Electric Propulsion Conference : 15 p.. 
+(en) Kristina Jameson-Silva, Jorge J. Delgado et Raymond Liang (8-12 octobre 2017) « Adaptability of the SSL Electric Propulsion-140 Subsystem for use on a NASA Discovery Class Missions: Psyche » (pdf) dans The 35th International Electric Propulsion Conference : 11 p.. 
+(en) Daniel A Herman, Walter Santiago et Hani Kamhawi (8-12 octobre 2017) « The Ion Propulsion System for the Solar Electric Propulsion Technology Demonstration Mission » (pdf) dans The 35th International Electric Propulsion Conference : 13 p.. 
+(en) John W. Dankanich, Derek Calvert et Hani Kamhawi (8-12 octobre 2017) « The Iodine Satellite (iSat) Project Development towards Critical Design Review » (pdf) dans The 35th International Electric Propulsion Conference : 13 p.. 
+(en) Jaime Pérez Luna, Modélisation et diagnostics d’un propulseur à effet Hall, 2008 (lire en ligne)
+(en) Michael Tsay et all, « Flight Development of Iodine BIT-3 RF Ion Propulsion System for SLS EM-1 CubeSats », Mini moteur ionique développé pour propulser les CubeSats, aout 2016
+
+# Voir aussi 
+
+# Articles connexes 
+
+Propulsion électrique spatiale
+Propulseur à effet Hall l'autre catégorie principale de propulseurs à plasma
+SERT-I et SERT-II premières missions expérimentales de la NASA exploitant la propulsion ionique
+Deep Space 1 première sonde interplanétaire utilisant la propulsion ionique
+SMART-1
+BepiColombo
+
+# Liens externes 
+
+Article sur les propulseurs à plasma
+ Portail de l’astronautique Portail de l’énergie

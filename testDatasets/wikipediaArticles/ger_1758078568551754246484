@@ -1,0 +1,51 @@
+
+## RefE
+
+ReFS (Resilient File System; deutsch Robustes Dateisystem) ist ein Dateisystem von Microsoft. Es wurde mit den Betriebssystemen Windows 8 und Windows Server 2012 eingeführt.
+Mit dem Fall Creators Update (Version 1709) für Windows 10 ist die Erstellung neuer Partitionen mit ReFS nur noch in den Versionen Enterprise und Pro for Workstations möglich und nicht mehr mit den für Heimanwender vorgesehenen Editionen.
+
+# Ziel des Herstellers 
+
+Die auf den Internetseiten Microsofts vereinzelt genannten Ziele für die Entwicklung des Dateisystems ReFS waren:
+
+Kompatibilität im Design mit dem häufig verwendeten NTFS,
+Zugriff durch bekannte Betriebssysteme möglich,
+Transaktionsmodell für Erhaltung der Konsistenz,
+Prüfen von Daten beim Lesen und Schreiben,
+Fehlertoleranz durch Redundanz,
+automatische Korrektur von erkannten Datenfehlern,
+Zusammenfassung von Dateisystemen über mehrere Computer (engl. "pooling") und Virtualisierung,
+größeres Adressvolumen für Daten,
+Striping von Daten,
+Skalieren der Prüfwerkzeuge,
+BitLocker-Verschlüsselung wie bei NTFS, aber keine Verschlüsselung auf Dateiebene,
+File Streaming soll bei Teilausfällen den Zugriff auf die Daten ununterbrochen verfügbar halten,Weitere Ziele wurden nicht näher thematisiert:
+
+Verwendung ausschließlich für Windows Server ab Version 8 und Windows Client ab Version 8.1 vorgesehen,
+neue Zugriffsmethodik (store engine) für Lesen und Schreiben,
+für Dateiserver entwickelt, daher entfällt jeder Einsatz auf Wechseldatenträgern.
+Entfall der Merkmale Named Streams, Object IDs, Kurznamen, Kompression, User-Daten-Transaktionen, Sparse, Hard-Links, erweiterte Attribute und Quotas.
+
+# Kritik 
+
+Microsoft betrachtet die Merkmale der Dateisysteme NTFS und ReFS und deren Erprobungsstrategie als Wettbewerbsmerkmal und legt diese nicht offen.
+Eine vollständige Spezifikation des Dateisystems ist bisher nicht öffentlich zugänglich.
+Es gibt kein Modell mit einer Metrik für Vergleiche von Leistung und Sicherheit.
+Eine vergleichende Bewertung des Dateisystems hinsichtlich Sicherheit und Datendurchsatz ist nicht bekannt.
+Ein Bezug zu den Redundanzverfahren RAID ist nicht bekannt.
+
+# Siehe auch 
+
+Liste von Dateisystemen
+
+# Weblinks 
+
+ReFS Vorstellung im Blog-Artikel (englisch)
+ReFS Vorstellung im Blog-Artikel (deutsche Übersetzung)
+Microsofts neues Dateisystem für Windows 8
+ReFS and RAID (englisch)
+API features
+File streaming
+
+# Einzelnachweise 
+

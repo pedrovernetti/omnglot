@@ -1,0 +1,517 @@
+
+## Perte de mémoire (probabilités)
+
+En probabilités et statistique, la perte de mémoire est une propriété de certaines lois de probabilité : la loi exponentielle et la loi géométrique. On dit que ce sont des lois sans mémoire.
+Cette propriété est le plus souvent exprimée en termes de « temps d'attente ». Supposons qu'une variable aléatoire 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ soit définie comme le temps passé dans un magasin de l'heure d'ouverture (disons neuf heures du matin) à l'arrivée du premier client. On peut donc voir 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ comme le temps qu'un serveur attend avant l'arrivée du premier client. 
+La propriété de perte de mémoire fait une comparaison entre les lois de probabilité du temps d'attente du serveur de neuf heures à l'arrivée du premier client, et celle du temps d'attente du serveur pour qu'un client arrive à compter d'un délai arbitraire après l'ouverture (disons, par exemple, une heure après l'ouverture soit à partir de dix heures du matin) sachant qu'aucun client n'est arrivé de l'ouverture à l'écoulement de ce délai arbitraire. 
+La propriété de perte de mémoire affirme que ces lois sont les mêmes. 
+Ainsi, dans notre exemple, ce n'est pas parce que le serveur a déjà attendu, en vain, pendant une heure l'arrivée d'un premier client qu'il peut espérer que le délai avant qu'arrive effectivement son premier client soit plus faible qu'au moment de l'ouverture.
+Les termes de perte de mémoire et sans mémoire ont parfois été utilisés différemment pour faire référence à des processus de Markov, dans ce cas la propriété de Markov assure que les propriétés des variables aléatoires dans le futur dépendent uniquement des informations du temps présent, pas des informations issues du passé. Cependant ces différentes versions de perte de mémoire sont proches d'un point de vue théorique.
+
+# Perte de mémoire discrète 
+
+Considérons une variable aléatoire discrète 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ sur l'ensemble des entiers naturels 
+ 
+ 
+ 
+ 
+ N
+ 
+ 
+ 
+ {\displaystyle \mathbb {N} }
+ . La loi de 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ est dite sans mémoire si pour tous 
+ 
+ 
+ 
+ n
+ ,
+ m
+ ∈
+ 
+ N
+ 
+ 
+ 
+ {\displaystyle n,m\in \mathbb {N} }
+ , on a
+
+ 
+ 
+ 
+ 
+ P
+ 
+ (
+ X
+ >
+ m
+ +
+ n
+ ∣
+ X
+ >
+ m
+ )
+ 
+
+ 
+ P
+ 
+ (
+ X
+ >
+ n
+ )
+ .
+ 
+ 
+ {\displaystyle \mathbb {P} (X>m+n\mid X>m)=\mathbb {P} (X>n).}
+ Ici, le terme 
+ 
+ 
+ 
+ 
+ 
+ P
+ 
+ (
+ X
+ >
+ m
+ +
+ n
+ ∣
+ X
+ >
+ m
+ )
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {P} (X>m+n\mid X>m)}
+ est la probabilité conditionnelle que la variable 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ soit plus grande que 
+ 
+ 
+ 
+ m
+ +
+ n
+ 
+ 
+ {\displaystyle m+n}
+ sachant qu'elle est plus grande que 
+ 
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle m}
+ .
+L'unique loi de probabilité discrète à perte de mémoire est la loi géométrique qui représente le nombre d'essais nécessaires de réalisation d'une expérience jusqu'à son premier succès. En d'autres termes, cette loi correspond à la loi du temps d'attente dans un processus de Bernoulli.
+
+# Une erreur courante 
+
+La perte de mémoire d'une loi de probabilité d'un nombre d'essais 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ jusqu'au premier succès signifie
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ P
+ 
+ (
+ X
+ >
+ 40
+ ∣
+ X
+ >
+ 30
+ )
+ 
+
+ 
+ P
+ 
+ (
+ X
+ >
+ 10
+ )
+ .
+ 
+ 
+ 
+ {\displaystyle \mathrm {} \ \mathbb {P} (X>40\mid X>30)=\mathbb {P} (X>10).\,}
+ Cependant, elle n'implique pas
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ P
+ 
+ (
+ X
+ >
+ 40
+ ∣
+ X
+ >
+ 30
+ )
+ 
+
+ 
+ P
+ 
+ (
+ X
+ >
+ 40
+ )
+ 
+ 
+ 
+ {\displaystyle \mathrm {} \ \mathbb {P} (X>40\mid X>30)=\mathbb {P} (X>40)\,}
+ ce qui serait vrai si les évènements 
+ 
+ 
+ 
+ X
+ >
+ 40
+ 
+ 
+ {\displaystyle X>40}
+ et 
+ 
+ 
+ 
+ X
+ >
+ 30
+ 
+ 
+ {\displaystyle X>30}
+ étaient indépendants, ce qui n'est pas le cas.
+
+# Perte de mémoire continue 
+
+Considérons une variable aléatoire continue 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ à valeurs réelles positives 
+ 
+ 
+ 
+ [
+ 0
+ ,
+ ∞
+ [
+ 
+ 
+ {\displaystyle [0,\infty [}
+ . La loi de 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ est dite sans mémoire si pour tous 
+ 
+ 
+ 
+ s
+ ,
+ t
+ ≥
+ 0
+ 
+ 
+ {\displaystyle s,t\geq 0}
+ , on a
+
+ 
+ 
+ 
+ 
+ P
+ 
+ (
+ X
+ >
+ t
+ +
+ s
+ ∣
+ X
+ >
+ t
+ )
+ 
+
+ 
+ P
+ 
+ (
+ X
+ >
+ s
+ )
+ .
+ 
+ 
+ {\displaystyle \mathbb {P} (X>t+s\mid X>t)=\mathbb {P} (X>s).}
+ L'unique loi de probabilité continue à perte de mémoire est la loi exponentielle. Cette définition est similaire à la version discrète à l'exception des variables 
+ 
+ 
+ 
+ s
+ 
+ 
+ {\displaystyle s}
+ et 
+ 
+ 
+ 
+ t
+ 
+ 
+ {\displaystyle t}
+ sont réelles positives et non entières. Plutôt que de compter le nombre d'essais jusqu'au premier succès, on peut penser à l'heure d'arrivée du premier appel téléphonique dans un centre d'appel.
+Ainsi les lois géométrique et exponentielle sont des analogues discrète et continue.
+
+# Les lois sans mémoire sont exponentielles 
+
+L'unique loi de probabilité continue à perte de mémoire est la loi exponentielle, ainsi la propriété de perte de mémoire caractérise la loi exponentielle parmi toutes les lois continues.
+Plus précisément, commençons par définir la fonction de survie 
+ 
+ 
+ 
+ G
+ 
+ 
+ {\displaystyle G}
+ par
+
+ 
+ 
+ 
+ G
+ (
+ t
+ )
+ 
+
+ 
+ P
+ 
+ (
+ X
+ >
+ t
+ )
+ 
+ 
+ {\displaystyle G(t)=\mathbb {P} (X>t)}
+ .Remarquons que 
+ 
+ 
+ 
+ G
+ 
+ 
+ {\displaystyle G}
+ est une fonction décroissante. De la relation
+
+ 
+ 
+ 
+ 
+ P
+ 
+ (
+ X
+ >
+ t
+ +
+ s
+ 
+ |
+ 
+ X
+ >
+ t
+ )
+ 
+
+ 
+ P
+ 
+ (
+ X
+ >
+ s
+ )
+ 
+ 
+ 
+ {\displaystyle \mathbb {P} (X>t+s|X>t)=\mathbb {P} (X>s)\,}
+ et de la définition de la probabilité conditionnelle, on obtient
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ P
+ 
+ (
+ X
+ >
+ t
+ +
+ s
+ )
+ 
+ 
+ 
+ P
+ 
+ (
+ X
+ >
+ t
+ )
+ 
+ 
+ 
+ 
+
+ 
+ P
+ 
+ (
+ X
+ >
+ s
+ )
+ .
+ 
+ 
+ {\displaystyle {\mathbb {P} (X>t+s) \over \mathbb {P} (X>t)}=\mathbb {P} (X>s).}
+ Ce qui donne l'équation fonctionnelle
+
+ 
+ 
+ 
+ G
+ (
+ t
+ +
+ s
+ )
+ 
+
+ G
+ (
+ t
+ )
+ G
+ (
+ s
+ )
+ 
+ 
+ 
+ {\displaystyle G(t+s)=G(t)G(s)\,}
+ sur l'ensemble des fonctions décroissantes. Cette équation implique que la fonction 
+ 
+ 
+ 
+ G
+ 
+ 
+ {\displaystyle G}
+ restreinte aux rationnels est une fonction exponentielle. En rajoutant que 
+ 
+ 
+ 
+ G
+ 
+ 
+ {\displaystyle G}
+ est décroissante, on obtient la fonction exponentielle sur tout le domaine.
+
+# Notes et références 
+
+ Portail des probabilités et de la statistique

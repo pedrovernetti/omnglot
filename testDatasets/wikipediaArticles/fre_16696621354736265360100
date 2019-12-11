@@ -1,0 +1,32 @@
+
+## Phase d'électron
+
+En chimie physique, une phase d'électron correspond au signe de la fonction d'onde, qui est une solution de l'équation de Schrödinger. Lorsque deux fonctions d'onde décrivant deux orbitales atomiques d'un même atome se combinent, il y a hybridation ; lorsque ce sont des fonctions d'onde d'orbitales atomiques de deux atomes différents, il y a formation d'une orbitale moléculaire entre ces deux atomes.
+
+# Description 
+
+Dans le cas des orbitales moléculaires, l'interaction résultante entre deux fonctions d'onde combinées dépend de leur signe respectif : cette interaction peut être constructive ou destructive selon que les fonctions d'onde sont de même signe ou de signe opposé. Pour visualiser cela, les phases d'une fonction d'onde peuvent être représentées graphiquement de façon sinusoïdale par une simple fonction de type y = sin(x) :
+
+lorsque les deux fonctions d'onde ont la même phase, leur recouvrement conduit à additionner leur amplitude pour donner une onde résultante d'amplitude accrue : il s'agit d'une orbitale moléculaire liante.
+lorsque les deux fonctions d'onde sont en opposition de phase, leur recouvrement conduit à l'annulation de leur amplitude pour donner une fonction d'onde résultante d'amplitude nulle : il s'agit d'une orbitale moléculaire antiliante.Lorsque deux orbitales atomiques se recouvrent, elles peuvent donner naissance à une liaison σ, une liaison π, une liaison δ, ou d'autres formes d'interactions. Ces orbitales atomiques peuvent subir un recouvrement en phase pour produire une orbitale liante, ou au contraire un recouvrement en opposition de phase pour donner une orbitale antiliante.
+Un électron est défini dans l'espace des phases par sa position et sa quantité de mouvement, ce qui signifie que les électrons de deux orbitales atomiques doivent partager la même position avec la même quantité de mouvement pour pouvoir former une orbitale liante : c'est la raison pour laquelle quand les orbitales atomiques sont en phase, elles peuvent former une orbitale moléculaire liante, tandis que lorsqu'elles sont en opposition de phase, elles tendent à se repousser en formant une orbitale antiliante. De telles orbitales antiliantes sont notées avec une étoile « * » pour les distinguer des orbitales liantes : σ* par opposition à σ, par exemple.
+Les doublets liants sont toujours plus stables que les deux orbitales initiales. Les doublets antiliants ont une énergie supérieure à celle des orbitales atomiques. Il y a autant d'orbitales moléculaires qu'il y a d'orbitales atomiques en recouvrement : l'orbitale moléculaire de basse énergie est liante, celle de haute énergie est antiliante.
+L'existence d'une orbitale moléculaire ne signifie pas que des électrons l'occupent : ainsi, une molécule de dihydrogène H2 possède une orbitale moléculaire liante σ et une orbitale moléculaire antiliante σ*, mais seule l'orbitale liante σ, de basse énergie, est occupée par les deux électrons de la molécule ; l'orbitale antiliante σ* est inoccupée, de sorte qu'il n'y a pas d'antiliaison dans la molécule d'hydrogène et que celle-ci est stable, avec une liaison covalente. En revanche, dans la molécule de dihélium He2, les quatre électrons occupent à la fois l'orbitale liante σ et l'orbitale antiliante σ*, de sorte que la liaison résultante est nulle et que la molécule de dihélium n'est pas stable.
+
+# Annexes 
+
+# Bibliographie 
+
+(en) Walter J. Moore, Physical Chemistry, New Jersey, 1972, 4e édition. (ISBN 0-13-665968-3)
+(en) Kenneth W. Whitten, General Chemistry, 2000, 6e édition. (ISBN 0-03-021214-6)
+
+# Articles connexes 
+
+Orbitale moléculaire
+Orbitale antiliante
+Théorie de l'orbitale moléculaire
+
+# Liens externes 
+
+Atomic Orbital Interactions
+Orbitron: bonding and antibonding demonstration Portail de la chimie

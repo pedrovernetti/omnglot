@@ -1,0 +1,27 @@
+
+## Tarnschieber
+
+Der Tarnschieber war ein einfaches mechanisches Gerät, das von der Polizei in der Bundesrepublik Deutschland ab 1967 zur Verschlüsselung im analogen Sprechfunk (BOS-Funk) eingesetzt wurde.
+
+# Beschreibung 
+
+Der Tarnschieber, den es in verschiedenen technischen Ausführungen mit sinngemäß gleicher Funktionalität gab, hatte etwa eine Größe von 11 × 16 cm und – je nach Ausführung – eine Höhe zwischen etwa 6 und 11 mm. Ein undurchsichtiges Kunststoffgehäuse mit aufgedruckten Buchstaben, Ziffern und Stichwörtern verfügte über Sichtbereiche, in denen ebenfalls bedruckte Tafeln verschoben und somit die Zuordnung der Codes in den Sichtfenstern zu dem aufgedruckten Text verändert werden konnte.
+Turnusgemäß oder aus aktuellen Anlass wurde eine der 26 möglichen Zuordnungen zur Nutzung vorgegeben und bis zur nächsten Änderungsvorgabe verwendet. Der Tarnschieber diente sowohl der buchstabenweisen Textverschlüsselung als auch der Verschlüsselung von rund 100 Einsatzstichwörtern und polizeirelevanten Begriffen.
+
+# Verschlüsselung von Texten 
+
+Für die Ver- bzw. Entschlüsselung von Texten waren Sichtfenster zur Umsetzung von Buchstaben und Ziffern nach dem sehr einfachen Verfahren der umgekehrten Caesar-Verschlüsselung enthalten. Diese Verschlüsselung gab auch die Anzahl der 26 möglichen Zuordnungen (von A–Z bis A–A) vor. Der Text musste Buchstabe für Buchstabe und Ziffer für Ziffer auf diese Weise umgesetzt werden. Aufgrund des hohen Zeitaufwands für dieses manuelle Verfahren war die Textverschlüsselung in der Praxis auf nur wenige Vorfälle mit kurzen Texten und hohem Geheimhaltungsbedarf beschränkt.
+
+# Verschlüsselung von Einsatzstichwörtern 
+
+Die Verschlüsselung von Einsatzstichwörtern erfolgte durch die mit der Caesar-Verschlüsselung gekoppelte Zuordnung jeweils einer Zahl aus drei Ziffern in Sichtfenstern zu den aufgedruckten Begriffen. Die dem Begriff zugeordnete Zahl wurde einfach abgelesen. Entsprechend konnte ein Ereignis wie „Verkehrsunfall“ mit der aktuellen Zahl aus 26 möglichen Werten ausgedrückt werden. (Bei Einstellung wie auf dem oben abgebildeten Tarnschieber wäre dies „069“ gewesen.)
+
+# Bedeutung 
+
+Im analogen BOS-Funk, der mittlerweile bei der Polizei in Deutschland durch den Digitalfunk abgelöst wurde, bestand technisch die einfache Möglichkeit, die Gespräche auf handelsüblichen Rundfunkempfangsgeräten (Radios) im UKW-Bereich mitzuhören – zumindest wenn man eine geringfügige Manipulation am Radioempfänger vornahm. Technische Verschleierung war damals aufwändig und als allgemeine Polizeiausstattung praktisch unbezahlbar.
+Ursprünglich hatten Polizeidienststellen zur Verschleierung oder auch zur Abkürzung des Sprechfunkbetriebs unterschiedliche, regionale Code-Systeme in Gebrauch. Der Tarnschieber ermöglichte die Vereinheitlichung über die Grenzen der Bundesländer hinweg. Dies erschien aufgrund der zunehmend erforderlichen Zusammenarbeit, wie auch in der Zeit des RAF-Terrorismus als notwendig.
+Mit Tarnschieber verschlüsselte Durchsagen von Texten über Funk beschränkten sich wegen des Aufwands auf nur wenige Einzelfälle. Der tatsächliche Nutzen der Verschlüsselung von Einsatzstichwörtern und anderen vorgegebenen polizeilichen Begriffen per Tarnschieber ist nicht quantifizierbar. Zumindest war es in diversen Kreisen nicht unüblich, den Polizeifunk mit Radios oder Funkscannern mitzuhören und Erkenntnisse zu verwerten. Allerdings wurde im Regelfall nur das betreffende Stichwort verschlüsselt und der Rest im Klartext gesprochen, so dass der tatsächliche Verschleierungseffekt in der Praxis nur gering ausfiel.
+Mit der Einführung des Funkmeldesystems in den 1980er und 1990er Jahren, das durch die Funktelegramme ohnehin Teile des Sprechfunkverkehrs verschleierte, wie auch mit dem Rückgang des Terrorismus in Deutschland verlor der Tarnschieber weiter an Bedeutung. Im Digitalfunk, der Ende-zu-Ende-Verschlüsselung beinhaltet, erübrigt sich weitere Verschlüsselung.
+
+# Einzelnachweise 
+

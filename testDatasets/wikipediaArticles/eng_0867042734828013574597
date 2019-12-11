@@ -1,0 +1,17 @@
+
+## Excel Services
+
+Excel Services is a server technology included in SharePoint 2010 and SharePoint 2007. This shared service enables users to load, calculate, and display Excel 2010 workbooks on Microsoft Office SharePoint Server 2010.
+Using Excel Services, users can reuse and share Excel workbooks on Microsoft Office SharePoint Server 2010 portals and dashboards. For example, they can create content in Excel 2010 and share it by using an Office SharePoint Server 2007 portal and dashboard. The entire workbook or just parts of it (such as just a single sheet, chart or table) can be shared.
+End-users can view live, interactive workbooks using only a web browser. They can also interact with workbooks to explore data, and analyze Pivot Table reports and charts by using a browser. Excel Services supports workbooks that are connected to external data sources. Users can embed connection strings to external data sources in the workbook or save them centrally in a data connection library file.
+Selected cells in worksheets can be made editable by making them named ranges or "parameters". Items which are set as "viewable", when they save to Excel Services, will appear in the Parameters pane in the browser. Users can change the values of these named ranges in the parameters pane and refresh the workbook. They can also use the portal's filter Web Part to filter several Web Parts (Excel Web Access and other types of web parts) together.
+
+# References 
+
+Asnash et al. (2007). Beginning Excel Services. Wiley. ISBN 0-470-10489-9
+Prish, S. (2007). Professional Excel Services. Wiley. ISBN 0-470-10486-4
+
+# External links 
+
+Official Excel Services 2007 website
+Official Excel Services 2010 website

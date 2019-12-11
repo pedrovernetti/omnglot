@@ -1,0 +1,22 @@
+
+## Microscope optique en champ proche
+
+Le microscope optique en champ proche (MOCP, ou SNOM pour scanning near-field optical microscope) est un type de microscope à sonde locale qui permet d'imager des objets à partir de la détection des ondes évanescentes confinées au voisinage de leur surface (détection en champ proche optique).
+
+# Principe de fonctionnement 
+
+Le MOCP permet de compenser la diffraction, une des limitations de la microscopie optique. En effet, lorsqu'un objet, ou le détail d'un objet, est plus petit que la longueur d'onde de la lumière qui l'éclaire, la lumière est diffusée sous la forme d'une tache, on ne peut donc pas avoir une image nette du détail.
+Une des manières de résoudre ce problème consiste à placer le détecteur de lumière très proche de la surface. Ainsi, on observe l'onde évanescente et non pas l'onde dispersée. On peut donc visualiser des détails plus petits que la longueur d'onde de la lumière.
+La lumière est apportée et récupérée par une fibre optique ; la surface observée est limitée par un trou plus petit que la longueur d'onde de la lumière. On peut travailler avec la fluorescence de l'échantillon afin d'avoir des informations sur les propriétés physiques et chimiques de la matière. L'échantillon peut être observé en réflexion ou en transmission (en transparence).
+
+# Histoire 
+
+Le principe de la microscopie en champ proche fut proposé par Edward Hutchinson Synge (en) en 1928, et fut d'abord démontré avec les micro-ondes en 1972 par Ash et Nicholls. La première application à l'optique fut faite par Pohl en 1984.
+
+# Notes et références 
+
+# Liens externes 
+
+LOPMD, Université de France Comté
+LNIO, Université de technologie de Troyes
+ Portail de la physique Portail des sciences des matériaux

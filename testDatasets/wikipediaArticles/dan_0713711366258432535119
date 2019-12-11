@@ -1,0 +1,28 @@
+
+## Primtalstvillinger
+
+Primtalstvillinger er to primtal, der kun har ét andet tal imellem sig.
+Eksempler på primtalstvillinger er:
+
+3 & 5
+5 & 7
+11 & 13
+17 & 19
+101 & 103
+22271 & 22273
+57007007 & 57007009
+1.000.000.000.061 & 1.000.000.000.063Det er et uafklaret spørgsmål om der findes uendelig mange primtalstvillinger, men den almindelige opfattelse er, at der er uendelig mange.
+Den norske matematiker Viggo Brun forsøgte at bevise, at antallet af primtalstvillinger var uendeligt ved at bevise at den reciprokke sum af alle primtalstvillinger var uendelig. Imidlertid lykkedes det ham i 1919 at bevise, at summen var endelig, og dette kan hverken bruges som argument for eller imod at antallet af primtaltvillinger er uendeligt.
+F.eks. er den reciprokke sum af alle kvadrattal også endelig, selvom der naturligvis findes uendelig mange kvadrattal.
+Den reciprokke sum af alle primtalstvillinger kaldes Bruns konstant og er beregnet til B2 ≈ 1,902160583104.
+Det, at den reciprokke sum af alle primtalstvillinger er endelig, viser, at der findes væsentligt færre primtalstvillinger end primtal, da den reciprokke sum af alle primtal er uendelig.
+For alle primtalstvillinger større end 7 gælder at tallet mellem primtallene er deleligt med 6.
+
+# Se også 
+
+Primtalstrillinger
+Primtalsfirlinger
+
+# Litteratur (for børn) 
+
+Jan Egesborg, Johannes Töws og Pia Bertelsen: Primtalstvillinger, ISBN 978-87-7165-610-7

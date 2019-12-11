@@ -1,0 +1,13 @@
+
+## SECIS-element
+
+I biologi er et SECIS-element (SECIS: selenocystein indsætningssekvens) et cis-regulerende RNA-element på omkring 60 nukleotider i længde, der former en stem-loop-struktur. Dette strukturelle motiv (mønster af nukleotider) dirigerer ribosomerne i cellen til at translatere UGA-codons som selenocysteiner. (UGA er normalt et stop-codon.) SECIS-elementer er således et fundamentalt aspekt af selenoproteiner, som er proteiner, der indeholder en eller flere selenocysteinrester.
+I bakterier er SECIS-elementet placeret lige efter det UGA-codon det ændrer. I archaea og eukaryoter forekommer det i 3'-UTR af et mRNA og kan forårsage at flere UGA-codons i mRNA'et koder for selenocystein. Et archaeask SECIS-element i Methanococcus er placeret i 5'-UTR.
+SECIS-elementet er defineret ved sekvenskarakteristika, hvilket omfatter at specifikke nukleotider har tendens til at være på specifikke positioner i det, og karakteristisk sekundærstruktur. Sekundærstrukturen er et resultat af baseparring af komplementære RNA-nukleotider og har form af en hårnålelignende struktur. Det eukaryote SECIS-element inkluderer ikke-kanoniske A-G-basepar, som er sjældne i naturen, men er af kritisk vigtighed for korrekt funktion af SECIS-elementet. Selvom eukaryote, archaeiske og bakterielle SECIS-element alle har den generelle hårnålestruktur er de ikke ensdannede; et skema til at genkende eukaryote SECIS-elementer vil altså ikke være i stand til at genkende archaeiske SECIS-elementer.
+I bioinformatik er flere computerprogrammer blevet lavet til at søge efter SECIS-elementer i en genomsekvens baseret på sekvensen og karakteristikaene for sekundærstrukturen af SECIS-elementet. Disse programmer er blevet brugt i eftersøgningen af nye selenoproteiner.
+
+# Referencer 
+
+G. V. Kryukov, S. Castellano, S. V. Novoselov, A. V. Lobanov, O. Zehtab, R. Guigó, and V. N. Gladyshev (2003). "Characterization of mammalian selenoproteomes". Science. 300 (5624): 1439–1443. doi:10.1126/science.1083516. CS1 maint: Multiple names: authors list (link)
+Gregory V. Kryukov and Vadim N. Gladyshev (2004). "The prokaryotic selenoproteome". EMBO Rep. 5 (5): 538–543. 
+Alain Krol (2002). "Evolutionarily different RNA motifs and RNA-protein complexes to achieve selenoprotein synthesis". Biochimie. 84 (8): 765–774.

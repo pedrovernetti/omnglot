@@ -1,0 +1,40 @@
+
+## Kansainväliset tietotekniikkaolympialaiset
+
+Kansainväliset tietotekniikkaolympialaiset (engl. International Olympiad in Informatics, IOI) ovat alle 20-vuotiaille ei-korkeakouluopiskelijoille tarkoitetut tietotekniikkakilpailut. Ne järjestetään vuosittain yleensä elokuun puolivälissä, ja kustakin maasta niihin osallistuu nelihenkinen joukkue. Kullakin joukkueella on myös joukkueenjohtaja ja apulaisjohtaja, jotka kääntävät kilpailutehtävät joukkueen omalle kielelle. Kilpailun tehtävissä pitää yleensä ohjelmoida jonkinlainen algoritmi tiettyyn ongelmaan.
+
+# Historia 
+
+Kansainväliset tietotekniikkaolympialaiset saivat alkunsa vuonna 1987, kun Bulgarian delegaatti Blagovest Sendov laati ehdotuksen UNESCO:n 24. yleiskonferenssia varten. Ensimmäinen IOI järjestettiin Bulgariassa vuonna 1989.
+
+# Tapahtuma 
+
+Koko tapahtuma on noin viikon mittainen ja sisältää paljon muutakin kuin pelkän kilpailun. Ensimmäisenä päivänä on lyhyt harjoituskilpailu, jota seuraa avajaisseremonia. Toinen ja neljäs päivä ovat varsinaisia kilpailupäiviä, kumpanakin on viisituntinen kisarupeama. Kolmantena ja viidentenä päivänä on yleensä järjestettyä ohjelmaa kuten kaupunkikierros tai paikallisiin nähtävyyksiin tutustumista. Kuudentena päivänä pidetään palkintojenjakotilaisuus ja julistetaan kilpailu päättyneeksi.
+
+# Kilpailu 
+
+Kumpanakin kilpailupäivänä on viisi tuntia aikaa ja kolme tehtävää. Yhteensä kolmen tai neljän tehtävän ratkaiseminen virheettömästi riittää hyvin todennäköisesti hopeamitalin saavuttamiseen. Kullakin kilpailijalla on käytössään kirjoitusvälineet sekä tietokone, jossa on rajallinen määrä perusohjelmia kuten muutama erilainen tekstieditori ja C-, C++- ja Pascal-kääntäjät sekä näiden kielten standardikirjastojen dokumentaatiot. Internetin ja omien tiedonsiirtovälineiden käyttö on sekä kielletty että estetty. Kilpailussa sallitut kielet ovat jo mainitut C, C++ ja Pascal.
+
+# Tehtävät 
+
+Normaalisti tehtävänä on kehittää algoritmi annetun ongelman ratkaisemiseksi, ja tällöin vastaukseksi lähetetään tehdyn ohjelman lähdekoodi. Toisessa tehtävätyypissä ohjelman pitää kommunikoida toisen ohjelman kanssa, esimerkiksi pelata jotakin peliä. Tehtävien arvostelussa ajetaan ohjelma usealla eri testitapauksella ja tarkistetaan, onko tuotettu vastaus oikea. Pisteitä saa siis myös ratkaisulla, joka toimii vain osittain. Kolmannessa tehtävätyypissä vastaukseksi lähetetään vain saatu lopputulos, ja nämä tehtävät on siis teoriassa mahdollista tehdä myös ohjelmoimatta, vaikkapa laskea paperilla. Näiden tehtävien arvostelu voi tapahtua useammalla tavalla. Jos tehtävänä on esimerkiksi pakata annettu data mahdollisimman tehokkaasti niin, että sen voi purkaa tietyllä algoritmilla, voidaan pisteitä jakaa tuotetun tiedoston koon mukaan tai vaikkapa suhteessa parhaaseen lähetettyyn ratkaisuun. Kukin tehtävä on 100 pisteen arvoinen, koko kilpailun maksimipistemäärä on 600.
+
+# Palkinnot 
+
+Paras 1/12 osa kilpailijoista saa kultamitalin, seuraava 2/12 osa saa hopeamitalin, ja seuraava 3/12 osa saa pronssimitalin. Usein mitalien yhteydessä jaetaan järjestäjästä riippuen muutakin palkintomateriaalia, esimerkiksi USB-tikkuja tai ohjelmistopaketteja. Lisäksi kokonaiskilpailun kolmelle parhaalle on yleensä luvassa vielä omat erikoispalkintonsa.
+
+# Suomi 
+
+Suomen joukkueen alkukarsintana toimii kansallinen Datatähti-kilpailu. Datatähden perusteella valitaan valmennusryhmä, ja keväällä pidettävän valmennusleirin lopussa valitaan kuuden hengen joukkue BOI-kisoihin. Näiden tulosten perusteella valitaan neljä edustajaa IOI:hin.
+
+# Suomalaiset IOI mitalistit 
+
+Suomalaiset ovat saavuttaneet yhteensä 59 mitalisijaa IOI:ssa. Oheinen taulukko listaa suomalaiset mitalistit (K = kultamitali, H = hopeamitali ja P = pronssimitali).
+
+# Lähteet 
+
+# Aiheesta muualla 
+
+IOI
+Yhdysvaltalainen harjoitussivusto (vaatii rekisteröitymisen)
+Suomen IOI-historia Ohjelmointiputkassa

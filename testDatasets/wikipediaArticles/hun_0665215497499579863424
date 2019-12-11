@@ -1,0 +1,35 @@
+
+## Alagútdióda
+
+Az alagútdióda, vagy más néven Esaki-dióda egy félvezető dióda, mely a kvantummechanikából ismert alagúthatás alapján működik.
+
+# Történet 
+
+Az alagútdiódát Leo Esaki (1925- ) japán fizikus találta fel 1957-ben. Leo Esaki a Sony elődjénél dolgozott, a tokiói Tsushin Kogyo cégnél. 1973-ban Nobel-díjat kapott, megosztva (Brian Josephson, és Ivar Giaever). Az indoklás: „az alagúthatás felfedezése a félvezetőkben és a szupravezetőkben”. Robert Noyce és William Shockley is eljutott az alagúthatás gondolatáig, de nem folytatták.Alagútdiódát először a Sony gyártott 1957-ben. Többnyire germániumból készül, de szilícium alapú dióda is van. Az alagútdiódát különleges feszültség-áram karakterisztikája (negatív ellenállású tartomány) miatt előszeretettel használják nagyfrekvenciás oszcillátorokban erősítőelemként. Nagyfrekvenciás alkalmazásoknál jobb teljesítményük miatt alkalmazzák tranzisztorok helyett. Mikrohullámú tartományokban a rezonáns alagútdiódát használják. A MIM (metal–insulator–metal= fém-szigetelő-fém) dióda az alagútdióda egy változata. Az alagútdiódát kis zajú mikrohullámú erősítőknél is használják.
+
+# Működés 
+
+Az alagútdióda erősen szennyezett p-n átmenettel rendelkezik. Ez az erősen szennyezett réteg igen keskeny, közel 10 nanométer (100 ångström) széles. Az erős szennyezettség eredményeként létrejön egy kiürített réteg, ahol az n oldali elektronok és a p oldali lyukak kölcsönhatásba lépnek egymással és rekombinálódnak, így mindkettő megszűnik.
+Nyitó irányban a feszültség növelésével az elektronok átjutnak a keskeny kiürített sávon az üres vegyértéksáv felé. Az áram növekszik arányosan. Amint a feszültség tovább nő, az áram csökkenni kezd, ezt a szakaszt hívják negatív differenciális ellenállású tartománynak. A feszültség további növelésével az áram ismét növekszik. A dióda 100 mV…250 mV közötti szakaszában az ellenállás negatív. Ezt a szakaszt használják ki LC oszcillátorokban a rezgőköri veszteségek kompenzálására.
+Záró irányban az elektronok átjutnak a keskeny kiürített rétegen, a dióda letörik, és jelentős áram folyik.
+Az alagútdiódák hosszú élettartamúak. Az 1960-ban gyártott diódák még mindig működnek. Esaki ezt azzal indokolja, hogy igen stabil az állapotuk.
+Az alagútdiódák viszonylagosan ellenállók nukleáris sugárzással szemben, ezért alkalmazhatók űrjárművekben.
+
+# Lásd még 
+
+Dióda
+Alagúthatás
+Oszcillátor
+
+# Irodalom 
+
+Donald G. Fink: Electronic Engineers Handbook. New York: McGraw Hill. 1975. ISBN 9780071441469 
+
+# Jegyzetek 
+
+# Források 
+
+Alagútdióda – HamWiki
+E. R. Brown et. al.: Oscillations up to 712 GHz in InAs/AISb resonant-tunneling diodes PDF (angolul)
+The MIM diode: Another challenger for the electronics crown – In: Quantum Physics, 2010. november 19. (angolul)
+Tunnel Diode (angolul)

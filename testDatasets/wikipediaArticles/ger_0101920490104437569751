@@ -1,0 +1,2671 @@
+
+## Abtastung
+
+Unter Abtastung (englisch sampling) wird in der Signalverarbeitung die Registrierung von Messwerten zu diskreten, meist äquidistanten Zeitpunkten verstanden. Aus einem zeitkontinuierlichen Signal wird so ein zeitdiskretes Signal gewonnen.
+Bei mehrkanaligen Signalen ergibt jede Abtastung ein „Sample“ aus mehreren Abtastwerten. Die Zahl der Samples pro Sekunde wird Abtastrate genannt. Bei der digitalen Telefonie (ISDN) beträgt die Abtastrate beispielsweise 8 kHz.
+
+# Abgrenzung 
+
+Die Digitalisierung eines analogen Signals im Zeitbereich umfasst als Überbegriff zusätzlich zur Abtastung eine weitere Umwandlung, die Quantisierung, wobei die beiden Umwandlungen in beliebiger Reihenfolge ausgeführt werden können um ein Digitalsignal zu erhalten:
+
+Die Abtastung um ein zeitkontinuierliches Signal in ein zeitdiskretes Signal zu überführen.
+Die Quantisierung um ein wertkontinuierliches Signal in ein wertdiskretes Signal umzuwandeln.
+
+# Abtastung im Zeitbereich 
+
+# Ideale Abtastung 
+
+Für eine einfachere mathematische Beschreibung ist die ideale Abtastung definiert. Hier wird das Signal nicht über einen gewissen Zeitraum um den Abtastzeitpunkt akkumuliert, sondern exakt zum Abtastzeitpunkt 
+ 
+ 
+ 
+ n
+ T
+ 
+ 
+ {\displaystyle nT}
+ ausgewertet.
+Mathematisch lässt sich dies darstellen, indem man das Signal 
+ 
+ 
+ 
+ s
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle s(t)}
+ mit dem Dirac-Kamm, einer Folge von Dirac-Stößen, multipliziert:
+
+Das abgetastete Signal 
+ 
+ 
+ 
+ 
+ s
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle s_{\mathrm {a} }}
+ lautet dann
+
+ 
+ 
+ 
+ 
+ s
+ 
+ 
+ a
+ 
+ 
+ 
+ (
+ t
+ )
+ 
+
+ s
+ (
+ t
+ )
+ ⋅
+ 
+ ∑
+ 
+ n
+ 
+
+ −
+ ∞
+ 
+ 
+ ∞
+ 
+ 
+ δ
+ (
+ t
+ −
+ n
+ T
+ )
+ .
+ 
+ 
+ {\displaystyle s_{\mathrm {a} }(t)=s(t)\cdot \sum _{n=-\infty }^{\infty }\delta (t-nT).}
+ Für das Frequenzspektrum 
+ 
+ 
+ 
+ 
+ S
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle S_{\mathrm {a} }}
+ , welches die Fourier-Reihe des Signals 
+ 
+ 
+ 
+ 
+ s
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle s_{\mathrm {a} }}
+ darstellt, erhält man mit Hilfe der Umkehrung des Faltungstheorems:
+
+ 
+ 
+ 
+ 
+ S
+ 
+ 
+ a
+ 
+ 
+ 
+ (
+ f
+ )
+ 
+
+ S
+ (
+ f
+ )
+ ∗
+ 
+ [
+ 
+ 
+ 
+ 1
+ T
+ 
+ 
+ 
+ ∑
+ 
+ n
+ 
+
+ −
+ ∞
+ 
+ 
+ ∞
+ 
+ 
+ δ
+ 
+ (
+ 
+ f
+ −
+ 
+ 
+ n
+ T
+ 
+ 
+ 
+ )
+ 
+ 
+ ]
+ 
+ .
+ 
+ 
+ {\displaystyle S_{\mathrm {a} }(f)=S(f)*\left[{\frac {1}{T}}\sum _{n=-\infty }^{\infty }\delta \left(f-{\frac {n}{T}}\right)\right].}
+ Das Spektrum ist also das Spektrum des Eingangssignals 
+ 
+ 
+ 
+ s
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle s(t)}
+ , das periodisch mit der Periode 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ T
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tfrac {1}{T}}}
+ wiederholt wird – dies drückt die Faltungseigenschaft des Dirac-Impulses aus. Daraus ergibt sich, dass das Spektrum von 
+ 
+ 
+ 
+ s
+ 
+ 
+ {\displaystyle s}
+ maximal 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 2
+ T
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tfrac {1}{2T}}}
+ breit sein darf, damit sich die verschobenen Spektren nicht überlappen.
+Ist das Spektrum von 
+ 
+ 
+ 
+ s
+ 
+ 
+ {\displaystyle s}
+ schmaler als 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 2
+ T
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tfrac {1}{2T}}}
+ , so ist das ursprüngliche Signal 
+ 
+ 
+ 
+ s
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle s(t)}
+ nach idealer Tiefpass-Filterung aus dem zeitdiskreten Spektrum vollständig rekonstruierbar. Dieser Umstand ist die Grundlage des Nyquist-Shannon-Abtasttheorems. Ist hingegen das Spektrum des Eingangssignals 
+ 
+ 
+ 
+ s
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle s(t)}
+ breiter als 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 2
+ T
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tfrac {1}{2T}}}
+ , tritt Aliasing auf und das ursprüngliche Signal 
+ 
+ 
+ 
+ s
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle s(t)}
+ kann aus 
+ 
+ 
+ 
+ 
+ s
+ 
+ 
+ a
+ 
+ 
+ 
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle s_{\mathrm {a} }(t)}
+ nicht wiedergewonnen werden.
+
+# Reale Abtastung 
+
+In der Realität sind zwei Bedingungen der idealen Abtastung nicht einhaltbar:
+
+Es ist nicht möglich, ideale Dirac-Stöße zu erzeugen. Das Signal wird vielmehr über einen Zeitraum um den eigentlichen Abtastzeitpunkt gewonnen. Dies nennt man auch natürliche Abtastung. Alternativ wird eine Sample-and-Hold-Schaltung eingesetzt.
+Die perfekte Rückgewinnung des Signals aus seinem Spektrum erfordert zur Vermeidung von Spiegelspektren als Rekonstruktionsfilter einen idealen Tiefpass, welcher nicht kausal ist.Die reale Abtastung erfolgt daher unter folgenden Modifikationen:
+zu 1.: Der Dirac-Kamm wird durch eine Rechteckfunktion (
+ 
+ 
+ 
+ rect
+ 
+ 
+ {\displaystyle \operatorname {rect} }
+ ) mit Rechteckimpulsen der Länge 
+ 
+ 
+ 
+ 
+ t
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle t_{0}}
+ ersetzt. Die Abtastung wird durch eine Sample-and-Hold-Schaltung realisiert, welche den Wert einer Abtastung für die Länge des Rechteckimpulses konstant hält. Mathematisch entspricht dies einer Faltung mit der Rechteckfunktion:
+
+ 
+ 
+ 
+ 
+ f
+ 
+ 
+ a
+ 
+ 
+ 
+ (
+ t
+ )
+ 
+
+ 
+ ∑
+ 
+ n
+ 
+
+ −
+ ∞
+ 
+ 
+ ∞
+ 
+ 
+ f
+ (
+ n
+ T
+ )
+ ⋅
+ rect
+ 
+ 
+ (
+ 
+ 
+ 
+ t
+ −
+ n
+ T
+ 
+ 
+ t
+ 
+ 0
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+
+ rect
+ 
+ 
+ (
+ 
+ 
+ t
+ 
+ t
+ 
+ 0
+ 
+ 
+ 
+ 
+ )
+ 
+ ∗
+ 
+ ∑
+ 
+ n
+ 
+
+ −
+ ∞
+ 
+ 
+ ∞
+ 
+ 
+ f
+ (
+ t
+ )
+ 
+ δ
+ (
+ t
+ −
+ n
+ T
+ )
+ 
+ 
+ {\displaystyle f_{\mathrm {a} }(t)=\sum _{n=-\infty }^{\infty }f(nT)\cdot \operatorname {rect} \left({\frac {t-nT}{t_{0}}}\right)=\operatorname {rect} \left({\frac {t}{t_{0}}}\right)*\sum _{n=-\infty }^{\infty }f(t)\,\delta (t-nT)}
+ Das daraus gewonnene Spektrum ist
+
+ 
+ 
+ 
+ 
+ F
+ 
+ 
+ a
+ 
+ 
+ 
+ (
+ f
+ )
+ 
+
+ 
+ t
+ 
+ 0
+ 
+ 
+ ⋅
+ si
+ 
+ (
+ π
+ f
+ 
+ t
+ 
+ 0
+ 
+ 
+ )
+ ⋅
+ 
+ [
+ 
+ F
+ (
+ f
+ )
+ ∗
+ 
+ 
+ 1
+ T
+ 
+ 
+ 
+ ∑
+ 
+ n
+ 
+
+ −
+ ∞
+ 
+ 
+ ∞
+ 
+ 
+ δ
+ (
+ f
+ −
+ n
+ 
+ f
+ 
+ 
+ a
+ 
+ 
+ 
+ )
+ 
+ ]
+ 
+ .
+ 
+ 
+ {\displaystyle F_{\mathrm {a} }(f)=t_{0}\cdot \operatorname {si} (\pi ft_{0})\cdot \left[F(f)*{\frac {1}{T}}\sum _{n=-\infty }^{\infty }\delta (f-nf_{\mathrm {a} })\right].}
+ Dies ist das Spektrum der idealen Abtastung, gewichtet mit einem Faktor welcher die si-Funktion (Sinc-Funktion) beinhaltet. Dies stellt eine Verzerrung des Signals dar, welche durch eine zusätzliche Verzerrung im Rekonstruktionsfilter bei der Rückgewinnung des ursprünglichen Signals behoben werden kann. Diese Verzerrung tritt bei der natürlichen Abtastung nicht auf.
+zu 2.: Um auch mit einem nicht-idealen Rekonstruktionsfilter das kontinuierliche Signal aus dem Spektrum mit möglichst kleinen Fehler zurückzugewinnen, kann die Abtastfrequenz erhöht werden. Durch die Überabtastung rücken anschaulich die Einzelspektren weiter auseinander, wodurch der Tiefpassfilter zur Rekonstruktion im Bereich der Spiegelspektren höhere Dämpfungswerte aufweist.
+
+# Abtastung im Spektralbereich 
+
+Aufgrund der Symmetrieeigenschaften der Fourier-Transformation lässt sich umgekehrt auch eine Frequenzfunktion 
+ 
+ 
+ 
+ S
+ (
+ f
+ )
+ 
+ 
+ {\displaystyle S(f)}
+ im Spektralbereich, bei idealer Abtastung, durch eine Folge 
+ 
+ 
+ 
+ 
+ S
+ 
+ 
+ p
+ 
+ 
+ 
+ (
+ f
+ )
+ 
+ 
+ {\displaystyle S_{\mathrm {p} }(f)}
+ mit frequenzdiskreten Werten bilden:
+
+ 
+ 
+ 
+ 
+ S
+ 
+ 
+ p
+ 
+ 
+ 
+ (
+ f
+ )
+ 
+
+ 
+ ∑
+ 
+ n
+ 
+
+ −
+ ∞
+ 
+ 
+ ∞
+ 
+ 
+ S
+ (
+ n
+ F
+ )
+ ⋅
+ δ
+ (
+ f
+ −
+ n
+ F
+ )
+ 
+ 
+ {\displaystyle S_{\mathrm {p} }(f)=\sum _{n=-\infty }^{\infty }S(nF)\cdot \delta (f-nF)}
+ Die spektrale Folge 
+ 
+ 
+ 
+ 
+ S
+ 
+ 
+ p
+ 
+ 
+ 
+ (
+ f
+ )
+ 
+ 
+ {\displaystyle S_{\mathrm {p} }(f)}
+ besteht aus gewichteten Dirac-Impulsen, welche einzelne, diskrete Frequenzen beschreiben. Ein derartiges diskretes Spektrum wird auch Linienspektrum genannt.
+Durch die inverse Fourier-Transformation kann daraus die zugehörige, periodische Form der Zeitfunktion 
+ 
+ 
+ 
+ 
+ s
+ 
+ 
+ p
+ 
+ 
+ 
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle s_{\mathrm {p} }(t)}
+ gebildet werden:
+
+ 
+ 
+ 
+ 
+ s
+ 
+ 
+ p
+ 
+ 
+ 
+ (
+ t
+ )
+ 
+
+ 
+ 
+ 1
+ T
+ 
+ 
+ 
+ ∑
+ 
+ n
+ 
+
+ −
+ ∞
+ 
+ 
+ ∞
+ 
+ 
+ s
+ 
+ (
+ 
+ t
+ −
+ 
+ 
+ n
+ F
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle s_{\mathrm {p} }(t)={\frac {1}{T}}\sum _{n=-\infty }^{\infty }s\left(t-{\frac {n}{F}}\right)}
+ Auch bei der Abtastung im Spektralbereich gilt das Abtasttheorem in „umgekehrter“ Form: Wenn die zeitliche Dauer eines Signals 
+ 
+ 
+ 
+ s
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle s(t)}
+ kleiner als 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ F
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tfrac {1}{F}}}
+ ist, dann überlappen sich die periodischen Anteile von 
+ 
+ 
+ 
+ 
+ s
+ 
+ 
+ p
+ 
+ 
+ 
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle s_{\mathrm {p} }(t)}
+ nicht gegenseitig. Die Aufgabe des Rekonstruktionsfilters im Zeitbereich übernimmt eine Torschaltung, im einfachsten Fall ein Schalter, welcher für die Zeitdauer 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ F
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tfrac {1}{F}}}
+ durchschaltet und die restliche Zeit sperrt. Ist hingegen das Signal 
+ 
+ 
+ 
+ s
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle s(t)}
+ länger als 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ F
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tfrac {1}{F}}}
+ , kommt es zu zeitlichen Überlappungen und die ursprüngliche Signalform lässt sich nicht mehr rekonstruieren.
+Bei der realen Abtastung im Spektralbereich tritt an Stelle einer Folge von Dirac-Impulsen eine Folge spektraler Rechteckimpulse auf, welche jede für sich einen bandbegrenzten Ausschnitt aus dem Spektrum abdecken. Diese Funktion können im technischen Bezug Bandpassfilter übernehmen.
+
+# Allgemeine mathematische Darstellung der Abtastung 
+
+Bei der Speicherung eines Musikstückes auf einer CD wird das abgetastete Signal zur Übermittlung und Speicherung des analogen Ausgangssignals verwendet. Die zur Abtastung verwendete Methode ist in diesem Fall von der zur analogen Rekonstruktion verwendeten Methode abhängig. Diese Sichtweise ist auch für die mathematische Behandlung vorteilhaft.
+Die Zusammensetzung aus Abtastung und Wiedergabe in umgekehrter Richtung tritt z. B. in der Nachrichtenübertragung auf, wenn eine binär kodierte Nachricht in ein analoges Funksignal umgesetzt wird. Durch einen Abtastprozess wird dann die ursprüngliche binäre Zeichenfolge rekonstruiert.
+
+# Umwandlung diskreter Daten in ein analoges Signal 
+
+Im einfachsten Fall wird die Umwandlung einer Folge reeller Zahlen, also eines zeitdiskreten Signals, mittels einer einzigen Kernfunktion vorgenommen. D. h., zu einer Folge 
+ 
+ 
+ 
+ (
+ 
+ c
+ 
+ n
+ 
+ 
+ 
+ )
+ 
+ n
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle (c_{n})_{n\in \mathbb {Z} }}
+ wird mittels einer Funktion 
+ 
+ 
+ 
+ h
+ 
+ 
+ {\displaystyle h}
+ und einem Zeitschritt 
+ 
+ 
+ 
+ T
+ 
+ 
+ {\displaystyle T}
+ die, im weitesten Sinne, interpolierende Funktion
+
+ 
+ 
+ 
+ a
+ (
+ t
+ )
+ :
+
+ T
+ ⋅
+ 
+ ∑
+ 
+ n
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ 
+ c
+ 
+ n
+ 
+ 
+ ⋅
+ h
+ (
+ t
+ −
+ n
+ T
+ )
+ 
+ 
+ {\displaystyle a(t):=T\cdot \sum _{n\in \mathbb {Z} }c_{n}\cdot h(t-nT)}
+ gebildet. Deren Fouriertransformierte ist
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ (
+ f
+ )
+ 
+ 
+ 
+ :
+
+ 
+ 
+ 
+ F
+ 
+ 
+ 
+ 
+ H
+ z
+ 
+ 
+ 
+ (
+ a
+ )
+ (
+ f
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ T
+ 
+ ∑
+ 
+ n
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ 
+ c
+ 
+ n
+ 
+ 
+ 
+ ∫
+ 
+ 
+ R
+ 
+ 
+ 
+ h
+ (
+ t
+ −
+ n
+ T
+ )
+ ⋅
+ 
+ e
+ 
+ −
+ i
+ (
+ 2
+ π
+ f
+ )
+ t
+ 
+ 
+ d
+ t
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ T
+ 
+ ∑
+ 
+ n
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ 
+ c
+ 
+ n
+ 
+ 
+ 
+ e
+ 
+ −
+ i
+ (
+ 2
+ π
+ f
+ )
+ n
+ T
+ 
+ 
+ H
+ (
+ f
+ )
+ ,
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{aligned}A(f)&:={\mathcal {F}}_{\mathrm {Hz} }(a)(f)\\&=T\sum _{n\in \mathbb {Z} }c_{n}\int _{\mathbb {R} }h(t-nT)\cdot e^{-i(2\pi f)t}dt\\&=T\sum _{n\in \mathbb {Z} }c_{n}e^{-i(2\pi f)nT}H(f),\end{aligned}}}
+ wobei 
+ 
+ 
+ 
+ H
+ (
+ f
+ )
+ 
+ 
+ {\displaystyle H(f)}
+ die Fouriertransformierte von 
+ 
+ 
+ 
+ h
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle h(t)}
+ ist.
+
+# Umwandlung eines analogen Signals zu diskreten Daten 
+
+Ein realistischeres Modell der Messung eines zeitveränderlichen Prozesses ist die Bildung eines gewichteten Mittelwertes über einen bestimmten Zeitraum. Das kann mathematisch durch die Faltung mit einer Gewichtsfunktion 
+ 
+ 
+ 
+ w
+ 
+ 
+ {\displaystyle w}
+ realisiert werden. Sei 
+ 
+ 
+ 
+ x
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle x(t)}
+ das zu messende Signal und 
+ 
+ 
+ 
+ v
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle v(t)}
+ der gemessene Wert zum Zeitpunkt 
+ 
+ 
+ 
+ t
+ 
+ 
+ {\displaystyle t}
+ (der z. B. dem Schwerpunkt der Gewichtsfunktion zugeordnet wird), so gilt
+
+ 
+ 
+ 
+ v
+ (
+ t
+ )
+ 
+
+ (
+ w
+ ∗
+ x
+ )
+ (
+ t
+ )
+ 
+
+ 
+ ∫
+ 
+ 
+ R
+ 
+ 
+ 
+ w
+ (
+ s
+ )
+ ⋅
+ x
+ (
+ t
+ −
+ s
+ )
+ 
+ d
+ s
+ 
+ 
+ {\displaystyle v(t)=(w*x)(t)=\int _{\mathbb {R} }w(s)\cdot x(t-s)\,ds}
+ .Unter der Fouriertransformation geht die Faltung in die Multiplikation über. Seien 
+ 
+ 
+ 
+ W
+ ,
+ 
+ V
+ 
+ 
+ {\displaystyle W,\ V}
+ und 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ die Fouriertransformierten von 
+ 
+ 
+ 
+ w
+ ,
+ 
+ v
+ 
+ 
+ {\displaystyle w,\ v}
+ und 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ , dann gilt 
+ 
+ 
+ 
+ V
+ (
+ f
+ )
+ 
+
+ W
+ (
+ f
+ )
+ X
+ (
+ f
+ )
+ 
+ 
+ {\displaystyle V(f)=W(f)X(f)}
+ .
+
+# Der Prozess Signal-Daten-Signal 
+
+Bestimmt man nun eine Folge von Messwerten mit Zeitschritt 
+ 
+ 
+ 
+ T
+ ,
+ 
+ 
+ c
+ 
+ n
+ 
+ 
+ 
+
+ v
+ (
+ n
+ T
+ )
+ 
+ 
+ {\displaystyle T,\ c_{n}=v(nT)}
+ , um diese in die Interpolationsvorschrift einzusetzen, so erhalten wir ein rekonstruiertes analoges Signal
+
+ 
+ 
+ 
+ a
+ (
+ t
+ )
+ 
+
+ 
+ ∑
+ 
+ n
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ v
+ (
+ n
+ T
+ )
+ 
+ h
+ (
+ t
+ −
+ n
+ T
+ )
+ 
+
+ 
+ ∑
+ 
+ n
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ (
+ x
+ ∗
+ w
+ )
+ (
+ n
+ T
+ )
+ 
+ h
+ (
+ t
+ −
+ n
+ T
+ )
+ .
+ 
+ 
+ {\displaystyle a(t)=\sum _{n\in \mathbb {Z} }v(nT)\,h(t-nT)=\sum _{n\in \mathbb {Z} }(x*w)(nT)\,h(t-nT).}
+ Um den Fehler des gesamten Prozesses aus Diskretisierung und Wiedergabe einzuschätzen, kann man diesen Prozess auf einfache frequenzbeschränkte Testsignale anwenden. Dies kann im Modell durch die Bestimmung der Fouriertransformierte abgekürzt werden. Dazu ist jedoch die Fourierreihe
+
+ 
+ 
+ 
+ T
+ 
+ ∑
+ 
+ n
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ v
+ (
+ n
+ T
+ )
+ 
+ 
+ e
+ 
+ −
+ i
+ (
+ 2
+ π
+ f
+ )
+ n
+ T
+ 
+ 
+ 
+ 
+ {\displaystyle T\sum _{n\in \mathbb {Z} }v(nT)\,e^{-i(2\pi f)nT}}
+ genauer zu bestimmen. Nach der Poissonschen Summenformel ist diese periodische Funktion identisch mit der Periodisierung von 
+ 
+ 
+ 
+ V
+ (
+ f
+ )
+ 
+ 
+ {\displaystyle V(f)}
+ . Sei 
+ 
+ 
+ 
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 1
+ T
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle f_{\mathrm {s} }={\tfrac {1}{T}}}
+ die Abtastfrequenz, dann gilt
+
+ 
+ 
+ 
+ T
+ 
+ ∑
+ 
+ n
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ v
+ (
+ n
+ T
+ )
+ 
+ 
+ e
+ 
+ −
+ i
+ (
+ 2
+ π
+ f
+ )
+ n
+ T
+ 
+ 
+ 
+
+ 
+ ∑
+ 
+ k
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ V
+ (
+ f
+ +
+ k
+ ⋅
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ 
+
+ 
+ ∑
+ 
+ k
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ X
+ (
+ f
+ +
+ k
+ ⋅
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ ⋅
+ W
+ (
+ f
+ +
+ k
+ ⋅
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ .
+ 
+ 
+ {\displaystyle T\sum _{n\in \mathbb {Z} }v(nT)\,e^{-i(2\pi f)nT}=\sum _{k\in \mathbb {Z} }V(f+k\cdot f_{\mathrm {s} })=\sum _{k\in \mathbb {Z} }X(f+k\cdot f_{\mathrm {s} })\cdot W(f+k\cdot f_{\mathrm {s} }).}
+ Zusammenfassend gilt also
+
+ 
+ 
+ 
+ A
+ (
+ f
+ )
+ 
+
+ 
+ (
+ 
+ 
+ ∑
+ 
+ k
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ X
+ (
+ f
+ +
+ k
+ ⋅
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ ⋅
+ W
+ (
+ f
+ +
+ k
+ ⋅
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ 
+ )
+ 
+ ⋅
+ H
+ (
+ f
+ )
+ .
+ 
+ 
+ {\displaystyle A(f)=\left(\sum _{k\in \mathbb {Z} }X(f+k\cdot f_{\mathrm {s} })\cdot W(f+k\cdot f_{\mathrm {s} })\right)\cdot H(f).}
+ Eine Frequenzkomponente um die Frequenz 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ erleidet somit eine Verzerrung mit dem Faktor 
+ 
+ 
+ 
+ W
+ (
+ f
+ )
+ ⋅
+ H
+ (
+ f
+ )
+ 
+ 
+ {\displaystyle W(f)\cdot H(f)}
+ und ein Aliasing der Stärke 
+ 
+ 
+ 
+ W
+ (
+ f
+ )
+ ⋅
+ H
+ (
+ f
+ +
+ k
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle W(f)\cdot H(f+kf_{\mathrm {s} })}
+ um die Frequenz 
+ 
+ 
+ 
+ f
+ +
+ k
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle f+kf_{\mathrm {s} }}
+ bei 
+ 
+ 
+ 
+ k
+ ≠
+ 0
+ 
+ 
+ {\displaystyle k\neq 0}
+ .
+Um Basisbandsignale möglichst gut zu approximieren, ist es erforderlich, dass 
+ 
+ 
+ 
+ W
+ (
+ f
+ )
+ ⋅
+ H
+ (
+ f
+ )
+ ≈
+ 1
+ 
+ 
+ {\displaystyle W(f)\cdot H(f)\approx 1}
+ in einer Umgebung von 
+ 
+ 
+ 
+ f
+ 
+
+ 0
+ 
+ 
+ {\displaystyle f=0}
+ und 
+ 
+ 
+ 
+ H
+ (
+ f
+ +
+ k
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ ≈
+ 0
+ 
+ 
+ {\displaystyle H(f+kf_{\mathrm {s} })\approx 0}
+ für dieselben 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ und für alle 
+ 
+ 
+ 
+ k
+ ≠
+ 0
+ 
+ 
+ {\displaystyle k\neq 0}
+ gelten. Im Rahmen einer mathematisch exakten Theorie sind diese Forderungen erfüllt und alle Operationen wohldefiniert, wenn
+
+ 
+ 
+ 
+ 
+ ∑
+ 
+ k
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ 
+ |
+ 
+ W
+ (
+ f
+ +
+ k
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ <
+ B
+ 
+ 
+ {\displaystyle \sum _{k\in \mathbb {Z} }|W(f+kf_{\mathrm {s} })|^{2}<B}
+ und 
+ 
+ 
+ 
+ 
+ ∑
+ 
+ k
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ 
+ |
+ 
+ H
+ (
+ f
+ +
+ k
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ <
+ B
+ 
+ 
+ {\displaystyle \sum _{k\in \mathbb {Z} }|H(f+kf_{\mathrm {s} })|^{2}<B}
+ mit einem 
+ 
+ 
+ 
+ B
+ >
+ 0
+ 
+ 
+ {\displaystyle B>0}
+ für alle 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ gilt und
+
+ 
+ 
+ 
+ E
+ (
+ f
+ )
+ :
+
+ 
+ ∑
+ 
+ k
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ 
+ |
+ 
+ W
+ (
+ f
+ )
+ H
+ (
+ f
+ +
+ k
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ −
+ 
+ δ
+ 
+ 0
+ ,
+ k
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle E(f):=\sum _{k\in \mathbb {Z} }|W(f)H(f+kf_{\mathrm {s} })-\delta _{0,k}|^{2}}
+ (mit dem Kronecker-Delta) in 
+ 
+ 
+ 
+ f
+ 
+
+ 0
+ 
+ 
+ {\displaystyle f=0}
+ stetig ist und dort eine Nullstelle hat.Man erhält dann in der Betragsquadratnorm des Funktionenraums L² für eine Basisbandfunktion 
+ 
+ 
+ 
+ x
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle x(t)}
+ mit höchster Frequenz 
+ 
+ 
+ 
+ 
+ f
+ 
+ H
+ 
+ 
+ 
+ 
+ {\displaystyle f_{H}}
+ nach der Parseval-Identität eine Abschätzung des relativen Fehlers, d. h. des Signal-Rausch-Verhältnisses, als
+
+ 
+ 
+ 
+ ‖
+ a
+ −
+ x
+ 
+ ‖
+ 
+ 2
+ 
+ 
+ 2
+ 
+ 
+ 
+
+ ‖
+ A
+ −
+ X
+ 
+ ‖
+ 
+ 2
+ 
+ 
+ 2
+ 
+ 
+ ≤
+ 
+ sup
+ 
+ f
+ ∈
+ [
+ −
+ 
+ f
+ 
+ H
+ 
+ 
+ ,
+ 
+ f
+ 
+ H
+ 
+ 
+ ]
+ 
+ 
+ E
+ (
+ f
+ )
+ 
+ ‖
+ x
+ 
+ ‖
+ 
+ 2
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle \|a-x\|_{2}^{2}=\|A-X\|_{2}^{2}\leq \sup _{f\in [-f_{H},f_{H}]}E(f)\,\|x\|_{2}^{2}}
+ Beispiele: Sind 
+ 
+ 
+ 
+ w
+ 
+ 
+ {\displaystyle w}
+ und 
+ 
+ 
+ 
+ h
+ 
+ 
+ {\displaystyle h}
+ Rechteckfunktionen mit Breite 
+ 
+ 
+ 
+ T
+ 
+ 
+ {\displaystyle T}
+ zentriert um 0, so ist
+
+ 
+ 
+ 
+ W
+ (
+ f
+ )
+ 
+
+ H
+ (
+ f
+ )
+ 
+
+ sinc
+ 
+ (
+ T
+ f
+ )
+ 
+
+ 
+ 
+ 
+ sin
+ 
+ (
+ π
+ T
+ f
+ )
+ 
+ 
+ π
+ T
+ f
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle W(f)=H(f)=\operatorname {sinc} (Tf)={\frac {\sin(\pi Tf)}{\pi Tf}}}
+ und es gilt 
+ 
+ 
+ 
+ E
+ (
+ f
+ )
+ 
+
+ 1
+ −
+ sinc
+ 
+ (
+ T
+ f
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle E(f)=1-\operatorname {sinc} (Tf)^{2}}
+ .
+Sind umgekehrt 
+ 
+ 
+ 
+ w
+ 
+ 
+ {\displaystyle w}
+ und 
+ 
+ 
+ 
+ h
+ 
+ 
+ {\displaystyle h}
+ die Kardinalsinusfunktionen 
+ 
+ 
+ 
+ sinc
+ 
+ (
+ T
+ f
+ )
+ 
+ 
+ {\displaystyle \operatorname {sinc} (Tf)}
+ , so sind deren Fouriertransformierte die entsprechenden Rechteckfunktionen 
+ 
+ 
+ 
+ rect
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 
+ 
+ T
+ 
+ 2
+ f
+ 
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle \operatorname {rect} {\big (}{\tfrac {T}{2f}}{\big )}}
+ , und die sich ergebende Rekonstruktionsformel ist die Kardinalreihe des Whittaker-Kotelnikow-Nyquist-Shannon-Abtasttheorems.
+
+In jedem Fall führen Funktionen mit Frequenzkomponenten oberhalb 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tfrac {1}{2}}f_{\mathrm {s} }}
+ zu Aliasfehlern im Frequenzbereich 
+ 
+ 
+ 
+ 
+ [
+ 
+ −
+ 
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ ,
+ 
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ 
+ ]
+ 
+ 
+ 
+ {\displaystyle \left[-{\tfrac {1}{2}}f_{\mathrm {s} },{\tfrac {1}{2}}f_{\mathrm {s} }\right]}
+ , die Frequenzschranke des Abtasttheorems ist also notwendig, aber keinesfalls hinreichend für eine fehlerarme Rekonstruktion.
+
+# Der Prozess Daten-Signal-Daten 
+
+In dieser Richtung wird die „interpolierende“ Funktion 
+ 
+ 
+ 
+ a
+ (
+ t
+ )
+ 
+ 
+ {\displaystyle a(t)}
+ abgetastet. Es ergibt sich also
+
+ 
+ 
+ 
+ 
+ d
+ 
+ n
+ 
+ 
+ :
+
+ v
+ (
+ n
+ T
+ )
+ 
+
+ (
+ w
+ ∗
+ a
+ )
+ (
+ n
+ t
+ )
+ 
+
+ T
+ 
+ ∑
+ 
+ k
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ 
+ c
+ 
+ k
+ 
+ 
+ 
+ ∫
+ 
+ 
+ R
+ 
+ 
+ 
+ w
+ (
+ s
+ )
+ 
+ h
+ (
+ n
+ T
+ −
+ k
+ T
+ −
+ s
+ )
+ 
+ d
+ s
+ 
+
+ T
+ 
+ ∑
+ 
+ k
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ 
+ c
+ 
+ k
+ 
+ 
+ (
+ w
+ ∗
+ h
+ )
+ (
+ n
+ T
+ −
+ k
+ T
+ )
+ .
+ 
+ 
+ {\displaystyle d_{n}:=v(nT)=(w*a)(nt)=T\sum _{k\in \mathbb {Z} }c_{k}\int _{\mathbb {R} }w(s)\,h(nT-kT-s)\,ds=T\sum _{k\in \mathbb {Z} }c_{k}(w*h)(nT-kT).}
+ Für die Fourierreihen erhält man daraus
+
+ 
+ 
+ 
+ 
+ ∑
+ 
+ n
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ 
+ d
+ 
+ n
+ 
+ 
+ 
+ e
+ 
+ −
+ i
+ (
+ 2
+ π
+ n
+ )
+ T
+ f
+ 
+ 
+ 
+
+ T
+ 
+ ∑
+ 
+ k
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ 
+ c
+ 
+ k
+ 
+ 
+ 
+ e
+ 
+ −
+ i
+ (
+ 2
+ π
+ k
+ )
+ T
+ f
+ 
+ 
+ ⋅
+ 
+ ∑
+ 
+ n
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ (
+ w
+ ∗
+ h
+ )
+ (
+ n
+ T
+ )
+ 
+ e
+ 
+ −
+ i
+ (
+ 2
+ π
+ n
+ )
+ T
+ f
+ 
+ 
+ 
+ 
+ {\displaystyle \sum _{n\in \mathbb {Z} }d_{n}e^{-i(2\pi n)Tf}=T\sum _{k\in \mathbb {Z} }c_{k}e^{-i(2\pi k)Tf}\cdot \sum _{n\in \mathbb {Z} }(w*h)(nT)e^{-i(2\pi n)Tf}}
+ Nach der Poissonschen Summenformel gilt in diesem Fall
+
+ 
+ 
+ 
+ T
+ 
+ ∑
+ 
+ k
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ (
+ w
+ ∗
+ h
+ )
+ (
+ n
+ T
+ )
+ 
+ e
+ 
+ −
+ i
+ (
+ 2
+ π
+ n
+ )
+ T
+ f
+ 
+ 
+ 
+
+ 
+ ∑
+ 
+ n
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ W
+ (
+ f
+ −
+ n
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ ⋅
+ H
+ (
+ f
+ −
+ n
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ .
+ 
+ 
+ {\displaystyle T\sum _{k\in \mathbb {Z} }(w*h)(nT)e^{-i(2\pi n)Tf}=\sum _{n\in \mathbb {Z} }W(f-nf_{\mathrm {s} })\cdot H(f-nf_{\mathrm {s} }).}
+ Soll die Fourierreihe der Folge 
+ 
+ 
+ 
+ c
+ 
+ 
+ {\displaystyle c}
+ und damit die Folge erhalten bleiben, so muss diese Summe überall den Wert 1 haben. Das Maximum der Abweichung davon gibt auch in diesem Fall eine Schranke für den relativen Fehler bei der Datenübertragung.
+
+ 
+ 
+ 
+ E
+ (
+ f
+ )
+ 
+
+ 
+ |
+ 
+ 
+ ∑
+ 
+ n
+ ∈
+ 
+ Z
+ 
+ 
+ 
+ W
+ (
+ f
+ −
+ n
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ ⋅
+ H
+ (
+ f
+ −
+ n
+ 
+ f
+ 
+ 
+ s
+ 
+ 
+ 
+ )
+ −
+ 1
+ 
+ |
+ 
+ 
+ 
+ {\displaystyle E(f)=\left|\sum _{n\in \mathbb {Z} }W(f-nf_{\mathrm {s} })\cdot H(f-nf_{\mathrm {s} })-1\right|}
+ und 
+ 
+ 
+ 
+ ‖
+ d
+ −
+ c
+ ‖
+ ≤
+ sup
+ E
+ (
+ f
+ )
+ 
+ ‖
+ c
+ ‖
+ .
+ 
+ 
+ {\displaystyle \|d-c\|\leq \sup E(f)\,\|c\|.}
+ Aus mathematischer Sicht müssen die Funktionen 
+ 
+ 
+ 
+ W
+ 
+ 
+ {\displaystyle W}
+ und 
+ 
+ 
+ 
+ H
+ 
+ 
+ {\displaystyle H}
+ wieder die oben angegebene Schranke der Periodisierung des Betragsquadrats einhalten.
+
+# Weitere Arten der Abtastung 
+
+Traditionell wird die äquidistante (periodische) Abtastung am meisten verwendet, weil sie schon sehr umfangreich untersucht und in vielen Anwendungen umgesetzt wurde. In letzten Jahrzehnten wurden auch andere Arten der Abtastung untersucht, die auf gleiche Zeitintervalle zwischen Abtastwerten verzichten, was einige Vorteile wie effektive Auslastung des Kommunikationskanals verspricht. Zu diesen gehört unter anderem Send-on-Delta-Abtastung.
+
+# Literaturquellen 
+
+Hans Dieter Lüke: Signalübertragung. 11. Auflage. Springer Verlag, 2010, ISBN 978-3-642-10199-1. 
+Hans Dieter Lüke: Signalübertragung (Online-Version). 11. Auflage. Springer Verlag, 2010, ISBN 978-3-642-10200-4. 
+
+# Weblinks 
+
+Diskrete Verarbeitung kontinuierlicher Signale
+Unser: Sampling – 50 years after Shannon (PDF verfügbar)
+Abtastrate :: sampling rate :: ITWissen.info
+Interaktive Darstellung der Abtastung und der Signalrückgewinnung in einer Webdemo Institut für Nachrichtenübertragung der Universität Stuttgart

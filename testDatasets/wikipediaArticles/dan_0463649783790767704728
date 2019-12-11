@@ -1,0 +1,14 @@
+
+## Systemkald
+
+Et systemkald er en funktion som styresystemet stiller til rådighed. Det specielle ved systemkald i forhold til almindelige funktioner er, at grænsen til styresystemets kerne overskrides. Af sikkerhedsmæssige grunde kan en sådan funktion ikke kaldes direkte, da et direkte kald vil kunne kompromitere hele systemet. Programmet vil pludselig blive udført med samme privilegier som kernen. I stedet bruges en trap-instruktion, der giver mulighed for at udføre programkode fra en bestemt adresse i ram.
+I den mest grundlæggende form angiver programmet et nummer på et systemkald og en reference til eventuelle inputdata. Kernen slår systemkaldet op i en tabel, for at finde den adresse, der skal udføres programkode fra. Når systemkaldet er overstået, kopieres eventuelt output tilbage til det kaldende program. Normalt vil systemkald blive brugt via et programbibliotek, som vil klare selve opsætningen, så systemkaldene ligner almindelige funktionskald. Under UNIX hedder dette programbibliotek libc. Et kald til styresystemet via et sådant programbibliotek foregår i følgende trin:
+
+Programmet kalder en funktion i programbiblioteket.
+I programbiblioteket kopieres inputdata og de placeres på maskinens stak.
+Systemkaldsnummer sættes til den rette værdi.
+Der skiftes til privilegeret tilstand (trap).
+Kernen bruger systemkaldets nummer som et indeks i en tabel med adresser på de forskellige systemkald.
+Det konkrete systemkald udføres.
+Der returneres til den kaldende funktion i programbiblioteket, og der skiftes til normal tilstand.
+Outputdata behandles og der ryddes op på stakken.I kernen foregår en meget omhyggelig kontrol af inputdata, så et program ikke kan komme til at overskrive andres data, og det sikres, at output kun fylder den plads, der er afsat. Hvis der skulle være for mange data vil der blive returneret en fejlkode.

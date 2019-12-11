@@ -1,0 +1,72 @@
+
+## Abstrakte Fabrik
+
+Die abstrakte Fabrik (englisch abstract factory, kit) ist ein Entwurfsmuster aus dem Bereich der Softwareentwicklung, das zur Kategorie der Erzeugungsmuster (englisch creational patterns) gehört. Es definiert eine Schnittstelle zur Erzeugung einer Familie von Objekten, wobei die konkreten Klassen der zu instanziierenden Objekte nicht näher festgelegt werden. Das Muster ist eines der Entwurfsmuster, die von der sogenannten Viererbande (GoF) publiziert wurden.
+
+# Verwendung 
+
+Die abstrakte Fabrik wird angewendet, wenn
+
+ein System unabhängig von der Art der Erzeugung seiner Produkte arbeiten soll,
+ein System mit einer oder mehreren Produktfamilien konfiguriert werden soll,
+eine Gruppe von Produkten erzeugt und gemeinsam genutzt werden soll oder
+wenn in einer Klassenbibliothek die Schnittstellen von Produkten ohne deren Implementierung bereitgestellt werden sollen.Eine typische Anwendung ist die Erstellung einer grafischen Benutzeroberfläche mit unterschiedlichen Oberflächenmotiven.
+Eine abstrakte Fabrik vereinigt die Verantwortlichkeiten „Zusammenfassung der Objektgenerierung an einer Stelle“ und „Möglichkeit zu abstrakten Konstruktoren“ (siehe auch unten unter „Verwandte Entwurfsmuster“).
+
+# Akteure 
+
+AbstrakteFabrik
+definiert eine Schnittstelle zur Erzeugung abstrakter Produkte einer Produktfamilie
+KonkreteFabrik
+erzeugt konkrete Produkte einer Produktfamilie durch Implementierung der Schnittstelle
+AbstraktesProdukt
+definiert eine Schnittstelle für eine Produktart
+KonkretesProdukt
+definiert ein konkretes Produkt einer Produktart durch Implementierung der Schnittstelle, wird durch die korrespondierende konkrete Fabrik erzeugt
+Klient
+verwendet die Schnittstellen der abstrakten Fabrik und der abstrakten Produkte
+
+# Vorteile 
+
+Der Klient ist von konkreten Klassen isoliert.
+Der Austausch von Produktfamilien ist auf einfache Art und Weise möglich.
+
+# Nachteile 
+
+Neue Produktarten lassen sich schwer hinzufügen, da in allen konkreten Fabriken Änderungen vorzunehmen sind.
+
+# Verwendung in der Analyse 
+
+Wegen der gemeinsamen Komplexität der beiden wesentlichen Verantwortungen („Zusammenfassung der Objektgenerierung an einer Stelle“ und „Möglichkeit zu abstrakten Konstruktoren“) ist dieses Entwurfsmuster für die Analyse praktisch irrelevant.
+
+# Beispiel 
+
+Es soll eine Spielesammlung per Software entwickelt werden. Die verwendeten Klassen sind dabei
+
+Spielbrett (erstes abstraktes Produkt), auf das Spielfiguren platziert werden können und das beispielsweise eine Methode besitzt, um sich auf dem Bildschirm anzuzeigen. Konkrete, davon abgeleitete Produkte sind Schachbrett, Mühlebrett, Halmabrett etc.
+Spielfigur (zweites abstraktes Produkt), die auf ein Spielbrett gesetzt werden kann. Konkrete, davon abgeleitete Produkte sind Hütchen, Schachfigur (der Einfachheit halber soll es hier nur einen Typ an Schachfiguren geben), Holzsteinchen etc.
+Spielfabrik (abstrakte Fabrik), die Komponenten (Spielbrett, Spielfiguren) eines Gesellschaftsspiels erstellt. Konkrete, davon abgeleitete Fabriken sind beispielsweise Mühlefabrik, Damefabrik, Schachfabrik, Halmafabrik etc.Ein Klient (z. B. eine Instanz einer Spieler- oder Spielleiter-Klasse) kann sich von der abstrakten Fabrik Spielfiguren bzw. ein Spielbrett erstellen lassen. Je nachdem, welches konkrete Spiel gespielt wird, liefert beispielsweise
+
+die Schachfabrik ein Schachbrett und Schachfiguren,
+die Damefabrik ebenfalls ein Schachbrett, aber Holzsteinchen,
+die Mühlefabrik ein Mühlebrett, aber ebenfalls Holzsteinchen,
+die Halmafabrik ein Halmabrett und Hütchen.
+
+# Programmierbeispiel in PHP 
+
+Ausgabe:
+
+Spielbrett1 aufgestellt.
+Spielfigur1 bewegt.
+Spielbrett2 aufgestellt.
+Spielfigur2 bewegt.
+
+# Verwandte Entwurfsmuster 
+
+Die abstrakte Fabrik ist einfach eine mehrfache Anwendung der Fabrikmethode. Die abstrakte Fabrik kann daher eine ganze Produktfamilie austauschbar machen, während sich die Fabrikmethode nur auf ein Produkt bezieht.
+Soll generell eine zusätzliche Hierarchie von Fabriken zu einer Hierarchie von Produkten vermieden werden, kann das Muster des Prototyps verwendet werden. Bei diesem Muster werden zur Erzeugung neuer Objekte prototypische Instanzen kopiert.
+
+# Weblinks 
+
+# Einzelnachweise 
+

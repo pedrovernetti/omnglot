@@ -1,0 +1,65 @@
+
+## GEDCOM
+
+GEDCOM (engl. GEnealogical Data COMmunication) ist die Spezifikation eines Datenformates, das den Austausch von Daten zwischen verschiedenen Computerprogrammen zur Genealogie (Ahnenforschung) ermöglicht.
+
+# Beschreibung und Anwendungsbereich 
+
+Das GEDCOM-Format (Dateiendung .ged) ist rein textbasiert und enthält die Daten der einzelnen Personen eines Familienstammbaumes sowie Informationen über ihre familiären Beziehungen. Es wurde von der Kirche Jesu Christi der Heiligen der Letzten Tage (Mormonen) entwickelt, um ihre Mitglieder bei der Familienforschung zu unterstützen.
+Viele Genealogieprogramme und genealogische Websites im Internet unterstützen dieses Datenformat.
+
+# Versionen 
+
+1985 wurde die erste Entwurfsversion 1.0 veröffentlicht, im Oktober 1987 Version 3.0, die erste Version, die mehr als ein Entwurf war. Die aktuelle Version wurde im Januar 1996 veröffentlicht. Die Entwurfsversion 5.5.1 datiert vom Oktober 1999. Ein Entwurf für die Version 6.0 (GEDCOM XML) existiert seit Oktober 2000. Er ist jedoch inkompatibel zu den vorherigen Versionen, da er auf XML aufbaut.
+Nachdem sich FamilySearch aus der weiteren Entwicklung zurückgezogen hat, versucht die internationale Gruppe FHISO, sich als neue Standardisierungsorganisation zu etablieren. Zudem befasst sich auch eine Arbeitsgruppe deutscher Autoren von Genealogieprogrammen unter dem Dach des Vereins für Computergenealogie seit einiger Zeit mit einer Erneuerung des GEDCOM-Standards speziell für den deutschsprachigen Bereich.
+
+# Beispiel für den Satzaufbau 
+
+Angenommen, Martina Musterfrau ist mit Max Mustermann verheiratet, und die Eheleute haben die gemeinsame Tochter Monika. Dann werden die Daten der drei Personen (jeweils beginnend mit 0 in der ersten Spalte, der eindeutigen Nummer @I1@, @I2@ bzw. @I3@ und dem abschließenden Kenner INDI) sowie der Ehe (beginnend mit 0 in der ersten Spalte, der eindeutigen Nummer @F1@ und dem Kenner FAM) folgendermaßen codiert:
+
+0 HEAD
+
+0 @I1@ INDI
+1 NAME Martina /Musterfrau/
+1 SEX F
+1 BIRT
+2 DATE 1 JAN 1980
+2 PLAC Musterstadt
+1 FAMS @F1@
+
+0 @I2@ INDI
+1 NAME Max /Mustermann/
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1979
+2 PLAC Musterstadt
+1 FAMS @F1@
+
+0 @I3@ INDI
+1 NAME Monika /Mustermann/
+1 SEX F
+1 BIRT
+2 DATE 1 APR 2001
+2 PLAC Musterstadt
+1 FAMC @F1@
+
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I1@
+1 CHIL @I3@
+1 MARR
+2 DATE 30 JUN 2000
+2 PLAC Musterstadt
+
+Die Angabe von HEAD wird von einigen Programmen zwingend verlangt. Andernfalls wird die GEDCOM-Datei als ungültig abgelehnt.
+
+# Weblinks 
+
+GEDCOM Documentation Library (englisch)
+Gedcom 5.5-Spezifikation (englisch)
+Seite von "familysearch.org" zu Gedcom (englisch)
+genealogy.net wiki zum Thema "GEDCOM"
+GEDCOM Dokumentationen; V 5.5.1 (D) bis V 6.0 (E)
+
+# Einzelnachweise 
+

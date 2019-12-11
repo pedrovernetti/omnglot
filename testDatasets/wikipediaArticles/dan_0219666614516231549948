@@ -1,0 +1,28 @@
+
+## Wavelet-modulation
+
+Wavelet-modulation er en modulationsteknik, der benytter Wavelet-funktioner til at repræsentere dataene, som skal formidles.
+
+# Wavelet-OFDM 
+
+Wavelet-modulation kan relativt let benyttes, så den også formidler mange underkanaler samtidigt ligesom OFDM - og kaldes så Wavelet-OFDM, WOFDM, - Wavelet Packet Modulation eller WPM. I WOFDM erstattes de fase og amplitude modulerede OFDM-bærebølger med ortogonale (og typisk statiske) Wavelet-skalaer. Hvis der er Wavelet-skalaer fra flere Wavelet-skalaniveauer kan man kalde det fraktalmodulation eller hierarkisk modulation.
+En fordel ved WOFDM er, at guard-intervallet bliver overflødigt med de rette valgte ortogonale Wavelet-funktioner, da disse både er ortogonale med Wavelets fra samme familie - i samme tidsinterval - og for ortogonal tidsforskudte tider.Nogle af fordelene ved Wavelet-OFDM, med de rette valgte Wavelet-funktioner, er:
+Betydeligt bedre stop-båndsdæmpning (vurderet før (OFDM) filtering).
+OFDM-guard-intervaller bliver overflødige. WOFDM-skala(niveau) forsinkelsesvariationerne skal dog være mindre end 10% af skala(niveau)-symbollængden. Hvis det ikke er opfyldt, kan WOFDM-skala(niveau)-symbollængden gøres længere.
+OFDM-pilottoner bliver overflødige.
+Større immunitet overfor impulsstøj og smalbåndsstøj.
+
+# Kompleks Wavelet-OFDM 
+
+Wavelet-OFDM kan i stedet for reelle Wavelet-funktioner, anvende (totræs) komplekse wavelet-funktioner (DTCWT) - og kan så kaldes Dual-Tree-Complex-Wavelet-modulation eller DTCW-modulation. Ifølge en artikel skrevet af Mohamed H. M. Nerma, Nidal S. Kamel og Varun Jeoti er fordelen, at signal-til-støj-forholdet kravet kan sænkes ca. 2 dB i forhold til WOFDM og OFDM.Dual-Tree-Complex-Wavelet repræsentation hævdes at kunne være en af de bedste Wavelet-repræsentations måder at opløse signaler/funktioner i 1D, 2D osv. inkl. med rotationsinvarians i fx 2D - ulempen er redundansen.
+
+# Dynamisk Wavelet-modulationsskala valg 
+
+Et af formålene med Wavelet-modulation kombineret med fraktalmodulation er, at kunne formidle data ved flere forskellige hastigheder over en radiokanal med ukendt beskaffenhed. 
+Hvis radiokanalen ikke er brugbar ved fx en høj bithastighed, hvilket betyder at signalet ikke kan modtages (for mange bitfejl) under de givne forhold, kan signalet blive sendt ved en lavere bithastighed hvor signal-til-støj forholdet er højere. - Og omvendt - hvis signal-til-støj forholdet viser sig at være højt under de givne forhold, kan der skiftes til en højere bithastighed.
+
+# Kilder/referencer 
+
+# Se også 
+
+Wavelet-transformation

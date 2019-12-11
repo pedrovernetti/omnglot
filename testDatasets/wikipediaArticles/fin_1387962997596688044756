@@ -1,0 +1,48 @@
+
+## Musta laatikko (täsmennyssivu)
+
+Musta laatikko -nimitystä käytetään useista laitteista, jotka tallentavat tietoa muun muassa lentokoneen eri tapahtumista. Nämä ”mustat laatikot” ovat väriltään kirkkaan oransseja ja sijoitettu koneen peräosaan onnettomuuden jälkeisen löytämisen helpottamiseksi.
+
+# Tekniikka 
+
+Laite on pistävän oranssin värinen, jotta se löytyisi helpommin. Sen ympärillä on tarra, jossa lukee sekä englanniksi että ranskaksi ”Lennonrekisteröintijärjestelmä – Älä avaa”. Itse laite voi olla vain muutaman sadan gramman painoinen, mutta sitä ympäröi painava iskun-, paineen- ja palonkestävä kuori. Vaatimuksena on, että laatikko kestää 6 000 metrin syvyyden vedessä sekä vähintään 30 minuuttia 1 000 celciusasteen lämpötilassa.
+
+# Laitteen sisältö 
+
+# Lentoarvotallennin 
+
+Flight Data Recorder (FDR) tai Digital Flight Data Recorder (DFDR) on laite, joka tallentaa tasaisin aikavälein tietoja lentokoneen tilasta. Lentoarvotallennin tallentaa muutamia kertoja sekunnissa tiedot muun muassa lentokoneen nopeudesta, moottoreiden tilasta, siivekkeiden asennoista, korkeudesta ja tiettyjen kriittisten järjestelmien tilasta. Nykyaikainen DFDR on liitetty yleensä suoraan lentokoneen fly-by-wire-järjestelmään, jossa koneen ohjausimpulssit ja lentoarvot kulkevat valmiiksi sähköisessä muodossa. FAA:n vaatimusten mukaan vuodesta 2002 lähtien on FDR:n tallennettava 88 eri lentoarvoa.
+
+# Ohjaamon ääninauhuri 
+
+Ohjaamon ääninauhuri eli Cockpit Voice Recorder (CVR) on laite, joka tallentaa lentokoneen ohjaamossa käydyt keskustelut sekä matkustamon kuulutukset viimeisimmän puolen tunnin ajalta. Väkisinkin keskustelujen takana olevasta moottoriäänestä saatetaan jo pystyä päättelemään moottorivika. Keskustelut tallennetaan silmukkanauhalle, jolloin uudet keskustelut nauhoitetaan vanhojen päälle. Uusimmissa CVR-laitteissa käytetään flash-muistia.
+
+# Vedenalainen paikannus 
+
+Laatikon ollessa kosketuksessa veteen se lähettää sekunnin välein 37,5 kHz:n ultraäänipulssin. Näin laatikko pystytään löytämään jopa neljän kilometrin etäisyydeltä. Paikanninlaitteessa olevat paristot pystyvät tuottamaan virtaa jopa 30 päivän ajan.
+
+# Quick Access Recorder 
+
+QAR on laite, jonka avulla huoltohenkilökunta saa nopeasti tietoonsa lennolla tapahtuneet järjestelmien vikatilanteet. Niitä ei välttämättä huomata ohjaamossa, varsinkin jos kyseessä on varajärjestelmän vika. QAR ei ole varsinainen musta laatikko, sillä se on tarkoitettu vain huollon käyttöön eikä sitä ole suojattu onnettomuuden varalta.
+
+# Laitteen historia 
+
+Musta laatikko on alun perin kehitetty toisen maailmansodan aikaan Tampereella Härmälässä sijainneessa Valtion Lentokonetehtaassa. Koelentojen rekisteröintilaitteen ensimmäinen toimiva sovellus kehitettiin sota-aikaan. Lentokonetehdas oli keskeinen kotirintamalla toiminut laitos sodan aikana. Tehtaalla korjattiin sekä omia että viholliselta saatuja lentokoneita.Mustan laatikon ”Mata-Hariksi” lempinimetyn esiasteen kehitti DI Veijo Hietala vuonna 1942. Hän toimi Lentokonetehtaan hienomekaanisen osaston 4VL suunnittelijana. Vuonna 1967 hänestä tuli uuden Valmet Instrumenttitehtaan johtaja. Musta laatikko oli nimensä mukaisesti väriltään musta, ja ensimmäinen versio tallensi neljä eri suuretta: nopeuden, korkeuden, kiihtyvyyden ja ilman lämpötilan. Seuraavassa versiossa oli jo sähkömoottori ja kahdeksan parametria, joten sillä voitiin rekisteröidä lisäksi esimerkiksi moottoriarvoja tai ohjainvoimia. Laite on ollut nähtävillä muun muassa Tampereella Tampellan alueella sijaitsevassa Museokeskus Vapriikissa. 
+
+# Autoissa 
+
+Nykyään mustia laatikoita käytetään Suomessa sähköautoissa. Kun valtiollisen liikenneverkkoyhtiön perustamista ehdotettiin vuoden 2017 alussa, yhtenä vaihtoehtona liikenneverkon käytön laskuttamiseen pidettiin kaikkiin autoihin asennettavaa mustaa laatikkoa. Mustista laatikoista on löytynyt useita tietoturva-aukkoja, ja niitä voi myös huijata maksujen välttelemiseksi. Autoilijoiden sijaintia GPS:llä tarkkailevien mustien laatikoista paljastui 8. tammikuuta tietoturva-aukko, jonka ansiosta mustia laatikoita käyttävien autoilijoiden sijainti oli kenen tahansa katsottavissa internetissä. Aukko korjattiin pian sen julkistamisen jälkeen. Viikkoa myöhemmin hakkeritapahtuma Disobeyssa mustista laatikoista löydettiin fyysisen pääsyn vaativa tietoturva-aukko, joka mahdollisti mustan laatikon käyttäjän henkilötietojen varastamisen ja auton ohjainlaitteiden hallinnan. Tietosuojavaltuutettu Reijo Aarnion mukaan autoilijoiden sijaintia seuraava GPS-järjestelmä voi olla perustuslain vastainen.
+
+# Junissa 
+
+Suomessa vetureissa ja moottorivaunuissa on ollut musta laatikko 1990-luvun alkupuolelta asti. Ensimmäiset mustien laatikkojen asennukset rautatiekalustoon tehtiin vuonna 1992. Musta laatikko tallentaa muun muassa junan tehonsäädön ja jarrujen käytön.
+
+# Nimen alkuperä 
+
+Nimitys ”musta laatikko” tulee mahdollisesti toisen maailmansodan aikaisesta RAF-terminologiasta. Sodan aikana uusia elektronisia keksintöjä, kuten radiosuuntimalaitteistoja, lisättiin lentokoneisiin, erityisesti pommikoneisiin. Prototyypit oli peitetty käsintehdyillä metallilaatikoilla, jotka oli maalattu mustiksi heijastusten välttämiseksi. Ajan kanssa jokaista ”uutta” laitetta kuvattiin ”temppulaatikoksi” (”box-of-tricks”) tai mustaksi laatikoksi (”black-box”). Sanonta eteni sittemmin siviili-ilmailuun ja yleiseen käyttöön.
+
+# Lähteet 
+
+# Aiheesta muualla 
+
+ Kuvia tai muita tiedostoja aiheesta Musta laatikko Wikimedia Commonsissa

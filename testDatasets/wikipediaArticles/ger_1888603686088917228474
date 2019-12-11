@@ -1,0 +1,36 @@
+
+## Src-Inhibitor
+
+Die Tyrosinkinase Src (auch c-Src: zusammengesetztes Akronym aus cellular und sarcoma) ist ein körpereigenes Protein aus der Familie der Tyrosinkinasen, das im Cytosol der Zelle vorliegt. c-Src ist das Genprodukt des gleichnamigen Protoonkogens SRC, d. h. einer Vorstufe eines potenziell krebsauslösenden Genprodukts und gilt als das bestuntersuchte Protoonkogen überhaupt. c-Src wurde in den 1970er Jahren von J. Michael Bishop, Harold E. Varmus und Mitarbeitern als das zelleigene Homolog des Onkogens v-Src des Rous-Sarkom-Virus entdeckt. Damit lieferten sie wichtige Erkenntnisse über die Entstehung von Krebs durch fehlgeleitete körpereigene Auslöser wofür sie 1989 den Nobelpreis für Physiologie oder Medizin erhielten. c-Src war auch der erste Vertreter der Tyrosinkinasen, der identifiziert werden konnte.
+c-Src ist gleichzeitig der Prototyp der Kinasen der Src-Familie zu der auch Lyn, Fyn, Lck, Hck, Fgr, Blk, Yrk und c-Yes zählen.
+
+# Biochemie 
+
+# Struktur 
+
+C-Src ist ein cytosolisches Protein, das mit der Zellmembran assoziiert vorliegt und durch ein Gen auf dem Chromosom 20 Genlocus q12-q13 codiert wird. c-Src besteht aus 4 sogenannten Src-Homologiedomänen (SH1-4). Die SH1-Domäne trägt sowohl die für die Autophosphorylierung und somit für die Funktion von c-Src essenziellen Tyrosingruppen als auch die Kinasefunktion. Die Domänen SH2 und SH3 beinhalten Bindungsstellen für einen im C-Terminus von c-Src enthaltenen Phosphotyrosin-Rest bzw. eine nahe der SH1-Domäne liegende Polyprolinstruktur. SH2 und SH3 sind zusammen mit dem C-Terminus für die Regulation von c-Src verantwortlich. Die SH4-Domäne beinhaltet Myristoylierungsstellen und ist somit für die Verankerung in der Zellmembran verantwortlich. Die erste Sequenz von src wurde 1980 von Armin P. Czernilofsky et al. veröffentlicht und die Tyrosin Phosphorylierungsstellen von v-src und c-src wurden 1981 von J.E. Smart und A. P. Czernilofsky et al. bestimmt.
+
+# Aktivierung und Regulierung 
+
+Die Aktivität von c-Src wird hauptsächlich durch Phosphorylierung und Dephosphorylierung eines Tyrosinrests im C-Terminus (Y530) reguliert. Phosphorylierung dieses Tyrosinrests führt zu einer Anbindung der SH2-Domäne an den C-Terminus und sekundär zu einer Anbindung von SH3 an die Kinase-tragende SH1-Domäne. Durch die Anbindung von SH3 an SH1 wird die Kinasefunktion gehemmt womit c-Src in einem inaktiven Zustand vorliegt. Da der viralen v-Src der C-Terminus einschließlich des für die Inaktivierung essenziellen Tyrosinrests fehlt, liegt diese in einem daueraktiven (konstitutiv-aktiv) Zustand vor.
+Die Proteinkinasen CSK und CHK führen über eine Phosphorylierung des C-terminalen Tyrosins zu einer Inaktivierung von c-Src. Dem gegenüber können Protein-Tyrosinphosphatasen c-Src über eine Dephosphorylierung dieser Tyrosingruppe aktivieren. Zusätzlich kann c-Src unabhängig vom Phosphorylierungszustand durch kompetitive Anbindung von Interaktionspartnern, wie z. B. Fak und Cas, an die Phosphotyrosin-Bindungsstelle der SH2-Domäne oder die Polyprolin-Bindungsstelle der SH3-Domäne aktiviert werden. Über diesen Mechanismus können auch aktivierte Rezeptor-Tyrosinkinasen c-Src aktivieren.
+
+# Funktion 
+
+C-Src ist eine Proteinkinase, die zahlreiche weitere Proteine aktivieren kann. Zu den Substraten von c-Src zählen insbesondere Fokale Adhäsionsproteine, Adaptorproteine und Transkriptionsfaktoren. Da wichtige Signalmoleküle, wie z. B. Fak, Cas, Fish, Cortactin, p120 Catenin, RhoGAP, RRAS, JNK und STAT3, mittelbar oder unmittelbar durch c-Src aktiviert werden, nimmt c-Src eine Schlüsselrolle in der intrazellulären Signaltransduktion ein.
+
+# Src-Inhibitor 
+
+Src-Inhibitoren werden bei der Therapie von Tumoren verwendet.
+
+# Literatur 
+
+G. S. Martin: The hunting of the Src. In: Nature reviews. Molecular cell biology Band 2, Nummer 6, Juni 2001, S. 467–475. doi:10.1038/35073094. PMID 11389470. (Review).
+A. Aleshin, R. S. Finn: SRC: a century of science brought to the clinic. In: Neoplasia. Band 12, Nummer 8, August 2010, S. 599–607, ISSN 1476-5586. PMID 20689754. PMC 2915404 (freier Volltext).
+N. A. Chatzizacharias, G. P. Kouraklis, C. T. Giaginis, S. E. Theocharis: Clinical significance of Src expression and activity in human neoplasia. In: Histology and histopathology. Band 27, Nummer 6, Juni 2012, S. 677–692, ISSN 1699-5848. PMID 22473690.
+
+# Einzelnachweise 
+
+# Weblinks 
+
+Jennifer McDowall/Interpro: Protein Of The Month: SRC, proto-oncogene tyrosine-protein kinase. (engl.)

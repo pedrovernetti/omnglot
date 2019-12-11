@@ -1,0 +1,63 @@
+
+## File Exchange Protocol
+
+Das File Transfer Protocol [fʌɪl trɑːnsˌfəˌprəʊtəkɒl] (FTP, englisch für Dateiübertragungsprotokoll) ist ein im RFC 959 von 1985 spezifiziertes zustandsbehaftetes Netzwerkprotokoll zur Übertragung von Dateien über IP-Netzwerke. FTP ist in der Anwendungsschicht (Schicht 7) des OSI-Schichtenmodells angesiedelt. Es wird benutzt, um Dateien vom Server zum Client (Herunterladen), vom Client zum Server (Hochladen) oder clientgesteuert zwischen zwei FTP-Servern zu übertragen (File Exchange Protocol). Außerdem können mit FTP Verzeichnisse angelegt und ausgelesen sowie Verzeichnisse und Dateien umbenannt oder gelöscht werden.
+Das FTP verwendet für die Steuerung und Datenübertragung jeweils separate Verbindungen: Eine FTP-Sitzung beginnt, indem vom Client zum Control Port des Servers (der Standard-Port dafür ist Port 21) eine TCP-Verbindung aufgebaut wird. Über diese Verbindung werden Befehle zum Server gesendet. Der Server antwortet auf jeden Befehl mit einem Statuscode, oft mit einem angehängten, erklärenden Text. Die meisten Befehle sind allerdings erst nach einer erfolgreichen Authentifizierung zulässig.
+
+# Verbindungsarten 
+
+Zum Senden und Empfangen von Dateien sowie zur Übertragung von Verzeichnislisten (der Standard-Port dafür ist Port 21) wird pro Vorgang jeweils eine separate TCP-Verbindung verwendet. FTP kennt für den Aufbau solcher Verbindungen zwei Modi:
+
+# Aktives FTP 
+
+Beim aktiven FTP (auch „Active Mode“) öffnet der Client einen zufälligen Port und teilt dem Server diesen sowie die eigene IP-Adresse mittels des PORT- oder des EPRT-Kommandos mit. Dies ist typischerweise ein Port des Clients, der jenseits von 1023 liegt, kann aber auch ein anderer Server sein, der seinerseits in den Passive Mode geschaltet wurde, also auf eine Verbindung wartet (so genanntes FXP). Heutzutage ist FXP jedoch bei den meisten FTP-Servern aus Sicherheitsgründen standardmäßig deaktiviert. Die Datenübertragung auf der Server-Seite erfolgt dabei über Port 20. Die Kommunikation mit Befehlen erfolgt ausschließlich auf dem Control Port. Man spricht auch von der Steuerung „Out of Band“. Somit bleibt es möglich, dass während der Datenübertragung die Partner noch immer miteinander kommunizieren können.
+
+# Passives FTP 
+
+Beim passiven FTP (auch „Passive Mode“) sendet der Client ein PASV- oder ein EPSV-Kommando, der Server öffnet einen Port und übermittelt diesen mitsamt IP-Adresse an den Client. Hier wird auf der Client-Seite ein Port jenseits 1023 verwendet und auf der Server-Seite der vorher an den Client übermittelte Port. Diese Technik wird eingesetzt, wenn der Server keine Verbindung zum Client aufbauen kann. Dies ist beispielsweise der Fall, wenn der Client sich hinter einem Router befindet, der die Adresse des Clients mittels NAT umschreibt, oder wenn eine Firewall das Netzwerk des Clients vor Zugriffen von außen abschirmt.
+Die Firewall erlaubt in diesem Fall die Datenverbindung, weil sie ihren Ursprung innerhalb der geschützten Zone hat.
+
+# Öffentliche FTP-Server 
+
+Viele FTP-Server, vor allem Server von Universitäten, Fachhochschulen und Mirrors, bieten sogenanntes Anonymous FTP an. Solche FTP-Server werden auch als Pub (v. engl. public ‚öffentlich‘) bezeichnet. Hier ist zum Einloggen neben den realen Benutzerkonten ein spezielles Benutzerkonto, typischerweise „anonymous“ und/oder „ftp“, vorgesehen, für das kein (oder ein beliebiges) Passwort angegeben werden muss. Früher gehörte es zum „guten Ton“, bei anonymem FTP seine eigene, gültige E-Mail-Adresse als Passwort anzugeben. Die meisten Webbrowser tun dies heute nicht mehr, da es aus Spamschutz-Gründen nicht zu empfehlen ist.
+
+# Kostenlose FTP-Serversoftware 
+
+FileZilla, freier FTP-Client für die Betriebssysteme Windows, macOS und LinuxWinSCP, freier Windows-FTP-ClientXlight
+
+# Kommerzielle FTP-Serversoftware 
+
+FTP-Server:
+Titan FTP Server
+WS FTP Server
+
+# FTP-Software 
+
+Für das Datenübertragungsverfahren wird ein FTP-Client benötigt. In vielen aktuellen Browsern ist ein FTP-Client meist bereits integriert. Ein Beispiel für die Syntax einer FTP-Adressierung im Browser ist:
+ftp://[ftp_username[:ftp_PWD]@]Servername[:Port]
+Der Client baut die TCP-Verbindung zum Control-Port eines Servers auf. Über diese Verbindung wird über FTP-Kommandos der Datenaustausch zwischen Client und Server gesteuert. Davon zu unterscheiden sind die Kommandos für den zum Betriebssystem gehörenden Terminal-Client „ftp“, siehe auch FTP-Terminal-Client.
+Daneben ist WebFTP ein von Webservern angebotener Dienst, der den Zugriff auf FTP-Server auch über HTTP ermöglicht. Die Darstellung erfolgt dabei innerhalb eines Webbrowsers. Eine Installation von Client-Software auf einem lokalen Rechner entfällt dadurch.
+Eine Free/Libre Open Source Software zur Dateiübertragung mittels FTP ist FileZilla.
+WebDrive ist ein Tool, das es ermöglicht FTP-Server als lokale Laufwerke (bzw. Laufwerksbuchstaben unter Microsoft Windows) einzubinden.
+Auch der kostenfreie Dateimanager Total Commander bietet ein einfaches FTP-Interface, genauso wie der Windows Explorer.
+PureFTPd und ProFTPD sind kostenfreie FTP-Server-Implementationen.
+
+# Sicherheit 
+
+Um Verschlüsselung und Authentifizierung zu nutzen, kann Transport Layer Security eingesetzt werden (FTP über SSL, kurz FTPS). Nach der Authentifizierung des Hosts und der Verschlüsselung durch TLS kann FTP die Authentifizierung des Client mittels Benutzername und Kennwort durchführen, wenn der Client sich nicht bereits mit einem Zertifikat über TLS authentifiziert hat.
+Außerdem existiert mit dem SSH File Transfer Protocol (SFTP) eine auf SSH aufbauende Alternative zu FTP für Dateiverwaltung und -übertragung, bei dem nur der schon laufende sshd-Daemon genutzt und somit keine weitere Software auf Serverseite benötigt wird.
+
+# Weblinks 
+
+RFC 959 – File Transfer Protocol
+RFC 1579 – Firewall Friendly FTP
+RFC 2228 – FTP Security Extensions
+RFC 2428 – FTP Extensions for IPv6 and NATs
+RFC 2640 – Internationalization of the File Transfer Protocol
+Elektronik Kompendium: FTP - File Transfer Protocol
+Liste von FTP-Kommandos
+Eigenen Heim-FTP-Server einrichten für Windows Betriebssysteme
+FTP Server Online Tester inkl. Authentifizierung, Verbindungsarten und Verschlüsselung
+
+# Einzelnachweise 
+

@@ -1,0 +1,24 @@
+
+## Dateileiche
+
+Eine Dateileiche (nicht zu verwechseln mit einer Karteileiche) ist ein umgangssprachlicher Begriff aus der Informatik, der im Allgemeinen eine Datei oder ihre Überreste bezeichnet, die nicht mehr genutzt werden, und unnötig Speicherplatz auf einem Datenträger belegen.
+Genauer gesehen, wird der Begriff für zwei unterschiedliche Sachverhalte verwendet:
+
+Cluster einer Datei, deren Verzeichniseintrag nicht mehr existiert, die somit keiner Datei mehr gehören, aber trotzdem als belegt gelten
+Temporäre Dateien, die nicht mehr benötigt werden, aber nicht gelöscht wurdenUrsächlich ist in beiden Fällen ein nicht vorgesehener Zustand bei der Programmabarbeitung. Im ersten Fall wird das Betriebssystem bei einem Systemaufruf zur Dateibearbeitung (z. B. Löschen oder Verschieben) gestört, im zweiten Fall wird das externe Programm (Anwendung), das die Temporäre Datei verwendet, gestört. Die Störungen können z. B. durch Ausschalten des Computers, Abbruch durch den Benutzer, Stromausfälle, beschädigte Datenträger, herausziehen des Datenträgers oder Programmierfehler verursacht worden sein.
+
+# Erläuterung und Beispiele 
+
+Eine Datei im weit verbreiteten Dateisystem FAT besteht aus drei Elementen: den belegten Clustern (logische Einheit aus mehreren Sektoren), die die eigentlichen Daten enthalten, den FAT-Einträgen, die beschreiben, wo diese Cluster in welcher Reihenfolge liegen und dem Verzeichniseintrag, der angibt, dass die Datei überhaupt existiert, wo sie beginnt und die Metadaten wie Name oder Größe enthält. Das Betriebssystem erkennt anhand der FAT, welche Sektoren frei sind und wo sich Cluster einer Datei befinden. Ist kein Cluster mehr frei, so ist der Datenträger voll. Welche Datei die Cluster besitzt, steht hingegen im Verzeichniseintrag, es ist also nicht ohne Weiteres möglich, von einem FAT-Eintrag auf die ihn besitzende Datei zu schließen. Wenn eine Datei gelöscht wird, so wird der Verzeichniseintrag als ungültig markiert und alle von ihr belegten Cluster freigegeben. Wird der Löschvorgang abgebrochen, nachdem der Verzeichniseintrag entfernt wurde, aber noch nicht alle Cluster als frei markiert wurden, so bleiben die Cluster belegt, obwohl die Datei gelöscht wurde. Sie können also nicht weiter verwendet werden, aber es ist nicht mehr bekannt, wozu sie gehörten. Der Datenträger erscheint dadurch „voller“, als er eigentlich ist.
+Wenn ein Programm temporäre Dateien verwendet, sollte es sie eigentlich löschen, sobald sie nicht mehr benötigt werden (ähnlich wie bei Notizzetteln, die kurze Zeit aufbewahrt und sofort weggeworfen werden, nachdem die darauf vermerkten Themen erledigt sind, um den Schreibtisch übersichtlich zu halten). Wird das jedoch nicht getan, so „vermüllen“ diese nutzlosen Dateien den Datenträger.
+
+# Abhilfe 
+
+Nicht mehr benötigte temporäre Dateien können vom Benutzer ohne Hürden selbst gelöscht werden. In der Regel besteht das Problem für den Anwender jedoch in der fehlenden Kenntnis darüber, dass sie überhaupt vorhanden sind.
+Verlorene Cluster erfordern ein Programm, das Clusterketten zurückverfolgt und Cluster, die zu keiner Datei gehören, (unter Umgehung des Betriebssystems) als frei markiert.
+
+# Siehe auch 
+
+Dateisystem
+Fragmentierung (ein anderes Problem bei Datenträgern)
+Karteileiche (verwandtes Problem in der Verwaltung)
